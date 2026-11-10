@@ -2,12 +2,11 @@
 // Kept in its own module so it can be tested in Node and tuned in one place.
 
 export const POINTS = {
-  character: 150, // one character per movie, scaled by how far down the credits they are
+  character: 150, // one character per movie; points set by its rarity tier (see TIERS)
   year: 75,       // 75 for the exact year, minus 5 per year off (zero at 15 off)
   imdb: 75,       // 75 for the exact rating, minus 5 per 0.2 off (zero at 3.0 off)
 };
 
-export const CHARACTER_MIN_POINTS = 20; // naming the lead still earns this
 export const YEAR_STEP = 5;              // points lost per year off
 export const IMDB_STEP = 5;              // points lost per 0.2 off
 export const IMDB_STEP_SIZE = 0.2;
@@ -223,15 +222,15 @@ export function billingFraction(index, count) {
 
 // ---------- rarity tiers ----------
 
-// How deep in the credits the character was, shown after each answer and on the
-// results screen. "min" is the billing fraction (0 = lead, 1 = last named character).
+// How deep in the credits the character was. Every character in a tier earns the
+// same points. "min" is the billing fraction (0 = lead, 1 = last named character).
 export const TIERS = [
-  { id: 'top',    name: 'Top Billing',          min: 0,    emoji: '🎬' },
-  { id: 'support', name: 'Supporting Role',     min: 0.15, emoji: '🎭' },
-  { id: 'scene',  name: 'Scene Stealer',        min: 0.35, emoji: '🍿' },
-  { id: 'bit',    name: 'Bit Part',             min: 0.55, emoji: '🎞️' },
-  { id: 'deep',   name: 'Deep Cut',             min: 0.75, emoji: '💎' },
-  { id: 'blink',  name: 'Blink and You Miss It', min: 0.92, emoji: '🦄' },
+  { id: 'top',     name: 'Top Billing',           min: 0,    points: 25,  emoji: '🎬' },
+  { id: 'support', name: 'Supporting Role',       min: 0.15, points: 50,  emoji: '🎭' },
+  { id: 'scene',   name: 'Scene Stealer',         min: 0.35, points: 75,  emoji: '🍿' },
+  { id: 'bit',     name: 'Bit Part',              min: 0.55, points: 100, emoji: '🎞️' },
+  { id: 'deep',    name: 'Deep Cut',              min: 0.75, points: 125, emoji: '💎' },
+  { id: 'blink',   name: 'Blink and You Miss It', min: 0.92, points: 150, emoji: '🦄' },
 ];
 
 export function tierFor(niche) {
@@ -246,8 +245,8 @@ export function scoreCharacter(guess, cast) {
   const found = matchCharacter(guess, cast);
   if (!found) return { points: 0, match: null, niche: 0, tier: null, billing: null, count: 0 };
   const niche = billingFraction(found.index, found.count);
-  const points = Math.round(CHARACTER_MIN_POINTS + (POINTS.character - CHARACTER_MIN_POINTS) * niche);
-  return { points, match: found.member, niche, tier: tierFor(niche), billing: found.index + 1, count: found.count };
+  const tier = tierFor(niche);
+  return { points: tier.points, match: found.member, niche, tier, billing: found.index + 1, count: found.count };
 }
 
 // 75 for the exact year, 5 fewer per year off, zero at 15+ years off.

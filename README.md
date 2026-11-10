@@ -5,7 +5,7 @@ https://nnewkirk37.github.io/daily-movie-game/
 
 ## How it works
 
-- `index.html`, `style.css`, `js/` — the game. Scoring rules live in `js/scoring.js` (character 150 by billing order, release year 75 minus 5 per year off, IMDb score 75 minus 5 per 0.2 off).
+- `index.html`, `style.css`, `js/` — the game. Scoring rules live in `js/scoring.js` (character 25–150 by rarity tier, release year 75 minus 5 per year off, IMDb score 75 minus 5 per 0.2 off).
 - `scripts/build-days.mjs` — pulls 3 well-known movies per day from TMDB, with the IMDb rating from OMDb, and writes `data/days/YYYY-MM-DD.json`.
 - `.github/workflows/daily-movies.yml` — runs that script every night (keeps 7 days ready) and deploys the site to GitHub Pages. Also redeploys on every push to `main`.
 - `supabase/schema.sql` — the leaderboard table and its security rules. Run once in the Supabase SQL Editor.
