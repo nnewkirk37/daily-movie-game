@@ -1,4 +1,4 @@
-import { scoreMovie, emojiFor, POINTS, MAX_PER_MOVIE } from './scoring.js';
+import { scoreMovie, emojiFor, POINTS, MAX_PER_MOVIE, TIERS } from './scoring.js';
 import { GAME_TIMEZONE, LAUNCH_DATE } from './config.js';
 import { submitScore, getStanding, getTopTen } from './leaderboard.js';
 
@@ -142,6 +142,7 @@ function renderMovie(i) {
       imdb: result.imdb.points,
       total: result.total,
       matched: result.character.match ? result.character.match.character : null,
+      tier: result.character.tier ? result.character.tier.id : null,
     };
     save();
     form.hidden = true;
@@ -152,9 +153,14 @@ function renderMovie(i) {
   form.character.focus({ preventScroll: true });
 }
 
-function answerRow(question, detail, points, max) {
+function tierBadge(tier) {
+  if (!tier) return el('span', { class: 'tier tier-none', text: 'No match' });
+  return el('span', { class: `tier tier-${tier.id}`, text: `${tier.emoji} ${tier.name}` });
+}
+
+function answerRow(question, detail, points, max, tier) {
   return el('div', { class: 'answer' },
-    el('span', { class: 'answer-q', text: question }),
+    el('span', { class: 'answer-q' }, question, tier !== undefined ? tierBadge(tier) : null),
     el('span', { class: 'answer-detail', text: detail }),
     el('span', { class: 'answer-pts ' + ptsClass(points, max), text: `+${points}` }),
   );
@@ -167,8 +173,7 @@ function showReveal(reveal, movie, answers, result, i) {
   const c = result.character;
   let characterDetail;
   if (c.match) {
-    const tier = c.niche >= 0.75 ? 'Deep cut.' : c.niche >= 0.4 ? 'Solid pick.' : 'Main character.';
-    characterDetail = `${c.match.character}, played by ${c.match.name}. Billed ${c.billing} of ${c.count}. ${tier}`;
+    characterDetail = `${c.match.character}, played by ${c.match.name}. Billed ${c.billing} of ${c.count}.`;
   } else if (answers.character) {
     characterDetail = `"${answers.character}" doesn't match a named character in this movie.`;
   } else {
@@ -191,7 +196,7 @@ function showReveal(reveal, movie, answers, result, i) {
   });
 
   reveal.replaceChildren(
-    answerRow('Character', characterDetail, c.points, POINTS.character),
+    answerRow('Character', characterDetail, c.points, POINTS.character, c.tier),
     answerRow('Release year', yearDetail, y.points, POINTS.year),
     answerRow('IMDb score', imdbDetail, m.points, POINTS.imdb),
     el('div', { class: 'movie-total' },
@@ -210,7 +215,7 @@ function totalScore() {
 
 function shareText() {
   const lines = state.results.map((r, i) =>
-    `${i + 1}. ${emojiFor(r.character ?? r.actor ?? 0, POINTS.character)}${emojiFor(r.year, POINTS.year)}${emojiFor(r.imdb, POINTS.imdb)} ${r.total}`);
+    `${i + 1}. ${(TIERS.find(t => t.id === r.tier) || {}).emoji || emojiFor(r.character ?? r.actor ?? 0, POINTS.character)}${emojiFor(r.year, POINTS.year)}${emojiFor(r.imdb, POINTS.imdb)} ${r.total}`);
   return [
     `Daily Movie Game #${dayNumber(date)}`,
     `${totalScore()} / ${MAX_PER_MOVIE * movies.length}`,
@@ -234,9 +239,15 @@ function renderFinal() {
 
   const breakdown = el('div', { class: 'breakdown' });
   movies.forEach((mv, i) => {
+    const r = state.results[i];
+    const tier = TIERS.find(t => t.id === r.tier) || null;
     breakdown.append(el('div', { class: 'breakdown-row' },
-      el('span', { text: mv.title }),
-      el('span', { text: `${state.results[i].total}` })));
+      el('div', { class: 'breakdown-movie' },
+        el('span', { class: 'breakdown-title', text: mv.title }),
+        el('span', { class: 'breakdown-char' },
+          r.matched ? r.matched : (r.actor !== undefined ? 'Played before characters' : 'No character matched'),
+          r.matched || r.actor === undefined ? tierBadge(tier) : null)),
+      el('span', { class: 'breakdown-pts', text: `${r.total}` })));
   });
   wrap.append(breakdown);
 

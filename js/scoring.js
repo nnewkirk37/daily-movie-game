@@ -88,7 +88,7 @@ const GENERIC = new Set(`
   housekeeper gardener doorman concierge bellhop porter usher clown magician comedian emcee mc
   referee umpire player athlete fighter boxer wrestler contestant auctioneer buyer seller dealer
   croupier gambler partner colleague coworker roommate cousin nephew niece grandson granddaughter
-  headmaster groomer maitre group european ram sniper concubine lunk rat fop steward witch heavy
+  headmaster groomer maitre group european ram sniper concubine lunk rat fop steward witch heavy facialist
 `.trim().split(/\s+/));
 
 // Words that describe a generic role without naming anyone ("Young Guard #2").
@@ -221,14 +221,33 @@ export function billingFraction(index, count) {
   return Math.min(1, Math.max(0, index / (count - 1)));
 }
 
+// ---------- rarity tiers ----------
+
+// How deep in the credits the character was, shown after each answer and on the
+// results screen. "min" is the billing fraction (0 = lead, 1 = last named character).
+export const TIERS = [
+  { id: 'top',    name: 'Top Billing',          min: 0,    emoji: '🎬' },
+  { id: 'support', name: 'Supporting Role',     min: 0.15, emoji: '🎭' },
+  { id: 'scene',  name: 'Scene Stealer',        min: 0.35, emoji: '🍿' },
+  { id: 'bit',    name: 'Bit Part',             min: 0.55, emoji: '🎞️' },
+  { id: 'deep',   name: 'Deep Cut',             min: 0.75, emoji: '💎' },
+  { id: 'blink',  name: 'Blink and You Miss It', min: 0.92, emoji: '🦄' },
+];
+
+export function tierFor(niche) {
+  let tier = TIERS[0];
+  for (const t of TIERS) if (niche >= t.min) tier = t;
+  return tier;
+}
+
 // ---------- scoring ----------
 
 export function scoreCharacter(guess, cast) {
   const found = matchCharacter(guess, cast);
-  if (!found) return { points: 0, match: null, niche: 0, billing: null, count: 0 };
+  if (!found) return { points: 0, match: null, niche: 0, tier: null, billing: null, count: 0 };
   const niche = billingFraction(found.index, found.count);
   const points = Math.round(CHARACTER_MIN_POINTS + (POINTS.character - CHARACTER_MIN_POINTS) * niche);
-  return { points, match: found.member, niche, billing: found.index + 1, count: found.count };
+  return { points, match: found.member, niche, tier: tierFor(niche), billing: found.index + 1, count: found.count };
 }
 
 // 75 for the exact year, 5 fewer per year off, zero at 15+ years off.

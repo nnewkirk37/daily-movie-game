@@ -267,7 +267,30 @@ body {
   border-bottom: 1px solid rgba(233, 230, 245, 0.1);
 }
 .breakdown-row:last-child { border-bottom: none; }
-.breakdown-row span:last-child { font-weight: 700; white-space: nowrap; }
+.breakdown-pts { font-weight: 700; white-space: nowrap; }
+.breakdown-movie { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.breakdown-char { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; font-size: 15px; color: var(--on-velvet-soft); }
+
+/* Rarity tier badge: deeper in the credits = warmer, rarest glows marquee yellow */
+.tier {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 2px 9px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.5;
+  white-space: nowrap;
+  vertical-align: 2px;
+}
+.breakdown-char .tier { margin-left: 0; }
+.tier-none    { background: #DDD3D6; color: #5E5157; }
+.tier-top     { background: #E3DDEE; color: #3E3758; }
+.tier-support { background: #D6E4F2; color: #24476B; }
+.tier-scene   { background: #D3EBDD; color: #1F5B3A; }
+.tier-bit     { background: #F6E3B8; color: #6B4A0B; }
+.tier-deep    { background: #F3C9B6; color: #7A2E12; }
+.tier-blink   { background: var(--bulb); color: #3A2600; box-shadow: 0 0 0 2px rgba(255, 201, 60, 0.35); }
 
 .stack > * + * { margin-top: 10px; }
 
