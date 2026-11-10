@@ -225,11 +225,11 @@ export function billingFraction(index, count) {
 // How deep in the credits the character was. Every character in a tier earns the
 // same points. "min" is the billing fraction (0 = lead, 1 = last named character).
 export const TIERS = [
-  { id: 'top',     name: 'Top Billing',           min: 0,    points: 25,  emoji: '🎬' },
+  { id: 'top',     name: 'Leading Role',          min: 0,    points: 25,  emoji: '⭐' },
   { id: 'support', name: 'Supporting Role',       min: 0.15, points: 50,  emoji: '🎭' },
   { id: 'scene',   name: 'Scene Stealer',         min: 0.35, points: 75,  emoji: '🍿' },
   { id: 'bit',     name: 'Bit Part',              min: 0.55, points: 100, emoji: '🎞️' },
-  { id: 'deep',    name: 'Deep Cut',              min: 0.75, points: 125, emoji: '💎' },
+  { id: 'deep',    name: 'Fine Print',            min: 0.75, points: 125, emoji: '🔍' },
   { id: 'blink',   name: 'Blink and You Miss It', min: 0.92, points: 150, emoji: '🦄' },
 ];
 
