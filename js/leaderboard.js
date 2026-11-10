@@ -1,7 +1,7 @@
 // Talks to the Supabase "scores" table through its REST API.
 // The table's Row Level Security only allows inserting a new score and reading
 // nickname/score/date, so the public key can't edit or delete anything.
-import { SUPABASE_URL, SUPABASE_KEY } from './config.js';
+import { SUPABASE_URL, SUPABASE_KEY } from './config.js?v=dev';
 
 const BASE = `${SUPABASE_URL}/rest/v1/scores`;
 const HEADERS = { apikey: SUPABASE_KEY, 'Content-Type': 'application/json' };

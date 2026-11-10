@@ -1,9 +1,9 @@
 import {
   scoreMovie, emojiFor, POINTS, MAX_PER_MOVIE, TIERS,
   eligibleCharacters, billingFraction, tierFor,
-} from './scoring.js';
-import { GAME_TIMEZONE, LAUNCH_DATE } from './config.js';
-import { submitScore, getStanding, getTopTen } from './leaderboard.js';
+} from './scoring.js?v=dev';
+import { GAME_TIMEZONE, LAUNCH_DATE } from './config.js?v=dev';
+import { submitScore, getStanding, getTopTen } from './leaderboard.js?v=dev';
 
 const app = document.getElementById('app');
 const progressEl = document.getElementById('progress');
