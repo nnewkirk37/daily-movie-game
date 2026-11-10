@@ -8,7 +8,10 @@ export const POINTS = {
 };
 
 export const ACTOR_MIN_POINTS = 20;  // a correct but very famous actor still earns this
-export const FAME_CEILING = 60;      // TMDB popularity at or above this = maximally famous
+// TMDB popularity for actors: A-list stars sit around 8–15, working character
+// actors around 1–4, bit parts under 1. Calibrated against real cast data.
+export const FAME_CEILING = 10;      // at or above this = household name (minimum points)
+export const FAME_FLOOR = 0.5;       // at or below this = deep cut (full points)
 export const YEAR_ZERO_AT = 10;
 export const IMDB_ZERO_AT = 2.0;
 
@@ -90,8 +93,8 @@ export function matchActor(guess, cast) {
 // 0 = household name, 1 = deep cut. Log scale so the jump from popularity 2 to 10
 // matters as much as 10 to 50.
 export function nicheFraction(popularity) {
-  const p = Math.max(1, Number(popularity) || 1);
-  const frac = (Math.log(FAME_CEILING) - Math.log(p)) / Math.log(FAME_CEILING);
+  const p = Math.max(0.01, Number(popularity) || 0.01);
+  const frac = (Math.log(FAME_CEILING) - Math.log(p)) / (Math.log(FAME_CEILING) - Math.log(FAME_FLOOR));
   return Math.min(1, Math.max(0, frac));
 }
 
