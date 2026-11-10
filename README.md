@@ -1,2 +1,3 @@
 # daily-movie-game
 Daily Movie Game
+#The goal of this game is to create a website that is similar to the popular game Krillion. The premise of our game however is to quiz the users on movies that we pull from an api. Each day, the game will provide 3 new movies, prompting the user to answer 3 questions: Name the most niche actor possible in the movie, guess the runtime of the movie, and one other potential question. The user will be rewarded points based on how niche the actor is, how close they are to the actual runtime, and then whatever the third question is. Our goal is to pull new movies each day from an API, however the movies need to be somewhat relevant or known. 
