@@ -1,0 +1,330 @@
+:root {
+  --velvet: #22264B;      /* theater-seat navy, page background */
+  --velvet-deep: #181B38;
+  --ticket: #F6D9D3;      /* admit-one ticket paper */
+  --ticket-edge: #E8BFB6;
+  --ink: #2B1D24;         /* printed ink on the ticket */
+  --ink-soft: #6B5560;
+  --bulb: #FFC93C;        /* marquee bulb, used sparingly */
+  --good: #2F8F5B;
+  --mid: #C98A12;
+  --low: #C4562F;
+  --miss: #8A7C82;
+  --on-velvet: #E9E6F5;
+  --on-velvet-soft: #A9A6C9;
+  --radius-ticket: 14px;
+  --radius-input: 8px;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--velvet);
+  color: var(--on-velvet);
+  font-family: "Figtree", system-ui, sans-serif;
+  font-size: 17px;
+  line-height: 1.45;
+  padding: 0 16px calc(24px + env(safe-area-inset-bottom));
+}
+
+.top, main, .credits {
+  max-width: 460px;
+  margin: 0 auto;
+}
+
+.top {
+  padding: 28px 0 8px;
+  text-align: center;
+}
+
+.wordmark {
+  font-family: "Bungee", "Figtree", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.05;
+  color: var(--bulb);
+  margin: 0;
+  letter-spacing: 0.01em;
+}
+
+.today {
+  margin: 6px 0 14px;
+  color: var(--on-velvet-soft);
+  font-size: 15px;
+}
+
+/* Three ticket notches show where you are in today's game */
+.progress {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 0 0 18px;
+  padding: 0;
+}
+.progress li {
+  width: 34px;
+  height: 10px;
+  border-radius: 3px;
+  background: rgba(233, 230, 245, 0.18);
+}
+.progress li.done { background: var(--ticket); }
+.progress li.current { background: var(--bulb); }
+
+.status {
+  text-align: center;
+  color: var(--on-velvet-soft);
+  padding: 40px 0;
+}
+
+/* The ticket: the one bold element on the page */
+.ticket {
+  position: relative;
+  background: var(--ticket);
+  color: var(--ink);
+  border-radius: var(--radius-ticket);
+  padding: 20px 20px 22px;
+  margin-bottom: 18px;
+  /* punched half-circles on each side, like a torn admit-one stub */
+  -webkit-mask:
+    radial-gradient(circle 11px at 0 92px, transparent 10px, #000 11px) left / 51% 100% no-repeat,
+    radial-gradient(circle 11px at 100% 92px, transparent 10px, #000 11px) right / 51% 100% no-repeat;
+          mask:
+    radial-gradient(circle 11px at 0 92px, transparent 10px, #000 11px) left / 51% 100% no-repeat,
+    radial-gradient(circle 11px at 100% 92px, transparent 10px, #000 11px) right / 51% 100% no-repeat;
+}
+
+.ticket-head {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  padding-bottom: 18px;
+  border-bottom: 2px dashed var(--ticket-edge);
+  min-height: 92px;
+}
+
+.poster {
+  width: 58px;
+  height: 87px;
+  object-fit: cover;
+  border-radius: 4px;
+  background: var(--ticket-edge);
+  flex: none;
+}
+
+.ticket-count {
+  margin: 0 0 2px;
+  font-size: 14px;
+  color: var(--ink-soft);
+  font-weight: 600;
+}
+
+.movie-title {
+  font-size: 23px;
+  line-height: 1.15;
+  margin: 0;
+  font-weight: 700;
+}
+.movie-title .yr { font-weight: 500; color: var(--ink-soft); }
+
+.guesses { padding-top: 16px; }
+
+.field {
+  display: block;
+  margin-bottom: 14px;
+  min-width: 0;
+}
+.field-label {
+  display: block;
+  font-weight: 600;
+  font-size: 16px;
+}
+.field-hint {
+  display: block;
+  font-size: 14px;
+  color: var(--ink-soft);
+  margin-top: 1px;
+}
+.field input {
+  display: block;
+  width: 100%;
+  margin-top: 6px;
+  font: inherit;
+  font-size: 18px; /* 16+ prevents iOS zoom on focus */
+  color: var(--ink);
+  background: #FFF6F3;
+  border: 2px solid var(--ticket-edge);
+  border-radius: var(--radius-input);
+  padding: 10px 12px;
+}
+.field input:focus {
+  outline: none;
+  border-color: var(--ink);
+}
+
+.field-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  font: inherit;
+  font-weight: 700;
+  font-size: 17px;
+  padding: 13px 16px;
+  border: none;
+  border-radius: 999px;
+  background: var(--ink);
+  color: var(--ticket);
+  cursor: pointer;
+}
+.btn:focus-visible, a:focus-visible, .link-btn:focus-visible {
+  outline: 3px solid var(--bulb);
+  outline-offset: 3px;
+}
+.btn:disabled { opacity: 0.55; cursor: default; }
+.btn.secondary {
+  background: transparent;
+  color: var(--on-velvet);
+  border: 2px solid rgba(233, 230, 245, 0.35);
+}
+
+/* Answer reveal */
+.reveal { padding-top: 16px; }
+.answer {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 2px 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--ticket-edge);
+}
+.answer:last-of-type { border-bottom: none; }
+.answer-q { font-weight: 600; }
+.answer-detail { grid-column: 1; font-size: 15px; color: var(--ink-soft); }
+.answer-pts {
+  grid-row: 1 / span 2;
+  grid-column: 2;
+  align-self: center;
+  font-family: "Bungee", sans-serif;
+  font-size: 20px;
+}
+.pts-good { color: var(--good); }
+.pts-mid { color: var(--mid); }
+.pts-low { color: var(--low); }
+.pts-miss { color: var(--miss); }
+
+.movie-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-weight: 700;
+  padding: 10px 0 16px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .reveal:not([hidden]) .answer {
+    animation: stamp 0.35s ease-out both;
+  }
+  .reveal .answer:nth-child(2) { animation-delay: 0.12s; }
+  .reveal .answer:nth-child(3) { animation-delay: 0.24s; }
+  @keyframes stamp {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: none; }
+  }
+}
+
+/* Final results */
+.final { text-align: center; padding-top: 8px; }
+.final-score {
+  font-family: "Bungee", sans-serif;
+  font-size: 64px;
+  line-height: 1;
+  color: var(--bulb);
+  margin: 4px 0 0;
+}
+.final-max { color: var(--on-velvet-soft); margin: 6px 0 4px; }
+.percentile { font-size: 19px; font-weight: 600; margin: 10px 0 22px; }
+
+.breakdown {
+  background: var(--velvet-deep);
+  border-radius: 12px;
+  padding: 6px 16px;
+  margin: 0 0 18px;
+  text-align: left;
+}
+.breakdown-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(233, 230, 245, 0.1);
+}
+.breakdown-row:last-child { border-bottom: none; }
+.breakdown-row span:last-child { font-weight: 700; white-space: nowrap; }
+
+.stack > * + * { margin-top: 10px; }
+
+.nick {
+  text-align: left;
+  margin-bottom: 18px;
+}
+.nick label { display: block; font-weight: 600; margin-bottom: 6px; }
+.nick input {
+  width: 100%;
+  font: inherit;
+  font-size: 18px;
+  padding: 10px 12px;
+  border-radius: var(--radius-input);
+  border: 2px solid rgba(233, 230, 245, 0.25);
+  background: var(--velvet-deep);
+  color: var(--on-velvet);
+}
+.nick input:focus { outline: none; border-color: var(--bulb); }
+
+.board {
+  text-align: left;
+  margin-top: 26px;
+}
+.board h3 {
+  font-size: 18px;
+  margin: 0 0 8px;
+}
+.board ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: rank;
+}
+.board li {
+  counter-increment: rank;
+  display: flex;
+  gap: 10px;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(233, 230, 245, 0.1);
+}
+.board li::before {
+  content: counter(rank);
+  width: 22px;
+  color: var(--on-velvet-soft);
+}
+.board li .who { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.board li .sc { font-weight: 700; }
+.board li.me { color: var(--bulb); }
+
+.note { font-size: 14px; color: var(--on-velvet-soft); }
+.copied { color: var(--bulb); font-weight: 600; min-height: 1.4em; margin: 8px 0 0; }
+
+.credits {
+  margin-top: 32px;
+  font-size: 13px;
+  color: var(--on-velvet-soft);
+  text-align: center;
+}
+.credits a { color: var(--on-velvet); }
