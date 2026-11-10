@@ -87,7 +87,7 @@ const GENERIC = new Set(`
   housekeeper gardener doorman concierge bellhop porter usher clown magician comedian emcee mc
   referee umpire player athlete fighter boxer wrestler contestant auctioneer buyer seller dealer
   croupier gambler partner colleague coworker roommate cousin nephew niece grandson granddaughter
-  headmaster groomer maitre group european ram sniper concubine lunk rat fop steward witch heavy facialist
+  headmaster groomer maitre group european ram sniper concubine lunk rat fop steward witch heavy facialist bargirl barfly
 `.trim().split(/\s+/));
 
 // Words that describe a generic role without naming anyone ("Young Guard #2").
@@ -101,7 +101,7 @@ const FILLER = new Set(`
   house party wedding casino diner gas prison court city town news tv radio camp base lab room desk
   front back flight cafe coffee
   outside inside near behind next across years year yrs age aged gawky society country pet
-  foreign roman wedding high union quarantine scan leg lodge beach woods nightclub support walker
+  foreign roman wedding high union quarantine scan leg lodge beach woods nightclub support walker di d
 `.trim().split(/\s+/));
 
 // Titles that aren't distinctive on their own ("Mr", "Captain").

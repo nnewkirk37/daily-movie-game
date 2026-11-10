@@ -1,4 +1,7 @@
-import { scoreMovie, emojiFor, POINTS, MAX_PER_MOVIE, TIERS } from './scoring.js';
+import {
+  scoreMovie, emojiFor, POINTS, MAX_PER_MOVIE, TIERS,
+  eligibleCharacters, billingFraction, tierFor,
+} from './scoring.js';
 import { GAME_TIMEZONE, LAUNCH_DATE } from './config.js';
 import { submitScore, getStanding, getTopTen } from './leaderboard.js';
 
@@ -224,6 +227,34 @@ function shareText() {
   ].join('\n');
 }
 
+// Every character the game would have accepted, grouped by tier, rarest last.
+function characterList(movie, picked) {
+  const chars = eligibleCharacters(movie.cast);
+  const groups = new Map(TIERS.map(t => [t.id, []]));
+  chars.forEach((c, index) => {
+    groups.get(tierFor(billingFraction(index, chars.length)).id).push(c);
+  });
+  const details = el('details', { class: 'all-chars' });
+  details.append(el('summary', { text: `See every character (${chars.length})` }));
+  for (const t of TIERS) {
+    const list = groups.get(t.id);
+    if (!list.length) continue;
+    const names = el('p', { class: 'tier-names' });
+    list.forEach((c, n) => {
+      if (n) names.append(', ');
+      names.append(el('span', {
+        class: c.character === picked ? 'picked' : '',
+        title: `Played by ${c.name}`,
+        text: c.character,
+      }));
+    });
+    details.append(el('div', { class: 'tier-group' },
+      el('div', { class: 'tier-head' }, tierBadge(t), el('span', { class: 'tier-pts', text: `${t.points} pts` })),
+      names));
+  }
+  return details;
+}
+
 function renderFinal() {
   renderProgress(movies.length, movies.length);
   const total = totalScore();
@@ -241,13 +272,15 @@ function renderFinal() {
   movies.forEach((mv, i) => {
     const r = state.results[i];
     const tier = TIERS.find(t => t.id === r.tier) || null;
-    breakdown.append(el('div', { class: 'breakdown-row' },
-      el('div', { class: 'breakdown-movie' },
-        el('span', { class: 'breakdown-title', text: mv.title }),
-        el('span', { class: 'breakdown-char' },
-          r.matched ? r.matched : (r.actor !== undefined ? 'Played before characters' : 'No character matched'),
-          r.matched || r.actor === undefined ? tierBadge(tier) : null)),
-      el('span', { class: 'breakdown-pts', text: `${r.total}` })));
+    breakdown.append(el('div', { class: 'breakdown-item' },
+      el('div', { class: 'breakdown-row' },
+        el('div', { class: 'breakdown-movie' },
+          el('span', { class: 'breakdown-title', text: mv.title }),
+          el('span', { class: 'breakdown-char' },
+            r.matched ? r.matched : (r.actor !== undefined ? 'Played before characters' : 'No character matched'),
+            r.matched || r.actor === undefined ? tierBadge(tier) : null)),
+        el('span', { class: 'breakdown-pts', text: `${r.total}` })),
+      characterList(mv, r.matched)));
   });
   wrap.append(breakdown);
 

@@ -266,7 +266,27 @@ body {
   padding: 10px 0;
   border-bottom: 1px solid rgba(233, 230, 245, 0.1);
 }
-.breakdown-row:last-child { border-bottom: none; }
+.breakdown-item { border-bottom: 1px solid rgba(233, 230, 245, 0.1); }
+.breakdown-item:last-child { border-bottom: none; }
+.breakdown-item .breakdown-row { border-bottom: none; }
+
+/* "See every character" reveal on the results screen */
+.all-chars { padding: 0 0 12px; }
+.all-chars summary {
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--bulb);
+  padding: 2px 0;
+  list-style-position: inside;
+}
+.all-chars summary:focus-visible { outline: 3px solid var(--bulb); outline-offset: 2px; border-radius: 4px; }
+.tier-group { margin-top: 12px; }
+.tier-head { display: flex; align-items: center; gap: 8px; }
+.tier-head .tier { margin-left: 0; }
+.tier-pts { font-size: 13px; color: var(--on-velvet-soft); }
+.tier-names { margin: 6px 0 0; font-size: 15px; line-height: 1.5; color: var(--on-velvet); }
+.tier-names .picked { color: var(--bulb); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
 .breakdown-pts { font-weight: 700; white-space: nowrap; }
 .breakdown-movie { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
 .breakdown-char { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; font-size: 15px; color: var(--on-velvet-soft); }
