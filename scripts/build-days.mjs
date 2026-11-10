@@ -27,7 +27,7 @@ const USED_FILE = path.join(ROOT, 'data', 'used.json');
 // "Well-known" filter: English-language, 1970 or later, lots of votes on TMDB.
 const MIN_VOTES = 3000;
 const EARLIEST = '1970-01-01';
-const MAX_CAST = 60;
+const MAX_CAST = 100; // deep credits are where the high-scoring characters are
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 

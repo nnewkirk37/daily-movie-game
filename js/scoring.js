@@ -2,22 +2,22 @@
 // Kept in its own module so it can be tested in Node and tuned in one place.
 
 export const POINTS = {
-  actor: 150, // one actor per movie, scaled by how niche they are
-  year: 75,   // full points for the exact year, zero at YEAR_ZERO_AT years off
-  imdb: 75,   // full points for the exact rating, zero at IMDB_ZERO_AT off
+  character: 150, // one character per movie, scaled by how far down the credits they are
+  year: 75,       // 75 for the exact year, minus 5 per year off (zero at 15 off)
+  imdb: 75,       // 75 for the exact rating, minus 5 per 0.2 off (zero at 3.0 off)
 };
 
-export const ACTOR_MIN_POINTS = 20;  // a correct but very famous actor still earns this
-// TMDB popularity for actors: A-list stars sit around 8–15, working character
-// actors around 1–4, bit parts under 1. Calibrated against real cast data.
-export const FAME_CEILING = 10;      // at or above this = household name (minimum points)
-export const FAME_FLOOR = 0.5;       // at or below this = deep cut (full points)
-export const YEAR_ZERO_AT = 10;
-export const IMDB_ZERO_AT = 2.0;
+export const CHARACTER_MIN_POINTS = 20; // naming the lead still earns this
+export const YEAR_STEP = 5;              // points lost per year off
+export const IMDB_STEP = 5;              // points lost per 0.2 off
+export const IMDB_STEP_SIZE = 0.2;
 
-export const MAX_PER_MOVIE = POINTS.actor + POINTS.year + POINTS.imdb;
+export const MAX_PER_MOVIE = POINTS.character + POINTS.year + POINTS.imdb;
 
-// Lowercase, strip accents and punctuation so "Zoë Saldaña" matches "zoe saldana".
+// ---------- text helpers ----------
+
+// Lowercase, strip accents and punctuation so "Zoë" matches "zoe" and
+// "Ellis Boyd 'Red' Redding" becomes "ellis boyd red redding".
 export function normalizeName(s) {
   return (s || '')
     .normalize('NFD')
@@ -52,81 +52,208 @@ function wordDistance(a, b) {
   return d <= allowed ? d : Infinity;
 }
 
-// Total typo distance between a guess and a cast name, or Infinity if too different.
-// Also tries the cast name without middle initials ("Samuel L. Jackson").
-function nameDistance(guessWords, castName) {
-  const full = castName.split(' ');
-  const noInitials = full.filter(w => w.length > 1);
-  let best = Infinity;
-  for (const words of [full, noInitials]) {
-    if (words.length !== guessWords.length) continue;
-    let total = 0;
-    for (let i = 0; i < words.length && total < Infinity; i++) {
-      total += wordDistance(guessWords[i], words[i]);
-    }
-    best = Math.min(best, total);
-  }
-  return best;
+// ---------- which credits count as real characters ----------
+
+// Job titles and descriptions that show up as "characters" in credits.
+const GENERIC = new Set(`
+  bartender barman barmaid waiter waitress server busboy cook chef host hostess
+  nurse doctor surgeon paramedic emt medic orderly patient
+  guard guards cop cops police policeman policewoman officer officers trooper deputy sheriff
+  soldier soldiers marine sailor pilot copilot stewardess flight attendant
+  reporter reporters journalist anchor newscaster anchorman anchorwoman photographer cameraman
+  himself herself themselves self narrator voice voices
+  man men woman women boy boys girl girls kid kids child children baby teen teenager
+  person people guy guys lady ladies gentleman
+  student students teacher professor principal coach
+  driver cabbie chauffeur valet passenger pedestrian commuter
+  clerk cashier receptionist secretary assistant intern manager owner employee worker workers
+  customer customers patron patrons shopper diner tourist tourists guest guests
+  dancer dancers singer singers musician band stripper bouncer
+  prisoner prisoners inmate inmates convict thug thugs goon goons henchman henchmen gangster
+  priest minister pastor nun judge juror jurors bailiff lawyer attorney
+  agent agents detective detectives investigator scientist technician tech engineer
+  maid butler servant janitor mechanic farmer cowboy
+  fan fans spectator spectators crowd extra extras bystander onlooker
+  mom dad mother father son daughter wife husband brother sister grandma grandpa
+  neighbor friend boyfriend girlfriend date stranger villager townsperson
+  firefighter fireman security
+  director executive exec boss banker broker analyst model hooker prostitute homeless bum
+  biker punk surfer racer messenger courier salesman saleswoman salesperson vendor attendant
+  operator dispatcher announcer commentator presenter interviewer publicist partygoer chick
+  delivery president senator mayor governor ambassador dog cat
+  passerby refugee drifter watchman victim enforcer spy landlady landlord bodyguard roller dj
+  speaker double stunt maven constable monkey chipmunk chipmunks bear lover performer actor actress
+  member hippie hitman assassin killer witness suspect survivor hostage rioter protester mourner
+  hunter fisherman warrior gladiator slave knight peasant citizen resident tenant nanny babysitter
+  housekeeper gardener doorman concierge bellhop porter usher clown magician comedian emcee mc
+  referee umpire player athlete fighter boxer wrestler contestant auctioneer buyer seller dealer
+  croupier gambler partner colleague coworker roommate cousin nephew niece grandson granddaughter
+  headmaster groomer maitre group european ram sniper concubine lunk rat fop steward witch heavy
+`.trim().split(/\s+/));
+
+// Words that describe a generic role without naming anyone ("Young Guard #2").
+const FILLER = new Set(`
+  the a an of at in on to with and from for by
+  young old older little big tall short fat skinny drunk angry pretty beautiful cute
+  first second third fourth fifth head chief lead senior junior female male new other another local
+  us uk american british german french russian italian japanese chinese mexican
+  army navy air force fbi cia nypd lapd swat
+  bar club restaurant store shop hotel hospital school office station street train bus plane car
+  house party wedding casino diner gas prison court city town news tv radio camp base lab room desk
+  front back flight cafe coffee
+  outside inside near behind next across years year yrs age aged gawky society country pet
+  foreign roman wedding high union quarantine scan leg lodge beach woods nightclub support walker
+`.trim().split(/\s+/));
+
+// Titles that aren't distinctive on their own ("Mr", "Captain").
+const TITLES = new Set(`
+  mr mrs ms miss dr doctor sir lady lord madam captain capt sgt sergeant officer detective det
+  agent professor prof uncle aunt father mother sister brother king queen prince princess general
+  colonel col lieutenant lt major private judge coach nurse jr sr saint st
+`.trim().split(/\s+/));
+
+const PREPOSITIONS = new Set(['at', 'in', 'on', 'from', 'with', 'of', 'outside', 'inside', 'near', 'behind']);
+
+export function isGenericRole(character) {
+  const words = normalizeName(character).split(' ').filter(w => w && !/^\d+$/.test(w));
+  if (!words.length) return true;
+  if (words.includes('himself') || words.includes('herself') || words.includes('themselves')) return true;
+  if (words.every(w => GENERIC.has(w) || FILLER.has(w))) return true;
+  // "Bartender at Club Q", "Woman in Elevator"
+  if (GENERIC.has(words[0]) && PREPOSITIONS.has(words[1])) return true;
+  // Descriptions end in a job or role: "Pizza Hut Delivery Guy", "Miguel's Dad"
+  if (words.length > 1 && GENERIC.has(words[words.length - 1])) return true;
+  return false;
 }
 
-// Find the cast member the player meant. Requires a full name (first + last);
-// a last name alone doesn't count, to keep it from being too easy.
-export function matchActor(guess, cast) {
+// The characters a player can name, in billing order, with duplicates removed.
+// Each gets the words a player could type and which of those are unique to them.
+export function eligibleCharacters(cast) {
+  const seen = new Set();
+  const list = [];
+  for (const member of cast) {
+    const display = (member.character || '').trim();
+    const norm = normalizeName(display);
+    if (!norm || seen.has(norm) || isGenericRole(display)) continue;
+    seen.add(norm);
+    const words = norm.split(' ');
+    // Same character credited again lower down ("Estella" after "Estella / Cruella",
+    // "Young Hazel" after "Hazel Grace Lancaster"): keep only the higher billing so
+    // the lead can't score as a deep cut.
+    const core = words.filter(w => !FILLER.has(w) && !/^\d+$/.test(w));
+    if (core.length && list.some(prev => core.every(w => prev.words.includes(w)))) continue;
+    list.push({ ...member, character: display, norm, words });
+  }
+  // A word is "distinct" if it's long enough, isn't a title or filler, and
+  // belongs to only one character in this movie ("Red", "Redding", "Dufresne").
+  const counts = new Map();
+  for (const c of list) {
+    for (const w of new Set(c.words)) counts.set(w, (counts.get(w) || 0) + 1);
+  }
+  for (const c of list) {
+    c.distinct = new Set(c.words.filter(w =>
+      w.length >= 3 && !TITLES.has(w) && !FILLER.has(w) && !GENERIC.has(w) && counts.get(w) === 1));
+  }
+  return list;
+}
+
+// ---------- matching a guess to a character ----------
+
+// Best typo distance from one guessed word to any word in the character's name.
+// A short form that starts the name also counts ("Dom" for "Dominic").
+function bestWord(guessWord, words) {
+  let best = Infinity;
+  let word = null;
+  for (const w of words) {
+    let d = wordDistance(guessWord, w);
+    if (d === Infinity && guessWord.length >= 3 && w.startsWith(guessWord)) d = 1;
+    if (d < best) { best = d; word = w; }
+  }
+  return { d: best, word };
+}
+
+// Any part of the name counts: "Red", "Redding", "Ellis Redding", or the full name.
+// Every word typed must belong to the character, and at least one must be a real
+// name word (not just "Captain" or "Young"). Returns the typo distance, whether a
+// word unique to this character was used, or null if it doesn't match.
+function guessMatch(guessWords, guessNorm, c) {
+  if (guessNorm === c.norm) return { d: 0, distinct: true };
+  let total = 0;
+  let distinct = false;
+  let meaningful = false;
+  for (const gw of guessWords) {
+    const { d, word } = bestWord(gw, c.words);
+    if (d === Infinity) return null;
+    total += d;
+    if (c.distinct.has(word)) distinct = true;
+    if (word.length >= 3 && !TITLES.has(word) && !FILLER.has(word) && !GENERIC.has(word)) meaningful = true;
+  }
+  return meaningful ? { d: total, distinct } : null;
+}
+
+// Prefer a guess that points at exactly one character. If it fits several
+// ("Toretto" = Dom or Mia), it counts as the highest-billed of them, so a vague
+// guess still scores, just not as a deep cut.
+export function matchCharacter(guess, cast) {
   const g = normalizeName(guess);
   if (!g) return null;
-  // Single word: only counts if an actor actually goes by one name (e.g. "Zendaya").
-  if (!g.includes(' ')) return cast.find(c => normalizeName(c.name) === g) || null;
   const guessWords = g.split(' ');
+  const chars = eligibleCharacters(cast);
   let best = null;
   let bestDist = Infinity;
-  for (const member of cast) {
-    const d = nameDistance(guessWords, normalizeName(member.name));
-    if (d === 0) return member;
-    if (d < bestDist) {
-      best = member;
-      bestDist = d;
+  let fallback = null;
+  chars.forEach((c, index) => {
+    const m = guessMatch(guessWords, g, c);
+    if (!m) return;
+    if (m.distinct && m.d < bestDist) {
+      bestDist = m.d;
+      best = { member: c, index, count: chars.length };
+    } else if (!m.distinct && !fallback) {
+      fallback = { member: c, index, count: chars.length };
     }
-  }
-  return best;
+  });
+  return best || fallback;
 }
 
-// 0 = household name, 1 = deep cut. Log scale so the jump from popularity 2 to 10
-// matters as much as 10 to 50.
-export function nicheFraction(popularity) {
-  const p = Math.max(0.01, Number(popularity) || 0.01);
-  const frac = (Math.log(FAME_CEILING) - Math.log(p)) / (Math.log(FAME_CEILING) - Math.log(FAME_FLOOR));
-  return Math.min(1, Math.max(0, frac));
+// 0 = top-billed lead, 1 = last eligible character in the credits.
+export function billingFraction(index, count) {
+  if (count <= 1) return 0;
+  return Math.min(1, Math.max(0, index / (count - 1)));
 }
 
-export function scoreActor(guess, cast) {
-  const match = matchActor(guess, cast);
-  if (!match) return { points: 0, match: null, niche: 0 };
-  const niche = nicheFraction(match.popularity);
-  const points = Math.round(ACTOR_MIN_POINTS + (POINTS.actor - ACTOR_MIN_POINTS) * niche);
-  return { points, match, niche };
+// ---------- scoring ----------
+
+export function scoreCharacter(guess, cast) {
+  const found = matchCharacter(guess, cast);
+  if (!found) return { points: 0, match: null, niche: 0, billing: null, count: 0 };
+  const niche = billingFraction(found.index, found.count);
+  const points = Math.round(CHARACTER_MIN_POINTS + (POINTS.character - CHARACTER_MIN_POINTS) * niche);
+  return { points, match: found.member, niche, billing: found.index + 1, count: found.count };
 }
 
+// 75 for the exact year, 5 fewer per year off, zero at 15+ years off.
 export function scoreYear(guess, actual) {
   const g = parseInt(guess, 10);
   if (!Number.isFinite(g)) return { points: 0, diff: null };
   const diff = Math.abs(g - actual);
-  const points = Math.round(POINTS.year * Math.max(0, 1 - diff / YEAR_ZERO_AT));
-  return { points, diff };
+  return { points: Math.max(0, POINTS.year - YEAR_STEP * diff), diff };
 }
 
+// 75 for the exact rating, 5 fewer per full 0.2 off (rounded in the player's favor),
+// so 0.1 off = 75, 0.2–0.3 off = 70, 0.4–0.5 off = 65 … 3.0+ off = 0.
 export function scoreImdb(guess, actual) {
   const g = parseFloat(guess);
   if (!Number.isFinite(g)) return { points: 0, diff: null };
-  const diff = Math.round(Math.abs(g - actual) * 10) / 10;
-  const points = Math.round(POINTS.imdb * Math.max(0, 1 - diff / IMDB_ZERO_AT));
-  return { points, diff };
+  const tenths = Math.round(Math.abs(g - actual) * 10);
+  const steps = Math.floor(tenths / Math.round(IMDB_STEP_SIZE * 10));
+  return { points: Math.max(0, POINTS.imdb - IMDB_STEP * steps), diff: tenths / 10 };
 }
 
 export function scoreMovie(movie, answers) {
-  const actor = scoreActor(answers.actor, movie.cast);
+  const character = scoreCharacter(answers.character, movie.cast);
   const year = scoreYear(answers.year, movie.year);
   const imdb = scoreImdb(answers.imdb, movie.imdb);
-  return { actor, year, imdb, total: actor.points + year.points + imdb.points };
+  return { character, year, imdb, total: character.points + year.points + imdb.points };
 }
 
 // One emoji per question for the share text.

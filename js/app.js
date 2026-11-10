@@ -130,18 +130,18 @@ function renderMovie(i) {
   form.addEventListener('submit', (e) => {
     e.preventDefault();
     const answers = {
-      actor: form.actor.value.trim(),
+      character: form.character.value.trim(),
       year: form.year.value,
       imdb: form.imdb.value,
     };
     const result = scoreMovie(movie, answers);
     state.answers[i] = answers;
     state.results[i] = {
-      actor: result.actor.points,
+      character: result.character.points,
       year: result.year.points,
       imdb: result.imdb.points,
       total: result.total,
-      matched: result.actor.match ? result.actor.match.name : null,
+      matched: result.character.match ? result.character.match.character : null,
     };
     save();
     form.hidden = true;
@@ -149,7 +149,7 @@ function renderMovie(i) {
   });
 
   app.replaceChildren(node);
-  form.actor.focus({ preventScroll: true });
+  form.character.focus({ preventScroll: true });
 }
 
 function answerRow(question, detail, points, max) {
@@ -164,15 +164,15 @@ function showReveal(reveal, movie, answers, result, i) {
   const title = reveal.closest('.ticket').querySelector('.movie-title');
   title.append(' ', el('span', { class: 'yr', text: `(${movie.year})` }));
 
-  const a = result.actor;
-  let actorDetail;
-  if (a.match) {
-    const tier = a.niche >= 0.75 ? 'Deep cut.' : a.niche >= 0.45 ? 'Solid pick.' : 'Big name.';
-    actorDetail = `${a.match.name}${a.match.character ? ` as ${a.match.character}` : ''}. ${tier}`;
-  } else if (answers.actor) {
-    actorDetail = `"${answers.actor}" isn't in the cast we have for this movie.`;
+  const c = result.character;
+  let characterDetail;
+  if (c.match) {
+    const tier = c.niche >= 0.75 ? 'Deep cut.' : c.niche >= 0.4 ? 'Solid pick.' : 'Main character.';
+    characterDetail = `${c.match.character}, played by ${c.match.name}. Billed ${c.billing} of ${c.count}. ${tier}`;
+  } else if (answers.character) {
+    characterDetail = `"${answers.character}" doesn't match a named character in this movie.`;
   } else {
-    actorDetail = 'No actor entered.';
+    characterDetail = 'No character entered.';
   }
 
   const y = result.year;
@@ -191,7 +191,7 @@ function showReveal(reveal, movie, answers, result, i) {
   });
 
   reveal.replaceChildren(
-    answerRow('Actor', actorDetail, a.points, POINTS.actor),
+    answerRow('Character', characterDetail, c.points, POINTS.character),
     answerRow('Release year', yearDetail, y.points, POINTS.year),
     answerRow('IMDb score', imdbDetail, m.points, POINTS.imdb),
     el('div', { class: 'movie-total' },
@@ -210,7 +210,7 @@ function totalScore() {
 
 function shareText() {
   const lines = state.results.map((r, i) =>
-    `${i + 1}. ${emojiFor(r.actor, POINTS.actor)}${emojiFor(r.year, POINTS.year)}${emojiFor(r.imdb, POINTS.imdb)} ${r.total}`);
+    `${i + 1}. ${emojiFor(r.character ?? r.actor ?? 0, POINTS.character)}${emojiFor(r.year, POINTS.year)}${emojiFor(r.imdb, POINTS.imdb)} ${r.total}`);
   return [
     `Daily Movie Game #${dayNumber(date)}`,
     `${totalScore()} / ${MAX_PER_MOVIE * movies.length}`,
