@@ -1,0 +1,870 @@
+{
+ "date": "2026-11-10",
+ "movies": [
+  {
+   "tmdb_id": 601,
+   "imdb_id": "tt0083866",
+   "title": "E.T. the Extra-Terrestrial",
+   "year": 1982,
+   "imdb": 7.9,
+   "poster": "https://image.tmdb.org/t/p/w342/an0nD6uq6byfxXCfk6lQBzdL2J1.jpg",
+   "cast": [
+    {
+     "name": "Henry Thomas",
+     "character": "Elliott",
+     "popularity": 2.4
+    },
+    {
+     "name": "Drew Barrymore",
+     "character": "Gertie",
+     "popularity": 5.1
+    },
+    {
+     "name": "Robert MacNaughton",
+     "character": "Michael",
+     "popularity": 0.7
+    },
+    {
+     "name": "Peter Coyote",
+     "character": "Keys",
+     "popularity": 1.8
+    },
+    {
+     "name": "Dee Wallace",
+     "character": "Mary",
+     "popularity": 2.1
+    },
+    {
+     "name": "Erika Eleniak",
+     "character": "Pretty Girl",
+     "popularity": 2.6
+    },
+    {
+     "name": "K.C. Martel",
+     "character": "Greg",
+     "popularity": 0.4
+    },
+    {
+     "name": "C. Thomas Howell",
+     "character": "Tyler",
+     "popularity": 3.5
+    },
+    {
+     "name": "Sean Frye",
+     "character": "Steve",
+     "popularity": 0.7
+    },
+    {
+     "name": "David M. O'Dell",
+     "character": "Schoolboy",
+     "popularity": 0.1
+    },
+    {
+     "name": "Richard Swingler",
+     "character": "Science Teacher",
+     "popularity": 0.1
+    },
+    {
+     "name": "Frank Toth",
+     "character": "Policeman",
+     "popularity": 0.1
+    },
+    {
+     "name": "Robert Barton",
+     "character": "Ultra Sound Man",
+     "popularity": 0.3
+    },
+    {
+     "name": "Michael Darrell",
+     "character": "Van Man",
+     "popularity": 0.1
+    },
+    {
+     "name": "David Berkson",
+     "character": "Medical Unit",
+     "popularity": 0.1
+    },
+    {
+     "name": "David Carlberg",
+     "character": "Medical Unit",
+     "popularity": 0
+    },
+    {
+     "name": "Milt Kogan",
+     "character": "Medical Unit",
+     "popularity": 0.3
+    },
+    {
+     "name": "Alexander Lampone",
+     "character": "Medical Unit",
+     "popularity": 0.1
+    },
+    {
+     "name": "Rhoda Makoff",
+     "character": "Medical Unit",
+     "popularity": 0
+    },
+    {
+     "name": "Robert D. Murphy",
+     "character": "Medical Unit",
+     "popularity": 0
+    },
+    {
+     "name": "Richard Pesavento",
+     "character": "Medical Unit",
+     "popularity": 0.1
+    },
+    {
+     "name": "Tom Sherry",
+     "character": "Medical Unit",
+     "popularity": 0.1
+    },
+    {
+     "name": "Susan Cameron",
+     "character": "Medical Unit",
+     "popularity": 0
+    },
+    {
+     "name": "Will Fowler, Jr.",
+     "character": "Medical Unit",
+     "popularity": 0.1
+    },
+    {
+     "name": "Barbara Hartnett",
+     "character": "Medical Unit",
+     "popularity": 0
+    },
+    {
+     "name": "Diane Lampone",
+     "character": "Medical Unit",
+     "popularity": 0.1
+    },
+    {
+     "name": "Mary Stein",
+     "character": "Medical Unit",
+     "popularity": 0.5
+    },
+    {
+     "name": "Mitch Suskin",
+     "character": "Medical Unit",
+     "popularity": 0.1
+    },
+    {
+     "name": "Ted Grossman",
+     "character": "Government Agent",
+     "popularity": 0.4
+    },
+    {
+     "name": "James Kahn",
+     "character": "Mustachioed Medical Unit Member Who Confirms E.T.'s Death",
+     "popularity": 0.4
+    },
+    {
+     "name": "Anne Lockhart",
+     "character": "Nurse",
+     "popularity": 0.9
+    },
+    {
+     "name": "Melissa Mathison",
+     "character": "Elliot's School Nurse",
+     "popularity": 0.7
+    },
+    {
+     "name": "Debra Winger",
+     "character": "Nurse Zombie Carrying Poodle",
+     "popularity": 2.1
+    },
+    {
+     "name": "Michael Lepre",
+     "character": "Pizza Man",
+     "popularity": 0.2
+    },
+    {
+     "name": "Alex Daniels",
+     "character": "Federal Agent in Car Chase",
+     "popularity": 0.6
+    },
+    {
+     "name": "Chuck Riley",
+     "character": "Narrator of Theatrical Trailer",
+     "popularity": 0
+    },
+    {
+     "name": "Quinn Smith",
+     "character": "Kid 3",
+     "popularity": 0.3
+    },
+    {
+     "name": "Casey Kasem",
+     "character": "Himself",
+     "popularity": 0.9
+    },
+    {
+     "name": "Pat Welsh",
+     "character": "E.T.",
+     "popularity": 0
+    },
+    {
+     "name": "William Hanna",
+     "character": "Tom",
+     "popularity": 0.9
+    },
+    {
+     "name": "Rex Reason",
+     "character": "Dr. Cal Meacham",
+     "popularity": 0.6
+    },
+    {
+     "name": "Faith Domergue",
+     "character": "Dr. Ruth Adams",
+     "popularity": 0.5
+    },
+    {
+     "name": "John Wayne",
+     "character": "Sean Thornton",
+     "popularity": 2.8
+    },
+    {
+     "name": "Maureen O'Hara",
+     "character": "Mary Kate Danaher",
+     "popularity": 1.8
+    },
+    {
+     "name": "Redd Foxx",
+     "character": "Fred G. Sanford",
+     "popularity": 0.7
+    },
+    {
+     "name": "Caroll Spinney",
+     "character": "Big Bird",
+     "popularity": 0.8
+    },
+    {
+     "name": "Frank Oz",
+     "character": "Grover",
+     "popularity": 1.9
+    }
+   ]
+  },
+  {
+   "tmdb_id": 337404,
+   "imdb_id": "tt3228774",
+   "title": "Cruella",
+   "year": 2021,
+   "imdb": 7.3,
+   "poster": "https://image.tmdb.org/t/p/w342/hjS9mH8KvRiGHgjk6VUZH7OT0Ng.jpg",
+   "cast": [
+    {
+     "name": "Emma Stone",
+     "character": "Estella / Cruella",
+     "popularity": 7.5
+    },
+    {
+     "name": "Emma Thompson",
+     "character": "The Baroness",
+     "popularity": 4.6
+    },
+    {
+     "name": "Joel Fry",
+     "character": "Jasper",
+     "popularity": 0.8
+    },
+    {
+     "name": "Paul Walter Hauser",
+     "character": "Horace",
+     "popularity": 3.6
+    },
+    {
+     "name": "John McCrea",
+     "character": "Artie",
+     "popularity": 0.4
+    },
+    {
+     "name": "Emily Beecham",
+     "character": "Catherine / Maid",
+     "popularity": 1.6
+    },
+    {
+     "name": "Mark Strong",
+     "character": "John the Valet",
+     "popularity": 2.8
+    },
+    {
+     "name": "Kayvan Novak",
+     "character": "Roger",
+     "popularity": 1.4
+    },
+    {
+     "name": "Kirby Howell-Baptiste",
+     "character": "Anita Darling",
+     "popularity": 2.7
+    },
+    {
+     "name": "Jamie Demetriou",
+     "character": "Gerald",
+     "popularity": 1.1
+    },
+    {
+     "name": "Niamh Lynch",
+     "character": "Liberty Shop Girl",
+     "popularity": 0.3
+    },
+    {
+     "name": "Andrew Leung",
+     "character": "Jeffrey",
+     "popularity": 0.9
+    },
+    {
+     "name": "Ed Birch",
+     "character": "Baroness Head of Security",
+     "popularity": 0.6
+    },
+    {
+     "name": "Dylan Lowe",
+     "character": "Mean Ginger",
+     "popularity": 0.2
+    },
+    {
+     "name": "Paul Bazely",
+     "character": "Police Commissioner",
+     "popularity": 0.7
+    },
+    {
+     "name": "Abraham Popoola",
+     "character": "George",
+     "popularity": 0.6
+    },
+    {
+     "name": "Leo Bill",
+     "character": "Headmaster",
+     "popularity": 0.6
+    },
+    {
+     "name": "Ninette Finch",
+     "character": "Lady",
+     "popularity": 0.2
+    },
+    {
+     "name": "Sarah Crowden",
+     "character": "Beehive Lady",
+     "popularity": 0.9
+    },
+    {
+     "name": "Harrison Willmott",
+     "character": "Mean Kid",
+     "popularity": 0
+    },
+    {
+     "name": "Jack Barry",
+     "character": "Restaurant Valet",
+     "popularity": 0.1
+    },
+    {
+     "name": "Asmara Gabrielle",
+     "character": "Teacher",
+     "popularity": 0.2
+    },
+    {
+     "name": "Tom Turner",
+     "character": "The Baron",
+     "popularity": 0.3
+    },
+    {
+     "name": "Thomas Padden",
+     "character": "Viking Gala Security Guard",
+     "popularity": 0.3
+    },
+    {
+     "name": "Carl Rice",
+     "character": "Viking Gala Security Guard",
+     "popularity": 0.5
+    },
+    {
+     "name": "Chris Ryman",
+     "character": "Viking Gala Security Guard",
+     "popularity": 0.2
+    },
+    {
+     "name": "Javone Prince",
+     "character": "Ipswich Manor Security Guard",
+     "popularity": 0.4
+    },
+    {
+     "name": "Hannah Stokely",
+     "character": "Rich Woman",
+     "popularity": 0.2
+    },
+    {
+     "name": "Haruka Abe",
+     "character": "Liberty Woman",
+     "popularity": 0.5
+    },
+    {
+     "name": "Steve Edge",
+     "character": "Steven the Jewellery Shop Assistant",
+     "popularity": 0.7
+    },
+    {
+     "name": "Richard David-Caine",
+     "character": "Dog Groomer",
+     "popularity": 0.3
+    },
+    {
+     "name": "Waleed Akhtar",
+     "character": "Policeman",
+     "popularity": 0.2
+    },
+    {
+     "name": "Janet Henfrey",
+     "character": "Society Maven",
+     "popularity": 0.5
+    },
+    {
+     "name": "Elizabeth Marcano-Mortlock",
+     "character": "Society Maven",
+     "popularity": 0.1
+    },
+    {
+     "name": "Camilla Roholm",
+     "character": "Society Maven",
+     "popularity": 0.4
+    },
+    {
+     "name": "Joey Akubeze",
+     "character": "French Speaking Ipswich Manor Guard",
+     "popularity": 0.2
+    },
+    {
+     "name": "Linette Beaumont",
+     "character": "Posh Guest 2",
+     "popularity": 0.2
+    },
+    {
+     "name": "Conor Moloney",
+     "character": "Rich Man",
+     "popularity": 0.3
+    },
+    {
+     "name": "Robert Cawsey",
+     "character": "Swanky Bar Waiter",
+     "popularity": 0.1
+    },
+    {
+     "name": "Ed Kear",
+     "character": "Interviewer",
+     "popularity": 0.5
+    },
+    {
+     "name": "Sid Sagar",
+     "character": "Mark",
+     "popularity": 0.3
+    },
+    {
+     "name": "Jacqueline Chan",
+     "character": "Jewellery Shop Assistant",
+     "popularity": 0.2
+    },
+    {
+     "name": "Hermione Gulliford",
+     "character": "Posh Guest",
+     "popularity": 0.3
+    },
+    {
+     "name": "Surinder Duhra",
+     "character": "Lawyer",
+     "popularity": 0.2
+    },
+    {
+     "name": "Peter Singh",
+     "character": "Country Constable",
+     "popularity": 0.3
+    },
+    {
+     "name": "Geoffrey Burton",
+     "character": "Elderly Man",
+     "popularity": 0.2
+    },
+    {
+     "name": "Helena Dowling",
+     "character": "Fashion Reporter",
+     "popularity": 0.1
+    },
+    {
+     "name": "Paul Chowdhry",
+     "character": "Restaurant Owner",
+     "popularity": 1.3
+    },
+    {
+     "name": "Tim Steed",
+     "character": "Frederick",
+     "popularity": 0.4
+    },
+    {
+     "name": "John Mackay",
+     "character": "House of Baroness Men",
+     "popularity": 0.2
+    },
+    {
+     "name": "Nathan Amzi",
+     "character": "House of Baroness Men",
+     "popularity": 0.1
+    },
+    {
+     "name": "Trevor Laird",
+     "character": "Asthma Man",
+     "popularity": 0.3
+    },
+    {
+     "name": "Joshua Hill",
+     "character": "Viking Gala Guard",
+     "popularity": 0.3
+    },
+    {
+     "name": "Michelle Greenidge",
+     "character": "Viking Gala Guard",
+     "popularity": 0.6
+    },
+    {
+     "name": "Jane How",
+     "character": "Society Maven",
+     "popularity": 0.5
+    },
+    {
+     "name": "Angela Sims",
+     "character": "Society Maven",
+     "popularity": 0.2
+    },
+    {
+     "name": "Geraldine Fitzgerald",
+     "character": "Society Maven",
+     "popularity": 0.4
+    },
+    {
+     "name": "Tipper Seifert-Cleveland",
+     "character": "Estella",
+     "popularity": 0.6
+    },
+    {
+     "name": "Maeve Chadwick",
+     "character": "Estella",
+     "popularity": 0.1
+    },
+    {
+     "name": "Nell Chadwick",
+     "character": "Estella",
+     "popularity": 0.1
+    }
+   ]
+  },
+  {
+   "tmdb_id": 9800,
+   "imdb_id": "tt0107818",
+   "title": "Philadelphia",
+   "year": 1994,
+   "imdb": 7.7,
+   "poster": "https://image.tmdb.org/t/p/w342/tFe5Yoo5zT495okA49bq1vPPkiV.jpg",
+   "cast": [
+    {
+     "name": "Tom Hanks",
+     "character": "Andrew Beckett",
+     "popularity": 12.6
+    },
+    {
+     "name": "Denzel Washington",
+     "character": "Joe Miller",
+     "popularity": 7.8
+    },
+    {
+     "name": "Jason Robards",
+     "character": "Charles Wheeler",
+     "popularity": 1.6
+    },
+    {
+     "name": "Mary Steenburgen",
+     "character": "Belinda Conine",
+     "popularity": 8.6
+    },
+    {
+     "name": "Antonio Banderas",
+     "character": "Miguel Alvarez",
+     "popularity": 4.8
+    },
+    {
+     "name": "Ron Vawter",
+     "character": "Bob Seidman",
+     "popularity": 0.9
+    },
+    {
+     "name": "Robert Ridgely",
+     "character": "Walter Kenton",
+     "popularity": 0.7
+    },
+    {
+     "name": "Charles Napier",
+     "character": "Judge Garnett",
+     "popularity": 0.9
+    },
+    {
+     "name": "Lisa Summerour",
+     "character": "Lisa Miller",
+     "popularity": 0.4
+    },
+    {
+     "name": "Obba Babatundé",
+     "character": "Jerome Green",
+     "popularity": 0.9
+    },
+    {
+     "name": "Andre B. Blake",
+     "character": "Young Man in Pharmacy",
+     "popularity": 0.6
+    },
+    {
+     "name": "Robert W. Castle",
+     "character": "Bud Beckett",
+     "popularity": 0.4
+    },
+    {
+     "name": "Daniel Chapman",
+     "character": "Clinic Storyteller",
+     "popularity": 0.3
+    },
+    {
+     "name": "Roger Corman",
+     "character": "Mr. Laird",
+     "popularity": 1.3
+    },
+    {
+     "name": "Ann Dowd",
+     "character": "Jill Beckett",
+     "popularity": 1.4
+    },
+    {
+     "name": "David Drake",
+     "character": "Bruno",
+     "popularity": 0.3
+    },
+    {
+     "name": "Karen Finley",
+     "character": "Dr. Gillman",
+     "popularity": 0.2
+    },
+    {
+     "name": "Charles Glenn",
+     "character": "Kenneth Killcoyne",
+     "popularity": 0
+    },
+    {
+     "name": "Peter Jacobs",
+     "character": "Peter / Mona Lisa",
+     "popularity": 0.2
+    },
+    {
+     "name": "Paul Lazar",
+     "character": "Dr. Klenstein",
+     "popularity": 0.6
+    },
+    {
+     "name": "John Bedford Lloyd",
+     "character": "Matt Beckett",
+     "popularity": 0.7
+    },
+    {
+     "name": "Roberta Maxwell",
+     "character": "Judge Tate",
+     "popularity": 0.8
+    },
+    {
+     "name": "Warren Miller",
+     "character": "Mr. Finley",
+     "popularity": 0.2
+    },
+    {
+     "name": "Harry Northup",
+     "character": "Juror",
+     "popularity": 0.3
+    },
+    {
+     "name": "Dan Olmstead",
+     "character": "Randy Beckett",
+     "popularity": 0.1
+    },
+    {
+     "name": "Joey Perillo",
+     "character": "Filko",
+     "popularity": 0.2
+    },
+    {
+     "name": "Lauren Roselli",
+     "character": "Iris",
+     "popularity": 0.2
+    },
+    {
+     "name": "Bill Rowe",
+     "character": "Dr. Armbruster",
+     "popularity": 0.1
+    },
+    {
+     "name": "Anna Deavere Smith",
+     "character": "Anthea Burton",
+     "popularity": 0.6
+    },
+    {
+     "name": "Lisa Talerico",
+     "character": "Shelby",
+     "popularity": 0.1
+    },
+    {
+     "name": "Daniel von Bargen",
+     "character": "Jury Foreman",
+     "popularity": 0.7
+    },
+    {
+     "name": "Tracey Walter",
+     "character": "Librarian",
+     "popularity": 1.4
+    },
+    {
+     "name": "Bradley Whitford",
+     "character": "Jamey Collins",
+     "popularity": 3.5
+    },
+    {
+     "name": "Chandra Wilson",
+     "character": "Chandra",
+     "popularity": 1
+    },
+    {
+     "name": "Kathryn Witt",
+     "character": "Melissa Benedict",
+     "popularity": 0.6
+    },
+    {
+     "name": "Joanne Woodward",
+     "character": "Sarah Beckett",
+     "popularity": 1.1
+    },
+    {
+     "name": "Buzz Kilman",
+     "character": "Crutches",
+     "popularity": 0.1
+    },
+    {
+     "name": "Mark Sorensen Jr.",
+     "character": "Clinic Patient",
+     "popularity": 0
+    },
+    {
+     "name": "Jeffrey Williamson",
+     "character": "Tyrone",
+     "popularity": 0
+    },
+    {
+     "name": "Stephanie Roth Haberle",
+     "character": "Rachel Smilow",
+     "popularity": 0.3
+    },
+    {
+     "name": "Ford Wheeler",
+     "character": "Alan",
+     "popularity": 0.2
+    },
+    {
+     "name": "Julius Erving",
+     "character": "Julius Erving",
+     "popularity": 0.5
+    },
+    {
+     "name": "Adam LeFevre",
+     "character": "Jill's Husband",
+     "popularity": 0.6
+    },
+    {
+     "name": "Gary Goetzman",
+     "character": "Guido Paonessa",
+     "popularity": 1
+    },
+    {
+     "name": "Kenneth Utt",
+     "character": "Juror",
+     "popularity": 0.2
+    },
+    {
+     "name": "Lawrence T. Wrentz",
+     "character": "Juror",
+     "popularity": 0.2
+    },
+    {
+     "name": "Charles Techman",
+     "character": "Ralph Peterson",
+     "popularity": 0.4
+    },
+    {
+     "name": "Jim Roche",
+     "character": "Not Adam and Steve",
+     "popularity": 0.1
+    },
+    {
+     "name": "Tony Fitzpatrick",
+     "character": "Bartender",
+     "popularity": 0.1
+    },
+    {
+     "name": "Gene Borkan",
+     "character": "Bailiff",
+     "popularity": 0.4
+    },
+    {
+     "name": "Q Lazzarus",
+     "character": "Party singer",
+     "popularity": 0.2
+    },
+    {
+     "name": "Lucas Platt",
+     "character": "Robert",
+     "popularity": 0.2
+    },
+    {
+     "name": "José Castillo",
+     "character": "Miguel's Dad",
+     "popularity": 0.2
+    },
+    {
+     "name": "Roy Blount Jr.",
+     "character": "Partygoer",
+     "popularity": 0.2
+    },
+    {
+     "name": "Bob Bowersox",
+     "character": "PR Director",
+     "popularity": 0.3
+    },
+    {
+     "name": "Quentin Crisp",
+     "character": "Guest at Party",
+     "popularity": 0.5
+    },
+    {
+     "name": "Tom Detrik",
+     "character": "Reporter",
+     "popularity": 0.1
+    },
+    {
+     "name": "Tony Devon",
+     "character": "Security Guard",
+     "popularity": 0.4
+    },
+    {
+     "name": "Tak Fujimoto",
+     "character": "Doctor",
+     "popularity": 0.4
+    },
+    {
+     "name": "Ana Leza",
+     "character": "Guest",
+     "popularity": 0.3
+    }
+   ]
+  }
+ ]
+}

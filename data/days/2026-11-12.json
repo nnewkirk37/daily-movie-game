@@ -1,0 +1,605 @@
+{
+ "date": "2026-11-12",
+ "movies": [
+  {
+   "tmdb_id": 10009,
+   "imdb_id": "tt0328880",
+   "title": "Brother Bear",
+   "year": 2003,
+   "imdb": 6.9,
+   "poster": "https://image.tmdb.org/t/p/w342/otptPbEY0vBostmo95xwiiumMJm.jpg",
+   "cast": [
+    {
+     "name": "Joaquin Phoenix",
+     "character": "Kenai",
+     "popularity": 3.4
+    },
+    {
+     "name": "Jeremy Suarez",
+     "character": "Koda",
+     "popularity": 1
+    },
+    {
+     "name": "Jason Raize",
+     "character": "Denahi",
+     "popularity": 0.2
+    },
+    {
+     "name": "Rick Moranis",
+     "character": "Rutt",
+     "popularity": 2.4
+    },
+    {
+     "name": "Dave Thomas",
+     "character": "Tuke",
+     "popularity": 0.9
+    },
+    {
+     "name": "D. B. Sweeney",
+     "character": "Sitka",
+     "popularity": 1.4
+    },
+    {
+     "name": "Joan Copeland",
+     "character": "Tanana",
+     "popularity": 0.3
+    },
+    {
+     "name": "Michael Clarke Duncan",
+     "character": "Tug",
+     "popularity": 1.6
+    },
+    {
+     "name": "Harold Gould",
+     "character": "Old Denahi",
+     "popularity": 1.2
+    },
+    {
+     "name": "Paul Christie",
+     "character": "Ram #1",
+     "popularity": 0.5
+    },
+    {
+     "name": "Danny Mastrogiorgio",
+     "character": "Ram #2",
+     "popularity": 0.9
+    },
+    {
+     "name": "Estelle Harris",
+     "character": "Old Lady Bear",
+     "popularity": 1
+    },
+    {
+     "name": "Greg Proops",
+     "character": "Male Lover Bear",
+     "popularity": 0.6
+    },
+    {
+     "name": "Pauley Perrette",
+     "character": "Female Lover Bear",
+     "popularity": 1.5
+    },
+    {
+     "name": "Bumper Robinson",
+     "character": "Chipmunks",
+     "popularity": 1.4
+    },
+    {
+     "name": "Darko Cesar",
+     "character": "Foreign Croatian Bear",
+     "popularity": 0.1
+    },
+    {
+     "name": "Angayuqaq Oscar Kawagley",
+     "character": "Inuit Narrator",
+     "popularity": 0.1
+    },
+    {
+     "name": "Sherry Lynn",
+     "character": "Additional Voice",
+     "popularity": 0.4
+    },
+    {
+     "name": "Mickie McGowan",
+     "character": "Additional Voice",
+     "popularity": 1
+    },
+    {
+     "name": "Debi Derryberry",
+     "character": "Additional Voices",
+     "popularity": 1.2
+    },
+    {
+     "name": "Patrick Pinney",
+     "character": "Additional Voices",
+     "popularity": 0.6
+    },
+    {
+     "name": "Matilda Rowler",
+     "character": "Chipmunk",
+     "popularity": 0.1
+    }
+   ]
+  },
+  {
+   "tmdb_id": 399055,
+   "imdb_id": "tt5580390",
+   "title": "The Shape of Water",
+   "year": 2017,
+   "imdb": 7.3,
+   "poster": "https://image.tmdb.org/t/p/w342/9zfwPffUXpBrEP26yp0q1ckXDcj.jpg",
+   "cast": [
+    {
+     "name": "Sally Hawkins",
+     "character": "Elisa Esposito",
+     "popularity": 2.3
+    },
+    {
+     "name": "Michael Shannon",
+     "character": "Richard Strickland",
+     "popularity": 3.1
+    },
+    {
+     "name": "Richard Jenkins",
+     "character": "Giles",
+     "popularity": 1.6
+    },
+    {
+     "name": "Octavia Spencer",
+     "character": "Zelda Fuller",
+     "popularity": 3.9
+    },
+    {
+     "name": "Michael Stuhlbarg",
+     "character": "Dr. Robert Hoffstetler",
+     "popularity": 2.4
+    },
+    {
+     "name": "Doug Jones",
+     "character": "Amphibian Man",
+     "popularity": 2.2
+    },
+    {
+     "name": "David Hewlett",
+     "character": "Fleming",
+     "popularity": 1.4
+    },
+    {
+     "name": "Nick Searcy",
+     "character": "General Hoyt",
+     "popularity": 1.8
+    },
+    {
+     "name": "Stewart Arnott",
+     "character": "Bernard",
+     "popularity": 0.4
+    },
+    {
+     "name": "Nigel Bennett",
+     "character": "Mihalkov",
+     "popularity": 0.5
+    },
+    {
+     "name": "Lauren Lee Smith",
+     "character": "Elaine Strickland",
+     "popularity": 1.2
+    },
+    {
+     "name": "Martin Roach",
+     "character": "Brewster Fuller",
+     "popularity": 1.2
+    },
+    {
+     "name": "Allegra Fulton",
+     "character": "Yolanda",
+     "popularity": 0.4
+    },
+    {
+     "name": "John Kapelos",
+     "character": "Mr. Arzounian",
+     "popularity": 1.5
+    },
+    {
+     "name": "Morgan Kelly",
+     "character": "Pie Guy",
+     "popularity": 0.5
+    },
+    {
+     "name": "Marvin Kaye",
+     "character": "Burly Russian",
+     "popularity": 0.2
+    },
+    {
+     "name": "Dru Viergever",
+     "character": "Military Policeman",
+     "popularity": 0.3
+    },
+    {
+     "name": "Wendy Lyon",
+     "character": "Sally",
+     "popularity": 0.7
+    },
+    {
+     "name": "Cody Ray Thompson",
+     "character": "Guard",
+     "popularity": 0.5
+    },
+    {
+     "name": "Diego Fuentes",
+     "character": "Worker",
+     "popularity": 0.3
+    },
+    {
+     "name": "Madison Ferguson",
+     "character": "Tammy Strickland",
+     "popularity": 0.3
+    },
+    {
+     "name": "Jayden Greig",
+     "character": "Timmy Strickland",
+     "popularity": 0.2
+    },
+    {
+     "name": "Karen Glave",
+     "character": "African American Wife",
+     "popularity": 0.5
+    },
+    {
+     "name": "Danny Waugh",
+     "character": "African American Husband",
+     "popularity": 0.3
+    },
+    {
+     "name": "Dan Lett",
+     "character": "Cadillac Salesman",
+     "popularity": 0.4
+    },
+    {
+     "name": "Deney Forrest",
+     "character": "Lou",
+     "popularity": 0.2
+    },
+    {
+     "name": "Brandon McKnight",
+     "character": "Duane",
+     "popularity": 0.4
+    },
+    {
+     "name": "Clyde Whitham",
+     "character": "Wet Cinema Patron",
+     "popularity": 0.3
+    },
+    {
+     "name": "Jonelle Gunderson",
+     "character": "Bus Passenger #1",
+     "popularity": 0.2
+    },
+    {
+     "name": "Cameron Laurie",
+     "character": "Bus Passenger #2",
+     "popularity": 0.1
+    },
+    {
+     "name": "Evgeny Akimov",
+     "character": "Russian Band",
+     "popularity": 0.1
+    },
+    {
+     "name": "Sergey Nikonov",
+     "character": "Russian Band",
+     "popularity": 0.1
+    },
+    {
+     "name": "Vanessa Oude-Reimerink",
+     "character": "Russian Band",
+     "popularity": 0.1
+    },
+    {
+     "name": "Alexey Pankratov",
+     "character": "Russian Band",
+     "popularity": 0.1
+    },
+    {
+     "name": "Dave Reachill",
+     "character": "Scientist",
+     "popularity": 0.2
+    },
+    {
+     "name": "Amanda Smith",
+     "character": "Mrs. Peabody",
+     "popularity": 0.3
+    },
+    {
+     "name": "Maxine Grossman",
+     "character": "Bus Passenger",
+     "popularity": 0.1
+    },
+    {
+     "name": "Matthew MacCallum",
+     "character": "Shoe Store Owner",
+     "popularity": 0.1
+    },
+    {
+     "name": "Victoria Charters",
+     "character": "Bus Passenger",
+     "popularity": 0.2
+    }
+   ]
+  },
+  {
+   "tmdb_id": 792307,
+   "imdb_id": "tt14230458",
+   "title": "Poor Things",
+   "year": 2023,
+   "imdb": 7.7,
+   "poster": "https://image.tmdb.org/t/p/w342/kCGlIMHnOm8JPXq3rXM6c5wMxcT.jpg",
+   "cast": [
+    {
+     "name": "Emma Stone",
+     "character": "Bella Baxter",
+     "popularity": 7.5
+    },
+    {
+     "name": "Mark Ruffalo",
+     "character": "Duncan Wedderburn",
+     "popularity": 5.6
+    },
+    {
+     "name": "Willem Dafoe",
+     "character": "Godwin Baxter",
+     "popularity": 6.3
+    },
+    {
+     "name": "Ramy Youssef",
+     "character": "Max McCandles",
+     "popularity": 1
+    },
+    {
+     "name": "Christopher Abbott",
+     "character": "Alfie Blessington",
+     "popularity": 3.1
+    },
+    {
+     "name": "Suzy Bemba",
+     "character": "Toinette",
+     "popularity": 0.6
+    },
+    {
+     "name": "Jerrod Carmichael",
+     "character": "Harry Astley",
+     "popularity": 0.5
+    },
+    {
+     "name": "Kathryn Hunter",
+     "character": "Swiney",
+     "popularity": 1.6
+    },
+    {
+     "name": "Vicki Pepperdine",
+     "character": "Mrs. Prim",
+     "popularity": 0.6
+    },
+    {
+     "name": "Hanna Schygulla",
+     "character": "Martha Von Kurtzroc",
+     "popularity": 0.8
+    },
+    {
+     "name": "Margaret Qualley",
+     "character": "Felicity",
+     "popularity": 7
+    },
+    {
+     "name": "Jack Barton",
+     "character": "Fop 1",
+     "popularity": 0.6
+    },
+    {
+     "name": "Charlie Hiscock",
+     "character": "Fop 2",
+     "popularity": 0.4
+    },
+    {
+     "name": "Attila Dobai",
+     "character": "Hapless Student",
+     "popularity": 0.3
+    },
+    {
+     "name": "Emma Hindle",
+     "character": "Woman with Kid in London Street",
+     "popularity": 0.2
+    },
+    {
+     "name": "Anders Grundberg",
+     "character": "Kid in London Street",
+     "popularity": 0.5
+    },
+    {
+     "name": "Attila Kecskeméthy",
+     "character": "Burly Guy",
+     "popularity": 0
+    },
+    {
+     "name": "Jucimar Barbosa",
+     "character": "Lisbon Doorman",
+     "popularity": 0.1
+    },
+    {
+     "name": "Carminho",
+     "character": "Fado Singing Woman",
+     "popularity": 0.2
+    },
+    {
+     "name": "Angela Paula Stander",
+     "character": "Arguing Woman",
+     "popularity": 0.2
+    },
+    {
+     "name": "Gustavo Gomes",
+     "character": "Arguing Man",
+     "popularity": 0.1
+    },
+    {
+     "name": "Kate Handford",
+     "character": "Kitty",
+     "popularity": 0.4
+    },
+    {
+     "name": "Owen Good",
+     "character": "Gerald",
+     "popularity": 0.2
+    },
+    {
+     "name": "Zen Joshua Poisson",
+     "character": "Lisbon Crying Baby",
+     "popularity": 0
+    },
+    {
+     "name": "Vivienne Soan",
+     "character": "Duchess",
+     "popularity": 0.3
+    },
+    {
+     "name": "Jerskin Fendrix",
+     "character": "Lisbon Restaurant Musician",
+     "popularity": 0.2
+    },
+    {
+     "name": "István Göz",
+     "character": "Winking Man",
+     "popularity": 0.2
+    },
+    {
+     "name": "Bruna Asdorian",
+     "character": "Lisbon Dancing Woman",
+     "popularity": 0.1
+    },
+    {
+     "name": "Tamás Szabó Sipos",
+     "character": "Lisbon Dancing Man",
+     "popularity": 0.2
+    },
+    {
+     "name": "Tom Stourton",
+     "character": "Steward",
+     "popularity": 0.4
+    },
+    {
+     "name": "Mascuud Dahir",
+     "character": "Gangplank Steward 1",
+     "popularity": 0.1
+    },
+    {
+     "name": "Miles Jovian",
+     "character": "Gangplank Steward 2",
+     "popularity": 0.1
+    },
+    {
+     "name": "Jeremy Wheeler",
+     "character": "Ship Officer",
+     "popularity": 0.5
+    },
+    {
+     "name": "János Geréb",
+     "character": "Dog Owner",
+     "popularity": 0
+    },
+    {
+     "name": "Patrick de Valette",
+     "character": "Chapelle",
+     "popularity": 0.5
+    },
+    {
+     "name": "Raphaël Thiéry",
+     "character": "Saveur the Butcher",
+     "popularity": 0.8
+    },
+    {
+     "name": "Boris Gillot",
+     "character": "Mersault",
+     "popularity": 0.3
+    },
+    {
+     "name": "Dorina Kovács",
+     "character": "Swiney's Grandchild",
+     "popularity": 0
+    },
+    {
+     "name": "Yorgos Stefanakos",
+     "character": "Georges",
+     "popularity": 0.5
+    },
+    {
+     "name": "Hubert Benhamdine",
+     "character": "Handsome Priest",
+     "popularity": 0.2
+    },
+    {
+     "name": "Laurent Borel",
+     "character": "Crab Man",
+     "popularity": 0.6
+    },
+    {
+     "name": "Gábor Patay",
+     "character": "Hooks for Hands Guy",
+     "popularity": 0.1
+    },
+    {
+     "name": "Laurent Winkler",
+     "character": "Paris Medical School Surgeon",
+     "popularity": 0.4
+    },
+    {
+     "name": "Andrew Hefler",
+     "character": "Leg Humping Guy",
+     "popularity": 0.2
+    },
+    {
+     "name": "Damien Bonnard",
+     "character": "Father",
+     "popularity": 0.6
+    },
+    {
+     "name": "Noah Breton",
+     "character": "Son 1",
+     "popularity": 0
+    },
+    {
+     "name": "Donovan Fouassier",
+     "character": "Son 2",
+     "popularity": 0.2
+    },
+    {
+     "name": "Wayne Brett",
+     "character": "Priest",
+     "popularity": 0.3
+    },
+    {
+     "name": "John Locke",
+     "character": "David, Alfie's Butler",
+     "popularity": 0.3
+    },
+    {
+     "name": "Keeley Forsyth",
+     "character": "Allison, Alfie's Maid",
+     "popularity": 0.5
+    },
+    {
+     "name": "David Bromley",
+     "character": "Alfie's Doctor",
+     "popularity": 0.4
+    },
+    {
+     "name": "Celina Schleicher",
+     "character": "Swiney Woman #1",
+     "popularity": 0.1
+    },
+    {
+     "name": "Roderick Hill",
+     "character": "Man in Park",
+     "popularity": 0.3
+    }
+   ]
+  }
+ ]
+}

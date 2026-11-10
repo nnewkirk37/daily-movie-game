@@ -1,0 +1,610 @@
+{
+ "date": "2026-11-13",
+ "movies": [
+  {
+   "tmdb_id": 881,
+   "imdb_id": "tt0104257",
+   "title": "A Few Good Men",
+   "year": 1992,
+   "imdb": 7.8,
+   "poster": "https://image.tmdb.org/t/p/w342/rLOk4z9zL1tTukIYV56P94aZXKk.jpg",
+   "cast": [
+    {
+     "name": "Tom Cruise",
+     "character": "Lt. Daniel Kaffee",
+     "popularity": 10.9
+    },
+    {
+     "name": "Jack Nicholson",
+     "character": "Col. Nathan R. Jessep",
+     "popularity": 3.5
+    },
+    {
+     "name": "Demi Moore",
+     "character": "Lt. Cdr. JoAnne Galloway",
+     "popularity": 4.9
+    },
+    {
+     "name": "Kevin Bacon",
+     "character": "Capt. Jack Ross",
+     "popularity": 5.1
+    },
+    {
+     "name": "Kevin Pollak",
+     "character": "Lt. Sam Weinberg",
+     "popularity": 2.8
+    },
+    {
+     "name": "James Marshall",
+     "character": "Pfc. Louden Downey",
+     "popularity": 1.7
+    },
+    {
+     "name": "J.T. Walsh",
+     "character": "Lt. Col. Matthew Markinson",
+     "popularity": 1.2
+    },
+    {
+     "name": "Kiefer Sutherland",
+     "character": "Lt. Jonathan Kendrick",
+     "popularity": 2.8
+    },
+    {
+     "name": "Christopher Guest",
+     "character": "Dr. Stone",
+     "popularity": 1.2
+    },
+    {
+     "name": "J.A. Preston",
+     "character": "Judge Randolph",
+     "popularity": 0.6
+    },
+    {
+     "name": "Matt Craven",
+     "character": "Lt. Dave Spradling",
+     "popularity": 2.2
+    },
+    {
+     "name": "Wolfgang Bodison",
+     "character": "Lance Cpl. Harold W. Dawson",
+     "popularity": 0.7
+    },
+    {
+     "name": "Xander Berkeley",
+     "character": "Capt. Whitaker",
+     "popularity": 2.8
+    },
+    {
+     "name": "John M. Jackson",
+     "character": "Capt. West",
+     "popularity": 1
+    },
+    {
+     "name": "Noah Wyle",
+     "character": "Cpl. Jeffrey Barnes",
+     "popularity": 3.5
+    },
+    {
+     "name": "Cuba Gooding Jr.",
+     "character": "Cpl. Carl Hammaker",
+     "popularity": 2.2
+    },
+    {
+     "name": "Lawrence Lowe",
+     "character": "Bailiff",
+     "popularity": 0.4
+    },
+    {
+     "name": "Joshua Malina",
+     "character": "Orderly",
+     "popularity": 1.7
+    },
+    {
+     "name": "Oscar Jordan",
+     "character": "Steward",
+     "popularity": 0.3
+    },
+    {
+     "name": "John M. Mathews",
+     "character": "Guard #1",
+     "popularity": 0.1
+    },
+    {
+     "name": "Aaron Sorkin",
+     "character": "Man in Bar",
+     "popularity": 1.7
+    },
+    {
+     "name": "Alex Wexo",
+     "character": "Guard #2",
+     "popularity": 0.4
+    },
+    {
+     "name": "Frank Cavestani",
+     "character": "Agent #1",
+     "popularity": 0.2
+    },
+    {
+     "name": "Jan Munroe",
+     "character": "Jury Foreman",
+     "popularity": 0.3
+    },
+    {
+     "name": "Ron Ostrow",
+     "character": "M.P.",
+     "popularity": 0.4
+    },
+    {
+     "name": "Matthew Saks",
+     "character": "David",
+     "popularity": 0.3
+    },
+    {
+     "name": "Harry Caesar",
+     "character": "Luther",
+     "popularity": 0.5
+    },
+    {
+     "name": "Michael DeLorenzo",
+     "character": "Pfc. William T. Santiago",
+     "popularity": 0.8
+    },
+    {
+     "name": "Geoffrey Nauffts",
+     "character": "Lt. Sherby",
+     "popularity": 0.3
+    },
+    {
+     "name": "Arthur Senzy",
+     "character": "Robert C. McGuire",
+     "popularity": 0.2
+    },
+    {
+     "name": "Cameron Thor",
+     "character": "Cdr. Lawrence",
+     "popularity": 0.3
+    },
+    {
+     "name": "David Bowe",
+     "character": "Cdr. Gibbs",
+     "popularity": 1.1
+    },
+    {
+     "name": "Gene Whittington",
+     "character": "Mr. Dawson",
+     "popularity": 0.2
+    },
+    {
+     "name": "Maud Winchester",
+     "character": "Aunt Ginny",
+     "popularity": 1
+    },
+    {
+     "name": "Jack Serino",
+     "character": "Navy Officer",
+     "popularity": 0.2
+    }
+   ]
+  },
+  {
+   "tmdb_id": 500664,
+   "imdb_id": "tt6499752",
+   "title": "Upgrade",
+   "year": 2018,
+   "imdb": 7.5,
+   "poster": "https://image.tmdb.org/t/p/w342/woLGROUdPWdBnLVFKYdGD3kFkPY.jpg",
+   "cast": [
+    {
+     "name": "Logan Marshall-Green",
+     "character": "Grey Trace",
+     "popularity": 3.2
+    },
+    {
+     "name": "Betty Gabriel",
+     "character": "Detective Cortez",
+     "popularity": 1.5
+    },
+    {
+     "name": "Harrison Gilbertson",
+     "character": "Eron Keen",
+     "popularity": 0.8
+    },
+    {
+     "name": "Melanie Vallejo",
+     "character": "Asha Trace",
+     "popularity": 0.6
+    },
+    {
+     "name": "Benedict Hardie",
+     "character": "Fisk",
+     "popularity": 1.2
+    },
+    {
+     "name": "Linda Cropper",
+     "character": "Pamela",
+     "popularity": 0.7
+    },
+    {
+     "name": "Simon Maiden",
+     "character": "Stem",
+     "popularity": 0.4
+    },
+    {
+     "name": "Steve Danielsen",
+     "character": "Jeff Handley",
+     "popularity": 0.3
+    },
+    {
+     "name": "Richard Cawthorne",
+     "character": "Serk",
+     "popularity": 0.6
+    },
+    {
+     "name": "Christopher Kirby",
+     "character": "Tolan",
+     "popularity": 0.4
+    },
+    {
+     "name": "Abby Craden",
+     "character": "Kara",
+     "popularity": 0.2
+    },
+    {
+     "name": "Richard Anastasios",
+     "character": "Wen",
+     "popularity": 0.2
+    },
+    {
+     "name": "Kenny Low",
+     "character": "Police Driver",
+     "popularity": 0.3
+    },
+    {
+     "name": "Emily Havea",
+     "character": "Nurse Henderson",
+     "popularity": 0.3
+    },
+    {
+     "name": "Ming-Zhu Hii",
+     "character": "Dr. Diana Gordon",
+     "popularity": 0.6
+    },
+    {
+     "name": "Stephanie Demkiw",
+     "character": "Technician",
+     "popularity": 0
+    },
+    {
+     "name": "Manjot Jassal",
+     "character": "Technician",
+     "popularity": 0.1
+    },
+    {
+     "name": "Esther Joseph",
+     "character": "Technician",
+     "popularity": 0.2
+    },
+    {
+     "name": "Sachin Joab",
+     "character": "Dr. Bhatia",
+     "popularity": 0.3
+    },
+    {
+     "name": "Matt Davis",
+     "character": "Homeless Man",
+     "popularity": 0.1
+    },
+    {
+     "name": "Clayton Jacobson",
+     "character": "Manny",
+     "popularity": 0.1
+    },
+    {
+     "name": "Arthur Angel",
+     "character": "Old Bones Patron",
+     "popularity": 0.5
+    },
+    {
+     "name": "Puven Pather",
+     "character": "Old Bones Heavy",
+     "popularity": 0.2
+    },
+    {
+     "name": "Ri-Jie Kwok",
+     "character": "Old Bones Heavy",
+     "popularity": 0.1
+    },
+    {
+     "name": "Dave Mondon",
+     "character": "Old Bones Heavy",
+     "popularity": 0
+    },
+    {
+     "name": "Rosco Campbell",
+     "character": "VR Guy",
+     "popularity": 0.1
+    },
+    {
+     "name": "Kai Bradley",
+     "character": "Jamie",
+     "popularity": 0.2
+    },
+    {
+     "name": "Michael M. Foster",
+     "character": "Vessel Guard",
+     "popularity": 0.4
+    },
+    {
+     "name": "Zia Kelly",
+     "character": "Vessel Guard",
+     "popularity": 0.3
+    },
+    {
+     "name": "Mark Doggett",
+     "character": "Business Man",
+     "popularity": 0.1
+    },
+    {
+     "name": "James Ao",
+     "character": "Militarised Police Officer",
+     "popularity": 0.2
+    },
+    {
+     "name": "Kylie Azzopardi",
+     "character": "Old Bones Patron",
+     "popularity": 0.1
+    },
+    {
+     "name": "Thomas Banda",
+     "character": "Militarised Police Officer",
+     "popularity": 0.1
+    },
+    {
+     "name": "Douglas Embry",
+     "character": "Detective",
+     "popularity": 0.1
+    },
+    {
+     "name": "Cat Franke",
+     "character": "Passerby",
+     "popularity": 0
+    },
+    {
+     "name": "Savannah Gail",
+     "character": "Refugee",
+     "popularity": 0
+    },
+    {
+     "name": "Liam Howarth",
+     "character": "Homeless Drifter",
+     "popularity": 0.1
+    },
+    {
+     "name": "David Lieu",
+     "character": "Passerby",
+     "popularity": 0
+    },
+    {
+     "name": "Yuki Nagashima",
+     "character": "Militarised Police Officer",
+     "popularity": 0.4
+    },
+    {
+     "name": "Lorie Raymundo",
+     "character": "Passerby",
+     "popularity": 0.1
+    },
+    {
+     "name": "Yasemin Islek",
+     "character": "Passerby",
+     "popularity": 0
+    }
+   ]
+  },
+  {
+   "tmdb_id": 299687,
+   "imdb_id": "tt2304933",
+   "title": "The 5th Wave",
+   "year": 2016,
+   "imdb": 5.2,
+   "poster": "https://image.tmdb.org/t/p/w342/4Dd79cz5qxKNoKWg1xsfrpOchEr.jpg",
+   "cast": [
+    {
+     "name": "Chloë Grace Moretz",
+     "character": "Cassie Sullivan",
+     "popularity": 5.8
+    },
+    {
+     "name": "Nick Robinson",
+     "character": "Ben Parish / Zombie",
+     "popularity": 3.8
+    },
+    {
+     "name": "Alex Roe",
+     "character": "Evan Walker",
+     "popularity": 1.2
+    },
+    {
+     "name": "Zackary Arthur",
+     "character": "Sam Sullivan",
+     "popularity": 1.1
+    },
+    {
+     "name": "Ron Livingston",
+     "character": "Oliver Sullivan",
+     "popularity": 2
+    },
+    {
+     "name": "Maggie Siff",
+     "character": "Lisa Sullivan",
+     "popularity": 1.8
+    },
+    {
+     "name": "Maria Bello",
+     "character": "Sergeant Reznik",
+     "popularity": 4.2
+    },
+    {
+     "name": "Liev Schreiber",
+     "character": "Colonel Vosch",
+     "popularity": 3.9
+    },
+    {
+     "name": "Maika Monroe",
+     "character": "Ringer",
+     "popularity": 3.3
+    },
+    {
+     "name": "Tony Revolori",
+     "character": "Dumbo",
+     "popularity": 1.2
+    },
+    {
+     "name": "Talitha Eliana Bateman",
+     "character": "Teacup",
+     "popularity": 0.7
+    },
+    {
+     "name": "Nadji Jeter",
+     "character": "Poundcake",
+     "popularity": 0.7
+    },
+    {
+     "name": "Alex MacNicoll",
+     "character": "Flintstone",
+     "popularity": 0.7
+    },
+    {
+     "name": "Matthew Zuk",
+     "character": "Wounded Man with Crucifix",
+     "popularity": 0.5
+    },
+    {
+     "name": "Gabriela Lopez",
+     "character": "Lizbeth Morgan",
+     "popularity": 0.3
+    },
+    {
+     "name": "Bailey Anne Borders",
+     "character": "Julia",
+     "popularity": 0.4
+    },
+    {
+     "name": "Dave Maldonado",
+     "character": "Soccer Coach",
+     "popularity": 0.8
+    },
+    {
+     "name": "Paul Ryden",
+     "character": "TV News Anchor",
+     "popularity": 0.2
+    },
+    {
+     "name": "E. Roger Mitchell",
+     "character": "White House Spokesman",
+     "popularity": 1
+    },
+    {
+     "name": "Charmin Lee",
+     "character": "Ms. Paulson",
+     "popularity": 0.9
+    },
+    {
+     "name": "Parker Wierling",
+     "character": "Jeremy",
+     "popularity": 0.2
+    },
+    {
+     "name": "Madison Staines",
+     "character": "Teary School Kid",
+     "popularity": 0.1
+    },
+    {
+     "name": "Terry Serpico",
+     "character": "Hutchfield",
+     "popularity": 1.7
+    },
+    {
+     "name": "Derek Roberts",
+     "character": "Private Parker",
+     "popularity": 0.5
+    },
+    {
+     "name": "Geoffrey Kennedy",
+     "character": "Bullhorn Soldier",
+     "popularity": 0.2
+    },
+    {
+     "name": "Devin McGee",
+     "character": "Confused Man",
+     "popularity": 0.4
+    },
+    {
+     "name": "Justin Smith",
+     "character": "Armed Man",
+     "popularity": 0
+    },
+    {
+     "name": "Jim Sutton",
+     "character": "Soldier Calling Numbers",
+     "popularity": 0.1
+    },
+    {
+     "name": "Adora Dei",
+     "character": "Exam Room Tech",
+     "popularity": 0.2
+    },
+    {
+     "name": "Kevin L. Johnson",
+     "character": "Sniper in Woods",
+     "popularity": 0.6
+    },
+    {
+     "name": "Cade Canon Ball",
+     "character": "Oompa",
+     "popularity": 0.3
+    },
+    {
+     "name": "Flynn McHugh",
+     "character": "Tank",
+     "popularity": 0.1
+    },
+    {
+     "name": "Courtney Munch",
+     "character": "Helicopter Soldier",
+     "popularity": 0.3
+    },
+    {
+     "name": "Kendrick Cross",
+     "character": "Situation Room Soldier",
+     "popularity": 0.5
+    },
+    {
+     "name": "Chelsea Hayes",
+     "character": "Tech Soldier",
+     "popularity": 0.1
+    },
+    {
+     "name": "Michael Beasley",
+     "character": "Major Bob",
+     "popularity": 0.3
+    },
+    {
+     "name": "Olivia Cloer",
+     "character": "Captured Teen",
+     "popularity": 0.1
+    },
+    {
+     "name": "Kelly Róisín",
+     "character": "Quarantine Victim",
+     "popularity": 0.4
+    },
+    {
+     "name": "Johnny Otto",
+     "character": "Dr. Osborne",
+     "popularity": 0.3
+    }
+   ]
+  }
+ ]
+}

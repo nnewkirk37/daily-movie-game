@@ -1,0 +1,850 @@
+{
+ "date": "2026-11-14",
+ "movies": [
+  {
+   "tmdb_id": 83542,
+   "imdb_id": "tt1371111",
+   "title": "Cloud Atlas",
+   "year": 2012,
+   "imdb": 7.3,
+   "poster": "https://image.tmdb.org/t/p/w342/8naVv2Xu3rWI5JKHz0vCujx6GaJ.jpg",
+   "cast": [
+    {
+     "name": "Tom Hanks",
+     "character": "Dr. Henry Goose / Hotel Manager / Isaac Sachs / Dermot Hoggins / Cavendish Look-a-Like Actor / Zachry",
+     "popularity": 12.6
+    },
+    {
+     "name": "Halle Berry",
+     "character": "Native Woman / Jocasta Ayrs / Luisa Rey / Indian Party Guest / Ovid / Meronym",
+     "popularity": 4.4
+    },
+    {
+     "name": "Jim Broadbent",
+     "character": "Captain Molyneux / Vyvyan Ayrs / Timothy Cavendish / Korean Musician / Prescient 2",
+     "popularity": 2.5
+    },
+    {
+     "name": "Hugo Weaving",
+     "character": "Haskell Moore / Tadeusz Kesselring / Bill Smoke / Nurse Noakes / Boardman Mephi / Old Georgie",
+     "popularity": 4.6
+    },
+    {
+     "name": "Jim Sturgess",
+     "character": "Adam Ewing / Poor Hotel Guest / Megan's Dad / Highlander / Hae-Joo Chang / Adam / Zachry Brother-in-Law",
+     "popularity": 1.5
+    },
+    {
+     "name": "Bae Doona",
+     "character": "Tilda / Megan's Mom / Mexican Woman / Sonmi-451 / Sonmi-351 / Sonmi Prostitute",
+     "popularity": 1.8
+    },
+    {
+     "name": "Ben Whishaw",
+     "character": "Cabin Boy / Robert Frobisher / Store Clerk / Georgette / Tribesman",
+     "popularity": 4.7
+    },
+    {
+     "name": "James D'Arcy",
+     "character": "Young Rufus Sixsmith / Old Rufus Sixsmith / Nurse James / Archivist",
+     "popularity": 3.1
+    },
+    {
+     "name": "Zhou Xun",
+     "character": "Talbot / Hotel Manager / Yoona-939 / Rose",
+     "popularity": 1.8
+    },
+    {
+     "name": "Keith David",
+     "character": "Kupaka / Joe Napier / An-kor Apis / Prescient",
+     "popularity": 2.8
+    },
+    {
+     "name": "Susan Sarandon",
+     "character": "Madame Horrox / Older Ursula / Yusouf Suleiman / Abbess",
+     "popularity": 2.7
+    },
+    {
+     "name": "Hugh Grant",
+     "character": "Rev. Giles Horrox / Hotel Heavy / Lloyd Hooks / Denholme Cavendish / Seer Rhee / Kona Chief",
+     "popularity": 3.6
+    },
+    {
+     "name": "David Gyasi",
+     "character": "Autua / Lester Rey / Duophsyte",
+     "popularity": 2.6
+    },
+    {
+     "name": "Robert Fyfe",
+     "character": "Old Salty Dog / Mr. Meeks / Prescient 1",
+     "popularity": 0.6
+    },
+    {
+     "name": "Martin Wuttke",
+     "character": "Mr. Boerhaave / Guard / Leary the Healer",
+     "popularity": 1.2
+    },
+    {
+     "name": "Robin Morrissey",
+     "character": "Young Cavendish",
+     "popularity": 0.3
+    },
+    {
+     "name": "Brody Nicholas Lee",
+     "character": "Javier Gomez / Jonas / Zachry's Older Nephew",
+     "popularity": 0.1
+    },
+    {
+     "name": "Ian van Temperley",
+     "character": "Enforcer",
+     "popularity": 0.1
+    },
+    {
+     "name": "Amanda Walker",
+     "character": "Veronica",
+     "popularity": 0.6
+    },
+    {
+     "name": "Ralph Riach",
+     "character": "Ernie",
+     "popularity": 0.4
+    },
+    {
+     "name": "Andrew Havill",
+     "character": "Mr. Hotchkiss",
+     "popularity": 0.6
+    },
+    {
+     "name": "Tanja de Wendt",
+     "character": "Mrs. Hotchkiss",
+     "popularity": 0.3
+    },
+    {
+     "name": "Raevan Lee Hanan",
+     "character": "Little Girl with Orison at Papa Song's / Catkin / Zachry Relative",
+     "popularity": 0.2
+    },
+    {
+     "name": "Götz Otto",
+     "character": "Groundsman Withers",
+     "popularity": 0.5
+    },
+    {
+     "name": "Niall Greig Fulton",
+     "character": "Haskell Moore's Dinner Guest / Mozza Hoggins",
+     "popularity": 0.8
+    },
+    {
+     "name": "Louis Dempsey",
+     "character": "Haskell Moore's Dinner Guest / Jarvis Hoggins",
+     "popularity": 0.4
+    },
+    {
+     "name": "Martin Docherty",
+     "character": "Haskell Moore's Dinner Guest / Eddie Hoggins",
+     "popularity": 0.2
+    },
+    {
+     "name": "Alistair Petrie",
+     "character": "Haskell Moore's Dinner Guest / Musician / Felix Finch / Lascivious Businessman",
+     "popularity": 1.2
+    },
+    {
+     "name": "Zhu Zhu",
+     "character": "Megan Sixsmith / 12th Star Clone",
+     "popularity": 3
+    },
+    {
+     "name": "Sylvestra Le Touzel",
+     "character": "Haskell Moore's Dinner Guest / Nurse Judd / Aide in Slaughtership",
+     "popularity": 0.9
+    },
+    {
+     "name": "Jojo Schöning",
+     "character": "Papa Song Punk",
+     "popularity": 0
+    },
+    {
+     "name": "Laura Vietzen",
+     "character": "Young Ursula",
+     "popularity": 0.3
+    },
+    {
+     "name": "Thomas Kügel",
+     "character": "Vater",
+     "popularity": 0.3
+    },
+    {
+     "name": "Marie Rönnebeck",
+     "character": "Ursula's Daughter",
+     "popularity": 0.4
+    },
+    {
+     "name": "Ruby Kastner",
+     "character": "Young Girl",
+     "popularity": 0
+    },
+    {
+     "name": "Emma Werz",
+     "character": "Ursula's Granddaughter",
+     "popularity": 0
+    },
+    {
+     "name": "Mya-Lecia Naylor",
+     "character": "Miro",
+     "popularity": 0.2
+    },
+    {
+     "name": "Korbyn Hawk Hanan",
+     "character": "Adam Grandson",
+     "popularity": 0.1
+    },
+    {
+     "name": "Katy Karrenbauer",
+     "character": "Axwoman",
+     "popularity": 0.5
+    },
+    {
+     "name": "Dulcie Smart",
+     "character": "Ursula's Mother / Herbalist",
+     "popularity": 0.3
+    },
+    {
+     "name": "Anna Holmes",
+     "character": "Scientist / Executive",
+     "popularity": 0.4
+    },
+    {
+     "name": "Shaun Lawton",
+     "character": "Secretary",
+     "popularity": 0.3
+    },
+    {
+     "name": "Moritz Berg",
+     "character": "Porter",
+     "popularity": 0.2
+    },
+    {
+     "name": "Gigi Lee",
+     "character": "Zachry Relative",
+     "popularity": 0.1
+    },
+    {
+     "name": "Genevien Lee",
+     "character": "Zachry Relative",
+     "popularity": 0
+    },
+    {
+     "name": "Cody Benjamin Lee",
+     "character": "Zachry Relative",
+     "popularity": 0.2
+    },
+    {
+     "name": "Heike Hanold-Lynch",
+     "character": "Ms. Judd Look-a-like",
+     "popularity": 0.4
+    },
+    {
+     "name": "Victor Solé",
+     "character": "Mr. Roderick",
+     "popularity": 0.4
+    },
+    {
+     "name": "Kristoffer Fuss",
+     "character": "Lead Enforcer",
+     "popularity": 0.1
+    },
+    {
+     "name": "Marco Albrecht",
+     "character": "Scan Enforcer",
+     "popularity": 0.1
+    },
+    {
+     "name": "Gary McCormack",
+     "character": "Crane Operator",
+     "popularity": 0.4
+    },
+    {
+     "name": "David Mitchell",
+     "character": "Union Spy",
+     "popularity": 0.5
+    },
+    {
+     "name": "Jon Donahue",
+     "character": "Moore's Accountant / Finch's Friend",
+     "popularity": 0.3
+    }
+   ]
+  },
+  {
+   "tmdb_id": 558449,
+   "imdb_id": "tt9218128",
+   "title": "Gladiator II",
+   "year": 2024,
+   "imdb": 6.4,
+   "poster": "https://image.tmdb.org/t/p/w342/2cxhvwyEwRlysAmRH4iodkvo0z5.jpg",
+   "cast": [
+    {
+     "name": "Paul Mescal",
+     "character": "Lucius",
+     "popularity": 2.1
+    },
+    {
+     "name": "Denzel Washington",
+     "character": "Macrinus",
+     "popularity": 7.8
+    },
+    {
+     "name": "Pedro Pascal",
+     "character": "General Acacius",
+     "popularity": 9.1
+    },
+    {
+     "name": "Connie Nielsen",
+     "character": "Lucilla",
+     "popularity": 4.1
+    },
+    {
+     "name": "Joseph Quinn",
+     "character": "Emperor Geta",
+     "popularity": 3.7
+    },
+    {
+     "name": "Fred Hechinger",
+     "character": "Emperor Caracalla",
+     "popularity": 2
+    },
+    {
+     "name": "Lior Raz",
+     "character": "Viggo",
+     "popularity": 2.9
+    },
+    {
+     "name": "Derek Jacobi",
+     "character": "Gracchus",
+     "popularity": 1.3
+    },
+    {
+     "name": "Peter Mensah",
+     "character": "Jugurtha",
+     "popularity": 1.5
+    },
+    {
+     "name": "Matt Lucas",
+     "character": "Master of Ceremonies",
+     "popularity": 2
+    },
+    {
+     "name": "Alexander Karim",
+     "character": "Ravi",
+     "popularity": 0.8
+    },
+    {
+     "name": "Yuval Gonen",
+     "character": "Arishat",
+     "popularity": 0.6
+    },
+    {
+     "name": "Richard McCabe",
+     "character": "Quaestor",
+     "popularity": 0.7
+    },
+    {
+     "name": "Tim McInnerny",
+     "character": "Senator Thraex",
+     "popularity": 1.9
+    },
+    {
+     "name": "Alec Utgoff",
+     "character": "Darius",
+     "popularity": 1.2
+    },
+    {
+     "name": "Rory McCann",
+     "character": "General Tegula",
+     "popularity": 1.3
+    },
+    {
+     "name": "Yann Gaël",
+     "character": "Bostar",
+     "popularity": 0.4
+    },
+    {
+     "name": "Riana Duce",
+     "character": "Hyacinthia",
+     "popularity": 0.4
+    },
+    {
+     "name": "Alfie Tempest",
+     "character": "Young Lucius",
+     "popularity": 0.3
+    },
+    {
+     "name": "Amira Ghazalla",
+     "character": "Leta | Lucilla's Servant",
+     "popularity": 0.3
+    },
+    {
+     "name": "Abdelmoula Ait Sidi Lhassan",
+     "character": "Boy",
+     "popularity": 0
+    },
+    {
+     "name": "Mouaiz El Outmany",
+     "character": "Boy",
+     "popularity": 0.1
+    },
+    {
+     "name": "Brahim Assagour",
+     "character": "Boy",
+     "popularity": 0.1
+    },
+    {
+     "name": "Alexander Simkin",
+     "character": "Centurion",
+     "popularity": 0.2
+    },
+    {
+     "name": "Richard Katz",
+     "character": "Governor",
+     "popularity": 0.3
+    },
+    {
+     "name": "David Ganly",
+     "character": "Master of Ceremonies",
+     "popularity": 0.5
+    },
+    {
+     "name": "Anton Saliba",
+     "character": "Praetorian",
+     "popularity": 0
+    },
+    {
+     "name": "Amal Ayouch",
+     "character": "Noble Bedouin Woman",
+     "popularity": 0.3
+    },
+    {
+     "name": "Hadrian Howard",
+     "character": "Agedilios",
+     "popularity": 0.2
+    },
+    {
+     "name": "Chidi Ajufo",
+     "character": "Gladiator",
+     "popularity": 0.5
+    },
+    {
+     "name": "Lee Charles",
+     "character": "Slovak",
+     "popularity": 0.3
+    },
+    {
+     "name": "Chris Hallaways",
+     "character": "Glyceo",
+     "popularity": 0.3
+    },
+    {
+     "name": "Chi Lewis-Parry",
+     "character": "Phoebus",
+     "popularity": 1
+    },
+    {
+     "name": "Ángel Gómez de la Torre",
+     "character": "Gnaeus",
+     "popularity": 0.2
+    },
+    {
+     "name": "Brahim Ait Ben Azzouz",
+     "character": "Centurion",
+     "popularity": 0.2
+    },
+    {
+     "name": "Maxime Rauf Ruijselaar",
+     "character": "Centurion",
+     "popularity": 0.1
+    },
+    {
+     "name": "Sana El Baghdady",
+     "character": "Wailing Woman",
+     "popularity": 0.1
+    },
+    {
+     "name": "Nadia El Masnaoui",
+     "character": "Wailing Woman",
+     "popularity": 0.1
+    },
+    {
+     "name": "Nisrine Machat",
+     "character": "Wailing Woman",
+     "popularity": 0
+    },
+    {
+     "name": "Maud Oulhen",
+     "character": "Female Concubine",
+     "popularity": 0
+    },
+    {
+     "name": "Estelle Courret",
+     "character": "Female Concubine",
+     "popularity": 0.1
+    },
+    {
+     "name": "Line Ancel",
+     "character": "Female Concubine",
+     "popularity": 0.1
+    },
+    {
+     "name": "Sixtine Gignoux",
+     "character": "Female Concubine",
+     "popularity": 0.1
+    },
+    {
+     "name": "Igor Badnjar",
+     "character": "Male Concubine",
+     "popularity": 0.1
+    },
+    {
+     "name": "Romi Debart",
+     "character": "Male Concubine",
+     "popularity": 0.1
+    },
+    {
+     "name": "Arnaud Préchac",
+     "character": "Male Concubine",
+     "popularity": 0.2
+    },
+    {
+     "name": "Tom Moutchi",
+     "character": "Brennos",
+     "popularity": 0.2
+    },
+    {
+     "name": "Dean Fagan",
+     "character": "Dorso",
+     "popularity": 0.1
+    },
+    {
+     "name": "May Calamawy",
+     "character": "Macrinus' Companion",
+     "popularity": 1.1
+    },
+    {
+     "name": "Peter Winfield",
+     "character": "Roman Senator / General Acasius",
+     "popularity": 0.2
+    }
+   ]
+  },
+  {
+   "tmdb_id": 337167,
+   "imdb_id": "tt4477536",
+   "title": "Fifty Shades Freed",
+   "year": 2018,
+   "imdb": 4.6,
+   "poster": "https://image.tmdb.org/t/p/w342/jjPJ4s3DWZZvI4vw8Xfi4Vqa1Q8.jpg",
+   "cast": [
+    {
+     "name": "Dakota Johnson",
+     "character": "Anastasia Steele",
+     "popularity": 6.5
+    },
+    {
+     "name": "Jamie Dornan",
+     "character": "Christian Grey",
+     "popularity": 1.9
+    },
+    {
+     "name": "Eric Johnson",
+     "character": "Jack Hyde",
+     "popularity": 1.5
+    },
+    {
+     "name": "Eloise Mumford",
+     "character": "Kate Kavanagh",
+     "popularity": 1.5
+    },
+    {
+     "name": "Rita Ora",
+     "character": "Mia Grey",
+     "popularity": 1.8
+    },
+    {
+     "name": "Luke Grimes",
+     "character": "Elliot Grey",
+     "popularity": 2.9
+    },
+    {
+     "name": "Victor Rasuk",
+     "character": "José",
+     "popularity": 0.9
+    },
+    {
+     "name": "Max Martini",
+     "character": "Taylor",
+     "popularity": 2.5
+    },
+    {
+     "name": "Jennifer Ehle",
+     "character": "Carla",
+     "popularity": 3.7
+    },
+    {
+     "name": "Kim Basinger",
+     "character": "Elena Lincoln",
+     "popularity": 3
+    },
+    {
+     "name": "Marcia Gay Harden",
+     "character": "Grace Grey",
+     "popularity": 2.1
+    },
+    {
+     "name": "Bruce Altman",
+     "character": "Jerry Roach",
+     "popularity": 0.9
+    },
+    {
+     "name": "Arielle Kebbel",
+     "character": "Gia Matteo",
+     "popularity": 4
+    },
+    {
+     "name": "Callum Keith Rennie",
+     "character": "Ray",
+     "popularity": 1.5
+    },
+    {
+     "name": "Robinne Lee",
+     "character": "Ros Bailey",
+     "popularity": 0.7
+    },
+    {
+     "name": "Brant Daugherty",
+     "character": "Sawyer",
+     "popularity": 0.9
+    },
+    {
+     "name": "Andrew Airlie",
+     "character": "Carrick Grey",
+     "popularity": 0.7
+    },
+    {
+     "name": "Amy Price-Francis",
+     "character": "Liz",
+     "popularity": 0.6
+    },
+    {
+     "name": "Fay Masterson",
+     "character": "Mrs. Jones",
+     "popularity": 1
+    },
+    {
+     "name": "Ashleigh LaThrop",
+     "character": "Hannah",
+     "popularity": 0.6
+    },
+    {
+     "name": "Tyler Hoechlin",
+     "character": "Boyce Fox",
+     "popularity": 1.4
+    },
+    {
+     "name": "Kirsten Alter",
+     "character": "Prescott",
+     "popularity": 0.4
+    },
+    {
+     "name": "Hiro Kanagawa",
+     "character": "Detective Clark",
+     "popularity": 1.6
+    },
+    {
+     "name": "Catherine Lough Haggquist",
+     "character": "Dr. Greene",
+     "popularity": 0.8
+    },
+    {
+     "name": "John Emmet Tracy",
+     "character": "Troy Whelan",
+     "popularity": 0.5
+    },
+    {
+     "name": "Primo Allon",
+     "character": "Sam",
+     "popularity": 0.4
+    },
+    {
+     "name": "Benita Ha",
+     "character": "ER Nurse",
+     "popularity": 0.3
+    },
+    {
+     "name": "P. Lynn Johnson",
+     "character": "Judge",
+     "popularity": 0.7
+    },
+    {
+     "name": "Kwesi Ameyaw",
+     "character": "Defense Counsellor",
+     "popularity": 0.4
+    },
+    {
+     "name": "Marci T. House",
+     "character": "Forensic Officer",
+     "popularity": 1.2
+    },
+    {
+     "name": "Dylan Neal",
+     "character": "Bob",
+     "popularity": 1
+    },
+    {
+     "name": "Shiraine Haas",
+     "character": "Gwen - Ros' Partner",
+     "popularity": 0.4
+    },
+    {
+     "name": "Michelle Harrison",
+     "character": "Rhian Flynn",
+     "popularity": 1.1
+    },
+    {
+     "name": "Bill Dow",
+     "character": "Willis SIP Editor",
+     "popularity": 0.5
+    },
+    {
+     "name": "Jean Corso",
+     "character": "Gavin",
+     "popularity": 0.3
+    },
+    {
+     "name": "Nathan Dellemme",
+     "character": "Bodyguard Gaston",
+     "popularity": 0.3
+    },
+    {
+     "name": "Maximilien Fussen",
+     "character": "French Father on Beach",
+     "popularity": 0.1
+    },
+    {
+     "name": "Paul Duchart",
+     "character": "Reverend Walsh",
+     "popularity": 0.3
+    },
+    {
+     "name": "Maxine Miller",
+     "character": "Christian's Grandmother",
+     "popularity": 0.3
+    },
+    {
+     "name": "Ben Corns",
+     "character": "Captain Stephen",
+     "popularity": 0.1
+    },
+    {
+     "name": "Anita Brown",
+     "character": "Natalia",
+     "popularity": 1
+    },
+    {
+     "name": "Lea Kovach",
+     "character": "Receptionist",
+     "popularity": 0.1
+    },
+    {
+     "name": "Brendan Penny",
+     "character": "Co-Pilot Beighley",
+     "popularity": 1.3
+    },
+    {
+     "name": "Brad Harder",
+     "character": "Aspen Nightclub Waiter",
+     "popularity": 0.6
+    },
+    {
+     "name": "Fraser Aitcheson",
+     "character": "Nightclub Lunk",
+     "popularity": 0.5
+    },
+    {
+     "name": "Lisa MacFadden",
+     "character": "Bank Receptionist",
+     "popularity": 0.4
+    },
+    {
+     "name": "Todd Thomson",
+     "character": "Surgeon",
+     "popularity": 0.3
+    },
+    {
+     "name": "Kai Bokenfohr",
+     "character": "Teddy - 2 Yrs",
+     "popularity": 0.1
+    },
+    {
+     "name": "Gary Hudson",
+     "character": "Elena's Ex-Husband",
+     "popularity": 0.7
+    },
+    {
+     "name": "Sachin Sahel",
+     "character": "Grey I.T. Tech",
+     "popularity": 0.8
+    },
+    {
+     "name": "Adil Zaidi",
+     "character": "Grey I.T. Tech",
+     "popularity": 0.3
+    },
+    {
+     "name": "Julie Roblet",
+     "character": "French Beach Waitress",
+     "popularity": 0
+    },
+    {
+     "name": "Felix Tomas",
+     "character": "Young Boy on Beach",
+     "popularity": 0.1
+    },
+    {
+     "name": "Allyson McHardy",
+     "character": "Madame Butterfly Performer",
+     "popularity": 0.1
+    },
+    {
+     "name": "Szu-wen Wang",
+     "character": "Madame Butterfly Performer",
+     "popularity": 0.1
+    },
+    {
+     "name": "Tefari Thompson",
+     "character": "Bunker Club Waiter",
+     "popularity": 0.1
+    },
+    {
+     "name": "Tiara Sorensen",
+     "character": "Bunker Club Hostess",
+     "popularity": 0.5
+    },
+    {
+     "name": "Sean Glass",
+     "character": "Aspen DJ",
+     "popularity": 0
+    },
+    {
+     "name": "D.J. Kiss",
+     "character": "Wedding DJ",
+     "popularity": 0
+    },
+    {
+     "name": "Jaclyn Jonet",
+     "character": "Ella",
+     "popularity": 0.4
+    }
+   ]
+  }
+ ]
+}

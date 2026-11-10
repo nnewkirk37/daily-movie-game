@@ -1,0 +1,625 @@
+{
+ "date": "2026-11-11",
+ "movies": [
+  {
+   "tmdb_id": 1359,
+   "imdb_id": "tt0144084",
+   "title": "American Psycho",
+   "year": 2000,
+   "imdb": 7.6,
+   "poster": "https://image.tmdb.org/t/p/w342/9uGHEgsiUXjCNq8wdq4r49YL8A1.jpg",
+   "cast": [
+    {
+     "name": "Christian Bale",
+     "character": "Patrick Bateman",
+     "popularity": 5.5
+    },
+    {
+     "name": "Justin Theroux",
+     "character": "Timothy Bryce",
+     "popularity": 2.3
+    },
+    {
+     "name": "Josh Lucas",
+     "character": "Craig McDermott",
+     "popularity": 2.6
+    },
+    {
+     "name": "Bill Sage",
+     "character": "David Van Patten",
+     "popularity": 1.2
+    },
+    {
+     "name": "Chloë Sevigny",
+     "character": "Jean",
+     "popularity": 2.5
+    },
+    {
+     "name": "Reese Witherspoon",
+     "character": "Evelyn Williams",
+     "popularity": 3
+    },
+    {
+     "name": "Samantha Mathis",
+     "character": "Courtney Rawlinson",
+     "popularity": 2.7
+    },
+    {
+     "name": "Matt Ross",
+     "character": "Luis Carruthers",
+     "popularity": 1.1
+    },
+    {
+     "name": "Jared Leto",
+     "character": "Paul Allen",
+     "popularity": 3.5
+    },
+    {
+     "name": "Willem Dafoe",
+     "character": "Donald Kimball",
+     "popularity": 6.3
+    },
+    {
+     "name": "Cara Seymour",
+     "character": "Christie",
+     "popularity": 0.9
+    },
+    {
+     "name": "Guinevere Turner",
+     "character": "Elizabeth",
+     "popularity": 0.6
+    },
+    {
+     "name": "Stephen Bogaert",
+     "character": "Harold Carnes",
+     "popularity": 0.7
+    },
+    {
+     "name": "Monika Meier",
+     "character": "Daisy",
+     "popularity": 0.1
+    },
+    {
+     "name": "Reg E. Cathey",
+     "character": "Homeless Man",
+     "popularity": 1
+    },
+    {
+     "name": "Blair Williams",
+     "character": "Waiter #1",
+     "popularity": 0.6
+    },
+    {
+     "name": "Marie Dame",
+     "character": "Victoria",
+     "popularity": 0.2
+    },
+    {
+     "name": "Kelley Harron",
+     "character": "Bargirl",
+     "popularity": 0.1
+    },
+    {
+     "name": "Patricia Gage",
+     "character": "Mrs. Wolfe",
+     "popularity": 0.3
+    },
+    {
+     "name": "Krista Sutton",
+     "character": "Sabrina",
+     "popularity": 0.4
+    },
+    {
+     "name": "Landy Cannon",
+     "character": "Man at Pierce & Pierce",
+     "popularity": 0.5
+    },
+    {
+     "name": "Park Bench",
+     "character": "Stash",
+     "popularity": 0.2
+    },
+    {
+     "name": "Catherine Black",
+     "character": "Vanden",
+     "popularity": 0.4
+    },
+    {
+     "name": "Margaret Ma",
+     "character": "Dry Cleaner Woman",
+     "popularity": 0.1
+    },
+    {
+     "name": "Peter Tufford Kennedy",
+     "character": "Hamilton",
+     "popularity": 0.1
+    },
+    {
+     "name": "Mark Pawson",
+     "character": "Humphrey Rhineback",
+     "popularity": 0.3
+    },
+    {
+     "name": "Jessica Lau",
+     "character": "Facialist",
+     "popularity": 0
+    },
+    {
+     "name": "Lilette Wiens",
+     "character": "Maitre Dí",
+     "popularity": 0.1
+    },
+    {
+     "name": "Glen Marc Silot",
+     "character": "Waiter",
+     "popularity": 0.1
+    },
+    {
+     "name": "Charlotte Hunter",
+     "character": "Libby",
+     "popularity": 0.4
+    },
+    {
+     "name": "Kiki Buttignol",
+     "character": "Caron",
+     "popularity": 0
+    },
+    {
+     "name": "Joyce R. Korbin",
+     "character": "Woman at ATM",
+     "popularity": 0.2
+    },
+    {
+     "name": "Reuben Thompson",
+     "character": "Waiter #2",
+     "popularity": 0.1
+    },
+    {
+     "name": "Bryan Renfro",
+     "character": "Night Watchman",
+     "popularity": 0.3
+    },
+    {
+     "name": "Ross Gibby",
+     "character": "Man Outside Store",
+     "popularity": 0.4
+    },
+    {
+     "name": "Christina McKay",
+     "character": "Young Woman",
+     "popularity": 0.1
+    },
+    {
+     "name": "Alan McCullough",
+     "character": "Man in Stall",
+     "popularity": 0.2
+    },
+    {
+     "name": "Anthony Lemke",
+     "character": "Marcus Halberstram",
+     "popularity": 0.8
+    },
+    {
+     "name": "Connie Chen",
+     "character": "Gwendolyn Ichiban",
+     "popularity": 0.1
+    },
+    {
+     "name": "Brett Alexander Davidson",
+     "character": "Bartender",
+     "popularity": 0.2
+    },
+    {
+     "name": "Peter Loung",
+     "character": "Dancer",
+     "popularity": 0.1
+    },
+    {
+     "name": "Joseph Oliveira",
+     "character": "Restaurant Patron",
+     "popularity": 0.3
+    },
+    {
+     "name": "Leanne Poirier Greenfield",
+     "character": "Party Girl",
+     "popularity": 0.2
+    },
+    {
+     "name": "Somaya Reece",
+     "character": "Bar Girl",
+     "popularity": 0.3
+    },
+    {
+     "name": "Kate Steen",
+     "character": "Pierce & Pierce Girl",
+     "popularity": 0.1
+    }
+   ]
+  },
+  {
+   "tmdb_id": 9799,
+   "imdb_id": "tt0232500",
+   "title": "The Fast and the Furious",
+   "year": 2001,
+   "imdb": 6.8,
+   "poster": "https://image.tmdb.org/t/p/w342/gqY0ITBgT7A82poL9jv851qdnIb.jpg",
+   "cast": [
+    {
+     "name": "Paul Walker",
+     "character": "Brian O'Conner",
+     "popularity": 4.4
+    },
+    {
+     "name": "Vin Diesel",
+     "character": "Dominic Toretto",
+     "popularity": 7.2
+    },
+    {
+     "name": "Michelle Rodriguez",
+     "character": "Letty Ortiz",
+     "popularity": 4.2
+    },
+    {
+     "name": "Jordana Brewster",
+     "character": "Mia Toretto",
+     "popularity": 2.6
+    },
+    {
+     "name": "Rick Yune",
+     "character": "Johnny Tran",
+     "popularity": 1.7
+    },
+    {
+     "name": "Chad Lindberg",
+     "character": "Jesse",
+     "popularity": 1
+    },
+    {
+     "name": "Johnny Strong",
+     "character": "Leon",
+     "popularity": 0.8
+    },
+    {
+     "name": "Matt Schulze",
+     "character": "Vince",
+     "popularity": 1.1
+    },
+    {
+     "name": "Ja Rule",
+     "character": "Edwin",
+     "popularity": 0.5
+    },
+    {
+     "name": "Ted Levine",
+     "character": "Sgt. Tanner",
+     "popularity": 3.3
+    },
+    {
+     "name": "Thom Barry",
+     "character": "Agent Bilkins",
+     "popularity": 0.7
+    },
+    {
+     "name": "Vyto Ruginis",
+     "character": "Harry",
+     "popularity": 0.8
+    },
+    {
+     "name": "Stanton Rutledge",
+     "character": "Muse",
+     "popularity": 0.1
+    },
+    {
+     "name": "Noel Gugliemi",
+     "character": "Hector",
+     "popularity": 1.7
+    },
+    {
+     "name": "R.J. de Vera",
+     "character": "Danny Yamato",
+     "popularity": 0.5
+    },
+    {
+     "name": "Beau Holden",
+     "character": "Ted Gassner",
+     "popularity": 0.3
+    },
+    {
+     "name": "Reggie Lee",
+     "character": "Lance Nguyen",
+     "popularity": 2
+    },
+    {
+     "name": "David Douglas",
+     "character": "Rasta Racer",
+     "popularity": 0.5
+    },
+    {
+     "name": "Peter Navy Tuiasosopo",
+     "character": "Samoan Guard",
+     "popularity": 0.3
+    },
+    {
+     "name": "Neal H. Moritz",
+     "character": "Ferrari Driver",
+     "popularity": 0.9
+    },
+    {
+     "name": "Doria Anselmo",
+     "character": "Ferrari Passenger",
+     "popularity": 0.2
+    },
+    {
+     "name": "Glenn K. Ota",
+     "character": "Johnny's Father",
+     "popularity": 0.1
+    },
+    {
+     "name": "F. Valentino Morales",
+     "character": "Dispatcher",
+     "popularity": 0.3
+    },
+    {
+     "name": "Mike White",
+     "character": "Night Truck Driver",
+     "popularity": 0.3
+    },
+    {
+     "name": "Delphine Pacific",
+     "character": "Racer's Edge Clerk",
+     "popularity": 0.5
+    },
+    {
+     "name": "Monica Tamayo",
+     "character": "Monica",
+     "popularity": 0.1
+    },
+    {
+     "name": "Megan Baker",
+     "character": "Gimel",
+     "popularity": 0.1
+    },
+    {
+     "name": "Tammy Monica Gegamian",
+     "character": "Edwin's Babe",
+     "popularity": 0.1
+    },
+    {
+     "name": "Rob Cohen",
+     "character": "Pizza Hut Delivery Guy",
+     "popularity": 1.3
+    },
+    {
+     "name": "Kevin Smith",
+     "character": "Big Rig Driver",
+     "popularity": 0.6
+    },
+    {
+     "name": "Felicia Tang",
+     "character": "Hot Chick",
+     "popularity": 0
+    }
+   ]
+  },
+  {
+   "tmdb_id": 222935,
+   "imdb_id": "tt2582846",
+   "title": "The Fault in Our Stars",
+   "year": 2014,
+   "imdb": 7.6,
+   "poster": "https://image.tmdb.org/t/p/w342/kcVuktIlrn9SAN1uBmPDnocTQmF.jpg",
+   "cast": [
+    {
+     "name": "Shailene Woodley",
+     "character": "Hazel Grace Lancaster",
+     "popularity": 4.7
+    },
+    {
+     "name": "Ansel Elgort",
+     "character": "Augustus Waters",
+     "popularity": 1.9
+    },
+    {
+     "name": "Nat Wolff",
+     "character": "Isaac",
+     "popularity": 2.5
+    },
+    {
+     "name": "Laura Dern",
+     "character": "Frannie Lancaster",
+     "popularity": 2.9
+    },
+    {
+     "name": "Sam Trammell",
+     "character": "Michael Lancaster",
+     "popularity": 1
+    },
+    {
+     "name": "Willem Dafoe",
+     "character": "Peter van Houten",
+     "popularity": 6.3
+    },
+    {
+     "name": "Lotte Verbeek",
+     "character": "Lidewij Vliegenthart",
+     "popularity": 1
+    },
+    {
+     "name": "Ana Dela Cruz",
+     "character": "Dr. Maria",
+     "popularity": 0.2
+    },
+    {
+     "name": "Randy Kovitz",
+     "character": "Dr. Simmons",
+     "popularity": 0.3
+    },
+    {
+     "name": "Toni Saladna",
+     "character": "Flight Attendant",
+     "popularity": 0.1
+    },
+    {
+     "name": "David Whalen",
+     "character": "Gus' Dad",
+     "popularity": 0.3
+    },
+    {
+     "name": "Milica Govich",
+     "character": "Gus' Mom",
+     "popularity": 0.4
+    },
+    {
+     "name": "Allegra Carpenter",
+     "character": "Hostess",
+     "popularity": 0.3
+    },
+    {
+     "name": "Emily Peachey",
+     "character": "Monica",
+     "popularity": 0.2
+    },
+    {
+     "name": "Emily Bach",
+     "character": "Monica's Mom",
+     "popularity": 0.1
+    },
+    {
+     "name": "Tim Hartman",
+     "character": "Minister",
+     "popularity": 0
+    },
+    {
+     "name": "Mike Birbiglia",
+     "character": "Patrick",
+     "popularity": 0.4
+    },
+    {
+     "name": "Bethany Leo",
+     "character": "Speaker #1",
+     "popularity": 0
+    },
+    {
+     "name": "Alexis Hodges",
+     "character": "Speaker #2",
+     "popularity": 0.1
+    },
+    {
+     "name": "Jean Brassard",
+     "character": "Waiter",
+     "popularity": 0.2
+    },
+    {
+     "name": "Carly Otte",
+     "character": "Young Girl",
+     "popularity": 0.2
+    },
+    {
+     "name": "Lily Kenna",
+     "character": "Young Hazel",
+     "popularity": 0.1
+    },
+    {
+     "name": "Silvio Wolf Busch",
+     "character": "European",
+     "popularity": 0.2
+    },
+    {
+     "name": "Viviana Cardenas",
+     "character": "Support Group Member",
+     "popularity": 0
+    },
+    {
+     "name": "Jordan Drexel",
+     "character": "Speaker #3",
+     "popularity": 0.1
+    },
+    {
+     "name": "P.J. Rosotto",
+     "character": "Speaker #4",
+     "popularity": 0.1
+    },
+    {
+     "name": "Tanner Boatwright",
+     "character": "Gus's Leg Double",
+     "popularity": 0.1
+    },
+    {
+     "name": "Cheyenne Hurley",
+     "character": "Coffee Shop Worker",
+     "popularity": 0.1
+    },
+    {
+     "name": "Jennifer Kline",
+     "character": "Giggling Girl",
+     "popularity": 0.1
+    },
+    {
+     "name": "Carol Weyers",
+     "character": "Anne Frank",
+     "popularity": 0.1
+    },
+    {
+     "name": "Lauren Blumenthal",
+     "character": "Support Group",
+     "popularity": 0.1
+    },
+    {
+     "name": "Nikki Lipinski",
+     "character": "Support Group",
+     "popularity": 0.1
+    },
+    {
+     "name": "Sebastian Dean",
+     "character": "Support Group",
+     "popularity": 0
+    },
+    {
+     "name": "Alexander Murph",
+     "character": "Support Group",
+     "popularity": 0.1
+    },
+    {
+     "name": "Taylor Dettore",
+     "character": "Support Group",
+     "popularity": 0.1
+    },
+    {
+     "name": "Josh Potter",
+     "character": "Support Group",
+     "popularity": 0
+    },
+    {
+     "name": "Steven Edmonds",
+     "character": "Support Group",
+     "popularity": 0.1
+    },
+    {
+     "name": "Cindy Zeng",
+     "character": "Support Group",
+     "popularity": 0
+    },
+    {
+     "name": "C.J. Evans",
+     "character": "Support Group",
+     "popularity": 0.1
+    },
+    {
+     "name": "John Green",
+     "character": "Little Girl's Father",
+     "popularity": 0.7
+    },
+    {
+     "name": "Richard C. Fishel",
+     "character": "Dog in Park",
+     "popularity": 0.3
+    },
+    {
+     "name": "Joe Fishel",
+     "character": "Dog Walker",
+     "popularity": 0.7
+    }
+   ]
+  }
+ ]
+}

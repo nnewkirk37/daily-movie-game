@@ -1,0 +1,765 @@
+{
+ "date": "2026-11-16",
+ "movies": [
+  {
+   "tmdb_id": 49530,
+   "imdb_id": "tt1637688",
+   "title": "In Time",
+   "year": 2011,
+   "imdb": 6.7,
+   "poster": "https://image.tmdb.org/t/p/w342/3Mwj2sIONQckOZP3YwsUXF7U5I4.jpg",
+   "cast": [
+    {
+     "name": "Amanda Seyfried",
+     "character": "Sylvia Weis",
+     "popularity": 6.5
+    },
+    {
+     "name": "Justin Timberlake",
+     "character": "Will Salas",
+     "popularity": 1.9
+    },
+    {
+     "name": "Cillian Murphy",
+     "character": "Raymond Leon",
+     "popularity": 5.7
+    },
+    {
+     "name": "Vincent Kartheiser",
+     "character": "Philippe Weis",
+     "popularity": 1.9
+    },
+    {
+     "name": "Olivia Wilde",
+     "character": "Rachel Salas",
+     "popularity": 5.2
+    },
+    {
+     "name": "Matt Bomer",
+     "character": "Henry Hamilton",
+     "popularity": 3.8
+    },
+    {
+     "name": "Johnny Galecki",
+     "character": "Borel",
+     "popularity": 1.9
+    },
+    {
+     "name": "Collins Pennie",
+     "character": "Timekeeper Jaeger",
+     "popularity": 0.8
+    },
+    {
+     "name": "Toby Hemingway",
+     "character": "Timekeeper Kors",
+     "popularity": 0.7
+    },
+    {
+     "name": "Brendan Miller",
+     "character": "Kolber",
+     "popularity": 0.5
+    },
+    {
+     "name": "Yaya DaCosta",
+     "character": "Greta",
+     "popularity": 2.7
+    },
+    {
+     "name": "Alex Pettyfer",
+     "character": "Fortis",
+     "popularity": 1.6
+    },
+    {
+     "name": "Shyloh Oostwald",
+     "character": "Mya",
+     "popularity": 0.4
+    },
+    {
+     "name": "Colin McGurk",
+     "character": "Citizen",
+     "popularity": 0.2
+    },
+    {
+     "name": "Will Harris",
+     "character": "Ulysse",
+     "popularity": 0.6
+    },
+    {
+     "name": "Michael William Freeman",
+     "character": "Nardin",
+     "popularity": 0.3
+    },
+    {
+     "name": "Jesse Lee Soffer",
+     "character": "Webb",
+     "popularity": 1.5
+    },
+    {
+     "name": "Aaron Perilo",
+     "character": "Bell",
+     "popularity": 0.4
+    },
+    {
+     "name": "Nick Lashaway",
+     "character": "Ekman",
+     "popularity": 0.4
+    },
+    {
+     "name": "Will Peltz",
+     "character": "Pierre",
+     "popularity": 0.9
+    },
+    {
+     "name": "Ray Santiago",
+     "character": "Victa",
+     "popularity": 0.8
+    },
+    {
+     "name": "Zuleyka Silver",
+     "character": "Pasha",
+     "popularity": 0.7
+    },
+    {
+     "name": "Laura Ashley Samuels",
+     "character": "Sagita",
+     "popularity": 1.1
+    },
+    {
+     "name": "La Monde Byrd",
+     "character": "Minuteman Rado",
+     "popularity": 0.2
+    },
+    {
+     "name": "Paul David Story",
+     "character": "Minuteman Roth",
+     "popularity": 0.2
+    },
+    {
+     "name": "Maximilian Osinski",
+     "character": "Louis",
+     "popularity": 0.7
+    },
+    {
+     "name": "Blake Sheldon",
+     "character": "Man at Door",
+     "popularity": 0.2
+    },
+    {
+     "name": "Melissa Ordway",
+     "character": "Leila",
+     "popularity": 0.7
+    },
+    {
+     "name": "Abhi Sinha",
+     "character": "Ross",
+     "popularity": 0.4
+    },
+    {
+     "name": "Ethan Peck",
+     "character": "Constantin",
+     "popularity": 1
+    },
+    {
+     "name": "Germano Sardinha",
+     "character": "Carlo",
+     "popularity": 0.1
+    },
+    {
+     "name": "Korrina Rico",
+     "character": "Hotel Clerk",
+     "popularity": 0.2
+    },
+    {
+     "name": "Emma Fitzpatrick",
+     "character": "Kara",
+     "popularity": 0.6
+    },
+    {
+     "name": "Seema Lazar",
+     "character": "Timekeeper Ellini",
+     "popularity": 0.2
+    },
+    {
+     "name": "Adam Jamal Craig",
+     "character": "Girard",
+     "popularity": 0.4
+    },
+    {
+     "name": "Andreas Wigand",
+     "character": "Milus",
+     "popularity": 0.2
+    },
+    {
+     "name": "Bella Heathcote",
+     "character": "Michele Weis",
+     "popularity": 3.1
+    },
+    {
+     "name": "Sasha Pivovarova",
+     "character": "Clara",
+     "popularity": 0.2
+    },
+    {
+     "name": "Luis Chávez",
+     "character": "Ernest",
+     "popularity": 0.5
+    },
+    {
+     "name": "August Emerson",
+     "character": "Levi",
+     "popularity": 0.4
+    },
+    {
+     "name": "Cathy Baron",
+     "character": "Ruby",
+     "popularity": 0.4
+    },
+    {
+     "name": "Kris Lemche",
+     "character": "Markus",
+     "popularity": 1
+    },
+    {
+     "name": "Sterling Sulieman",
+     "character": "Franck",
+     "popularity": 0.8
+    },
+    {
+     "name": "Rachel Roberts",
+     "character": "Carrera",
+     "popularity": 0.4
+    },
+    {
+     "name": "Christiann Castellanos",
+     "character": "Jasmine",
+     "popularity": 0.5
+    },
+    {
+     "name": "Jeff Staron",
+     "character": "Oris",
+     "popularity": 0.2
+    },
+    {
+     "name": "Drew James",
+     "character": "Thomas",
+     "popularity": 0.2
+    },
+    {
+     "name": "Swen Temmel",
+     "character": "Breitling",
+     "popularity": 0.7
+    },
+    {
+     "name": "Jessica Parker Kennedy",
+     "character": "Edouarda",
+     "popularity": 2
+    },
+    {
+     "name": "Matt O'Leary",
+     "character": "Moser",
+     "popularity": 1.2
+    },
+    {
+     "name": "Trever O'Brien",
+     "character": "Nomos",
+     "popularity": 0.6
+    },
+    {
+     "name": "Faye Kingslee",
+     "character": "Timekeeper Jean",
+     "popularity": 0.3
+    },
+    {
+     "name": "Kristopher Higgins",
+     "character": "Timekeeper Dent",
+     "popularity": 0.2
+    },
+    {
+     "name": "Spencer Kayden",
+     "character": "Bar Dancer / Villager",
+     "popularity": 0.9
+    },
+    {
+     "name": "Jason Woods",
+     "character": "Bodyguard",
+     "popularity": 0.3
+    },
+    {
+     "name": "Alycia Grant",
+     "character": "Bus Passenger / Factory Worker",
+     "popularity": 0.1
+    },
+    {
+     "name": "Michael James Wong",
+     "character": "Bus Passenger / Factory Worker",
+     "popularity": 0.1
+    },
+    {
+     "name": "Adrianna Adams",
+     "character": "Casino High Roller",
+     "popularity": 0.1
+    },
+    {
+     "name": "Skyler Maxon",
+     "character": "Casino High Roller",
+     "popularity": 0.4
+    },
+    {
+     "name": "Talon Reid",
+     "character": "Casino High Roller",
+     "popularity": 0.2
+    }
+   ]
+  },
+  {
+   "tmdb_id": 22971,
+   "imdb_id": "tt0989757",
+   "title": "Dear John",
+   "year": 2010,
+   "imdb": 6.3,
+   "poster": "https://image.tmdb.org/t/p/w342/2lAPv2jQ5eh54l4EttA9wjDljED.jpg",
+   "cast": [
+    {
+     "name": "Amanda Seyfried",
+     "character": "Savannah Lynn Curtis",
+     "popularity": 6.5
+    },
+    {
+     "name": "Channing Tatum",
+     "character": "John Tyree",
+     "popularity": 6.3
+    },
+    {
+     "name": "Richard Jenkins",
+     "character": "Mr. Tyree",
+     "popularity": 1.6
+    },
+    {
+     "name": "Henry Thomas",
+     "character": "Tim Wheddon",
+     "popularity": 2.4
+    },
+    {
+     "name": "D.J. Cotrona",
+     "character": "Noodles",
+     "popularity": 0.8
+    },
+    {
+     "name": "Cullen Moss",
+     "character": "Rooster",
+     "popularity": 1.1
+    },
+    {
+     "name": "Gavin McCulley",
+     "character": "Starks",
+     "popularity": 0.1
+    },
+    {
+     "name": "Jose Lucena Jr.",
+     "character": "Berry",
+     "popularity": 0.2
+    },
+    {
+     "name": "Keith D. Robinson",
+     "character": "Captain Stone",
+     "popularity": 0.7
+    },
+    {
+     "name": "Scott Porter",
+     "character": "Randy",
+     "popularity": 1.5
+    },
+    {
+     "name": "Leslea Fisher",
+     "character": "Susan",
+     "popularity": 0.2
+    },
+    {
+     "name": "David Andrews",
+     "character": "Mr. Curtis",
+     "popularity": 0.9
+    },
+    {
+     "name": "Mary Rachel Quinn",
+     "character": "Mrs. Curtis",
+     "popularity": 0.4
+    },
+    {
+     "name": "Bryce Hayes",
+     "character": "Yellow Shirt",
+     "popularity": 0.1
+    },
+    {
+     "name": "R. Braeden Reed",
+     "character": "6 Years Old Alan",
+     "popularity": 0.1
+    },
+    {
+     "name": "Luke Benward",
+     "character": "14 Years Old Alan",
+     "popularity": 0.9
+    },
+    {
+     "name": "Tom Stearns",
+     "character": "Coin Dealer #1",
+     "popularity": 0.1
+    },
+    {
+     "name": "Michael Harding",
+     "character": "Coin Dealer #2",
+     "popularity": 0.4
+    },
+    {
+     "name": "Brett Rice",
+     "character": "Pastor",
+     "popularity": 0.9
+    },
+    {
+     "name": "David Dwyer",
+     "character": "Steve the Owner",
+     "popularity": 0.6
+    },
+    {
+     "name": "Anthony Osment",
+     "character": "Other Surfer",
+     "popularity": 0.1
+    },
+    {
+     "name": "Jim Wenthe",
+     "character": "Professor",
+     "popularity": 0
+    },
+    {
+     "name": "Matt Blue",
+     "character": "Doctor",
+     "popularity": 0.1
+    },
+    {
+     "name": "Lauree Bradway",
+     "character": "Party Guest #1",
+     "popularity": 0
+    },
+    {
+     "name": "Glenn M. Tatum",
+     "character": "Party Guest #2",
+     "popularity": 0
+    },
+    {
+     "name": "Martin Coleman Bowen",
+     "character": "Party Guest #3",
+     "popularity": 0
+    },
+    {
+     "name": "Maxx Hennard",
+     "character": "Berg",
+     "popularity": 0.1
+    },
+    {
+     "name": "Jay Phillips",
+     "character": "Young Beret",
+     "popularity": 0.4
+    },
+    {
+     "name": "Steven Patrick O'Connor",
+     "character": "Colonel Kittrick",
+     "popularity": 0.4
+    },
+    {
+     "name": "Jessica Lucas",
+     "character": "Nurse",
+     "popularity": 1.3
+    },
+    {
+     "name": "Teresa Smith",
+     "character": "Tim's Nurse",
+     "popularity": 0.1
+    },
+    {
+     "name": "Bryce Hogarth",
+     "character": "7 Years Old John",
+     "popularity": 0.1
+    },
+    {
+     "name": "Amanda Garsys",
+     "character": "Gawky Girl at Party",
+     "popularity": 0.1
+    },
+    {
+     "name": "Shelley Reid",
+     "character": "Airport Security Guard",
+     "popularity": 0.2
+    },
+    {
+     "name": "Cenk Otay",
+     "character": "Screaming Man",
+     "popularity": 0
+    },
+    {
+     "name": "Russell A. Turner",
+     "character": "Adams",
+     "popularity": 0
+    },
+    {
+     "name": "Lisa Burrascano",
+     "character": "Woman In Park",
+     "popularity": 0.1
+    },
+    {
+     "name": "Mary Fischer",
+     "character": "Helpful Nurse",
+     "popularity": 0.1
+    },
+    {
+     "name": "William Howard",
+     "character": "Daniels",
+     "popularity": 0.1
+    }
+   ]
+  },
+  {
+   "tmdb_id": 400155,
+   "imdb_id": "tt5220122",
+   "title": "Hotel Transylvania 3: Summer Vacation",
+   "year": 2018,
+   "imdb": 6.3,
+   "poster": "https://image.tmdb.org/t/p/w342/lzE5BwGQea1nek7TPXUuC5AZ6rq.jpg",
+   "cast": [
+    {
+     "name": "Adam Sandler",
+     "character": "Dracula",
+     "popularity": 4.3
+    },
+    {
+     "name": "Kathryn Hahn",
+     "character": "Ericka",
+     "popularity": 3
+    },
+    {
+     "name": "Selena Gomez",
+     "character": "Mavis",
+     "popularity": 4.1
+    },
+    {
+     "name": "Jim Gaffigan",
+     "character": "Van Helsing",
+     "popularity": 0.9
+    },
+    {
+     "name": "Andy Samberg",
+     "character": "Jonathan",
+     "popularity": 3.5
+    },
+    {
+     "name": "Kevin James",
+     "character": "Frankenstein",
+     "popularity": 2.6
+    },
+    {
+     "name": "Fran Drescher",
+     "character": "Eunice",
+     "popularity": 1.7
+    },
+    {
+     "name": "Steve Buscemi",
+     "character": "Wayne",
+     "popularity": 5.2
+    },
+    {
+     "name": "Molly Shannon",
+     "character": "Wanda",
+     "popularity": 1.4
+    },
+    {
+     "name": "David Spade",
+     "character": "Griffin",
+     "popularity": 2.1
+    },
+    {
+     "name": "Keegan-Michael Key",
+     "character": "Murray",
+     "popularity": 2.7
+    },
+    {
+     "name": "Asher Blinkoff",
+     "character": "Dennis",
+     "popularity": 0.4
+    },
+    {
+     "name": "Chris Parnell",
+     "character": "Stan / Fish Man",
+     "popularity": 2.1
+    },
+    {
+     "name": "Joe Jonas",
+     "character": "The Kraken",
+     "popularity": 1
+    },
+    {
+     "name": "Chrissy Teigen",
+     "character": "Crystal",
+     "popularity": 0.7
+    },
+    {
+     "name": "Mel Brooks",
+     "character": "Vlad",
+     "popularity": 1.8
+    },
+    {
+     "name": "Aaron LaPlante",
+     "character": "Gremlins / Gremlin Pilot / Gremlin Stewardess",
+     "popularity": 0.4
+    },
+    {
+     "name": "Michelle Murdocca",
+     "character": "Phone / Kelsey / Witch #1 / Witch #2",
+     "popularity": 0.2
+    },
+    {
+     "name": "Genndy Tartakovsky",
+     "character": "Blobby / Blobby Baby / Puppy Blobby",
+     "popularity": 1.4
+    },
+    {
+     "name": "Joyce Arrastia",
+     "character": "Zingr Witch / Witch #3",
+     "popularity": 0.2
+    },
+    {
+     "name": "Sadie Sandler",
+     "character": "Winnie",
+     "popularity": 0.3
+    },
+    {
+     "name": "Sunny Sandler",
+     "character": "Sunny",
+     "popularity": 2.4
+    },
+    {
+     "name": "Tara Strong",
+     "character": "Frankenlady",
+     "popularity": 3.4
+    },
+    {
+     "name": "Libby Thomas Dickey",
+     "character": "Lucy",
+     "popularity": 0.1
+    },
+    {
+     "name": "Patrick Harpin",
+     "character": "Austrian Boy",
+     "popularity": 0.2
+    },
+    {
+     "name": "Craig Kellman",
+     "character": "Mr. Hydraberg",
+     "popularity": 0.2
+    },
+    {
+     "name": "Joe Whyte",
+     "character": "Tinkles / Bob",
+     "popularity": 0.3
+    },
+    {
+     "name": "Jaime Camil",
+     "character": "Chupacabra",
+     "popularity": 1.8
+    },
+    {
+     "name": "Fred Tatasciore",
+     "character": "Additional Voices",
+     "popularity": 2.8
+    },
+    {
+     "name": "Kari Wahlgren",
+     "character": "Additional Voices",
+     "popularity": 1.7
+    },
+    {
+     "name": "Brian T. Delaney",
+     "character": "Additional Voices",
+     "popularity": 0.4
+    },
+    {
+     "name": "Robin Atkin Downes",
+     "character": "Additional Voices",
+     "popularity": 0.9
+    },
+    {
+     "name": "Jessica Gee-George",
+     "character": "Additional Voices",
+     "popularity": 0.3
+    },
+    {
+     "name": "Grant George",
+     "character": "Additional Voices",
+     "popularity": 0.4
+    },
+    {
+     "name": "Todd Haberkorn",
+     "character": "Additional Voices",
+     "popularity": 0.5
+    },
+    {
+     "name": "Rif Hutton",
+     "character": "Additional Voices",
+     "popularity": 0.7
+    },
+    {
+     "name": "Lex Lang",
+     "character": "Carl Prickles / Additional Voices",
+     "popularity": 0.4
+    },
+    {
+     "name": "Mona Marshall",
+     "character": "Additional Voices",
+     "popularity": 0.5
+    },
+    {
+     "name": "Andrew Morgado",
+     "character": "Additional Voices",
+     "popularity": 0.7
+    },
+    {
+     "name": "Michelle Ruff",
+     "character": "Additional Voices",
+     "popularity": 0.5
+    },
+    {
+     "name": "Joseph Sanfelippo",
+     "character": "Additional Voices",
+     "popularity": 0.2
+    },
+    {
+     "name": "Keith Silverstein",
+     "character": "Additional Voices",
+     "popularity": 0.8
+    },
+    {
+     "name": "Kirk Thornton",
+     "character": "Additional Voices",
+     "popularity": 0.4
+    },
+    {
+     "name": "Amanda Troop",
+     "character": "Additional Voices",
+     "popularity": 0.3
+    },
+    {
+     "name": "Audrey Wasilewski",
+     "character": "Additional Voices",
+     "popularity": 0.7
+    },
+    {
+     "name": "Debra Wilson",
+     "character": "Additional Voices",
+     "popularity": 1.6
+    },
+    {
+     "name": "Michael-Leon Wooley",
+     "character": "Additional Voices",
+     "popularity": 0.5
+    }
+   ]
+  }
+ ]
+}

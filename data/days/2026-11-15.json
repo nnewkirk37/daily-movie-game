@@ -1,0 +1,525 @@
+{
+ "date": "2026-11-15",
+ "movies": [
+  {
+   "tmdb_id": 425,
+   "imdb_id": "tt0268380",
+   "title": "Ice Age",
+   "year": 2002,
+   "imdb": 7.5,
+   "poster": "https://image.tmdb.org/t/p/w342/gLhHHZUzeseRXShoDyC4VqLgsNv.jpg",
+   "cast": [
+    {
+     "name": "Ray Romano",
+     "character": "Manfred 'Manny'",
+     "popularity": 1.7
+    },
+    {
+     "name": "John Leguizamo",
+     "character": "Sid",
+     "popularity": 4.9
+    },
+    {
+     "name": "Denis Leary",
+     "character": "Diego",
+     "popularity": 3.7
+    },
+    {
+     "name": "Goran Višnjić",
+     "character": "Soto",
+     "popularity": 1.4
+    },
+    {
+     "name": "Jack Black",
+     "character": "Zeke",
+     "popularity": 7.3
+    },
+    {
+     "name": "Cedric the Entertainer",
+     "character": "Rhino",
+     "popularity": 1.6
+    },
+    {
+     "name": "Stephen Root",
+     "character": "Rhino / Start",
+     "popularity": 3
+    },
+    {
+     "name": "Diedrich Bader",
+     "character": "Saber-Toothed Tiger",
+     "popularity": 1.7
+    },
+    {
+     "name": "Alan Tudyk",
+     "character": "Saber-Toothed Tiger / Freaky Mammal",
+     "popularity": 2.9
+    },
+    {
+     "name": "Lorri Bagley",
+     "character": "Female Sloth",
+     "popularity": 0.3
+    },
+    {
+     "name": "Jane Krakowski",
+     "character": "Female Sloth",
+     "popularity": 1.4
+    },
+    {
+     "name": "Peter Ackerman",
+     "character": "Dodo / Freaky Mammal",
+     "popularity": 0.5
+    },
+    {
+     "name": "P.J. Benjamin",
+     "character": "Dodo",
+     "popularity": 0.3
+    },
+    {
+     "name": "Josh Hamilton",
+     "character": "Dodo / Aardvark",
+     "popularity": 1.6
+    },
+    {
+     "name": "Denny Dillon",
+     "character": "Glypto",
+     "popularity": 0.6
+    },
+    {
+     "name": "Mitzi McCall",
+     "character": "Glypto",
+     "popularity": 0.6
+    },
+    {
+     "name": "Tara Strong",
+     "character": "Start",
+     "popularity": 3.4
+    },
+    {
+     "name": "Chris Wedge",
+     "character": "Dodo / Scrat",
+     "popularity": 1.1
+    },
+    {
+     "name": "Kristen Johnston",
+     "character": "Sylvia",
+     "popularity": 1
+    },
+    {
+     "name": "Matilda Rowler",
+     "character": "Nadia",
+     "popularity": 0.1
+    }
+   ]
+  },
+  {
+   "tmdb_id": 8920,
+   "imdb_id": "tt0356634",
+   "title": "Garfield",
+   "year": 2004,
+   "imdb": 5.1,
+   "poster": "https://image.tmdb.org/t/p/w342/vqwTSWNLyH55g8kBT61s2DgNYEp.jpg",
+   "cast": [
+    {
+     "name": "Bill Murray",
+     "character": "Garfield",
+     "popularity": 2.8
+    },
+    {
+     "name": "Breckin Meyer",
+     "character": "Jon",
+     "popularity": 1.6
+    },
+    {
+     "name": "Jennifer Love Hewitt",
+     "character": "Liz",
+     "popularity": 3.9
+    },
+    {
+     "name": "Stephen Tobolowsky",
+     "character": "Happy Chapman",
+     "popularity": 2
+    },
+    {
+     "name": "Evan Arnold",
+     "character": "Wendell",
+     "popularity": 0.4
+    },
+    {
+     "name": "Mark Christopher Lawrence",
+     "character": "Christopher Mello",
+     "popularity": 0.5
+    },
+    {
+     "name": "Jimmy Kimmel",
+     "character": "Spanky",
+     "popularity": 1.2
+    },
+    {
+     "name": "Debra Messing",
+     "character": "Arlene",
+     "popularity": 2.4
+    },
+    {
+     "name": "Nick Cannon",
+     "character": "Louis",
+     "popularity": 1.2
+    },
+    {
+     "name": "Alan Cumming",
+     "character": "Persnikitty",
+     "popularity": 2.7
+    },
+    {
+     "name": "Brad Garrett",
+     "character": "Luca",
+     "popularity": 1.8
+    },
+    {
+     "name": "David Eigenberg",
+     "character": "Nermal",
+     "popularity": 1.6
+    },
+    {
+     "name": "Jerry Hauck",
+     "character": "Cop",
+     "popularity": 0.5
+    },
+    {
+     "name": "Richard Kind",
+     "character": "Dad Rat",
+     "popularity": 2
+    },
+    {
+     "name": "Vanessa Campbell",
+     "character": "Miss Ace Hardware",
+     "popularity": 0.2
+    },
+    {
+     "name": "Daamen J. Krall",
+     "character": "Announcer",
+     "popularity": 0.3
+    },
+    {
+     "name": "Alyson Stoner",
+     "character": "Kid Rat",
+     "popularity": 1.5
+    },
+    {
+     "name": "Rufus Gifford",
+     "character": "Dog Owner #1",
+     "popularity": 0.1
+    },
+    {
+     "name": "Randee Reicher",
+     "character": "Dog Owner #2",
+     "popularity": 0.1
+    },
+    {
+     "name": "Eve Brent",
+     "character": "Mrs. Baker",
+     "popularity": 0.5
+    },
+    {
+     "name": "Bill Hoag",
+     "character": "Roy the Lodge Member",
+     "popularity": 0.3
+    },
+    {
+     "name": "Susan Moore",
+     "character": "Dog Owner #4",
+     "popularity": 0.1
+    },
+    {
+     "name": "Ben Kronen",
+     "character": "Older Man",
+     "popularity": 0.2
+    },
+    {
+     "name": "Michael Monks",
+     "character": "Deputy Hopkins",
+     "popularity": 0.4
+    },
+    {
+     "name": "Mel Rodriguez",
+     "character": "Security Officer",
+     "popularity": 0.8
+    },
+    {
+     "name": "Ryan McKasson",
+     "character": "Dog Owner #3",
+     "popularity": 0
+    },
+    {
+     "name": "Juliette Goglia",
+     "character": "Little Girl",
+     "popularity": 0.9
+    },
+    {
+     "name": "Joseph Edward Taylor",
+     "character": "Frank",
+     "popularity": 0.2
+    },
+    {
+     "name": "Crystal the Monkey",
+     "character": "Pet Monkey",
+     "popularity": 0.4
+    }
+   ]
+  },
+  {
+   "tmdb_id": 602269,
+   "imdb_id": "tt10016180",
+   "title": "The Little Things",
+   "year": 2021,
+   "imdb": 6.3,
+   "poster": "https://image.tmdb.org/t/p/w342/tLO1aD1ghdtVMT32z2sRmzgYKYd.jpg",
+   "cast": [
+    {
+     "name": "Denzel Washington",
+     "character": "Joe 'Deke' Deacon",
+     "popularity": 7.8
+    },
+    {
+     "name": "Rami Malek",
+     "character": "Jim Baxter",
+     "popularity": 3.8
+    },
+    {
+     "name": "Jared Leto",
+     "character": "Albert Sparma",
+     "popularity": 3.5
+    },
+    {
+     "name": "Chris Bauer",
+     "character": "Detective Sal Rizoli",
+     "popularity": 1.6
+    },
+    {
+     "name": "Michael Hyatt",
+     "character": "Flo Dunigan",
+     "popularity": 1.7
+    },
+    {
+     "name": "Terry Kinney",
+     "character": "LASD Captain Carl Farris",
+     "popularity": 1.9
+    },
+    {
+     "name": "Natalie Morales",
+     "character": "Detective Jamie Estrada",
+     "popularity": 3.2
+    },
+    {
+     "name": "Isabel Arraiza",
+     "character": "Ana Baxter",
+     "popularity": 0.4
+    },
+    {
+     "name": "Joris Jarsky",
+     "character": "Detective Sergeant Rogers",
+     "popularity": 0.6
+    },
+    {
+     "name": "Glenn Morshower",
+     "character": "Captain Henry Davis",
+     "popularity": 1.1
+    },
+    {
+     "name": "Sofia Vassilieva",
+     "character": "Tina Salvatore",
+     "popularity": 1.9
+    },
+    {
+     "name": "Jason James Richter",
+     "character": "Detective Dennis Williams",
+     "popularity": 1.5
+    },
+    {
+     "name": "John Harlan Kim",
+     "character": "Officer Henderson",
+     "popularity": 0.4
+    },
+    {
+     "name": "Frederick Koehler",
+     "character": "Stan Peters",
+     "popularity": 1
+    },
+    {
+     "name": "Judith Scott",
+     "character": "Marsha",
+     "popularity": 0.8
+    },
+    {
+     "name": "Maya Kazan",
+     "character": "Ronda Rathbun",
+     "popularity": 0.3
+    },
+    {
+     "name": "Tiffany Gonzáles",
+     "character": "Julie Brock",
+     "popularity": 0.1
+    },
+    {
+     "name": "Anna McKitrick",
+     "character": "Mary Roberts",
+     "popularity": 0.1
+    },
+    {
+     "name": "Sheila Houlahan",
+     "character": "Paige Callahan",
+     "popularity": 0.2
+    },
+    {
+     "name": "Ebony N Mayo",
+     "character": "Tamara Ewing",
+     "popularity": 0.2
+    },
+    {
+     "name": "Matt Morrison",
+     "character": "Guy Jogger",
+     "popularity": 0.2
+    },
+    {
+     "name": "Olivia Washington",
+     "character": "Amy Anders",
+     "popularity": 0.6
+    },
+    {
+     "name": "Kiff VandenHeuvel",
+     "character": "Tow Truck Driver",
+     "popularity": 0.5
+    },
+    {
+     "name": "J. Downing",
+     "character": "Flanders",
+     "popularity": 0.6
+    },
+    {
+     "name": "Sean Spann",
+     "character": "Ghoul Squad",
+     "popularity": 0.1
+    },
+    {
+     "name": "Sophia Castro",
+     "character": "Jennifer Baxter",
+     "popularity": 0
+    },
+    {
+     "name": "Calliah Sophie Estrada",
+     "character": "Chloe Baxter",
+     "popularity": 0.1
+    },
+    {
+     "name": "Thomas Crawford",
+     "character": "Burns",
+     "popularity": 0.4
+    },
+    {
+     "name": "Eric Satterberg",
+     "character": "LASD Tech #1",
+     "popularity": 0.2
+    },
+    {
+     "name": "Ian Gary",
+     "character": "LASD Tech #2",
+     "popularity": 0.1
+    },
+    {
+     "name": "Linara Washington",
+     "character": "Waitress",
+     "popularity": 0.5
+    },
+    {
+     "name": "Jeff Corbett",
+     "character": "Bill Rathbun",
+     "popularity": 0.5
+    },
+    {
+     "name": "Stephanie Erb",
+     "character": "Phyllis Rathbun",
+     "popularity": 0.8
+    },
+    {
+     "name": "Scarlett DeMeo",
+     "character": "Teenage Girl",
+     "popularity": 1.5
+    },
+    {
+     "name": "Smalls",
+     "character": "Truck Driver",
+     "popularity": 0.2
+    },
+    {
+     "name": "Lee Garlington",
+     "character": "Landlady",
+     "popularity": 1.2
+    },
+    {
+     "name": "Dimiter D. Marinov",
+     "character": "St. Agnes Hotel Manager",
+     "popularity": 0.4
+    },
+    {
+     "name": "Julia Vera",
+     "character": "ABC Appliance Owner",
+     "popularity": 0.5
+    },
+    {
+     "name": "Jack Topalian",
+     "character": "AAA Appliance Owner",
+     "popularity": 0.5
+    },
+    {
+     "name": "Charlie Saxton",
+     "character": "Felix",
+     "popularity": 0.8
+    },
+    {
+     "name": "Justin Barnhill",
+     "character": "Grunge Kid",
+     "popularity": 0.1
+    },
+    {
+     "name": "Emil Beheshti",
+     "character": "Lab Coat Tech",
+     "popularity": 0.3
+    },
+    {
+     "name": "Bradley James",
+     "character": "LAPD",
+     "popularity": 0.5
+    },
+    {
+     "name": "Ben Kliewer",
+     "character": "LAPD #2",
+     "popularity": 0.1
+    },
+    {
+     "name": "Hank Northrop",
+     "character": "LAPD #3",
+     "popularity": 0.4
+    },
+    {
+     "name": "Bob Golub",
+     "character": "Bum",
+     "popularity": 0.2
+    },
+    {
+     "name": "Benny Thrasher",
+     "character": "Delinquent Kid",
+     "popularity": 0.2
+    },
+    {
+     "name": "Adam J. Harrington",
+     "character": "Greg Alberts",
+     "popularity": 0.6
+    },
+    {
+     "name": "Neil Garcia",
+     "character": "Pike's Bartender",
+     "popularity": 0.1
+    }
+   ]
+  }
+ ]
+}
