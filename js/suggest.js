@@ -42,14 +42,30 @@ function closeEnough(a, b, cap) {
   return dp[a.length][b.length] <= cap;
 }
 
-// How well a typed word fits a word in a name: 0 = starts it, 1 = small typo, -1 = no.
+// True if every letter typed appears in the word (as many times), e.g. "hazle" in "hazel".
+function hasAllLetters(typed, word) {
+  const counts = {};
+  for (const ch of word) counts[ch] = (counts[ch] || 0) + 1;
+  for (const ch of typed) {
+    if (!counts[ch]) return false;
+    counts[ch]--;
+  }
+  return true;
+}
+
+// How well a typed word fits a word in a name: 0 = starts it, 1 = typo with the
+// right letters (swapped or out of order), 2 = other small typo, -1 = no match.
 function wordFit(typed, word) {
   if (word.startsWith(typed)) return 0;
   if (typed.length >= 4) {
     const cap = typed.length >= 7 ? 2 : 1;
     // Compare against the same-length start of the word so partial typing still counts.
-    if (closeEnough(typed, word.slice(0, typed.length), cap)) return 1;
-    if (closeEnough(typed, word, cap)) return 1;
+    if (closeEnough(typed, word.slice(0, typed.length), cap) || closeEnough(typed, word, cap)) {
+      return hasAllLetters(typed, word) ? 1 : 2;
+    }
+  } else if (typed.length === 3 && word.length >= 4 && typed[0] === word[0]) {
+    // Short words: allow one missing letter ("jak" for "jack"), same first letter only.
+    if (closeEnough(typed, word.slice(0, 4), 1)) return 2;
   }
   return -1;
 }
