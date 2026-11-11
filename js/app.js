@@ -3,7 +3,10 @@ import {
   eligibleCharacters, billingFraction, tierFor,
 } from './scoring.js?v=dev';
 import { GAME_TIMEZONE, LAUNCH_DATE } from './config.js?v=dev';
-import { submitScore, getStanding, getTopTen } from './leaderboard.js?v=dev';
+import {
+  submitScore, getStanding, getTopTen,
+  getMyStats, createGroup, joinGroup, leaveGroup, getGroupBoard,
+} from './leaderboard.js?v=dev';
 import { attachSuggestions } from './suggest.js?v=dev';
 
 const app = document.getElementById('app');
@@ -116,7 +119,7 @@ function displayName() {
 }
 
 // Ask once per browser, before the first movie; remembered after that.
-function renderNameScreen(onDone) {
+function renderNameScreen(onDone, invited = false) {
   renderProgress(-1, movies.length);
   const input = el('input', {
     id: 'nick', type: 'text', maxlength: '20', autocomplete: 'nickname',
@@ -125,7 +128,9 @@ function renderNameScreen(onDone) {
   input.value = nickname();
   const form = el('form', { class: 'name-form', autocomplete: 'off' },
     el('h2', { class: 'name-title', text: 'What should we call you?' }),
-    el('p', { class: 'name-hint', text: 'Your name shows up on today’s leaderboard. Your score posts automatically when you finish.' }),
+    el('p', { class: 'name-hint', text: invited
+      ? 'A friend invited you to their group. Pick the name they’ll see on the group leaderboard.'
+      : 'Your name shows up on today’s leaderboard. Your score posts automatically when you finish.' }),
     el('label', { class: 'visually-hidden', for: 'nick', text: 'Leaderboard name' }),
     input,
     el('button', { class: 'btn', type: 'submit', text: 'Start playing' }),
@@ -164,9 +169,46 @@ function start() {
   else renderMovie(state.results.length);
 }
 
+// ---------- friend groups ----------
+function myGroups() { return store.get('dmg.groups', []); }
+function rememberGroup(g) {
+  store.set('dmg.groups', [...myGroups().filter((x) => x.code !== g.code), { code: g.code, name: g.name }]);
+}
+function forgetGroup(code) { store.set('dmg.groups', myGroups().filter((x) => x.code !== code)); }
+function inviteLink(code) { return `${location.origin}${location.pathname}?join=${code}`; }
+
+const noticeEl = document.getElementById('notice');
+function notice(text) { noticeEl.textContent = text || ''; noticeEl.hidden = !text; }
+
+// Invite links look like ?join=ABC123. Joining happens once, then the code is removed from the URL.
+const joinCode = (params.get('join') || '').toUpperCase().replace(/[^A-Z0-9]/g, '').slice(0, 6);
+if (params.has('join')) {
+  params.delete('join');
+  history.replaceState(null, '', location.pathname + (params.toString() ? `?${params}` : ''));
+}
+let joinHandled = false;
+async function handleJoin() {
+  if (!joinCode || joinHandled) return;
+  joinHandled = true;
+  try {
+    const g = await joinGroup(joinCode, playerId(), displayName());
+    rememberGroup(g);
+    store.set('dmg.activeBoard', g.code);
+    notice(state.results.length >= movies.length
+      ? `You joined ${g.name}.`
+      : `You joined ${g.name}. Finish today’s movies to see where you rank in the group.`);
+  } catch (err) {
+    notice(err.message);
+  }
+}
+
 const needsName = !isPractice && !state.results.length && !store.get('dmg.nickSet', false);
-if (needsName) renderNameScreen(start);
-else start();
+if (needsName) {
+  renderNameScreen(async () => { await handleJoin(); start(); }, !!joinCode);
+} else {
+  await handleJoin();
+  start();
+}
 
 // ---------- one movie ----------
 function renderMovie(i) {
@@ -252,7 +294,7 @@ function showReveal(reveal, movie, answers, result, i) {
   const last = i === movies.length - 1;
   const next = el('button', { class: 'btn', type: 'button', text: last ? 'See your score' : 'Next movie' });
   next.addEventListener('click', () => {
-    if (last) { playerLine.hidden = true; renderFinal(); } else renderMovie(i + 1);
+    if (last) { playerLine.hidden = true; notice(''); renderFinal(); } else renderMovie(i + 1);
     window.scrollTo({ top: 0 });
   });
 
@@ -274,15 +316,32 @@ function totalScore() {
   return state.results.reduce((s, r) => s + r.total, 0);
 }
 
+let myStreak = 0;
+
 function shareText() {
   const lines = state.results.map((r, i) =>
     `${i + 1}. ${(TIERS.find(t => t.id === r.tier) || {}).emoji || emojiFor(r.character ?? r.actor ?? 0, POINTS.character)}${emojiFor(r.year, POINTS.year)}${emojiFor(r.imdb, POINTS.imdb)} ${r.total}`);
   return [
-    `Daily Movie Game #${dayNumber(date)}`,
+    `Daily Movie Game #${dayNumber(date)}${myStreak > 1 ? ` 🔥${myStreak}` : ''}`,
     `${totalScore()} / ${MAX_PER_MOVIE * movies.length}`,
     ...lines,
     location.origin + location.pathname,
   ].join('\n');
+}
+
+// Opens the phone's share sheet, or copies on a computer. statusEl says what happened.
+async function shareOrCopy(text, statusEl, copiedMsg = 'Copied to clipboard.') {
+  try {
+    if (navigator.share && matchMedia('(pointer: coarse)').matches) {
+      await navigator.share({ text });
+      return;
+    }
+    await navigator.clipboard.writeText(text);
+    statusEl.textContent = copiedMsg;
+  } catch (err) {
+    if (err && err.name === 'AbortError') return; // closed the share sheet
+    statusEl.textContent = text;
+  }
 }
 
 // Every character the game would have accepted, grouped by tier, rarest last.
@@ -323,8 +382,9 @@ function renderFinal() {
     el('p', { class: 'final-max', text: `out of ${MAX_PER_MOVIE * movies.length}` }),
   );
 
+  const streakEl = el('p', { class: 'streak', hidden: '' });
   const percentile = el('p', { class: 'percentile' });
-  wrap.append(percentile);
+  wrap.append(streakEl, percentile);
 
   const breakdown = el('div', { class: 'breakdown' });
   movies.forEach((mv, i) => {
@@ -342,8 +402,13 @@ function renderFinal() {
   });
   wrap.append(breakdown);
 
-  const board = el('div', { class: 'board' });
+  const boards = el('section', { class: 'boards' });
   const actions = el('div', { class: 'stack' });
+  const afterPosting = () => {
+    loadStanding(percentile, total);
+    loadStreak(streakEl);
+    renderBoards(boards, total);
+  };
 
   if (isPractice) {
     percentile.textContent = 'Practice rounds don’t count toward the leaderboard.';
@@ -359,7 +424,7 @@ function renderFinal() {
         save();
         retry.remove();
         playerLine.hidden = true;
-        loadStanding(percentile, board, total);
+        afterPosting();
       } else {
         percentile.textContent = 'Couldn’t reach the leaderboard. Check your connection and try again.';
         retry.hidden = false;
@@ -369,34 +434,22 @@ function renderFinal() {
     actions.append(retry);
     post();
   } else {
-    loadStanding(percentile, board, total);
+    afterPosting();
   }
 
   const share = el('button', { class: 'btn secondary', type: 'button', text: 'Share results' });
   const copied = el('p', { class: 'copied', role: 'status' });
-  share.addEventListener('click', async () => {
-    const text = shareText();
-    try {
-      if (navigator.share && matchMedia('(pointer: coarse)').matches) {
-        await navigator.share({ text });
-        return;
-      }
-      await navigator.clipboard.writeText(text);
-      copied.textContent = 'Copied to clipboard.';
-    } catch {
-      copied.textContent = 'Couldn’t copy. Select and copy the text below.';
-      wrap.append(el('pre', { class: 'note', text }));
-    }
-  });
+  share.addEventListener('click', () => shareOrCopy(shareText(), copied));
   actions.append(share, copied);
-  wrap.append(actions, board, el('p', { class: 'note', text: 'New movies every day at midnight Eastern.' }));
+  wrap.append(actions, boards, reminderBlock(),
+    el('p', { class: 'note', text: 'New movies every day at midnight Eastern.' }));
 
   app.replaceChildren(wrap);
 }
 
-async function loadStanding(percentileEl, boardEl, myScore) {
+async function loadStanding(percentileEl, myScore) {
   percentileEl.textContent = 'Checking today’s scores…';
-  const [standing, top] = await Promise.all([getStanding(date, myScore), getTopTen(date)]);
+  const standing = await getStanding(date, myScore);
   if (standing) {
     const others = standing.total - 1;
     percentileEl.textContent = others <= 0
@@ -405,18 +458,210 @@ async function loadStanding(percentileEl, boardEl, myScore) {
   } else {
     percentileEl.textContent = 'Couldn’t load today’s scores.';
   }
-  if (top && top.length) {
-    const myName = displayName();
-    let marked = false;
-    const list = el('ol');
-    for (const row of top) {
-      const isMe = !marked && row.nickname === myName && row.score === myScore;
-      if (isMe) marked = true;
-      const li = el('li', { class: isMe ? 'me' : '' },
-        el('span', { class: 'who', text: row.nickname }),
-        el('span', { class: 'sc', text: String(row.score) }));
-      list.append(li);
-    }
-    boardEl.replaceChildren(el('h3', { text: 'Today’s top 10' }), list);
+}
+
+async function loadStreak(streakEl) {
+  const stats = await getMyStats(playerId(), date);
+  if (!stats || !stats.streak) return;
+  myStreak = stats.streak;
+  const best = stats.best_streak > stats.streak ? ` Best: ${stats.best_streak}.` : '';
+  streakEl.textContent = stats.streak === 1
+    ? `🔥 1-day streak. Come back tomorrow to keep it going.`
+    : `🔥 ${stats.streak}-day streak.${best}`;
+  streakEl.hidden = false;
+}
+
+// ---------- leaderboards: Everyone plus one tab per friend group ----------
+function renderBoards(container, myScore, notice = '') {
+  const groups = myGroups();
+  const options = [
+    { id: 'all', label: 'Everyone' },
+    ...groups.map((g) => ({ id: g.code, label: g.name })),
+    { id: 'new', label: groups.length ? '+ Group' : '+ Start or join a group' },
+  ];
+  let active = store.get('dmg.activeBoard', 'all');
+  if (!options.some((o) => o.id === active)) active = 'all';
+
+  const tabs = el('div', { class: 'board-tabs', role: 'tablist', 'aria-label': 'Leaderboards' });
+  const panel = el('div', { class: 'board-panel', role: 'tabpanel' });
+  container.replaceChildren(el('h3', { class: 'boards-title', text: 'Leaderboards' }), tabs, panel);
+
+  const select = (id, msg = '') => {
+    active = id;
+    if (id !== 'new') store.set('dmg.activeBoard', id);
+    for (const b of tabs.children) b.setAttribute('aria-selected', String(b.dataset.id === id));
+    if (id === 'all') showEveryone(panel, myScore);
+    else if (id === 'new') showGroupForms(panel, (g, m) => {
+      store.set('dmg.activeBoard', g.code);
+      renderBoards(container, myScore, m);
+    });
+    else showGroup(panel, id, myScore, msg, () => renderBoards(container, myScore));
+  };
+  for (const o of options) {
+    const b = el('button', { class: 'board-tab', type: 'button', role: 'tab', 'data-id': o.id, text: o.label });
+    b.addEventListener('click', () => select(o.id));
+    tabs.append(b);
   }
+  select(active, notice);
+}
+
+async function showEveryone(panel, myScore) {
+  panel.replaceChildren(el('p', { class: 'note', text: 'Loading…' }));
+  const top = await getTopTen(date);
+  if (!top) { panel.replaceChildren(el('p', { class: 'note', text: 'Couldn’t load today’s scores.' })); return; }
+  const myName = displayName();
+  let marked = false;
+  const list = el('ol', { class: 'board-list' });
+  for (const row of top) {
+    const isMe = !marked && row.nickname === myName && row.score === myScore;
+    if (isMe) marked = true;
+    list.append(el('li', { class: isMe ? 'me' : '' },
+      el('span', { class: 'who', text: row.nickname }),
+      el('span', { class: 'sc', text: String(row.score) })));
+  }
+  panel.replaceChildren(el('p', { class: 'board-sub', text: 'Today’s top 10' }), list);
+}
+
+async function showGroup(panel, code, myScore, msg, refresh) {
+  const group = myGroups().find((g) => g.code === code);
+  panel.replaceChildren(el('p', { class: 'note', text: 'Loading…' }));
+  let rows;
+  try {
+    rows = await getGroupBoard(code, playerId(), date);
+  } catch (err) {
+    const status = el('p', { class: 'note', text: err.message });
+    if (/not in this group|No group/.test(err.message)) {
+      const remove = el('button', { class: 'link-btn', type: 'button', text: 'Remove this tab' });
+      remove.addEventListener('click', () => { forgetGroup(code); refresh(); });
+      panel.replaceChildren(status, remove);
+    } else {
+      panel.replaceChildren(status);
+    }
+    return;
+  }
+
+  let sortBy = 'today';
+  const list = el('ol', { class: 'board-list group-list' });
+  const draw = () => {
+    const today = (r) => (r.today_score ?? -1);
+    const sorted = [...rows].sort((a, b) => (sortBy === 'today'
+      ? today(b) - today(a) || b.week_score - a.week_score
+      : b.week_score - a.week_score || today(b) - today(a)));
+    list.replaceChildren(...sorted.map((r) => el('li', { class: r.is_me ? 'me' : '' },
+      el('span', { class: 'who' }, r.nickname,
+        r.streak > 0 ? el('span', { class: 'flame', title: `${r.streak}-day streak`, text: ` 🔥${r.streak}` }) : null),
+      el('span', { class: 'sc', text: sortBy === 'today'
+        ? (r.today_score == null ? 'Not yet' : String(r.today_score))
+        : String(r.week_score) }))));
+    for (const b of toggle.children) b.setAttribute('aria-pressed', String(b.dataset.sort === sortBy));
+  };
+  const toggle = el('div', { class: 'seg', role: 'group', 'aria-label': 'Sort by' });
+  for (const [id, label] of [['today', 'Today'], ['week', 'This week']]) {
+    const b = el('button', { type: 'button', 'data-sort': id, text: label });
+    b.addEventListener('click', () => { sortBy = id; draw(); });
+    toggle.append(b);
+  }
+  draw();
+
+  const status = el('p', { class: 'copied', role: 'status', text: msg });
+  const invite = el('button', { class: 'btn small', type: 'button', text: 'Invite friends' });
+  invite.addEventListener('click', () => shareOrCopy(
+    `Join my group "${group ? group.name : code}" on Daily Movie Game: ${inviteLink(code)}`,
+    status, 'Invite link copied. Paste it in your group chat.'));
+
+  let armed = false;
+  const leave = el('button', { class: 'link-btn', type: 'button', text: 'Leave group' });
+  leave.addEventListener('click', async () => {
+    if (!armed) { armed = true; leave.textContent = 'Tap again to leave'; return; }
+    try { await leaveGroup(code, playerId()); } catch { /* still remove it here */ }
+    forgetGroup(code);
+    store.set('dmg.activeBoard', 'all');
+    refresh();
+  });
+
+  panel.replaceChildren(
+    el('div', { class: 'group-head' },
+      el('p', { class: 'board-sub', text: `${rows.length} member${rows.length === 1 ? '' : 's'}. Week resets Monday.` }),
+      toggle),
+    list,
+    el('div', { class: 'group-actions' }, invite, leave),
+    status,
+  );
+}
+
+function showGroupForms(panel, onGroup) {
+  const status = el('p', { class: 'form-error', role: 'alert' });
+
+  const nameInput = el('input', { id: 'group-name', type: 'text', maxlength: '30', placeholder: 'Movie Night Crew', autocomplete: 'off' });
+  const createForm = el('form', { class: 'group-form' },
+    el('label', { for: 'group-name', text: 'Start a group' }),
+    el('p', { class: 'note', text: 'You’ll get a link to send your friends.' }),
+    el('div', { class: 'inline' }, nameInput, el('button', { class: 'btn small', type: 'submit', text: 'Create' })));
+  createForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    status.textContent = '';
+    try {
+      const g = await createGroup(nameInput.value, playerId(), displayName());
+      rememberGroup(g);
+      onGroup(g, 'Group created. Tap “Invite friends” to send the link.');
+    } catch (err) { status.textContent = err.message; }
+  });
+
+  const codeInput = el('input', {
+    id: 'group-code', type: 'text', maxlength: '6', placeholder: 'ABC123',
+    autocomplete: 'off', autocapitalize: 'characters', spellcheck: 'false',
+  });
+  const joinForm = el('form', { class: 'group-form' },
+    el('label', { for: 'group-code', text: 'Have a code?' }),
+    el('div', { class: 'inline' }, codeInput, el('button', { class: 'btn small', type: 'submit', text: 'Join' })));
+  joinForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    status.textContent = '';
+    try {
+      const g = await joinGroup(codeInput.value.trim().toUpperCase(), playerId(), displayName());
+      rememberGroup(g);
+      onGroup(g, `You joined ${g.name}.`);
+    } catch (err) { status.textContent = err.message; }
+  });
+
+  panel.replaceChildren(createForm, joinForm, status);
+}
+
+// ---------- daily reminder (adds a repeating event to the player's calendar) ----------
+const REMINDER_TIMES = [['0900', '9 AM'], ['1200', 'Noon'], ['1800', '6 PM'], ['2100', '9 PM']];
+
+function googleCalendarLink(hhmm) {
+  const d = new Date();
+  d.setDate(d.getDate() + 1);
+  const ymd = `${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, '0')}${String(d.getDate()).padStart(2, '0')}`;
+  const end = String(Number(hhmm) + 10).padStart(4, '0');
+  const q = new URLSearchParams({
+    action: 'TEMPLATE',
+    text: '🎬 Play today’s Daily Movie Game',
+    dates: `${ymd}T${hhmm}00/${ymd}T${end}00`,
+    recur: 'RRULE:FREQ=DAILY',
+    details: `3 new movies are up. ${location.origin}${location.pathname}`,
+  });
+  return `https://calendar.google.com/calendar/render?${q}`;
+}
+
+function reminderBlock() {
+  const select = el('select', { id: 'remind-time' });
+  for (const [v, label] of REMINDER_TIMES) select.append(el('option', { value: v, text: label }));
+  select.value = store.get('dmg.remindTime', '1200');
+  const apple = el('a', { class: 'btn small', text: 'iPhone / Apple Calendar' });
+  const google = el('a', { class: 'btn small', target: '_blank', rel: 'noopener', text: 'Google Calendar' });
+  const update = () => {
+    store.set('dmg.remindTime', select.value);
+    apple.href = `reminders/${select.value}.ics`;
+    google.href = googleCalendarLink(select.value);
+  };
+  select.addEventListener('change', update);
+  update();
+  return el('details', { class: 'reminder' },
+    el('summary', { text: '⏰ Get a daily reminder' }),
+    el('p', { class: 'note', text: 'Adds a repeating event to your calendar so you don’t lose your streak.' }),
+    el('div', { class: 'remind-row' },
+      el('label', { for: 'remind-time', text: 'Remind me at' }), select),
+    el('div', { class: 'remind-btns' }, apple, google));
 }

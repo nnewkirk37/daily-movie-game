@@ -1,4 +1,4 @@
-// Talks to the Supabase "scores" table through its REST API.
+// Talks to Supabase: the "scores" table plus the group and streak functions.
 // The table's Row Level Security only allows inserting a new score and reading
 // nickname/score/date, so the public key can't edit or delete anything.
 import { SUPABASE_URL, SUPABASE_KEY } from './config.js?v=dev';
@@ -51,4 +51,48 @@ export async function getTopTen(date) {
   } catch {
     return null;
   }
+}
+
+// ---------- groups and streaks (Supabase functions in supabase/groups.sql) ----------
+
+async function rpc(fn, args) {
+  const res = await fetch(`${SUPABASE_URL}/rest/v1/rpc/${fn}`, {
+    method: 'POST',
+    headers: HEADERS,
+    body: JSON.stringify(args),
+  });
+  if (!res.ok) {
+    let message = '';
+    try { message = (await res.json()).message || ''; } catch { /* not JSON */ }
+    throw new Error(message || 'Couldn’t reach the server. Check your connection and try again.');
+  }
+  const text = await res.text();
+  return text ? JSON.parse(text) : null;
+}
+
+export async function getMyStats(playerId, date) {
+  try {
+    const rows = await rpc('my_stats', { p_player: playerId, p_date: date });
+    return rows && rows[0] ? rows[0] : null;
+  } catch {
+    return null;
+  }
+}
+
+export async function createGroup(name, playerId, nickname) {
+  const rows = await rpc('create_group', { p_name: name, p_player: playerId, p_nickname: nickname });
+  return { code: rows[0].group_code, name: rows[0].group_name, members: rows[0].member_count };
+}
+
+export async function joinGroup(code, playerId, nickname) {
+  const rows = await rpc('join_group', { p_code: code, p_player: playerId, p_nickname: nickname });
+  return { code: rows[0].group_code, name: rows[0].group_name, members: rows[0].member_count };
+}
+
+export async function leaveGroup(code, playerId) {
+  await rpc('leave_group', { p_code: code, p_player: playerId });
+}
+
+export async function getGroupBoard(code, playerId, date) {
+  return rpc('group_board', { p_code: code, p_player: playerId, p_date: date });
 }

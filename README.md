@@ -9,6 +9,8 @@ https://nnewkirk37.github.io/daily-movie-game/
 - `scripts/build-days.mjs` — pulls 3 well-known movies per day from TMDB, with the IMDb rating from OMDb, and writes `data/days/YYYY-MM-DD.json`.
 - `.github/workflows/daily-movies.yml` — runs that script every night (keeps 7 days ready) and deploys the site to GitHub Pages. Also redeploys on every push to `main`.
 - `supabase/schema.sql` — the leaderboard table and its security rules. Run once in the Supabase SQL Editor.
+- `supabase/groups.sql` — friend groups and streaks (tables + functions). Run once in the Supabase SQL Editor.
+- `scripts/make-reminders.mjs` — writes `reminders/*.ics` for the daily calendar reminder. Re-run with the new URL when the site moves to its own domain.
 
 Repository secrets needed: `TMDB_API_KEY`, `OMDB_API_KEY`.
 

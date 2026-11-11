@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Daily Movie Game//Reminder//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:daily-movie-game-reminder-1800@daily-movie-game
+DTSTAMP:20261111T120000Z
+DTSTART:20261112T180000
+DURATION:PT10M
+RRULE:FREQ=DAILY
+SUMMARY:🎬 Play today’s Daily Movie Game
+DESCRIPTION:3 new movies are up. Keep your streak going: https://nnewkirk37
+ .github.io/daily-movie-game/
+URL:https://nnewkirk37.github.io/daily-movie-game/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Play today’s Daily Movie Game
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
