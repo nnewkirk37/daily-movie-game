@@ -202,13 +202,6 @@ async function handleJoin() {
   }
 }
 
-const needsName = !isPractice && !state.results.length && !store.get('dmg.nickSet', false);
-if (needsName) {
-  renderNameScreen(async () => { await handleJoin(); start(); }, !!joinCode);
-} else {
-  await handleJoin();
-  start();
-}
 
 // ---------- one movie ----------
 function renderMovie(i) {
@@ -664,4 +657,15 @@ function reminderBlock() {
     el('div', { class: 'remind-row' },
       el('label', { for: 'remind-time', text: 'Remind me at' }), select),
     el('div', { class: 'remind-btns' }, apple, google));
+}
+
+// ---------- start the game ----------
+// Kept at the very bottom so everything above is defined before the first screen draws
+// (a finished game jumps straight to the results screen, which uses all of it).
+const needsName = !isPractice && !state.results.length && !store.get('dmg.nickSet', false);
+if (needsName) {
+  renderNameScreen(async () => { await handleJoin(); start(); }, !!joinCode);
+} else {
+  await handleJoin();
+  start();
 }
