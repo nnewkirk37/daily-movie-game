@@ -61,7 +61,7 @@ jobs:
 
       - name: Stamp file versions so browsers load the new code
         # Browsers keep GitHub Pages files for 10 minutes; a new ?v= forces a fresh copy.
-        run: sed -i "s/?v=dev/?v=${GITHUB_SHA::7}/g" index.html js/*.js
+        run: sed -i "s/?v=dev/?v=${GITHUB_SHA::7}/g" index.html archive.html js/*.js
 
       - uses: actions/configure-pages@v5
 

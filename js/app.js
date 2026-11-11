@@ -8,6 +8,7 @@ import {
   getMyStats, createGroup, joinGroup, leaveGroup, getGroupBoard,
 } from './leaderboard.js?v=dev';
 import { attachSuggestions } from './suggest.js?v=dev';
+import { initHelp } from './help.js?v=dev';
 
 const app = document.getElementById('app');
 const progressEl = document.getElementById('progress');
@@ -54,10 +55,12 @@ function playerId() {
   return id;
 }
 
-const dayKey = 'dmg.day.' + date;
-let state = isPractice ? null : store.get(dayKey, null);
+// Daily plays and practice plays are saved separately, so practicing a day you
+// already played never touches your real score.
+const dayKey = (isPractice ? 'dmg.practice.' : 'dmg.day.') + date;
+let state = store.get(dayKey, null);
 if (!state) state = { answers: [], results: [], submitted: false };
-function save() { if (!isPractice) store.set(dayKey, state); }
+function save() { store.set(dayKey, state); }
 
 // ---------- helpers ----------
 function el(tag, attrs = {}, ...children) {
@@ -100,12 +103,27 @@ async function loadDay() {
   return res.json();
 }
 
+function stopWith(text) {
+  const box = el('div', { class: 'status' }, el('p', { text }),
+    el('a', { class: 'btn small', href: './', text: 'Play today’s game' }));
+  app.replaceChildren(box);
+  throw new Error(text);
+}
+
+// Upcoming days are built in advance; don't let anyone play them early.
+if (date > realToday) stopWith('Those movies aren’t out yet.');
+
+initHelp();
+
 let day;
 try {
   day = await loadDay();
 } catch {
-  showMessage("Today's movies aren't posted yet. Check back in a few minutes.");
-  throw new Error('No data for ' + date);
+  if (date === realToday) {
+    showMessage('Today’s movies aren’t posted yet. Check back in a few minutes.');
+    throw new Error('No data for ' + date);
+  }
+  stopWith('There’s no game for that day.');
 }
 
 const movies = day.movies;
@@ -315,7 +333,7 @@ function shareText() {
   const lines = state.results.map((r, i) =>
     `${i + 1}. ${(TIERS.find(t => t.id === r.tier) || {}).emoji || emojiFor(r.character ?? r.actor ?? 0, POINTS.character)}${emojiFor(r.year, POINTS.year)}${emojiFor(r.imdb, POINTS.imdb)} ${r.total}`);
   return [
-    `Daily Movie Game #${dayNumber(date)}${myStreak > 1 ? ` 🔥${myStreak}` : ''}`,
+    `Daily Movie Game #${dayNumber(date)}${isPractice ? ' (replay)' : ''}${!isPractice && myStreak > 1 ? ` 🔥${myStreak}` : ''}`,
     `${totalScore()} / ${MAX_PER_MOVIE * movies.length}`,
     ...lines,
     location.origin + location.pathname,
@@ -404,7 +422,14 @@ function renderFinal() {
   };
 
   if (isPractice) {
-    percentile.textContent = 'Practice rounds don’t count toward the leaderboard.';
+    percentile.textContent = 'Practice rounds don’t count toward the leaderboard or your streak.';
+    const older = new Date(Date.parse(date + 'T12:00:00Z') - 86400000).toISOString().slice(0, 10);
+    if (older >= LAUNCH_DATE) {
+      actions.append(el('a', { class: 'btn', href: `?date=${older}`, text: 'Play the day before' }));
+    }
+    const todayDone = (store.get('dmg.day.' + realToday, null)?.results || []).length >= movies.length;
+    actions.append(el('a', { class: 'btn secondary', href: 'archive.html', text: 'All past days' }));
+    if (!todayDone) actions.append(el('a', { class: 'btn secondary', href: './', text: 'Play today’s game' }));
   } else if (!state.submitted) {
     // Post automatically under the name chosen at the start.
     const retry = el('button', { class: 'btn', type: 'button', text: 'Try posting again', hidden: '' });
@@ -434,7 +459,7 @@ function renderFinal() {
   const copied = el('p', { class: 'copied', role: 'status' });
   share.addEventListener('click', () => shareOrCopy(shareText(), copied));
   actions.append(share, copied);
-  wrap.append(actions, boards, reminderBlock(),
+  wrap.append(actions, isPractice ? null : boards, reminderBlock(),
     el('p', { class: 'note', text: 'New movies every day at midnight Eastern.' }));
 
   app.replaceChildren(wrap);

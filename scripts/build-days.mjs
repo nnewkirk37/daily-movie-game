@@ -11,6 +11,7 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
 import { eligibleCharacters } from '../js/scoring.js';
+import { buildIndex } from './build-index.mjs';
 
 const TMDB_KEY = process.env.TMDB_API_KEY;
 const OMDB_KEY = process.env.OMDB_API_KEY;
@@ -120,6 +121,7 @@ async function getPool() {
 
 async function main() {
   await buildDays();
+  await buildIndex();
   await buildBank();
 }
 

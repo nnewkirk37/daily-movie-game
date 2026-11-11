@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Past Days</title>
+  <meta name="description" content="Replay earlier days of Daily Movie Game. Three movies a day. Name an obscure character, guess the release year, guess the IMDb score.">
+  <meta name="theme-color" content="#22264B">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=dev">
+</head>
+<body>
+  <header class="top">
+    <h1 class="wordmark"><a class="wordmark-link" href="./">Daily Movie Game</a></h1>
+    <nav class="top-links" aria-label="Game">
+      <button class="link-btn" type="button" id="help-btn">How to play</button>
+      <a href="./">Today’s game</a>
+    </nav>
+  </header>
+
+  <main id="archive" aria-live="polite">
+    <h2 class="archive-title">Past days</h2>
+    <p class="archive-intro">Replay any earlier day as practice. Practice rounds don’t count toward the leaderboard or your streak.</p>
+    <p class="status">Loading…</p>
+  </main>
+
+  <footer class="credits">
+    <p>Movie data from <a href="https://www.themoviedb.org/" rel="noopener">TMDB</a> and ratings from <a href="https://www.omdbapi.com/" rel="noopener">OMDb</a>. This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
+  </footer>
+
+  <script type="module" src="js/archive.js?v=dev"></script>
+</body>
+</html>
