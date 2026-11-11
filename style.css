@@ -371,3 +371,64 @@ body {
   text-align: center;
 }
 .credits a { color: var(--on-velvet); }
+
+/* Name screen at the start */
+.name-ticket { padding-top: 24px; }
+.name-form input {
+  display: block;
+  width: 100%;
+  margin: 14px 0 14px;
+  font: inherit;
+  font-size: 18px;
+  color: var(--ink);
+  background: #FFF6F3;
+  border: 2px solid var(--ticket-edge);
+  border-radius: var(--radius-input);
+  padding: 11px 12px;
+}
+.name-form input:focus { outline: none; border-color: var(--ink); }
+.name-title { font-size: 23px; line-height: 1.2; margin: 0 0 6px; }
+.name-hint { margin: 0; color: var(--ink-soft); font-size: 15px; }
+.name-form .link-btn { display: block; margin: 14px auto 0; color: var(--ink-soft); }
+
+.link-btn {
+  font: inherit;
+  font-size: 15px;
+  background: none;
+  border: none;
+  padding: 2px 0;
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+.player { margin: -8px 0 14px; font-size: 15px; color: var(--on-velvet-soft); }
+.player .link-btn { color: var(--on-velvet); }
+
+.visually-hidden {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+/* Character name suggestions */
+.has-suggestions { position: relative; }
+.suggestions {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  margin: 4px 0 0;
+  padding: 4px;
+  list-style: none;
+  background: #FFF6F3;
+  border: 2px solid var(--ink);
+  border-radius: var(--radius-input);
+  box-shadow: 0 10px 24px rgba(24, 27, 56, 0.35);
+}
+.suggestions li {
+  padding: 10px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 17px;
+}
+.suggestions li[aria-selected="true"], .suggestions li:hover { background: var(--ticket); }

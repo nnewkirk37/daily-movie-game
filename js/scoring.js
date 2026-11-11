@@ -37,6 +37,10 @@ function levenshtein(a, b) {
         dp[i][j - 1] + 1,
         dp[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1),
       );
+      // Two swapped letters ("Hazle") count as one typo.
+      if (i > 1 && j > 1 && a[i - 1] === b[j - 2] && a[i - 2] === b[j - 1]) {
+        dp[i][j] = Math.min(dp[i][j], dp[i - 2][j - 2] + 1);
+      }
     }
   }
   return dp[a.length][b.length];

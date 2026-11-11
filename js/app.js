@@ -4,6 +4,7 @@ import {
 } from './scoring.js?v=dev';
 import { GAME_TIMEZONE, LAUNCH_DATE } from './config.js?v=dev';
 import { submitScore, getStanding, getTopTen } from './leaderboard.js?v=dev';
+import { attachSuggestions } from './suggest.js?v=dev';
 
 const app = document.getElementById('app');
 const progressEl = document.getElementById('progress');
@@ -105,11 +106,67 @@ try {
 }
 
 const movies = day.movies;
-if (state.results.length >= movies.length) {
-  renderFinal();
-} else {
-  renderMovie(state.results.length);
+
+// ---------- nickname ----------
+function nickname() {
+  return (store.get('dmg.nick', '') || '').trim().slice(0, 20);
 }
+function displayName() {
+  return nickname() || 'Anonymous';
+}
+
+// Ask once per browser, before the first movie; remembered after that.
+function renderNameScreen(onDone) {
+  renderProgress(-1, movies.length);
+  const input = el('input', {
+    id: 'nick', type: 'text', maxlength: '20', autocomplete: 'nickname',
+    autocapitalize: 'words', spellcheck: 'false', placeholder: 'Your name',
+  });
+  input.value = nickname();
+  const form = el('form', { class: 'name-form', autocomplete: 'off' },
+    el('h2', { class: 'name-title', text: 'What should we call you?' }),
+    el('p', { class: 'name-hint', text: 'Your name shows up on today’s leaderboard. Your score posts automatically when you finish.' }),
+    el('label', { class: 'visually-hidden', for: 'nick', text: 'Leaderboard name' }),
+    input,
+    el('button', { class: 'btn', type: 'submit', text: 'Start playing' }),
+  );
+  const skip = el('button', { class: 'link-btn', type: 'button', text: 'Play without a name' });
+  form.append(skip);
+  const finish = (name) => {
+    store.set('dmg.nick', name.trim().slice(0, 20));
+    store.set('dmg.nickSet', true);
+    onDone();
+  };
+  form.addEventListener('submit', (e) => { e.preventDefault(); finish(input.value); });
+  skip.addEventListener('click', () => finish(''));
+  app.replaceChildren(el('article', { class: 'ticket name-ticket' }, form));
+  input.focus({ preventScroll: true });
+}
+
+// Small "Playing as ___" line under the date, with a way to change it before finishing.
+const playerLine = document.getElementById('player');
+function renderPlayerLine() {
+  if (isPractice || state.submitted || !store.get('dmg.nickSet', false) || state.results.length >= movies.length) {
+    playerLine.hidden = true;
+    return;
+  }
+  const change = el('button', { class: 'link-btn', type: 'button', text: 'Change' });
+  change.addEventListener('click', () => {
+    renderNameScreen(() => { renderPlayerLine(); start(); });
+  });
+  playerLine.replaceChildren(`Playing as ${displayName()}. `, change);
+  playerLine.hidden = false;
+}
+
+function start() {
+  renderPlayerLine();
+  if (state.results.length >= movies.length) renderFinal();
+  else renderMovie(state.results.length);
+}
+
+const needsName = !isPractice && !state.results.length && !store.get('dmg.nickSet', false);
+if (needsName) renderNameScreen(start);
+else start();
 
 // ---------- one movie ----------
 function renderMovie(i) {
@@ -152,6 +209,7 @@ function renderMovie(i) {
     showReveal(reveal, movie, answers, result, i);
   });
 
+  attachSuggestions(form.character);
   app.replaceChildren(node);
   form.character.focus({ preventScroll: true });
 }
@@ -194,7 +252,7 @@ function showReveal(reveal, movie, answers, result, i) {
   const last = i === movies.length - 1;
   const next = el('button', { class: 'btn', type: 'button', text: last ? 'See your score' : 'Next movie' });
   next.addEventListener('click', () => {
-    if (last) renderFinal(); else renderMovie(i + 1);
+    if (last) { playerLine.hidden = true; renderFinal(); } else renderMovie(i + 1);
     window.scrollTo({ top: 0 });
   });
 
@@ -290,34 +348,26 @@ function renderFinal() {
   if (isPractice) {
     percentile.textContent = 'Practice rounds don’t count toward the leaderboard.';
   } else if (!state.submitted) {
-    percentile.textContent = 'Add your score to see how you stack up.';
-    const nick = el('div', { class: 'nick' });
-    const input = el('input', {
-      id: 'nick', type: 'text', maxlength: '20', placeholder: 'Anonymous', autocomplete: 'nickname',
-    });
-    input.value = store.get('dmg.nick', '');
-    nick.append(el('label', { for: 'nick', text: 'Name for the leaderboard' }), input);
-    const submit = el('button', { class: 'btn', type: 'button', text: 'Post my score' });
-    submit.addEventListener('click', async () => {
-      submit.disabled = true;
-      submit.textContent = 'Posting…';
-      const name = input.value.trim().slice(0, 20) || 'Anonymous';
-      store.set('dmg.nick', input.value.trim());
-      const ok = await submitScore({ date, nickname: name, score: total, playerId: playerId() });
+    // Post automatically under the name chosen at the start.
+    const retry = el('button', { class: 'btn', type: 'button', text: 'Try posting again', hidden: '' });
+    const post = async () => {
+      retry.hidden = true;
+      percentile.textContent = `Posting your score as ${displayName()}…`;
+      const ok = await submitScore({ date, nickname: displayName(), score: total, playerId: playerId() });
       if (ok) {
         state.submitted = true;
         save();
-        nick.remove();
-        submit.remove();
+        retry.remove();
+        playerLine.hidden = true;
         loadStanding(percentile, board, total);
       } else {
-        submit.disabled = false;
-        submit.textContent = 'Post my score';
         percentile.textContent = 'Couldn’t reach the leaderboard. Check your connection and try again.';
+        retry.hidden = false;
       }
-    });
-    wrap.append(nick);
-    actions.append(submit);
+    };
+    retry.addEventListener('click', post);
+    actions.append(retry);
+    post();
   } else {
     loadStanding(percentile, board, total);
   }
@@ -356,7 +406,7 @@ async function loadStanding(percentileEl, boardEl, myScore) {
     percentileEl.textContent = 'Couldn’t load today’s scores.';
   }
   if (top && top.length) {
-    const myName = (store.get('dmg.nick', '') || 'Anonymous').slice(0, 20);
+    const myName = displayName();
     let marked = false;
     const list = el('ol');
     for (const row of top) {

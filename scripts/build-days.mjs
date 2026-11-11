@@ -10,6 +10,7 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
+import { eligibleCharacters } from '../js/scoring.js';
 
 const TMDB_KEY = process.env.TMDB_API_KEY;
 const OMDB_KEY = process.env.OMDB_API_KEY;
@@ -23,6 +24,12 @@ const MOVIES_PER_DAY = 3;
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const DAYS_DIR = path.join(ROOT, 'data', 'days');
 const USED_FILE = path.join(ROOT, 'data', 'used.json');
+// Character name bank for typing suggestions: names from many movies, so a
+// suggestion never tells you which characters are in today's movie.
+const BANK_MOVIES_FILE = path.join(ROOT, 'data', 'bank-movies.json');
+const BANK_FILE = path.join(ROOT, 'data', 'characters.json');
+const BANK_ADD_PER_RUN = 300;   // new movies added to the bank each night
+const BANK_MAX_MOVIES = 900;    // keeps characters.json small enough for phones
 
 // "Well-known" filter: English-language, 1970 or later, lots of votes on TMDB.
 const MIN_VOTES = 3000;
@@ -105,7 +112,18 @@ function shuffle(arr) {
   return arr;
 }
 
+let poolCache = null;
+async function getPool() {
+  if (!poolCache) poolCache = await loadPool();
+  return poolCache;
+}
+
 async function main() {
+  await buildDays();
+  await buildBank();
+}
+
+async function buildDays() {
   await mkdir(DAYS_DIR, { recursive: true });
   const used = new Set(existsSync(USED_FILE) ? JSON.parse(await readFile(USED_FILE, 'utf8')) : []);
 
@@ -119,7 +137,7 @@ async function main() {
     return;
   }
 
-  const pool = await loadPool();
+  const pool = await getPool();
   console.log(`Pool: ${pool.length} well-known movies, ${used.size} already used.`);
   let candidates = shuffle(pool.filter((id) => !used.has(id)));
   if (candidates.length < missing.length * MOVIES_PER_DAY) {
@@ -147,6 +165,63 @@ async function main() {
   }
 
   await writeFile(USED_FILE, JSON.stringify([...used]) + '\n');
+}
+
+// Names a player could type for one movie (same rules the game uses to score).
+function bankNames(cast) {
+  return eligibleCharacters(cast)
+    .map((c) => c.character)
+    .filter((name) => name.replace(/[^A-Za-z]/g, '').length >= 3);
+}
+
+async function buildBank() {
+  const bankMovies = existsSync(BANK_MOVIES_FILE)
+    ? JSON.parse(await readFile(BANK_MOVIES_FILE, 'utf8')) : {};
+
+  // Every movie that's ever been in the game is always in the bank.
+  for (const f of (await import('node:fs')).readdirSync(DAYS_DIR)) {
+    if (!f.endsWith('.json')) continue;
+    const day = JSON.parse(await readFile(path.join(DAYS_DIR, f), 'utf8'));
+    for (const m of day.movies) bankMovies[m.tmdb_id] = bankNames(m.cast);
+  }
+
+  // Plus a growing set of other well-known movies, so suggestions don't give answers away.
+  const room = BANK_MAX_MOVIES - Object.keys(bankMovies).length;
+  if (room > 0) {
+    const pool = await getPool();
+    const toAdd = shuffle(pool.filter((id) => !bankMovies[id])).slice(0, Math.min(room, BANK_ADD_PER_RUN));
+    let added = 0;
+    // A few requests at a time keeps well under TMDB's rate limit.
+    for (let i = 0; i < toAdd.length; i += 8) {
+      await Promise.all(toAdd.slice(i, i + 8).map(async (id) => {
+        try {
+          const credits = await tmdb(`/movie/${id}/credits`);
+          const cast = (credits.cast || []).slice(0, MAX_CAST).map((c) => ({
+            name: c.name,
+            character: (c.character || '').replace(/\s*\(.*?\)\s*/g, ' ').trim(),
+          }));
+          bankMovies[id] = bankNames(cast);
+          added++;
+        } catch (err) {
+          console.warn(`Bank: skipping ${id}: ${err.message}`);
+        }
+      }));
+    }
+    console.log(`Bank: added ${added} movies.`);
+  }
+
+  // One flat, de-duplicated, alphabetical list of names for the game to load.
+  const seen = new Map();
+  for (const names of Object.values(bankMovies)) {
+    for (const name of names) {
+      const key = name.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]/g, '');
+      if (key && !seen.has(key)) seen.set(key, name);
+    }
+  }
+  const all = [...seen.values()].sort((a, b) => a.localeCompare(b));
+  await writeFile(BANK_MOVIES_FILE, JSON.stringify(bankMovies) + '\n');
+  await writeFile(BANK_FILE, JSON.stringify(all) + '\n');
+  console.log(`Bank: ${all.length} character names from ${Object.keys(bankMovies).length} movies.`);
 }
 
 main().catch((err) => {
