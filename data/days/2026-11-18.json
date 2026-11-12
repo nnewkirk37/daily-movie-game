@@ -1,0 +1,880 @@
+{
+ "date": "2026-11-18",
+ "movies": [
+  {
+   "tmdb_id": 68,
+   "imdb_id": "tt0088846",
+   "title": "Brazil",
+   "year": 1985,
+   "imdb": 7.8,
+   "poster": "https://image.tmdb.org/t/p/w342/2w09J0KUnVtJvqPYu8N63XjAyCR.jpg",
+   "cast": [
+    {
+     "name": "Jonathan Pryce",
+     "character": "Sam Lowry",
+     "popularity": 3.2
+    },
+    {
+     "name": "Robert De Niro",
+     "character": "Harry Tuttle",
+     "popularity": 7.7
+    },
+    {
+     "name": "Katherine Helmond",
+     "character": "Mrs. Ida Lowry",
+     "popularity": 1.1
+    },
+    {
+     "name": "Ian Holm",
+     "character": "Mr. Kurtzmann",
+     "popularity": 2.2
+    },
+    {
+     "name": "Bob Hoskins",
+     "character": "Spoor",
+     "popularity": 2.6
+    },
+    {
+     "name": "Michael Palin",
+     "character": "Jack Lint",
+     "popularity": 1.6
+    },
+    {
+     "name": "Ian Richardson",
+     "character": "Mr. Warrenn",
+     "popularity": 0.9
+    },
+    {
+     "name": "Peter Vaughan",
+     "character": "Mr. Helpmann",
+     "popularity": 1.3
+    },
+    {
+     "name": "Kim Greist",
+     "character": "Jill Layton",
+     "popularity": 0.8
+    },
+    {
+     "name": "Jim Broadbent",
+     "character": "Dr. Jaffe",
+     "popularity": 2.5
+    },
+    {
+     "name": "Barbara Hicks",
+     "character": "Mrs. Alma Terrain",
+     "popularity": 0.4
+    },
+    {
+     "name": "Charles McKeown",
+     "character": "Lime",
+     "popularity": 0.4
+    },
+    {
+     "name": "Derrick O'Connor",
+     "character": "Dowser",
+     "popularity": 0.4
+    },
+    {
+     "name": "Kathryn Pogson",
+     "character": "Shirley",
+     "popularity": 0.5
+    },
+    {
+     "name": "Bryan Pringle",
+     "character": "Spiro",
+     "popularity": 0.6
+    },
+    {
+     "name": "Sheila Reid",
+     "character": "Mrs. Buttle",
+     "popularity": 0.6
+    },
+    {
+     "name": "John Flanagan",
+     "character": "T.V. Interviewer / Salesman",
+     "popularity": 0.4
+    },
+    {
+     "name": "Roger Ashton-Griffiths",
+     "character": "Priest",
+     "popularity": 0.9
+    },
+    {
+     "name": "John Pierce Jones",
+     "character": "Basement Guard",
+     "popularity": 0.3
+    },
+    {
+     "name": "Nigel Planer",
+     "character": "Charlie--Dept. of Works",
+     "popularity": 0.9
+    },
+    {
+     "name": "Terence Bayler",
+     "character": "T.V. Commercial Presenter",
+     "popularity": 0.4
+    },
+    {
+     "name": "Gorden Kaye",
+     "character": "M.O.I. Lobby Porter",
+     "popularity": 0.4
+    },
+    {
+     "name": "Jack Purvis",
+     "character": "Dr. Chapman",
+     "popularity": 0.7
+    },
+    {
+     "name": "Howard Lew Lewis",
+     "character": "Black Maria Guard",
+     "popularity": 0.5
+    },
+    {
+     "name": "Ray Cooper",
+     "character": "Technician",
+     "popularity": 0.5
+    },
+    {
+     "name": "Brian Miller",
+     "character": "Mr. Buttle",
+     "popularity": 0.5
+    },
+    {
+     "name": "Simon Jones",
+     "character": "Arrest Official",
+     "popularity": 0.7
+    },
+    {
+     "name": "Derek Deadman",
+     "character": "Bill - Dept. of Works",
+     "popularity": 0.6
+    },
+    {
+     "name": "Bill Wallis",
+     "character": "Bespectacled Lurker",
+     "popularity": 0.3
+    },
+    {
+     "name": "Myrtle Devenish",
+     "character": "Typist in Jack's Office",
+     "popularity": 0.2
+    },
+    {
+     "name": "Ann Way",
+     "character": "Old Lady with Dog",
+     "popularity": 0.3
+    },
+    {
+     "name": "Don Henderson",
+     "character": "First 'Black Maria' Guard",
+     "popularity": 1.1
+    },
+    {
+     "name": "Oscar Quitak",
+     "character": "Interview Official",
+     "popularity": 0.5
+    },
+    {
+     "name": "Harold Innocent",
+     "character": "Interview Official",
+     "popularity": 0.7
+    },
+    {
+     "name": "John Grillo",
+     "character": "Interview Official",
+     "popularity": 0.6
+    },
+    {
+     "name": "Ralph Nossek",
+     "character": "Interview Official",
+     "popularity": 0.2
+    },
+    {
+     "name": "David Gant",
+     "character": "Interview Official",
+     "popularity": 0.6
+    },
+    {
+     "name": "James Coyle",
+     "character": "Interview Official",
+     "popularity": 0.4
+    },
+    {
+     "name": "Patrick Connor",
+     "character": "Cell Guard",
+     "popularity": 0.2
+    },
+    {
+     "name": "Elizabeth Spender",
+     "character": "Alison / 'Barbara' Lint",
+     "popularity": 0.3
+    },
+    {
+     "name": "Russell Keith Grant",
+     "character": "Young  Gallant at Funeral",
+     "popularity": 0.2
+    },
+    {
+     "name": "Terry Gilliam",
+     "character": "Smoking Man",
+     "popularity": 2.4
+    },
+    {
+     "name": "Winston Dennis",
+     "character": "Samurai Warrior",
+     "popularity": 0.2
+    }
+   ]
+  },
+  {
+   "tmdb_id": 20526,
+   "imdb_id": "tt1104001",
+   "title": "TRON: Legacy",
+   "year": 2010,
+   "imdb": 6.8,
+   "poster": "https://image.tmdb.org/t/p/w342/xcO8Uun0mfmE3N9CaiCy0tvjpiu.jpg",
+   "cast": [
+    {
+     "name": "Garrett Hedlund",
+     "character": "Sam Flynn",
+     "popularity": 4.8
+    },
+    {
+     "name": "Olivia Wilde",
+     "character": "Quorra",
+     "popularity": 4.7
+    },
+    {
+     "name": "Jeff Bridges",
+     "character": "Kevin Flynn / Clu",
+     "popularity": 3.9
+    },
+    {
+     "name": "Bruce Boxleitner",
+     "character": "Alan Bradley / Tron",
+     "popularity": 1.6
+    },
+    {
+     "name": "James Frain",
+     "character": "Jarvis",
+     "popularity": 1.8
+    },
+    {
+     "name": "Beau Garrett",
+     "character": "Gem",
+     "popularity": 2.3
+    },
+    {
+     "name": "Michael Sheen",
+     "character": "Castor / Zuse",
+     "popularity": 2.6
+    },
+    {
+     "name": "Anis Cheurfa",
+     "character": "Rinzler",
+     "popularity": 0.3
+    },
+    {
+     "name": "Serinda Swan",
+     "character": "Siren #2",
+     "popularity": 4.9
+    },
+    {
+     "name": "Yaya DaCosta",
+     "character": "Siren #3",
+     "popularity": 2.7
+    },
+    {
+     "name": "Elizabeth Mathis",
+     "character": "Siren #4",
+     "popularity": 0.4
+    },
+    {
+     "name": "Kis Yurij",
+     "character": "Half Faced Man",
+     "popularity": 0.4
+    },
+    {
+     "name": "Conrad Coates",
+     "character": "Bartik",
+     "popularity": 0.5
+    },
+    {
+     "name": "Thomas Bangalter",
+     "character": "Masked DJ",
+     "popularity": 0.5
+    },
+    {
+     "name": "Guy-Manuel de Homem-Christo",
+     "character": "Masked DJ",
+     "popularity": 0.9
+    },
+    {
+     "name": "Ron Selmour",
+     "character": "Chattering Homeless Man",
+     "popularity": 0.5
+    },
+    {
+     "name": "Dan Joffre",
+     "character": "Key Security Guard #1 - Ernie",
+     "popularity": 0.4
+    },
+    {
+     "name": "Darren Dolynski",
+     "character": "Young Man on Recognizer",
+     "popularity": 0.7
+    },
+    {
+     "name": "Kofi Yiadom",
+     "character": "Disc Opponent #2 / Black Guard",
+     "popularity": 0.4
+    },
+    {
+     "name": "Steven Lisberger",
+     "character": "Shaddix",
+     "popularity": 0.6
+    },
+    {
+     "name": "Donnelly Rhodes",
+     "character": "Grandpa Flynn",
+     "popularity": 1
+    },
+    {
+     "name": "Belinda Montgomery",
+     "character": "Grandma Flynn",
+     "popularity": 0.5
+    },
+    {
+     "name": "Owen Best",
+     "character": "7 Year Old Sam Flynn",
+     "popularity": 0.2
+    },
+    {
+     "name": "Matt Ward",
+     "character": "Iso Boy",
+     "popularity": 0.4
+    },
+    {
+     "name": "Zoe Fryklund",
+     "character": "Iso Girl",
+     "popularity": 0
+    },
+    {
+     "name": "Dean Redman",
+     "character": "Light Jet Sentry",
+     "popularity": 0.7
+    },
+    {
+     "name": "Mi-Jung Lee",
+     "character": "Debra Chung",
+     "popularity": 0.5
+    },
+    {
+     "name": "Christopher Logan",
+     "character": "Nervous Program",
+     "popularity": 0.4
+    },
+    {
+     "name": "Sheldon Yamkovy",
+     "character": "Destitute Program",
+     "popularity": 0.2
+    },
+    {
+     "name": "Dale Wolfe",
+     "character": "Irv Culpepper",
+     "popularity": 0.2
+    },
+    {
+     "name": "Joanne Wilson",
+     "character": "Reporter #1",
+     "popularity": 0.4
+    },
+    {
+     "name": "Catherine Lough Haggquist",
+     "character": "Reporter #2",
+     "popularity": 0.9
+    },
+    {
+     "name": "Thomas Bradshaw",
+     "character": "Security Guard #2",
+     "popularity": 0.2
+    },
+    {
+     "name": "Shafin Karim",
+     "character": "East Indian Taxi Driver",
+     "popularity": 0.3
+    },
+    {
+     "name": "Rob Daly",
+     "character": "Lead Sentry",
+     "popularity": 0.2
+    },
+    {
+     "name": "Mike Ching",
+     "character": "Blue Gaming Program",
+     "popularity": 0.3
+    },
+    {
+     "name": "Michael Teigen",
+     "character": "Green Gaming Program",
+     "popularity": 0.8
+    },
+    {
+     "name": "Brent Stait",
+     "character": "Purple Gaming Program",
+     "popularity": 0.9
+    },
+    {
+     "name": "Shaw Madson",
+     "character": "Reporter #3",
+     "popularity": 0.4
+    },
+    {
+     "name": "Amy Esterle",
+     "character": "Young Mrs. Flynn",
+     "popularity": 0.4
+    },
+    {
+     "name": "Cody Laudan",
+     "character": "End of the Line Club Bouncer",
+     "popularity": 0.5
+    },
+    {
+     "name": "Jeffrey Nordling",
+     "character": "Richard Mackey",
+     "popularity": 1.5
+    },
+    {
+     "name": "Christine Adams",
+     "character": "Claire Atkinson",
+     "popularity": 1.2
+    },
+    {
+     "name": "Kate Gajdosik",
+     "character": "News Anchor",
+     "popularity": 0.4
+    },
+    {
+     "name": "Jack McGee",
+     "character": "Police Photographer",
+     "popularity": 1
+    },
+    {
+     "name": "Dawn Mander",
+     "character": "Crying Program",
+     "popularity": 0.1
+    },
+    {
+     "name": "Michael Logie",
+     "character": "Kevin Flynn Performance Double",
+     "popularity": 0.1
+    },
+    {
+     "name": "John Reardon",
+     "character": "Young Kevin Flynn / Clu Performance Double",
+     "popularity": 1.4
+    },
+    {
+     "name": "Edie Mirman",
+     "character": "Computer Voice",
+     "popularity": 0.6
+    },
+    {
+     "name": "Allen Jo",
+     "character": "Black Guard / Disc Opponent #1",
+     "popularity": 0.1
+    },
+    {
+     "name": "Aaron Toney",
+     "character": "Black Guard",
+     "popularity": 0.5
+    },
+    {
+     "name": "Kim Do Nguyen",
+     "character": "Black Guard",
+     "popularity": 0.2
+    },
+    {
+     "name": "Patrick Sabongui",
+     "character": "Gaming Program 1 - S",
+     "popularity": 1.2
+    },
+    {
+     "name": "Will Erichson",
+     "character": "Gaming Program 2 - S",
+     "popularity": 0.3
+    },
+    {
+     "name": "Cillian Murphy",
+     "character": "Edward Dillinger",
+     "popularity": 5.3
+    },
+    {
+     "name": "Brandon Jay McLaren",
+     "character": "Sobel",
+     "popularity": 1.8
+    },
+    {
+     "name": "Hugo Steele",
+     "character": "End of Line Club Bouncer",
+     "popularity": 0.7
+    },
+    {
+     "name": "Daft Punk",
+     "character": "Masked DJs",
+     "popularity": 0.1
+    },
+    {
+     "name": "Nicholas MacDonald",
+     "character": "Bar Goer",
+     "popularity": 0.1
+    },
+    {
+     "name": "Odain Watson",
+     "character": "Male Executive",
+     "popularity": 0.1
+    }
+   ]
+  },
+  {
+   "tmdb_id": 274,
+   "imdb_id": "tt0102926",
+   "title": "The Silence of the Lambs",
+   "year": 1991,
+   "imdb": 8.6,
+   "poster": "https://image.tmdb.org/t/p/w342/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg",
+   "cast": [
+    {
+     "name": "Jodie Foster",
+     "character": "Clarice Starling",
+     "popularity": 5.3
+    },
+    {
+     "name": "Anthony Hopkins",
+     "character": "Dr. Hannibal Lecter",
+     "popularity": 4.9
+    },
+    {
+     "name": "Scott Glenn",
+     "character": "Jack Crawford",
+     "popularity": 2.9
+    },
+    {
+     "name": "Ted Levine",
+     "character": "Jame Gumb",
+     "popularity": 2.9
+    },
+    {
+     "name": "Anthony Heald",
+     "character": "Dr. Frederick Chilton",
+     "popularity": 1.1
+    },
+    {
+     "name": "Brooke Smith",
+     "character": "Catherine Martin",
+     "popularity": 1.7
+    },
+    {
+     "name": "Diane Baker",
+     "character": "Senator Ruth Martin",
+     "popularity": 1.4
+    },
+    {
+     "name": "Kasi Lemmons",
+     "character": "Ardelia Mapp",
+     "popularity": 0.7
+    },
+    {
+     "name": "Frankie Faison",
+     "character": "Barney",
+     "popularity": 2.1
+    },
+    {
+     "name": "Tracey Walter",
+     "character": "Lamar",
+     "popularity": 1.3
+    },
+    {
+     "name": "Charles Napier",
+     "character": "Lt. Boyle",
+     "popularity": 1.1
+    },
+    {
+     "name": "Danny Darst",
+     "character": "Sgt. Tate",
+     "popularity": 0.5
+    },
+    {
+     "name": "Alex Coleman",
+     "character": "Sgt. Pembry",
+     "popularity": 0.3
+    },
+    {
+     "name": "Dan Butler",
+     "character": "Roden",
+     "popularity": 1.4
+    },
+    {
+     "name": "Paul Lazar",
+     "character": "Pilcher",
+     "popularity": 0.5
+    },
+    {
+     "name": "Ron Vawter",
+     "character": "Paul Krendler",
+     "popularity": 0.8
+    },
+    {
+     "name": "Roger Corman",
+     "character": "FBI Director Hayden Burke",
+     "popularity": 1.7
+    },
+    {
+     "name": "Lawrence A. Bonney",
+     "character": "FBI Instructor",
+     "popularity": 0.1
+    },
+    {
+     "name": "Lawrence T. Wrentz",
+     "character": "Agent Burroughs",
+     "popularity": 0.3
+    },
+    {
+     "name": "Don Brockett",
+     "character": "Friendly Psychopath",
+     "popularity": 0.4
+    },
+    {
+     "name": "Frank Seals Jr.",
+     "character": "Brooding Psychopath",
+     "popularity": 0.1
+    },
+    {
+     "name": "Stuart Rudin",
+     "character": "Miggs",
+     "popularity": 0.6
+    },
+    {
+     "name": "Maria Skorobogatov",
+     "character": "Young Clarice",
+     "popularity": 0.2
+    },
+    {
+     "name": "Jeffrie Lane",
+     "character": "Clarice's Father",
+     "popularity": 0.1
+    },
+    {
+     "name": "Leib Lensky",
+     "character": "Mr. Lang",
+     "popularity": 0.3
+    },
+    {
+     "name": "George 'Red' Schwartz",
+     "character": "Mr. Lang's Driver",
+     "popularity": 0.1
+    },
+    {
+     "name": "Jim Roche",
+     "character": "TV Evangelist",
+     "popularity": 0.2
+    },
+    {
+     "name": "James B. Howard",
+     "character": "Boxing Instructor",
+     "popularity": 0.1
+    },
+    {
+     "name": "Bill Miller",
+     "character": "Mr. Brigham",
+     "popularity": 0.2
+    },
+    {
+     "name": "Chuck Aber",
+     "character": "Agent Terry",
+     "popularity": 0.3
+    },
+    {
+     "name": "Gene Borkan",
+     "character": "Oscar",
+     "popularity": 0.5
+    },
+    {
+     "name": "Pat McNamara",
+     "character": "Sheriff Perkins",
+     "popularity": 0.3
+    },
+    {
+     "name": "Kenneth Utt",
+     "character": "Dr. Akin",
+     "popularity": 0.3
+    },
+    {
+     "name": "Adelle Lutz",
+     "character": "TV Anchor Woman",
+     "popularity": 0.5
+    },
+    {
+     "name": "Obba Babatundé",
+     "character": "TV Anchor Man",
+     "popularity": 0.9
+    },
+    {
+     "name": "George Michael",
+     "character": "TV Sportscaster",
+     "popularity": 0.1
+    },
+    {
+     "name": "Jim Dratfield",
+     "character": "Sen. Martin's Aide",
+     "popularity": 0.1
+    },
+    {
+     "name": "D. Stanton Miranda",
+     "character": "1st Reporter",
+     "popularity": 0.2
+    },
+    {
+     "name": "Rebecca Saxon",
+     "character": "2nd Reporter",
+     "popularity": 0.2
+    },
+    {
+     "name": "Cynthia Ettinger",
+     "character": "Officer Jacobs",
+     "popularity": 0.9
+    },
+    {
+     "name": "Brent Hinkley",
+     "character": "Officer Murray",
+     "popularity": 0.7
+    },
+    {
+     "name": "Steve Wyatt",
+     "character": "Airport Flirt",
+     "popularity": 0.1
+    },
+    {
+     "name": "David Early",
+     "character": "Spooked Memphis Cop",
+     "popularity": 0.3
+    },
+    {
+     "name": "Andre B. Blake",
+     "character": "Tall Memphis Cop",
+     "popularity": 0.6
+    },
+    {
+     "name": "Bill Dalzell",
+     "character": "Distraught Memphis Cop",
+     "popularity": 0.2
+    },
+    {
+     "name": "Chris Isaak",
+     "character": "SWAT Commander",
+     "popularity": 1.5
+    },
+    {
+     "name": "Daniel von Bargen",
+     "character": "SWAT Communicator",
+     "popularity": 0.8
+    },
+    {
+     "name": "Tommy Lafitte",
+     "character": "SWAT Shooter",
+     "popularity": 0.6
+    },
+    {
+     "name": "Josh Broder",
+     "character": "EMS Attendant",
+     "popularity": 0.3
+    },
+    {
+     "name": "Buzz Kilman",
+     "character": "EMS Driver",
+     "popularity": 0.2
+    },
+    {
+     "name": "Harry Northup",
+     "character": "Mr. Bimmel",
+     "popularity": 0.3
+    },
+    {
+     "name": "Lauren Roselli",
+     "character": "Stacy Hubka",
+     "popularity": 0.3
+    },
+    {
+     "name": "Lamont Arnold",
+     "character": "Flower Delivery Man",
+     "popularity": 0.1
+    },
+    {
+     "name": "John Hall",
+     "character": "State Trooper",
+     "popularity": 0.2
+    },
+    {
+     "name": "Ted Monte",
+     "character": "FBI Agent",
+     "popularity": 0.3
+    },
+    {
+     "name": "George A. Romero",
+     "character": "FBI Agent in Memphis",
+     "popularity": 1.1
+    },
+    {
+     "name": "John W. Iwanonkiw",
+     "character": "Orderly",
+     "popularity": 0.3
+    },
+    {
+     "name": "Robert W. Castle",
+     "character": "Priest on Chilton's Plane",
+     "popularity": 0.3
+    },
+    {
+     "name": "Chris McGinn",
+     "character": "Autopsy Victim",
+     "popularity": 0.4
+    },
+    {
+     "name": "Gary Goetzman",
+     "character": "Guido Paonessa",
+     "popularity": 0.9
+    },
+    {
+     "name": "Lynette Jenkins",
+     "character": "Nurse",
+     "popularity": 0.1
+    },
+    {
+     "name": "Jason Menz",
+     "character": "Orderly",
+     "popularity": 0.1
+    },
+    {
+     "name": "Edward Saxon",
+     "character": "Benjamin Raspail",
+     "popularity": 0.5
+    },
+    {
+     "name": "Mike Schaeffer",
+     "character": "Prison Guard",
+     "popularity": 0.2
+    },
+    {
+     "name": "Ted Tally",
+     "character": "SWAT Team Member",
+     "popularity": 0.4
+    },
+    {
+     "name": "Lewis 'Jiggs' Walker",
+     "character": "Man in Dashiki on Chilton's Plane",
+     "popularity": 0.2
+    }
+   ]
+  }
+ ]
+}
