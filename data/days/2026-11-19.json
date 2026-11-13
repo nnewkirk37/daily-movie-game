@@ -1,0 +1,650 @@
+{
+ "date": "2026-11-19",
+ "movies": [
+  {
+   "tmdb_id": 862,
+   "imdb_id": "tt0114709",
+   "title": "Toy Story",
+   "year": 1995,
+   "imdb": 8.3,
+   "poster": "https://image.tmdb.org/t/p/w342/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg",
+   "cast": [
+    {
+     "name": "Tom Hanks",
+     "character": "Woody",
+     "popularity": 11.6
+    },
+    {
+     "name": "Tim Allen",
+     "character": "Buzz Lightyear",
+     "popularity": 3.1
+    },
+    {
+     "name": "Don Rickles",
+     "character": "Mr. Potato Head",
+     "popularity": 1.6
+    },
+    {
+     "name": "Jim Varney",
+     "character": "Slinky Dog",
+     "popularity": 1
+    },
+    {
+     "name": "Wallace Shawn",
+     "character": "Rex",
+     "popularity": 3.2
+    },
+    {
+     "name": "John Ratzenberger",
+     "character": "Hamm",
+     "popularity": 1.7
+    },
+    {
+     "name": "Annie Potts",
+     "character": "Bo Peep",
+     "popularity": 3
+    },
+    {
+     "name": "John Morris",
+     "character": "Andy",
+     "popularity": 0.4
+    },
+    {
+     "name": "Erik von Detten",
+     "character": "Sid",
+     "popularity": 0.7
+    },
+    {
+     "name": "Laurie Metcalf",
+     "character": "Mrs. Davis",
+     "popularity": 2.4
+    },
+    {
+     "name": "R. Lee Ermey",
+     "character": "Sergeant",
+     "popularity": 1.4
+    },
+    {
+     "name": "Sarah Rayne",
+     "character": "Hannah",
+     "popularity": 0.3
+    },
+    {
+     "name": "Penn Jillette",
+     "character": "TV Announcer",
+     "popularity": 0.8
+    },
+    {
+     "name": "Jack Angel",
+     "character": "Shark / Rocky Gibraltar",
+     "popularity": 0.8
+    },
+    {
+     "name": "Spencer Aste",
+     "character": "Wounded Soldier",
+     "popularity": 0.2
+    },
+    {
+     "name": "Greg Berg",
+     "character": "Local Announcer",
+     "popularity": 0.5
+    },
+    {
+     "name": "Lisa Bradley",
+     "character": "Kid",
+     "popularity": 0.1
+    },
+    {
+     "name": "Kendall Cunningham",
+     "character": "Kid",
+     "popularity": 0.3
+    },
+    {
+     "name": "Debi Derryberry",
+     "character": "Aliens / Pizza Planet Announcer",
+     "popularity": 1.3
+    },
+    {
+     "name": "Cody Dorkin",
+     "character": "Kid",
+     "popularity": 0.4
+    },
+    {
+     "name": "Bill Farmer",
+     "character": "Monotone Announcer",
+     "popularity": 1.1
+    },
+    {
+     "name": "Craig Good",
+     "character": "Mission Control",
+     "popularity": 0.2
+    },
+    {
+     "name": "Gregory Grudt",
+     "character": "Kid",
+     "popularity": 0.3
+    },
+    {
+     "name": "Danielle Judovits",
+     "character": "Burned Rag Doll",
+     "popularity": 0.4
+    },
+    {
+     "name": "Sam Lasseter",
+     "character": "Kid",
+     "popularity": 0.2
+    },
+    {
+     "name": "Brittany Levenbrown",
+     "character": "Kid",
+     "popularity": 0.1
+    },
+    {
+     "name": "Sherry Lynn",
+     "character": "Mom",
+     "popularity": 0.6
+    },
+    {
+     "name": "Scott McAfee",
+     "character": "Kid",
+     "popularity": 0.4
+    },
+    {
+     "name": "Mickie McGowan",
+     "character": "Sid's Mom",
+     "popularity": 1.1
+    },
+    {
+     "name": "Ryan O'Donohue",
+     "character": "Kid",
+     "popularity": 0.4
+    },
+    {
+     "name": "Jeff Pidgeon",
+     "character": "Aliens / Robot / Mr. Spell",
+     "popularity": 0.6
+    },
+    {
+     "name": "Patrick Pinney",
+     "character": "Pizza Delivery Guy / Angry Driver #2",
+     "popularity": 0.7
+    },
+    {
+     "name": "Phil Proctor",
+     "character": "Pizza Planet Announcer / Pizza Planet Guard",
+     "popularity": 0.7
+    },
+    {
+     "name": "Jan Rabson",
+     "character": "Gas Station Attendant",
+     "popularity": 0.7
+    },
+    {
+     "name": "Joe Ranft",
+     "character": "Lenny the Binoculars",
+     "popularity": 1.1
+    },
+    {
+     "name": "Andrew Stanton",
+     "character": "Commercial Chorus",
+     "popularity": 2
+    },
+    {
+     "name": "Shane Sweet",
+     "character": "Kid",
+     "popularity": 0.4
+    }
+   ]
+  },
+  {
+   "tmdb_id": 76338,
+   "imdb_id": "tt1981115",
+   "title": "Thor: The Dark World",
+   "year": 2013,
+   "imdb": 6.7,
+   "poster": "https://image.tmdb.org/t/p/w342/wp6OxE4poJ4G7c0U2ZIXasTSMR7.jpg",
+   "cast": [
+    {
+     "name": "Chris Hemsworth",
+     "character": "Thor",
+     "popularity": 6.1
+    },
+    {
+     "name": "Natalie Portman",
+     "character": "Jane Foster",
+     "popularity": 6
+    },
+    {
+     "name": "Tom Hiddleston",
+     "character": "Loki",
+     "popularity": 4.4
+    },
+    {
+     "name": "Christopher Eccleston",
+     "character": "Malekith",
+     "popularity": 1.7
+    },
+    {
+     "name": "Anthony Hopkins",
+     "character": "Odin",
+     "popularity": 4.9
+    },
+    {
+     "name": "Jaimie Alexander",
+     "character": "Sif",
+     "popularity": 2.3
+    },
+    {
+     "name": "Zachary Levi",
+     "character": "Fandral",
+     "popularity": 3.2
+    },
+    {
+     "name": "Ray Stevenson",
+     "character": "Volstagg",
+     "popularity": 2.1
+    },
+    {
+     "name": "Tadanobu Asano",
+     "character": "Hogun",
+     "popularity": 2.6
+    },
+    {
+     "name": "Idris Elba",
+     "character": "Heimdall",
+     "popularity": 5.4
+    },
+    {
+     "name": "Rene Russo",
+     "character": "Frigga",
+     "popularity": 2.4
+    },
+    {
+     "name": "Adewale Akinnuoye-Agbaje",
+     "character": "Algrim / Kurse",
+     "popularity": 1.6
+    },
+    {
+     "name": "Kat Dennings",
+     "character": "Darcy Lewis",
+     "popularity": 2.6
+    },
+    {
+     "name": "Stellan Skarsgård",
+     "character": "Erik Selvig",
+     "popularity": 4.3
+    },
+    {
+     "name": "Alice Krige",
+     "character": "Eir",
+     "popularity": 2.2
+    },
+    {
+     "name": "Clive Russell",
+     "character": "Tyr",
+     "popularity": 1.5
+    },
+    {
+     "name": "Jonathan Howard",
+     "character": "Ian Boothby",
+     "popularity": 1.5
+    },
+    {
+     "name": "Ramone Morgan",
+     "character": "John",
+     "popularity": 0.2
+    },
+    {
+     "name": "Obada Alassadi",
+     "character": "Navid",
+     "popularity": 0
+    },
+    {
+     "name": "Imaan Chentouf",
+     "character": "Maddie",
+     "popularity": 0
+    },
+    {
+     "name": "Claire Brown",
+     "character": "Volstagg's Wife",
+     "popularity": 0.4
+    },
+    {
+     "name": "Henry Calcutt",
+     "character": "Volstagg's Child #1",
+     "popularity": 0.1
+    },
+    {
+     "name": "Ava Caton",
+     "character": "Volstagg's Child #2",
+     "popularity": 0.1
+    },
+    {
+     "name": "Abbie McCann",
+     "character": "Volstagg's Child #3",
+     "popularity": 0
+    },
+    {
+     "name": "Thomas Arnold",
+     "character": "Desk Officer",
+     "popularity": 0.5
+    },
+    {
+     "name": "Sam Swainsbury",
+     "character": "Stonehenge TV News Reporter",
+     "popularity": 0.3
+    },
+    {
+     "name": "Connor Donaghey",
+     "character": "Sad Child",
+     "popularity": 0.1
+    },
+    {
+     "name": "Royce Pierreson",
+     "character": "Student",
+     "popularity": 1.2
+    },
+    {
+     "name": "Annabel Norbury",
+     "character": "Woman on Platform",
+     "popularity": 0.1
+    },
+    {
+     "name": "Sophie Cosson",
+     "character": "Wench #1",
+     "popularity": 0.2
+    },
+    {
+     "name": "Chris O'Dowd",
+     "character": "Richard",
+     "popularity": 2
+    },
+    {
+     "name": "Justin Edwards",
+     "character": "Police Officer #1",
+     "popularity": 0.9
+    },
+    {
+     "name": "Gruffudd Glyn",
+     "character": "Police Officer #2",
+     "popularity": 0.3
+    },
+    {
+     "name": "Richard Brake",
+     "character": "Einherjar Lieutenant",
+     "popularity": 2.3
+    },
+    {
+     "name": "Stan Lee",
+     "character": "Stan Lee",
+     "popularity": 3.6
+    },
+    {
+     "name": "Steve Scott",
+     "character": "Steve Scott",
+     "popularity": 0.1
+    },
+    {
+     "name": "Brett Tucker",
+     "character": "Einherjar Guard",
+     "popularity": 1.6
+    },
+    {
+     "name": "Talulah Riley",
+     "character": "Nurse",
+     "popularity": 1.5
+    },
+    {
+     "name": "Richard Wharton",
+     "character": "Asylum Patient",
+     "popularity": 0.5
+    },
+    {
+     "name": "Tony Curran",
+     "character": "Bor",
+     "popularity": 1.7
+    },
+    {
+     "name": "Chris Evans",
+     "character": "Loki as Captain America",
+     "popularity": 5.6
+    },
+    {
+     "name": "Benicio del Toro",
+     "character": "Taneleer Tivan / The Collector",
+     "popularity": 3.2
+    },
+    {
+     "name": "Ophelia Lovibond",
+     "character": "Carina",
+     "popularity": 4.3
+    },
+    {
+     "name": "Elsa Pataky",
+     "character": "Jane Foster stand-in",
+     "popularity": 1.6
+    },
+    {
+     "name": "Joe Cash",
+     "character": "Police Officer",
+     "popularity": 0.5
+    },
+    {
+     "name": "Kamay Lau",
+     "character": "Vanir Woman",
+     "popularity": 0.3
+    },
+    {
+     "name": "Alannah Olivia",
+     "character": "Library Student",
+     "popularity": 0.2
+    },
+    {
+     "name": "JD Roth-Round",
+     "character": "Odin's Palace Guard",
+     "popularity": 0.2
+    },
+    {
+     "name": "Corey Jovan",
+     "character": "Asgardian Guard",
+     "popularity": 0.3
+    },
+    {
+     "name": "Roseanna Brown",
+     "character": "Wench#2",
+     "popularity": 0.1
+    }
+   ]
+  },
+  {
+   "tmdb_id": 223702,
+   "imdb_id": "tt1700841",
+   "title": "Sausage Party",
+   "year": 2016,
+   "imdb": 6.1,
+   "poster": "https://image.tmdb.org/t/p/w342/vNgdPJQ5CI60oEiiHLKRNrsDhMy.jpg",
+   "cast": [
+    {
+     "name": "Seth Rogen",
+     "character": "Frank / Sergeant Pepper / Peanut Butter",
+     "popularity": 3.7
+    },
+    {
+     "name": "Kristen Wiig",
+     "character": "Brenda",
+     "popularity": 2.8
+    },
+    {
+     "name": "Jonah Hill",
+     "character": "Carl",
+     "popularity": 2.9
+    },
+    {
+     "name": "Bill Hader",
+     "character": "Firewater / Tequila / El Guaco",
+     "popularity": 3.8
+    },
+    {
+     "name": "Michael Cera",
+     "character": "Barry",
+     "popularity": 2.1
+    },
+    {
+     "name": "James Franco",
+     "character": "Druggie",
+     "popularity": 4.2
+    },
+    {
+     "name": "Danny McBride",
+     "character": "Honey Mustard",
+     "popularity": 2
+    },
+    {
+     "name": "Craig Robinson",
+     "character": "Grits",
+     "popularity": 1.9
+    },
+    {
+     "name": "Paul Rudd",
+     "character": "Darren",
+     "popularity": 5
+    },
+    {
+     "name": "Nick Kroll",
+     "character": "Douche",
+     "popularity": 1.9
+    },
+    {
+     "name": "David Krumholtz",
+     "character": "Kareem Abdul Lavash",
+     "popularity": 2.2
+    },
+    {
+     "name": "Edward Norton",
+     "character": "Sammy Bagel Jr.",
+     "popularity": 6.3
+    },
+    {
+     "name": "Salma Hayek Pinault",
+     "character": "Teresa Taco",
+     "popularity": 3
+    },
+    {
+     "name": "Anders Holm",
+     "character": "Troy",
+     "popularity": 1
+    },
+    {
+     "name": "Scott Underwood",
+     "character": "Gum / Twink / Krinkler's Chips / Pizza / Peanut",
+     "popularity": 0.3
+    },
+    {
+     "name": "Sugar Lyn Beard",
+     "character": "Baby Carrot / Cookies",
+     "popularity": 0.9
+    },
+    {
+     "name": "Conrad Vernon",
+     "character": "Toilet Paper / Sauerkraut / Catcall Sausage / Grape #1 / Beer Can / Pop Bottle",
+     "popularity": 1.5
+    },
+    {
+     "name": "Ian James Corlett",
+     "character": "Apple / Tickilish Licorice / Relish / Bag of Dog Food",
+     "popularity": 0.8
+    },
+    {
+     "name": "Michael Daingerfield",
+     "character": "Chunk Munchers Cereal / Light Bulb / Indian Chutney",
+     "popularity": 0.6
+    },
+    {
+     "name": "Jason Simpson",
+     "character": "Plum #2 / Beer Keg / Fat Guy / Fit Man",
+     "popularity": 0.3
+    },
+    {
+     "name": "Vincent Tong",
+     "character": "Pislitz Chips / Juice Box / Jamaican Rum",
+     "popularity": 1.3
+    },
+    {
+     "name": "Karen E. Wright",
+     "character": "Diner Waitress",
+     "popularity": 0.2
+    },
+    {
+     "name": "Lauren Miller Rogen",
+     "character": "Camille Toh / Tampon",
+     "popularity": 0.8
+    },
+    {
+     "name": "Sam Vincent",
+     "character": "Old Pork Sausage / Refried Beans / Sandwich / Pop Tart / Licorice Rope",
+     "popularity": 0.9
+    },
+    {
+     "name": "Greg Tiernan",
+     "character": "Potato / Noodle Soup / Larry the Corn",
+     "popularity": 0.5
+    },
+    {
+     "name": "Brian Dobson",
+     "character": "Italian Tomato / Lettuce",
+     "popularity": 0.7
+    },
+    {
+     "name": "Harland Williams",
+     "character": "Ketchup / Drug Dealer / Baba Ganoush",
+     "popularity": 1
+    },
+    {
+     "name": "Alistair Abell",
+     "character": "Mariachi Salsa / Gefilte Fish",
+     "popularity": 0.6
+    },
+    {
+     "name": "Iris Apatow",
+     "character": "Berry Good Candies / Grape #3 / Coconut Milk",
+     "popularity": 1.1
+    },
+    {
+     "name": "Michael Dobson",
+     "character": "Queso",
+     "popularity": 0.7
+    },
+    {
+     "name": "Ian Hanlin",
+     "character": "Beet",
+     "popularity": 0.7
+    },
+    {
+     "name": "Maryke Hendrikse",
+     "character": "Popped Cherry Mixer / Plum #1 / Loretta Bun / Frozen Fruitz",
+     "popularity": 0.8
+    },
+    {
+     "name": "Nicole Oliver",
+     "character": "Sally Bun / Ice Cream / Watermelon / Female Shopper #1",
+     "popularity": 0.8
+    },
+    {
+     "name": "Kelly Sheridan",
+     "character": "Roberta Bun / Grape #2 / Female Shopper #2",
+     "popularity": 0.8
+    },
+    {
+     "name": "Meat Loaf",
+     "character": "Meatloaf",
+     "popularity": 1.3
+    },
+    {
+     "name": "Evan Goldberg",
+     "character": "Condom",
+     "popularity": 1.7
+    }
+   ]
+  }
+ ]
+}
