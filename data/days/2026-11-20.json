@@ -1,0 +1,810 @@
+{
+ "date": "2026-11-20",
+ "movies": [
+  {
+   "tmdb_id": 314095,
+   "imdb_id": "tt1212428",
+   "title": "The Lost City of Z",
+   "year": 2017,
+   "imdb": 6.6,
+   "poster": "https://image.tmdb.org/t/p/w342/8SxHVNk6tqXYwygmDzz1YuJEm2J.jpg",
+   "cast": [
+    {
+     "name": "Charlie Hunnam",
+     "character": "Percival Fawcett",
+     "popularity": 5.4
+    },
+    {
+     "name": "Robert Pattinson",
+     "character": "Henry Costin",
+     "popularity": 10.5
+    },
+    {
+     "name": "Sienna Miller",
+     "character": "Nina Fawcett",
+     "popularity": 3.3
+    },
+    {
+     "name": "Tom Holland",
+     "character": "Jack Fawcett",
+     "popularity": 16.1
+    },
+    {
+     "name": "Angus Macfadyen",
+     "character": "James Murray",
+     "popularity": 1.2
+    },
+    {
+     "name": "Edward Ashley",
+     "character": "Arthur Manley",
+     "popularity": 0.6
+    },
+    {
+     "name": "Clive Francis",
+     "character": "Sir John Scott Keltie",
+     "popularity": 0.6
+    },
+    {
+     "name": "Ian McDiarmid",
+     "character": "Sir George Goldie",
+     "popularity": 1
+    },
+    {
+     "name": "Franco Nero",
+     "character": "Baron de Gondoriz",
+     "popularity": 2.9
+    },
+    {
+     "name": "Matthew Sunderland",
+     "character": "Dan",
+     "popularity": 0.4
+    },
+    {
+     "name": "Johann Myers",
+     "character": "Willis",
+     "popularity": 0.5
+    },
+    {
+     "name": "Daniel Huttlestone",
+     "character": "Brian Fawcett",
+     "popularity": 0.4
+    },
+    {
+     "name": "Harry Melling",
+     "character": "William Barclay",
+     "popularity": 1.8
+    },
+    {
+     "name": "Pedro Coello",
+     "character": "Tadjui",
+     "popularity": 0.1
+    },
+    {
+     "name": "Aleksandar Jovanović",
+     "character": "Urquhart",
+     "popularity": 0.5
+    },
+    {
+     "name": "Yelena Solovey",
+     "character": "Madame Kumel",
+     "popularity": 0.9
+    },
+    {
+     "name": "Bobby Smalldridge",
+     "character": "Jack Fawcett",
+     "popularity": 0.4
+    },
+    {
+     "name": "Tom Mulheron",
+     "character": "Jack Fawcett",
+     "popularity": 0.3
+    },
+    {
+     "name": "Nathaniel Bates Fisher",
+     "character": "Brian Fawcett",
+     "popularity": 0.1
+    },
+    {
+     "name": "Murray Melvin",
+     "character": "Lord James Bernard",
+     "popularity": 0.7
+    },
+    {
+     "name": "Michael Jenn",
+     "character": "Brigd-General Sidney Thornton",
+     "popularity": 0.4
+    },
+    {
+     "name": "Michael Ford-FitzGerald",
+     "character": "Hunt Leader",
+     "popularity": 0.2
+    },
+    {
+     "name": "Frank Clem",
+     "character": "Texas Gunman",
+     "popularity": 0.4
+    },
+    {
+     "name": "Bethan Coomber",
+     "character": "Joan Fawcett",
+     "popularity": 0.1
+    },
+    {
+     "name": "David Calder",
+     "character": "Secretary Bryce",
+     "popularity": 0.8
+    },
+    {
+     "name": "Stacy Shane",
+     "character": "American Reporter",
+     "popularity": 0.2
+    },
+    {
+     "name": "Pat Mooney",
+     "character": "Random Scientist 3",
+     "popularity": 0.2
+    },
+    {
+     "name": "Colin Carnegie",
+     "character": "Random Scientist 2",
+     "popularity": 0.3
+    },
+    {
+     "name": "Anthony Boyle",
+     "character": "Trench Runner",
+     "popularity": 1.2
+    },
+    {
+     "name": "Neil Bromley",
+     "character": "Reporter 3",
+     "popularity": 0.2
+    },
+    {
+     "name": "Bill Hurst",
+     "character": "Reporter 1",
+     "popularity": 0.2
+    },
+    {
+     "name": "Richard Croxford",
+     "character": "Officer Thomas Busby",
+     "popularity": 0.1
+    },
+    {
+     "name": "Louise Parker",
+     "character": "Random Woman",
+     "popularity": 0.2
+    },
+    {
+     "name": "Jose Pereira",
+     "character": "Chief Guarayo",
+     "popularity": 0.1
+    },
+    {
+     "name": "Gustavo Duque",
+     "character": "Crew Member",
+     "popularity": 0.2
+    },
+    {
+     "name": "Fernando Vigui",
+     "character": "Diminutive Latino Man",
+     "popularity": 0
+    },
+    {
+     "name": "Nicholas Agnew",
+     "character": "John Coundley",
+     "popularity": 0.3
+    },
+    {
+     "name": "Robert Fawsitt",
+     "character": "Random Man at Port",
+     "popularity": 0.3
+    },
+    {
+     "name": "Patrick McBrearty",
+     "character": "Whipping Officer",
+     "popularity": 0.4
+    },
+    {
+     "name": "Gary Crossan",
+     "character": "Waiter @ Savage Club",
+     "popularity": 0.2
+    },
+    {
+     "name": "Niall Cusack",
+     "character": "Random Scientist",
+     "popularity": 0.3
+    },
+    {
+     "name": "Nick Sampson",
+     "character": "Doctor",
+     "popularity": 0.4
+    },
+    {
+     "name": "Ruairí Heading",
+     "character": "Other Soldier",
+     "popularity": 0.1
+    },
+    {
+     "name": "David Coon",
+     "character": "Random Scientist 4",
+     "popularity": 0.2
+    }
+   ]
+  },
+  {
+   "tmdb_id": 117251,
+   "imdb_id": "tt2334879",
+   "title": "White House Down",
+   "year": 2013,
+   "imdb": 6.3,
+   "poster": "https://image.tmdb.org/t/p/w342/6TeIVKPw7nXXWy2zKmDmlnSwzb7.jpg",
+   "cast": [
+    {
+     "name": "Channing Tatum",
+     "character": "Cale",
+     "popularity": 5
+    },
+    {
+     "name": "Jamie Foxx",
+     "character": "President Sawyer",
+     "popularity": 4.1
+    },
+    {
+     "name": "Maggie Gyllenhaal",
+     "character": "Finnerty",
+     "popularity": 2.6
+    },
+    {
+     "name": "Jason Clarke",
+     "character": "Stenz",
+     "popularity": 2.1
+    },
+    {
+     "name": "Richard Jenkins",
+     "character": "Raphelson",
+     "popularity": 1.5
+    },
+    {
+     "name": "Joey King",
+     "character": "Emily",
+     "popularity": 5.1
+    },
+    {
+     "name": "James Woods",
+     "character": "Walker",
+     "popularity": 2.1
+    },
+    {
+     "name": "Nicolas Wright",
+     "character": "Donnie the Guide",
+     "popularity": 0.4
+    },
+    {
+     "name": "Jimmi Simpson",
+     "character": "Tyler",
+     "popularity": 3
+    },
+    {
+     "name": "Michael Murphy",
+     "character": "Vice President Hammond",
+     "popularity": 0.8
+    },
+    {
+     "name": "Rachelle Lefevre",
+     "character": "Melanie",
+     "popularity": 3
+    },
+    {
+     "name": "Lance Reddick",
+     "character": "General Caulfield",
+     "popularity": 1.7
+    },
+    {
+     "name": "Matt Craven",
+     "character": "Agent Kellerman",
+     "popularity": 2
+    },
+    {
+     "name": "Jake Weber",
+     "character": "Agent Hope",
+     "popularity": 2.4
+    },
+    {
+     "name": "Peter Jacobson",
+     "character": "Wallace",
+     "popularity": 1.4
+    },
+    {
+     "name": "Barbara Williams",
+     "character": "Muriel Walker",
+     "popularity": 0.6
+    },
+    {
+     "name": "Kevin Rankin",
+     "character": "Killick",
+     "popularity": 1.8
+    },
+    {
+     "name": "Garcelle Beauvais",
+     "character": "Alison Sawyer",
+     "popularity": 0.9
+    },
+    {
+     "name": "Falk Hentschel",
+     "character": "Motts",
+     "popularity": 0.5
+    },
+    {
+     "name": "Romano Orzari",
+     "character": "Mulcahy",
+     "popularity": 0.4
+    },
+    {
+     "name": "Jackie Geary",
+     "character": "Jenna",
+     "popularity": 0.7
+    },
+    {
+     "name": "Andrew Simms",
+     "character": "Roger Skinner",
+     "popularity": 0.1
+    },
+    {
+     "name": "Cat Lemieux",
+     "character": "Midwest Woman",
+     "popularity": 0.3
+    },
+    {
+     "name": "Vincent Leclerc",
+     "character": "Agent Todd",
+     "popularity": 0.7
+    },
+    {
+     "name": "Andreas Apergis",
+     "character": "Ritter",
+     "popularity": 0.9
+    },
+    {
+     "name": "Victor Cornfoot",
+     "character": "Agent Reid",
+     "popularity": 0.5
+    },
+    {
+     "name": "Anatoly Zinoviev",
+     "character": "Vadim",
+     "popularity": 0.3
+    },
+    {
+     "name": "Lee Villeneuve",
+     "character": "Chen",
+     "popularity": 0.4
+    },
+    {
+     "name": "Patrick Sabongui",
+     "character": "Bobby",
+     "popularity": 1.3
+    },
+    {
+     "name": "Anthony Lemke",
+     "character": "Captain Hutton",
+     "popularity": 0.9
+    },
+    {
+     "name": "Kyle Gatehouse",
+     "character": "Conrad",
+     "popularity": 0.4
+    },
+    {
+     "name": "Yardly Kavanagh",
+     "character": "President's Secretary",
+     "popularity": 0.1
+    },
+    {
+     "name": "Andrew Shaver",
+     "character": "Young Agent",
+     "popularity": 0.5
+    },
+    {
+     "name": "Rhys Williams",
+     "character": "Sniper",
+     "popularity": 0.5
+    },
+    {
+     "name": "Kwasi Songui",
+     "character": "North Gate Guard",
+     "popularity": 0.7
+    },
+    {
+     "name": "Leni Parker",
+     "character": "Speaker's Assistant",
+     "popularity": 0.4
+    },
+    {
+     "name": "Faber Dewar",
+     "character": "Colonel Cameron",
+     "popularity": 0.1
+    },
+    {
+     "name": "Brent Skagford",
+     "character": "Marine One Pilot",
+     "popularity": 0.4
+    },
+    {
+     "name": "Todd van der Heyden",
+     "character": "Reporter in Helicopter",
+     "popularity": 0.1
+    },
+    {
+     "name": "Paul Van Dyck",
+     "character": "Helicopter Pilot",
+     "popularity": 0.3
+    },
+    {
+     "name": "Neil Napier",
+     "character": "Tank Commander",
+     "popularity": 0.5
+    },
+    {
+     "name": "Ahmed Mekallach",
+     "character": "Marine Guard",
+     "popularity": 0.1
+    },
+    {
+     "name": "Raphael Grosz-Harvey",
+     "character": "National Guardsman",
+     "popularity": 0.4
+    },
+    {
+     "name": "Chad Connell",
+     "character": "Gabriel Byrnes",
+     "popularity": 0.4
+    },
+    {
+     "name": "Mark Antony Krupa",
+     "character": "Naval Aide - Pentagon",
+     "popularity": 0.4
+    },
+    {
+     "name": "Patrick Costello",
+     "character": "NORAD Technician",
+     "popularity": 0.3
+    },
+    {
+     "name": "Ralph Prosper",
+     "character": "Washington Policeman",
+     "popularity": 0.3
+    },
+    {
+     "name": "Jennifer Morehouse",
+     "character": "Female Army Major",
+     "popularity": 0.3
+    },
+    {
+     "name": "Martin Thibaudeau",
+     "character": "Air Force Colonel",
+     "popularity": 0.2
+    },
+    {
+     "name": "Simon Gouveia",
+     "character": "Tank Gunner",
+     "popularity": 0.1
+    },
+    {
+     "name": "Richard Bradshaw",
+     "character": "Naval Commander",
+     "popularity": 0.4
+    },
+    {
+     "name": "Naval Commander",
+     "character": "Reporter",
+     "popularity": 0.2
+    },
+    {
+     "name": "Lori Graham",
+     "character": "Reporter",
+     "popularity": 0.2
+    },
+    {
+     "name": "Barry Morgan",
+     "character": "Reporter",
+     "popularity": 0
+    },
+    {
+     "name": "Andrew Peplowski",
+     "character": "Reporter",
+     "popularity": 0.4
+    },
+    {
+     "name": "Timothy F. Sargeant",
+     "character": "Reporter",
+     "popularity": 0
+    },
+    {
+     "name": "Tarah Schwartz",
+     "character": "Reporter",
+     "popularity": 0.1
+    },
+    {
+     "name": "Dan Duran",
+     "character": "Reporter",
+     "popularity": 0.4
+    },
+    {
+     "name": "David Haydn-Jones",
+     "character": "Reporter",
+     "popularity": 1.3
+    },
+    {
+     "name": "Janette Luu",
+     "character": "Reporter",
+     "popularity": 0.1
+    },
+    {
+     "name": "Tammie Sutherland",
+     "character": "Reporter",
+     "popularity": 0.2
+    },
+    {
+     "name": "Seamus O'Regan",
+     "character": "Reporter",
+     "popularity": 0.1
+    },
+    {
+     "name": "Lauren Sánchez Bezos",
+     "character": "Reporter",
+     "popularity": 0.9
+    },
+    {
+     "name": "Chris Schauble",
+     "character": "Reporter",
+     "popularity": 0.1
+    },
+    {
+     "name": "Brooke Anderson",
+     "character": "Reporter",
+     "popularity": 0
+    },
+    {
+     "name": "Ben Mankiewicz",
+     "character": "Reporter",
+     "popularity": 0.5
+    },
+    {
+     "name": "John Hans Tester",
+     "character": "Reporter",
+     "popularity": 0.4
+    },
+    {
+     "name": "Alain Moussi",
+     "character": "Agent Reid's Partner",
+     "popularity": 1.2
+    }
+   ]
+  },
+  {
+   "tmdb_id": 9552,
+   "imdb_id": "tt0070047",
+   "title": "The Exorcist",
+   "year": 1973,
+   "imdb": 8.1,
+   "poster": "https://image.tmdb.org/t/p/w342/5x0CeVHJI8tcDx8tUUwYHQSNILq.jpg",
+   "cast": [
+    {
+     "name": "Ellen Burstyn",
+     "character": "Chris MacNeil",
+     "popularity": 2.5
+    },
+    {
+     "name": "Linda Blair",
+     "character": "Regan MacNeil",
+     "popularity": 1.7
+    },
+    {
+     "name": "Jason Miller",
+     "character": "Father Damien Karras",
+     "popularity": 0.9
+    },
+    {
+     "name": "Max von Sydow",
+     "character": "Father Lankester Merrin",
+     "popularity": 2
+    },
+    {
+     "name": "Lee J. Cobb",
+     "character": "Lt. Bill Kinderman",
+     "popularity": 1.5
+    },
+    {
+     "name": "William O'Malley",
+     "character": "Father Joseph Kevin Dyer",
+     "popularity": 0.2
+    },
+    {
+     "name": "Kitty Winn",
+     "character": "Sharon Spencer",
+     "popularity": 0.5
+    },
+    {
+     "name": "Barton Heyman",
+     "character": "Dr. Klein",
+     "popularity": 0.4
+    },
+    {
+     "name": "Peter Masterson",
+     "character": "Dr. Barringer",
+     "popularity": 0.5
+    },
+    {
+     "name": "Jack MacGowran",
+     "character": "Burke Dennings",
+     "popularity": 0.6
+    },
+    {
+     "name": "Rudolf Schündler",
+     "character": "Karl",
+     "popularity": 0.7
+    },
+    {
+     "name": "Gina Petrushka",
+     "character": "Willi",
+     "popularity": 0.1
+    },
+    {
+     "name": "Robert Symonds",
+     "character": "Dr. Taney",
+     "popularity": 0.3
+    },
+    {
+     "name": "Arthur Storch",
+     "character": "Psychiatrist",
+     "popularity": 0.2
+    },
+    {
+     "name": "Thomas Bermingham",
+     "character": "Tom",
+     "popularity": 0.2
+    },
+    {
+     "name": "Vasiliki Maliaros",
+     "character": "Mary Karras",
+     "popularity": 0.1
+    },
+    {
+     "name": "Titos Vandis",
+     "character": "Uncle John",
+     "popularity": 1
+    },
+    {
+     "name": "John Mahon",
+     "character": "Language Lab Director",
+     "popularity": 0.6
+    },
+    {
+     "name": "Wallace Rooney",
+     "character": "Bishop Michael",
+     "popularity": 0.2
+    },
+    {
+     "name": "Ron Faber",
+     "character": "Chuck / Demon",
+     "popularity": 0.2
+    },
+    {
+     "name": "Donna Mitchell",
+     "character": "Mary Jo Perrin",
+     "popularity": 0.7
+    },
+    {
+     "name": "Roy Cooper",
+     "character": "Jesuit Dean",
+     "popularity": 0.3
+    },
+    {
+     "name": "Robert Gerringer",
+     "character": "Senator at Party",
+     "popularity": 0.2
+    },
+    {
+     "name": "Mercedes McCambridge",
+     "character": "Demon",
+     "popularity": 0.8
+    },
+    {
+     "name": "Paul Bateson",
+     "character": "Radiologist's Assistant",
+     "popularity": 0.2
+    },
+    {
+     "name": "Elinore Blair",
+     "character": "Nurse",
+     "popularity": 0.1
+    },
+    {
+     "name": "William Peter Blatty",
+     "character": "The Producer",
+     "popularity": 0.5
+    },
+    {
+     "name": "Mary Boylan",
+     "character": "First Mental Patient",
+     "popularity": 0.4
+    },
+    {
+     "name": "Dick Callinan",
+     "character": "Astronaut",
+     "popularity": 0.2
+    },
+    {
+     "name": "Mason Curry",
+     "character": "Doctor",
+     "popularity": 0.1
+    },
+    {
+     "name": "Toni Darnay",
+     "character": "Violent psychotic patient",
+     "popularity": 0.1
+    },
+    {
+     "name": "Eileen Dietz",
+     "character": "Demon / Regan Double",
+     "popularity": 0.5
+    },
+    {
+     "name": "Joanne Dusseau",
+     "character": "Senator's Wife",
+     "popularity": 0.3
+    },
+    {
+     "name": "Bernard Eismann",
+     "character": "Minor Role",
+     "popularity": 0.3
+    },
+    {
+     "name": "Beatrice Hunter",
+     "character": "Minor Role",
+     "popularity": 0.1
+    },
+    {
+     "name": "Yvonne Jones",
+     "character": "Bellevue Nurse",
+     "popularity": 0.1
+    },
+    {
+     "name": "Don LaBonte",
+     "character": "Minor Role",
+     "popularity": 0.1
+    },
+    {
+     "name": "Barton Lane",
+     "character": "Angiography Doctor",
+     "popularity": 0.2
+    },
+    {
+     "name": "Ann Miles",
+     "character": "Spiderwalk",
+     "popularity": 0.1
+    },
+    {
+     "name": "John Nicola",
+     "character": "Priest",
+     "popularity": 0.1
+    },
+    {
+     "name": "Vincent Russell",
+     "character": "Subway Vagrant",
+     "popularity": 0.2
+    },
+    {
+     "name": "Gerard F. Yates",
+     "character": "Priest Singing Around Piano at Party",
+     "popularity": 0.1
+    },
+    {
+     "name": "Rita Sakellariou",
+     "character": "",
+     "popularity": 0.1
+    }
+   ]
+  }
+ ]
+}
