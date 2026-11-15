@@ -1,0 +1,725 @@
+{
+ "date": "2026-11-21",
+ "movies": [
+  {
+   "tmdb_id": 305470,
+   "imdb_id": "tt3717490",
+   "title": "Power Rangers",
+   "year": 2017,
+   "imdb": 5.9,
+   "poster": "https://image.tmdb.org/t/p/w342/bKYKyyIv5YnisxjZtDreWtYA386.jpg",
+   "cast": [
+    {
+     "name": "Dacre Montgomery",
+     "character": "Jason",
+     "popularity": 1.5
+    },
+    {
+     "name": "RJ Cyler",
+     "character": "Billy",
+     "popularity": 0.8
+    },
+    {
+     "name": "Ludi Lin",
+     "character": "Zack",
+     "popularity": 1.2
+    },
+    {
+     "name": "Naomi Scott",
+     "character": "Kimberly",
+     "popularity": 2.4
+    },
+    {
+     "name": "Becky G",
+     "character": "Trini",
+     "popularity": 1.2
+    },
+    {
+     "name": "Bryan Cranston",
+     "character": "Zordon",
+     "popularity": 3.5
+    },
+    {
+     "name": "Bill Hader",
+     "character": "Alpha 5",
+     "popularity": 3.5
+    },
+    {
+     "name": "Elizabeth Banks",
+     "character": "Rita Repulsa",
+     "popularity": 3
+    },
+    {
+     "name": "Fred Tatasciore",
+     "character": "Goldar / Putties",
+     "popularity": 3.1
+    },
+    {
+     "name": "David Denman",
+     "character": "Sam Scott",
+     "popularity": 1.7
+    },
+    {
+     "name": "Caroline Cave",
+     "character": "Beverly Scott",
+     "popularity": 0.4
+    },
+    {
+     "name": "Kayden Magnuson",
+     "character": "Pearl Scott",
+     "popularity": 0.7
+    },
+    {
+     "name": "Lisa Berry",
+     "character": "Candace Cranston",
+     "popularity": 0.9
+    },
+    {
+     "name": "Fiona Fu",
+     "character": "Zack's Mom",
+     "popularity": 0.4
+    },
+    {
+     "name": "Robert Moloney",
+     "character": "Ted Hart",
+     "popularity": 0.7
+    },
+    {
+     "name": "Anjali Jay",
+     "character": "Maddy Hart",
+     "popularity": 0.6
+    },
+    {
+     "name": "Patrick Sabongui",
+     "character": "Trini's Dad",
+     "popularity": 1.3
+    },
+    {
+     "name": "Erica Cerra",
+     "character": "Trini's Mom",
+     "popularity": 1.2
+    },
+    {
+     "name": "Wesley MacInnes",
+     "character": "Bully",
+     "popularity": 0.5
+    },
+    {
+     "name": "Sarah Grey",
+     "character": "Amanda",
+     "popularity": 0.7
+    },
+    {
+     "name": "Emily Maddison",
+     "character": "Young Lover #1",
+     "popularity": 0.5
+    },
+    {
+     "name": "Drew Ray Tanner",
+     "character": "Young Lover #2",
+     "popularity": 0.6
+    },
+    {
+     "name": "Matt Shively",
+     "character": "Damo",
+     "popularity": 0.8
+    },
+    {
+     "name": "Morgan Taylor Campbell",
+     "character": "Harper",
+     "popularity": 0.9
+    },
+    {
+     "name": "Kenneth Tynan",
+     "character": "Freak",
+     "popularity": 0.3
+    },
+    {
+     "name": "Amitai Marmorstein",
+     "character": "Geek",
+     "popularity": 0.5
+    },
+    {
+     "name": "Tristan Rehwald",
+     "character": "Ty",
+     "popularity": 0.1
+    },
+    {
+     "name": "Donald Adams",
+     "character": "Homeless Man",
+     "popularity": 0.4
+    },
+    {
+     "name": "Clayton James",
+     "character": "Young Cop",
+     "popularity": 0.5
+    },
+    {
+     "name": "Garry Chalk",
+     "character": "Captain Bowen",
+     "popularity": 1.2
+    },
+    {
+     "name": "Fiona Vroom",
+     "character": "Fenix Saleswoman / Yellow Ranger",
+     "popularity": 1.2
+    },
+    {
+     "name": "Sophie Lui",
+     "character": "Television Anchor",
+     "popularity": 0.3
+    },
+    {
+     "name": "Phillip Reed",
+     "character": "Heavy Equipment Operator",
+     "popularity": 0.1
+    },
+    {
+     "name": "Amy Jo Johnson",
+     "character": "Cameo Role #1",
+     "popularity": 1.3
+    },
+    {
+     "name": "Jason David Frank",
+     "character": "Cameo Role #2",
+     "popularity": 0.9
+    },
+    {
+     "name": "Jaime M. Callica",
+     "character": "Officer Bebe",
+     "popularity": 0.5
+    },
+    {
+     "name": "Kirk Kelly",
+     "character": "Officer",
+     "popularity": 0.1
+    },
+    {
+     "name": "Ranjit Samra",
+     "character": "Security Guard",
+     "popularity": 0.2
+    },
+    {
+     "name": "Peter Brown",
+     "character": "Hipster",
+     "popularity": 0.3
+    },
+    {
+     "name": "Tanis Dolman",
+     "character": "Pedestrian",
+     "popularity": 0.4
+    },
+    {
+     "name": "Lachlan MacDonald",
+     "character": "Student",
+     "popularity": 0.1
+    },
+    {
+     "name": "Cody Kearsley",
+     "character": "Hawkeye",
+     "popularity": 0.4
+    },
+    {
+     "name": "John Stewart",
+     "character": "Detention Teacher",
+     "popularity": 0.2
+    },
+    {
+     "name": "Sharon Simms",
+     "character": "Green Ranger",
+     "popularity": 0.3
+    }
+   ]
+  },
+  {
+   "tmdb_id": 57800,
+   "imdb_id": "tt1667889",
+   "title": "Ice Age: Continental Drift",
+   "year": 2012,
+   "imdb": 6.5,
+   "poster": "https://image.tmdb.org/t/p/w342/dfp1BZF7FxbBUyzHvMOI9t8NWDD.jpg",
+   "cast": [
+    {
+     "name": "Ray Romano",
+     "character": "Manny",
+     "popularity": 1.9
+    },
+    {
+     "name": "John Leguizamo",
+     "character": "Sid",
+     "popularity": 4.6
+    },
+    {
+     "name": "Denis Leary",
+     "character": "Diego",
+     "popularity": 3.3
+    },
+    {
+     "name": "Seann William Scott",
+     "character": "Crash",
+     "popularity": 2.6
+    },
+    {
+     "name": "Josh Peck",
+     "character": "Eddie",
+     "popularity": 2.3
+    },
+    {
+     "name": "Peter Dinklage",
+     "character": "Captain Gutt",
+     "popularity": 4.1
+    },
+    {
+     "name": "Wanda Sykes",
+     "character": "Granny",
+     "popularity": 1.4
+    },
+    {
+     "name": "Jennifer Lopez",
+     "character": "Shira",
+     "popularity": 3.1
+    },
+    {
+     "name": "Queen Latifah",
+     "character": "Ellie",
+     "popularity": 1.8
+    },
+    {
+     "name": "Keke Palmer",
+     "character": "Peaches",
+     "popularity": 2.3
+    },
+    {
+     "name": "Josh Gad",
+     "character": "Louis",
+     "popularity": 2.2
+    },
+    {
+     "name": "Nick Frost",
+     "character": "Flynn",
+     "popularity": 2.3
+    },
+    {
+     "name": "Aziz Ansari",
+     "character": "Squint",
+     "popularity": 1.2
+    },
+    {
+     "name": "Drake",
+     "character": "Ethan",
+     "popularity": 1
+    },
+    {
+     "name": "Nicki Minaj",
+     "character": "Steffie",
+     "popularity": 1.2
+    },
+    {
+     "name": "Alan Tudyk",
+     "character": "Milton / Hunky Siren",
+     "popularity": 2.4
+    },
+    {
+     "name": "Ester Dean",
+     "character": "Female Siren",
+     "popularity": 0.5
+    },
+    {
+     "name": "Kunal Nayyar",
+     "character": "Gupta",
+     "popularity": 1.5
+    },
+    {
+     "name": "Rebel Wilson",
+     "character": "Raz",
+     "popularity": 1.7
+    },
+    {
+     "name": "Eddie 'Piolin' Sotelo",
+     "character": "Uncle Fungus",
+     "popularity": 0.2
+    },
+    {
+     "name": "Joy Behar",
+     "character": "Eunice",
+     "popularity": 0.7
+    },
+    {
+     "name": "Alain Chabat",
+     "character": "Silas",
+     "popularity": 0.8
+    },
+    {
+     "name": "Heather Morris",
+     "character": "Katie",
+     "popularity": 0.9
+    },
+    {
+     "name": "Chris Wedge",
+     "character": "Scrat",
+     "popularity": 1
+    },
+    {
+     "name": "Karen Disher",
+     "character": "Scratte",
+     "popularity": 0.5
+    },
+    {
+     "name": "Christopher Campbell",
+     "character": "Creature Siren",
+     "popularity": 0.1
+    },
+    {
+     "name": "Marieve Herington",
+     "character": "Additional Voices",
+     "popularity": 0.6
+    },
+    {
+     "name": "Lucas Leguizamo",
+     "character": "Additional Voices",
+     "popularity": 0.1
+    },
+    {
+     "name": "Allegra Leguizamo",
+     "character": "Additional Voices",
+     "popularity": 0.3
+    },
+    {
+     "name": "Jason Fricchione",
+     "character": "Dumb Mammoth / Various",
+     "popularity": 0.4
+    },
+    {
+     "name": "Ben Gleib",
+     "character": "Marshall",
+     "popularity": 0.3
+    },
+    {
+     "name": "George Jacobs",
+     "character": "Beaver",
+     "popularity": 0
+    },
+    {
+     "name": "James Palumbo",
+     "character": "Panicked Start",
+     "popularity": 0.1
+    },
+    {
+     "name": "Simon Pegg",
+     "character": "Buck",
+     "popularity": 3.7
+    },
+    {
+     "name": "Alexandra Romano",
+     "character": "Meghan",
+     "popularity": 0.2
+    },
+    {
+     "name": "Patrick Stewart",
+     "character": "Ariscratle",
+     "popularity": 5.6
+    },
+    {
+     "name": "Brian Scott McFadden",
+     "character": "Additional Voices",
+     "popularity": 0.1
+    },
+    {
+     "name": "Ashley Albert",
+     "character": "Additional Voices",
+     "popularity": 0.2
+    },
+    {
+     "name": "Edita Brychta",
+     "character": "Additional Voices",
+     "popularity": 0.4
+    },
+    {
+     "name": "Dennis T. Carnegie",
+     "character": "Additional Voices",
+     "popularity": 0.2
+    },
+    {
+     "name": "Aimée Castle",
+     "character": "Additional Voices",
+     "popularity": 0.3
+    },
+    {
+     "name": "Jim Conroy",
+     "character": "Additional Voices",
+     "popularity": 0.3
+    },
+    {
+     "name": "Jason Harris",
+     "character": "Additional Voices",
+     "popularity": 0.4
+    },
+    {
+     "name": "Sondra James",
+     "character": "Additional Voices",
+     "popularity": 0.6
+    },
+    {
+     "name": "Alexa Kahn",
+     "character": "Additional Voices",
+     "popularity": 0.4
+    },
+    {
+     "name": "Bill Lobley",
+     "character": "Additional Voices",
+     "popularity": 0.3
+    },
+    {
+     "name": "Chris Phillips",
+     "character": "Additional Voices",
+     "popularity": 0.5
+    },
+    {
+     "name": "Tara Sands",
+     "character": "Additional Voices",
+     "popularity": 0.5
+    },
+    {
+     "name": "Keith Silverstein",
+     "character": "Additional Voices",
+     "popularity": 0.7
+    },
+    {
+     "name": "Vanessa Lemonides",
+     "character": "Additional Voices",
+     "popularity": 0.4
+    },
+    {
+     "name": "Danny Flaherty",
+     "character": "Additional Voices",
+     "popularity": 0.6
+    },
+    {
+     "name": "Linda Joy",
+     "character": "Additional Voices",
+     "popularity": 0.1
+    },
+    {
+     "name": "Selenis Leyva",
+     "character": "Additional Voices",
+     "popularity": 0.8
+    },
+    {
+     "name": "Ron McClary",
+     "character": "Additional Voices",
+     "popularity": 0.2
+    },
+    {
+     "name": "Peter Pamela Rose",
+     "character": "Additional Voices",
+     "popularity": 0.1
+    },
+    {
+     "name": "Gabriel Rush",
+     "character": "Additional Voices",
+     "popularity": 0.6
+    },
+    {
+     "name": "Randy Thom",
+     "character": "Additonal Voices",
+     "popularity": 0.7
+    },
+    {
+     "name": "Annie Maginnis Tippe",
+     "character": "Additional Voices",
+     "popularity": 0.1
+    },
+    {
+     "name": "Corwin C. Tuggles",
+     "character": "Additional Voices",
+     "popularity": 0.2
+    },
+    {
+     "name": "Tashiana Washington",
+     "character": "Additional Voices",
+     "popularity": 0.3
+    }
+   ]
+  },
+  {
+   "tmdb_id": 6947,
+   "imdb_id": "tt0368447",
+   "title": "The Village",
+   "year": 2004,
+   "imdb": 6.6,
+   "poster": "https://image.tmdb.org/t/p/w342/3EkD16fPin2wG5OWhD1DAQvJRHg.jpg",
+   "cast": [
+    {
+     "name": "Bryce Dallas Howard",
+     "character": "Ivy Walker",
+     "popularity": 3.2
+    },
+    {
+     "name": "Joaquin Phoenix",
+     "character": "Lucius Hunt",
+     "popularity": 3.3
+    },
+    {
+     "name": "Adrien Brody",
+     "character": "Noah Percy",
+     "popularity": 3.9
+    },
+    {
+     "name": "William Hurt",
+     "character": "Edward Walker",
+     "popularity": 2.5
+    },
+    {
+     "name": "Sigourney Weaver",
+     "character": "Alice Hunt",
+     "popularity": 3.8
+    },
+    {
+     "name": "Brendan Gleeson",
+     "character": "August Nicholson",
+     "popularity": 3.3
+    },
+    {
+     "name": "Cherry Jones",
+     "character": "Mrs. Clack",
+     "popularity": 2.1
+    },
+    {
+     "name": "Celia Weston",
+     "character": "Vivian Percy",
+     "popularity": 0.9
+    },
+    {
+     "name": "John Christopher Jones",
+     "character": "Robert Percy",
+     "popularity": 0.4
+    },
+    {
+     "name": "Frank Collison",
+     "character": "Victor",
+     "popularity": 0.9
+    },
+    {
+     "name": "Jayne Atkinson",
+     "character": "Tabitha Walker",
+     "popularity": 1.2
+    },
+    {
+     "name": "Judy Greer",
+     "character": "Kitty Walker",
+     "popularity": 3.2
+    },
+    {
+     "name": "Fran Kranz",
+     "character": "Christop Crane",
+     "popularity": 0.9
+    },
+    {
+     "name": "Michael Pitt",
+     "character": "Finton Coin",
+     "popularity": 1.6
+    },
+    {
+     "name": "Jesse Eisenberg",
+     "character": "Jamison",
+     "popularity": 2.8
+    },
+    {
+     "name": "Charlie Hofheimer",
+     "character": "Young Security Guard",
+     "popularity": 0.5
+    },
+    {
+     "name": "Scott Sowers",
+     "character": "Man With The Raised Eyebrows",
+     "popularity": 0.5
+    },
+    {
+     "name": "Zack Wall",
+     "character": "Donald",
+     "popularity": 0.1
+    },
+    {
+     "name": "Pascale Renate Smith",
+     "character": "Marybeth",
+     "popularity": 0.1
+    },
+    {
+     "name": "Jordan Burt",
+     "character": "12-Year-Old-Boy",
+     "popularity": 0.3
+    },
+    {
+     "name": "Jane Lowe",
+     "character": "Brown-Eyed Girl",
+     "popularity": 0.1
+    },
+    {
+     "name": "Charlie McDermott",
+     "character": "10-Year-Old-Boy",
+     "popularity": 1.6
+    },
+    {
+     "name": "Robert Lenzi",
+     "character": "Young Man",
+     "popularity": 0.3
+    },
+    {
+     "name": "Willem Zuur",
+     "character": "Gerald",
+     "popularity": 0.1
+    },
+    {
+     "name": "Liz Stauber",
+     "character": "Beatrice",
+     "popularity": 0.6
+    },
+    {
+     "name": "Tim Moyer",
+     "character": "Flustered Man",
+     "popularity": 0.1
+    },
+    {
+     "name": "Sydney Shapiro",
+     "character": "Oldest Walker Daughter",
+     "popularity": 0.1
+    },
+    {
+     "name": "Mia Rose Colona",
+     "character": "Middle Walker Daughter",
+     "popularity": 0.1
+    },
+    {
+     "name": "Chloe Wieczkowski",
+     "character": "Youngest Walker Daughter",
+     "popularity": 0.1
+    },
+    {
+     "name": "Sydney Wieczkowski",
+     "character": "Youngest Walker Daughter",
+     "popularity": 0
+    },
+    {
+     "name": "M. Night Shyamalan",
+     "character": "Jay",
+     "popularity": 2.1
+    },
+    {
+     "name": "John Rusk",
+     "character": "Radio Announcer",
+     "popularity": 0.4
+    },
+    {
+     "name": "Joey Anaya",
+     "character": "Those We Don't Speak Of",
+     "popularity": 0.5
+    },
+    {
+     "name": "Kevin Foster",
+     "character": "Those We Don't Speak Of",
+     "popularity": 0.5
+    }
+   ]
+  }
+ ]
+}
