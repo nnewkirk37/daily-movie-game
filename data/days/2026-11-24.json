@@ -1,0 +1,895 @@
+{
+ "date": "2026-11-24",
+ "movies": [
+  {
+   "tmdb_id": 180,
+   "imdb_id": "tt0181689",
+   "title": "Minority Report",
+   "year": 2002,
+   "imdb": 7.6,
+   "poster": "https://image.tmdb.org/t/p/w342/qtgFcnwh9dAFLocsDk2ySDVS8UF.jpg",
+   "cast": [
+    {
+     "name": "Tom Cruise",
+     "character": "Chief John Anderton",
+     "popularity": 8.7
+    },
+    {
+     "name": "Colin Farrell",
+     "character": "Danny Witwer",
+     "popularity": 4.6
+    },
+    {
+     "name": "Samantha Morton",
+     "character": "Agatha",
+     "popularity": 2.4
+    },
+    {
+     "name": "Max von Sydow",
+     "character": "Director Lamar Burgess",
+     "popularity": 1.7
+    },
+    {
+     "name": "Lois Smith",
+     "character": "Dr. Iris Hineman",
+     "popularity": 1.9
+    },
+    {
+     "name": "Peter Stormare",
+     "character": "Dr. Solomon Eddie",
+     "popularity": 2.8
+    },
+    {
+     "name": "Tim Blake Nelson",
+     "character": "Gideon",
+     "popularity": 2.4
+    },
+    {
+     "name": "Steve Harris",
+     "character": "Jad",
+     "popularity": 1.9
+    },
+    {
+     "name": "Kathryn Morris",
+     "character": "Lara Clarke",
+     "popularity": 1.7
+    },
+    {
+     "name": "Mike Binder",
+     "character": "Leo Crow",
+     "popularity": 0.4
+    },
+    {
+     "name": "Daniel London",
+     "character": "Wally the Caretaker",
+     "popularity": 0.8
+    },
+    {
+     "name": "Neal McDonough",
+     "character": "Fletcher",
+     "popularity": 5.7
+    },
+    {
+     "name": "Jessica Capshaw",
+     "character": "Evanna",
+     "popularity": 1.8
+    },
+    {
+     "name": "Patrick Kilpatrick",
+     "character": "Knott",
+     "popularity": 1.2
+    },
+    {
+     "name": "Jessica Harper",
+     "character": "Anne Lively",
+     "popularity": 1.1
+    },
+    {
+     "name": "Ashley Crow",
+     "character": "Sarah Marks",
+     "popularity": 1.1
+    },
+    {
+     "name": "Arye Gross",
+     "character": "Howard Marks",
+     "popularity": 0.8
+    },
+    {
+     "name": "Richard Coca",
+     "character": "Pre-Crime Cop",
+     "popularity": 0.5
+    },
+    {
+     "name": "Keith Campbell",
+     "character": "Pre-Crime Cop",
+     "popularity": 0.6
+    },
+    {
+     "name": "Kirk B.R. Woller",
+     "character": "Pre-Crime Cop",
+     "popularity": 1.1
+    },
+    {
+     "name": "Klea Scott",
+     "character": "Pre-Crime Cop",
+     "popularity": 0.6
+    },
+    {
+     "name": "Frank Grillo",
+     "character": "Pre-Crime Cop",
+     "popularity": 5.1
+    },
+    {
+     "name": "Anna Maria Horsford",
+     "character": "Casey",
+     "popularity": 0.9
+    },
+    {
+     "name": "Sarah Simmons",
+     "character": "Lamar Burgess' Secretary",
+     "popularity": 0.2
+    },
+    {
+     "name": "Eugene Osment",
+     "character": "Jad's Technician",
+     "popularity": 0.4
+    },
+    {
+     "name": "James Henderson",
+     "character": "Office Worker",
+     "popularity": 0.1
+    },
+    {
+     "name": "Vené L. Arcoraci",
+     "character": "Office Worker",
+     "popularity": 0.2
+    },
+    {
+     "name": "Erica Ford",
+     "character": "Employee",
+     "popularity": 0.1
+    },
+    {
+     "name": "Keith Flippen",
+     "character": "Tour Guide",
+     "popularity": 0.6
+    },
+    {
+     "name": "Nathan Taylor",
+     "character": "Kid Tourist",
+     "popularity": 0
+    },
+    {
+     "name": "Radmar Agana Jao",
+     "character": "Technician",
+     "popularity": 0.4
+    },
+    {
+     "name": "Karina Logue",
+     "character": "Technician",
+     "popularity": 0.8
+    },
+    {
+     "name": "Elizabeth Anne Smith",
+     "character": "Technician",
+     "popularity": 0.2
+    },
+    {
+     "name": "Victoria Garcia-Kelleher",
+     "character": "Technician",
+     "popularity": 0.6
+    },
+    {
+     "name": "Jim Rash",
+     "character": "Technician",
+     "popularity": 1
+    },
+    {
+     "name": "Stephen Ramsey",
+     "character": "Jucket - Agent #1",
+     "popularity": 0.3
+    },
+    {
+     "name": "Tom Choi",
+     "character": "Paymen - Agent #2",
+     "popularity": 1
+    },
+    {
+     "name": "Tom Whitenight",
+     "character": "Price - Agent #3",
+     "popularity": 0.1
+    },
+    {
+     "name": "William Morts",
+     "character": "Foley - Agent #4",
+     "popularity": 0.2
+    },
+    {
+     "name": "Michael Dickman",
+     "character": "Arthur",
+     "popularity": 0.2
+    },
+    {
+     "name": "Matthew Dickman",
+     "character": "Dashiell",
+     "popularity": 0.1
+    },
+    {
+     "name": "George D. Wallace",
+     "character": "Chief Justice Pollard",
+     "popularity": 0.5
+    },
+    {
+     "name": "Ann Ryerson",
+     "character": "Dr. Katherine James",
+     "popularity": 0.4
+    },
+    {
+     "name": "Tyler Patrick Jones",
+     "character": "Older Sean",
+     "popularity": 0.5
+    },
+    {
+     "name": "Dominic Scott Kay",
+     "character": "Younger Sean",
+     "popularity": 0.6
+    },
+    {
+     "name": "Joel Gretsch",
+     "character": "Donald Doobin",
+     "popularity": 1
+    },
+    {
+     "name": "Bertell Lawrence",
+     "character": "John Doe",
+     "popularity": 0.1
+    },
+    {
+     "name": "Jason Antoon",
+     "character": "Rufus Riley at Cyber Parlor",
+     "popularity": 0.8
+    },
+    {
+     "name": "William Mesnik",
+     "character": "Cyber Parlor Customer",
+     "popularity": 0.2
+    },
+    {
+     "name": "Scott Frank",
+     "character": "Conceited Customer",
+     "popularity": 0.9
+    },
+    {
+     "name": "Severin Wunderman",
+     "character": "Skiing Customer",
+     "popularity": 0.1
+    },
+    {
+     "name": "Max Trumpower",
+     "character": "Homeless Person",
+     "popularity": 0.1
+    },
+    {
+     "name": "Allie Raye",
+     "character": "Hamburger Mom",
+     "popularity": 0.5
+    },
+    {
+     "name": "Rocael Leiva",
+     "character": "Hamburger Dad",
+     "popularity": 0.1
+    },
+    {
+     "name": "Nicholas Edwin Barb",
+     "character": "Homework Boy",
+     "popularity": 0.1
+    },
+    {
+     "name": "Catfish Bates",
+     "character": "Tenement Snitch",
+     "popularity": 0.1
+    },
+    {
+     "name": "Caroline Lagerfelt",
+     "character": "Greta Van Eyck",
+     "popularity": 1
+    },
+    {
+     "name": "Danny Parker-Lopes",
+     "character": "Man",
+     "popularity": 0.2
+    },
+    {
+     "name": "Vanessa Cedotal",
+     "character": "Woman",
+     "popularity": 0.2
+    },
+    {
+     "name": "Katy Boyer",
+     "character": "Mother",
+     "popularity": 0.3
+    },
+    {
+     "name": "Adrianna Kamosa",
+     "character": "Child",
+     "popularity": 0.1
+    },
+    {
+     "name": "Kari Gordon",
+     "character": "Child",
+     "popularity": 0.1
+    },
+    {
+     "name": "Elizabeth Kamosa",
+     "character": "Child",
+     "popularity": 0
+    },
+    {
+     "name": "Raquel Gordon",
+     "character": "Child",
+     "popularity": 0.1
+    },
+    {
+     "name": "Laurel Kamosa",
+     "character": "Child",
+     "popularity": 0
+    },
+    {
+     "name": "Fiona Hale",
+     "character": "Old Woman",
+     "popularity": 0.4
+    },
+    {
+     "name": "Pamela Roberts",
+     "character": "Violent Wife",
+     "popularity": 0.5
+    },
+    {
+     "name": "Clement Blake",
+     "character": "Husband",
+     "popularity": 0.7
+    },
+    {
+     "name": "Jerry Perchesky",
+     "character": "Grandfather",
+     "popularity": 0.1
+    },
+    {
+     "name": "Victor Raider-Wexler",
+     "character": "Attorney General Nash",
+     "popularity": 0.5
+    },
+    {
+     "name": "Nancy Linehan Charles",
+     "character": "Celeste Burgess",
+     "popularity": 0.6
+    },
+    {
+     "name": "Nadia Axakowsky",
+     "character": "Reporter",
+     "popularity": 0.2
+    },
+    {
+     "name": "Dude Walker",
+     "character": "Reporter",
+     "popularity": 0.2
+    },
+    {
+     "name": "Tony Hill",
+     "character": "Reporter",
+     "popularity": 0.1
+    },
+    {
+     "name": "Drakeel Burns",
+     "character": "Reporter",
+     "popularity": 0.1
+    },
+    {
+     "name": "William Mapother",
+     "character": "Hotel Clerk",
+     "popularity": 1.3
+    },
+    {
+     "name": "Morgan Hasson",
+     "character": "Paperboy",
+     "popularity": 0
+    },
+    {
+     "name": "Andrew Sandler",
+     "character": "Marks' Son",
+     "popularity": 0.4
+    },
+    {
+     "name": "Bonnie Morgan",
+     "character": "Contortionist",
+     "popularity": 0.8
+    },
+    {
+     "name": "Kathi Copeland",
+     "character": "Murder Bystander",
+     "popularity": 0.2
+    },
+    {
+     "name": "Ana Maria Quintana",
+     "character": "Murder Bystander",
+     "popularity": 0.2
+    },
+    {
+     "name": "Lucille M. Oliver",
+     "character": "Murder Bystander",
+     "popularity": 0.2
+    },
+    {
+     "name": "Gene Wheeler",
+     "character": "Murder Bystander",
+     "popularity": 0.1
+    },
+    {
+     "name": "Tonya Ivey",
+     "character": "Gap Girl",
+     "popularity": 0.1
+    },
+    {
+     "name": "David Stifel",
+     "character": "Lycon - Seller of Black Inhalers",
+     "popularity": 0.5
+    },
+    {
+     "name": "Kurt Sinclair",
+     "character": "Adulation #1",
+     "popularity": 0.3
+    },
+    {
+     "name": "Rebecca Ritz",
+     "character": "Adulation #2",
+     "popularity": 0.3
+    },
+    {
+     "name": "Beverly Morgan",
+     "character": "Adulation #3",
+     "popularity": 0.1
+    },
+    {
+     "name": "John Bennett",
+     "character": "Adulation #4",
+     "popularity": 0.8
+    },
+    {
+     "name": "Maureen Dunn",
+     "character": "Adulation #5",
+     "popularity": 0.1
+    },
+    {
+     "name": "Ron Ulstad",
+     "character": "Adulation #6",
+     "popularity": 0.1
+    },
+    {
+     "name": "Blake Bashoff",
+     "character": "Pre-Crime Public Service Announcer",
+     "popularity": 0.3
+    },
+    {
+     "name": "David Doty",
+     "character": "Pre-Crime Public Service Announcer",
+     "popularity": 0.4
+    },
+    {
+     "name": "Gina Gallego",
+     "character": "Pre-Crime Public Service Announcer",
+     "popularity": 0.7
+    },
+    {
+     "name": "David Hornsby",
+     "character": "Pre-Crime Public Service Announcer",
+     "popularity": 3.3
+    },
+    {
+     "name": "Anne Judson-Yager",
+     "character": "Pre-Crime Public Service Announcer",
+     "popularity": 0.5
+    },
+    {
+     "name": "Meredith Monroe",
+     "character": "Pre-Crime Public Service Announcer",
+     "popularity": 1.4
+    },
+    {
+     "name": "Benita Krista Nall",
+     "character": "Pre-Crime Public Service Announcer",
+     "popularity": 0.2
+    },
+    {
+     "name": "Shannon O'Hurley",
+     "character": "Pre-Crime Public Service Announcer",
+     "popularity": 0.3
+    },
+    {
+     "name": "Jorge-Luis Pallo",
+     "character": "Pre-Crime Public Service Announcer",
+     "popularity": 0.4
+    }
+   ]
+  },
+  {
+   "tmdb_id": 246741,
+   "imdb_id": "tt3416742",
+   "title": "What We Do in the Shadows",
+   "year": 2015,
+   "imdb": 7.6,
+   "poster": "https://image.tmdb.org/t/p/w342/a2rD3i3DBMeYbA34rBv6z3B9S3a.jpg",
+   "cast": [
+    {
+     "name": "Jemaine Clement",
+     "character": "Vladislav",
+     "popularity": 1.9
+    },
+    {
+     "name": "Taika Waititi",
+     "character": "Viago",
+     "popularity": 2.3
+    },
+    {
+     "name": "Jonny Brugh",
+     "character": "Deacon",
+     "popularity": 0.5
+    },
+    {
+     "name": "Cori Gonzalez-Macuer",
+     "character": "Nick",
+     "popularity": 0.2
+    },
+    {
+     "name": "Stu Rutherford",
+     "character": "Stu",
+     "popularity": 0.5
+    },
+    {
+     "name": "Ben Fransham",
+     "character": "Petyr",
+     "popularity": 0.5
+    },
+    {
+     "name": "Jackie van Beek",
+     "character": "Jackie",
+     "popularity": 0.5
+    },
+    {
+     "name": "Elena Stejko",
+     "character": "Pauline",
+     "popularity": 0.1
+    },
+    {
+     "name": "Jason Hoyte",
+     "character": "Julian",
+     "popularity": 0.5
+    },
+    {
+     "name": "Karen O'Leary",
+     "character": "Policewoman",
+     "popularity": 0.3
+    },
+    {
+     "name": "Mike Minogue",
+     "character": "Policeman",
+     "popularity": 0.2
+    },
+    {
+     "name": "Chelsie Preston Crayford",
+     "character": "Josephine",
+     "popularity": 0.9
+    },
+    {
+     "name": "Ian Harcourt",
+     "character": "Zombie",
+     "popularity": 0.3
+    },
+    {
+     "name": "Ethel Robinson",
+     "character": "Katherine",
+     "popularity": 0.1
+    },
+    {
+     "name": "Brad Harding",
+     "character": "Vampire Hunter",
+     "popularity": 0.1
+    },
+    {
+     "name": "Isaac Heron",
+     "character": "Fix Attendant",
+     "popularity": 0.1
+    },
+    {
+     "name": "Yvette Parsons",
+     "character": "Vampire Witch / MC",
+     "popularity": 0.2
+    },
+    {
+     "name": "Madeleine Sami",
+     "character": "Morana",
+     "popularity": 0.7
+    },
+    {
+     "name": "Aaron Jackson",
+     "character": "Club Bouncer",
+     "popularity": 0.2
+    },
+    {
+     "name": "Morgana Hills",
+     "character": "Child Vampire",
+     "popularity": 0.2
+    },
+    {
+     "name": "Morag Hills",
+     "character": "Child Vampire",
+     "popularity": 0.2
+    },
+    {
+     "name": "Frank Habicht",
+     "character": "Phillip",
+     "popularity": 0.1
+    },
+    {
+     "name": "Moose Kapua",
+     "character": "Big Kumara Bouncer",
+     "popularity": 0.1
+    },
+    {
+     "name": "Denis Welch",
+     "character": "Hypnotised Man / Vladislav's Victim",
+     "popularity": 0
+    },
+    {
+     "name": "Mario Gaoa",
+     "character": "Bouncer Richie",
+     "popularity": 0.1
+    },
+    {
+     "name": "Kura Forrester",
+     "character": "Viago's Victim",
+     "popularity": 0.2
+    },
+    {
+     "name": "Luke Bonjers",
+     "character": "Vladislav's Victim",
+     "popularity": 0.1
+    },
+    {
+     "name": "Rhys Darby",
+     "character": "Anton - Werewolf",
+     "popularity": 1.5
+    },
+    {
+     "name": "Simon Vincent",
+     "character": "Dion - Werewolf",
+     "popularity": 0.1
+    },
+    {
+     "name": "Cohen Holloway",
+     "character": "Clifton - Werewolf",
+     "popularity": 0.7
+    },
+    {
+     "name": "Duncan Sarkies",
+     "character": "Declan - Werewolf",
+     "popularity": 0.2
+    },
+    {
+     "name": "Nathan Meister",
+     "character": "Nathan M - Werewolf",
+     "popularity": 0.3
+    },
+    {
+     "name": "Tanemahuta Gray",
+     "character": "Nathan G - Werewolf",
+     "popularity": 0.1
+    },
+    {
+     "name": "Nathan Gray",
+     "character": "Nathan G - Werewolf",
+     "popularity": 0.1
+    },
+    {
+     "name": "Ruby Vincent",
+     "character": "WW2 Nazi Vampire",
+     "popularity": 0
+    },
+    {
+     "name": "Jaxson Cook",
+     "character": "WW2 Nazi Vampire",
+     "popularity": 0.1
+    },
+    {
+     "name": "Matthew Harvey-White",
+     "character": "WW2 Nazi Vampire",
+     "popularity": 0.1
+    },
+    {
+     "name": "Matt Dravitzki",
+     "character": "WW2 Nazi Vampire",
+     "popularity": 0.1
+    },
+    {
+     "name": "Roland Hunter",
+     "character": "WW2 Nazi Vampire",
+     "popularity": 0.1
+    },
+    {
+     "name": "Stan Alley",
+     "character": "WW2 Nazi Vampire",
+     "popularity": 0.1
+    },
+    {
+     "name": "Lucy Marinkavich",
+     "character": "Succubus",
+     "popularity": 0.1
+    },
+    {
+     "name": "Melanie Hamilton",
+     "character": "Succubus",
+     "popularity": 0.1
+    },
+    {
+     "name": "Ana Flaherty",
+     "character": "Succubus",
+     "popularity": 0.1
+    },
+    {
+     "name": "Aaron Lewis",
+     "character": "Zombie",
+     "popularity": 0.1
+    },
+    {
+     "name": "Belle Gwilliam",
+     "character": "Zombie",
+     "popularity": 0
+    },
+    {
+     "name": "Rodney Cook",
+     "character": "Mauled Cameraman",
+     "popularity": 0.2
+    },
+    {
+     "name": "Jennifer Martin",
+     "character": "Tracy",
+     "popularity": 0.3
+    },
+    {
+     "name": "Emma Draper",
+     "character": "Beth",
+     "popularity": 0.1
+    },
+    {
+     "name": "Natalie Crane",
+     "character": "Boogie Wonderland Girl",
+     "popularity": 0.2
+    },
+    {
+     "name": "Emma Smith",
+     "character": "Dancer",
+     "popularity": 0.2
+    }
+   ]
+  },
+  {
+   "tmdb_id": 1576,
+   "imdb_id": "tt0120804",
+   "title": "Resident Evil",
+   "year": 2002,
+   "imdb": 6.6,
+   "poster": "https://image.tmdb.org/t/p/w342/1UKNef590A0ZaMnxsscIcWuK1Em.jpg",
+   "cast": [
+    {
+     "name": "Milla Jovovich",
+     "character": "Alice",
+     "popularity": 5.2
+    },
+    {
+     "name": "Michelle Rodriguez",
+     "character": "Rain",
+     "popularity": 2.9
+    },
+    {
+     "name": "Eric Mabius",
+     "character": "Matt",
+     "popularity": 1.3
+    },
+    {
+     "name": "James Purefoy",
+     "character": "Spence",
+     "popularity": 1.8
+    },
+    {
+     "name": "Martin Crewes",
+     "character": "Kaplan",
+     "popularity": 0.5
+    },
+    {
+     "name": "Colin Salmon",
+     "character": "One",
+     "popularity": 1.3
+    },
+    {
+     "name": "Pasquale Aleardi",
+     "character": "J.D.",
+     "popularity": 0.4
+    },
+    {
+     "name": "Heike Makatsch",
+     "character": "Lisa",
+     "popularity": 1.2
+    },
+    {
+     "name": "Ryan McCluskey",
+     "character": "Mr. Grey",
+     "popularity": 0.6
+    },
+    {
+     "name": "Oscar Pearce",
+     "character": "Mr. Red",
+     "popularity": 0.3
+    },
+    {
+     "name": "Indra Ové",
+     "character": "Ms. Black",
+     "popularity": 0.5
+    },
+    {
+     "name": "Anna Bolt",
+     "character": "Dr. Green",
+     "popularity": 0.5
+    },
+    {
+     "name": "Joseph May",
+     "character": "Dr. Blue",
+     "popularity": 0.4
+    },
+    {
+     "name": "Robert Tannion",
+     "character": "Dr. Brown",
+     "popularity": 0.2
+    },
+    {
+     "name": "Jaymes Butler",
+     "character": "Clarence",
+     "popularity": 0.5
+    },
+    {
+     "name": "Stephen Billington",
+     "character": "Mr. White",
+     "popularity": 0.3
+    },
+    {
+     "name": "Fiona Glascott",
+     "character": "Ms. Gold",
+     "popularity": 0.8
+    },
+    {
+     "name": "Liz May Brice",
+     "character": "Medic",
+     "popularity": 0.6
+    },
+    {
+     "name": "Torsten Jerabek",
+     "character": "Commando 1",
+     "popularity": 0.1
+    },
+    {
+     "name": "Marc Logan-Black",
+     "character": "Commando 2",
+     "popularity": 0.1
+    },
+    {
+     "name": "Michaela Dicker",
+     "character": "Red Queen",
+     "popularity": 0.2
+    },
+    {
+     "name": "Jason Isaacs",
+     "character": "Dr. William Birkin",
+     "popularity": 3.3
+    }
+   ]
+  }
+ ]
+}
