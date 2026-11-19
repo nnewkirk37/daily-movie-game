@@ -1,0 +1,880 @@
+{
+ "date": "2026-11-25",
+ "movies": [
+  {
+   "tmdb_id": 91586,
+   "imdb_id": "tt2226417",
+   "title": "Insidious: Chapter 2",
+   "year": 2013,
+   "imdb": 6.6,
+   "poster": "https://image.tmdb.org/t/p/w342/w5JjiB3O1CLDXbTJe1QpU5RHmlU.jpg",
+   "cast": [
+    {
+     "name": "Patrick Wilson",
+     "character": "Josh Lambert",
+     "popularity": 2.6
+    },
+    {
+     "name": "Rose Byrne",
+     "character": "Renai Lambert",
+     "popularity": 4.6
+    },
+    {
+     "name": "Lin Shaye",
+     "character": "Elise Rainier",
+     "popularity": 2.1
+    },
+    {
+     "name": "Ty Simpkins",
+     "character": "Dalton Lambert",
+     "popularity": 1.2
+    },
+    {
+     "name": "Barbara Hershey",
+     "character": "Lorraine Lambert",
+     "popularity": 1.6
+    },
+    {
+     "name": "Steve Coulter",
+     "character": "Carl",
+     "popularity": 1.2
+    },
+    {
+     "name": "Leigh Whannell",
+     "character": "Specs",
+     "popularity": 1.1
+    },
+    {
+     "name": "Angus Sampson",
+     "character": "Tucker",
+     "popularity": 1.8
+    },
+    {
+     "name": "Andrew Astor",
+     "character": "Foster Lambert",
+     "popularity": 0.4
+    },
+    {
+     "name": "Hank Harris",
+     "character": "Carl",
+     "popularity": 0.8
+    },
+    {
+     "name": "Jocelin Donahue",
+     "character": "Lorraine Lambert",
+     "popularity": 0.5
+    },
+    {
+     "name": "Lindsay Seim",
+     "character": "Elise Rainier",
+     "popularity": 0.4
+    },
+    {
+     "name": "Danielle Bisutti",
+     "character": "Parker Crane's Mother",
+     "popularity": 0.7
+    },
+    {
+     "name": "Tyler Griffin",
+     "character": "Parker Crane",
+     "popularity": 0.3
+    },
+    {
+     "name": "Garrett Ryan",
+     "character": "Josh Lambert",
+     "popularity": 0.5
+    },
+    {
+     "name": "Tom Fitzpatrick",
+     "character": "Bride in Black / Parker Crane",
+     "popularity": 0.4
+    },
+    {
+     "name": "Priscilla Garita",
+     "character": "Natalie",
+     "popularity": 0.2
+    },
+    {
+     "name": "Michael Beach",
+     "character": "Detective Sendal",
+     "popularity": 2
+    },
+    {
+     "name": "J. LaRose",
+     "character": "Long Haired Fiend",
+     "popularity": 0.3
+    },
+    {
+     "name": "Brooke Peoples",
+     "character": "Neighbor Jessica",
+     "popularity": 0.4
+    },
+    {
+     "name": "Edwina Findley",
+     "character": "Hillary",
+     "popularity": 0.3
+    },
+    {
+     "name": "Stephanie Pearson",
+     "character": "Dark Haired Woman",
+     "popularity": 0.3
+    },
+    {
+     "name": "Jorge-Luis Pallo",
+     "character": "Brian",
+     "popularity": 0.5
+    },
+    {
+     "name": "Jenna Ortega",
+     "character": "Annie",
+     "popularity": 7.1
+    },
+    {
+     "name": "Dannay Rodriguez",
+     "character": "Allison",
+     "popularity": 0.1
+    },
+    {
+     "name": "Sienna Farall",
+     "character": "Coma Ward Nurse",
+     "popularity": 0.2
+    },
+    {
+     "name": "Jack Walsh",
+     "character": "Old Man in the Further",
+     "popularity": 0.4
+    },
+    {
+     "name": "Brynn Bowie",
+     "character": "Kali Lambert",
+     "popularity": 0.1
+    },
+    {
+     "name": "Madison Bowie",
+     "character": "Kali Lambert",
+     "popularity": 0.1
+    },
+    {
+     "name": "Dylan Quigg",
+     "character": "Ghoul",
+     "popularity": 0.2
+    },
+    {
+     "name": "Kimberly Ables Jindra",
+     "character": "Bride",
+     "popularity": 0.2
+    }
+   ]
+  },
+  {
+   "tmdb_id": 911430,
+   "imdb_id": "tt16311594",
+   "title": "F1",
+   "year": 2025,
+   "imdb": 7.6,
+   "poster": "https://image.tmdb.org/t/p/w342/9PXZIUsSDh4alB80jheWX4fhZmy.jpg",
+   "cast": [
+    {
+     "name": "Brad Pitt",
+     "character": "Sonny Hayes",
+     "popularity": 11.5
+    },
+    {
+     "name": "Damson Idris",
+     "character": "Joshua Pearce",
+     "popularity": 1.7
+    },
+    {
+     "name": "Javier Bardem",
+     "character": "Ruben Cervantes",
+     "popularity": 4.7
+    },
+    {
+     "name": "Kerry Condon",
+     "character": "Kate McKenna",
+     "popularity": 2.4
+    },
+    {
+     "name": "Tobias Menzies",
+     "character": "Peter Banning",
+     "popularity": 2.1
+    },
+    {
+     "name": "Kim Bodnia",
+     "character": "Kaspar Smolinski",
+     "popularity": 1.2
+    },
+    {
+     "name": "Sarah Niles",
+     "character": "Bernadette",
+     "popularity": 1.8
+    },
+    {
+     "name": "Will Merrick",
+     "character": "Nickleby",
+     "popularity": 0.8
+    },
+    {
+     "name": "Joseph Balderrama",
+     "character": "Fazio",
+     "popularity": 0.6
+    },
+    {
+     "name": "Abdul Salis",
+     "character": "Dodge",
+     "popularity": 0.7
+    },
+    {
+     "name": "Callie Cooke",
+     "character": "Jodie",
+     "popularity": 0.6
+    },
+    {
+     "name": "Samson Kayo",
+     "character": "Cash",
+     "popularity": 0.7
+    },
+    {
+     "name": "Simon Kunz",
+     "character": "Don Cavendish",
+     "popularity": 1.2
+    },
+    {
+     "name": "Liz Kingsman",
+     "character": "Lisbeth Bampton",
+     "popularity": 0.4
+    },
+    {
+     "name": "Simone Ashley",
+     "character": "Simone Ashley",
+     "popularity": 2.3
+    },
+    {
+     "name": "Ramona Von Pusch",
+     "character": "Liesl",
+     "popularity": 0.3
+    },
+    {
+     "name": "Barney Smith",
+     "character": "Kaspar's Son",
+     "popularity": 0
+    },
+    {
+     "name": "Poppy Smith",
+     "character": "Kaspar's Daughter",
+     "popularity": 0.1
+    },
+    {
+     "name": "Luciano Bacheta",
+     "character": "Luca Cortez",
+     "popularity": 0.3
+    },
+    {
+     "name": "Rosie Dwyer",
+     "character": "Pippa Leguin",
+     "popularity": 0.2
+    },
+    {
+     "name": "Martin Brundle",
+     "character": "Martin Brundle",
+     "popularity": 0.3
+    },
+    {
+     "name": "David Croft",
+     "character": "David Croft",
+     "popularity": 0.2
+    },
+    {
+     "name": "Leigh Diffey",
+     "character": "Daytona Race Broadcaster",
+     "popularity": 0
+    },
+    {
+     "name": "Shea Whigham",
+     "character": "Chip Hart",
+     "popularity": 2.5
+    },
+    {
+     "name": "Patrick Long",
+     "character": "Patrick Long",
+     "popularity": 0.1
+    },
+    {
+     "name": "Will Redmond",
+     "character": "Young Engineer",
+     "popularity": 0.1
+    },
+    {
+     "name": "Michael Aaron Milligan",
+     "character": "Strategy Director",
+     "popularity": 0.5
+    },
+    {
+     "name": "Kyle Rankin",
+     "character": "Cale Kelso",
+     "popularity": 0.2
+    },
+    {
+     "name": "Rachel Walters",
+     "character": "Molly, Sonny's Assistant",
+     "popularity": 0.3
+    },
+    {
+     "name": "Steven Sean Garland",
+     "character": "BMW Driver",
+     "popularity": 0.2
+    },
+    {
+     "name": "Avis-Marie Barnes",
+     "character": "Diner Waitress",
+     "popularity": 0.3
+    },
+    {
+     "name": "Will Buxton",
+     "character": "Will Buxton",
+     "popularity": 0.3
+    },
+    {
+     "name": "Rachel Brookes",
+     "character": "Rachel Brookes",
+     "popularity": 0.2
+    },
+    {
+     "name": "Natalie Pinkham",
+     "character": "Natalie Pinkham",
+     "popularity": 0.1
+    },
+    {
+     "name": "Maria Thoma",
+     "character": "Presenter",
+     "popularity": 0.1
+    },
+    {
+     "name": "Tom Clarkson",
+     "character": "Las Vegas Press Conference Presenter",
+     "popularity": 0.4
+    },
+    {
+     "name": "Martin Savage",
+     "character": "Las Vegas FIA Race Director",
+     "popularity": 0.3
+    },
+    {
+     "name": "Zoe Oedekerk",
+     "character": "Las Vegas Fun Loving Clubber",
+     "popularity": 0.1
+    },
+    {
+     "name": "Tiësto",
+     "character": "Tiësto",
+     "popularity": 0.5
+    },
+    {
+     "name": "Elena Rivers",
+     "character": "Supper Club Hostess",
+     "popularity": 0.7
+    },
+    {
+     "name": "Nancy Carroll",
+     "character": "Abu Dhabi Corporate Executive #1",
+     "popularity": 1.4
+    },
+    {
+     "name": "Ankur Bahl",
+     "character": "Abu Dhabi Corporate Executive #2",
+     "popularity": 0.1
+    },
+    {
+     "name": "Mohammed Alkhoori",
+     "character": "Abu Dhabi Trophy Presenter",
+     "popularity": 0
+    },
+    {
+     "name": "Salwa Al Hadhrami",
+     "character": "Abu Dhabi Podium Dignitary",
+     "popularity": 0
+    },
+    {
+     "name": "Sal Lopez",
+     "character": "Baja Old Timer",
+     "popularity": 0.7
+    },
+    {
+     "name": "Darius De La Cruz",
+     "character": "Baja Mechanic's Son",
+     "popularity": 0.2
+    },
+    {
+     "name": "Gabriel Rivas",
+     "character": "Baja Teenage Grandson",
+     "popularity": 0.1
+    },
+    {
+     "name": "Alexander Albon",
+     "character": "Alexander Albon",
+     "popularity": 0.3
+    },
+    {
+     "name": "Fernando Alonso",
+     "character": "Fernando Alonso",
+     "popularity": 0.5
+    },
+    {
+     "name": "Oliver Bearman",
+     "character": "Ollie Bearman",
+     "popularity": 0.2
+    },
+    {
+     "name": "Valtteri Bottas",
+     "character": "Valtteri Bottas",
+     "popularity": 0.3
+    },
+    {
+     "name": "Franco Colapinto",
+     "character": "Franco Colapinto",
+     "popularity": 0.2
+    },
+    {
+     "name": "Nyck de Vries",
+     "character": "Nyck de Vries",
+     "popularity": 0.1
+    },
+    {
+     "name": "Jack Doohan",
+     "character": "Jack Doohan",
+     "popularity": 0.1
+    },
+    {
+     "name": "Pierre Gasly",
+     "character": "Pierre Gasly",
+     "popularity": 0.4
+    },
+    {
+     "name": "Zhou Guanyu",
+     "character": "Zhou Guanyu",
+     "popularity": 0.4
+    },
+    {
+     "name": "Lewis Hamilton",
+     "character": "Lewis Hamilton",
+     "popularity": 0.7
+    },
+    {
+     "name": "Nico Hülkenberg",
+     "character": "Nicolas Hülkenberg",
+     "popularity": 0.2
+    },
+    {
+     "name": "Liam Lawson",
+     "character": "Liam Lawson",
+     "popularity": 0.2
+    },
+    {
+     "name": "Charles Leclerc",
+     "character": "Charles Leclerc",
+     "popularity": 0.8
+    },
+    {
+     "name": "Kevin Magnussen",
+     "character": "Kevin Magnussen",
+     "popularity": 0.2
+    },
+    {
+     "name": "Lando Norris",
+     "character": "Lando Norris",
+     "popularity": 0.4
+    },
+    {
+     "name": "Esteban Ocon",
+     "character": "Esteban Ocon",
+     "popularity": 0.4
+    },
+    {
+     "name": "Sergio Pérez",
+     "character": "Sergio Pérez",
+     "popularity": 0.4
+    },
+    {
+     "name": "Oscar Piastri",
+     "character": "Oscar Piastri",
+     "popularity": 0.4
+    },
+    {
+     "name": "Daniel Ricciardo",
+     "character": "Daniel Ricciardo",
+     "popularity": 0.3
+    },
+    {
+     "name": "George Russell",
+     "character": "George Russell",
+     "popularity": 0.4
+    },
+    {
+     "name": "Carlos Sainz Jr.",
+     "character": "Carlos Sainz",
+     "popularity": 0.6
+    },
+    {
+     "name": "Logan Sargeant",
+     "character": "Logan Sargeant",
+     "popularity": 0.2
+    },
+    {
+     "name": "Lance Stroll",
+     "character": "Lance Stroll",
+     "popularity": 0.2
+    },
+    {
+     "name": "Yuki Tsunoda",
+     "character": "Yuki Tsunoda",
+     "popularity": 0.5
+    },
+    {
+     "name": "Zak Brown",
+     "character": "Zak Brown",
+     "popularity": 0.3
+    },
+    {
+     "name": "Max Verstappen",
+     "character": "Max Verstappen",
+     "popularity": 0.8
+    },
+    {
+     "name": "Christian Horner",
+     "character": "Christian Horner",
+     "popularity": 0.3
+    },
+    {
+     "name": "Guenther Steiner",
+     "character": "Guenther Steiner",
+     "popularity": 0.2
+    },
+    {
+     "name": "Lawrence Stroll",
+     "character": "Lawrence Stroll",
+     "popularity": 0.1
+    },
+    {
+     "name": "Frédéric Vasseur",
+     "character": "Frédéric Vasseur",
+     "popularity": 0.2
+    },
+    {
+     "name": "James Vowles",
+     "character": "James Vowles",
+     "popularity": 0
+    },
+    {
+     "name": "Toto Wolff",
+     "character": "Toto Wolff",
+     "popularity": 0.2
+    },
+    {
+     "name": "Stefano Domenicali",
+     "character": "Stefano Domenicali",
+     "popularity": 0.2
+    }
+   ]
+  },
+  {
+   "tmdb_id": 138832,
+   "imdb_id": "tt1723121",
+   "title": "We're the Millers",
+   "year": 2013,
+   "imdb": 7,
+   "poster": "https://image.tmdb.org/t/p/w342/qF2LJ0jwWrtXSuT4AFD5OS2IqaT.jpg",
+   "cast": [
+    {
+     "name": "Jennifer Aniston",
+     "character": "Rose O'Reilly",
+     "popularity": 4.3
+    },
+    {
+     "name": "Jason Sudeikis",
+     "character": "David Clark",
+     "popularity": 3.1
+    },
+    {
+     "name": "Emma Roberts",
+     "character": "Casey Mathis",
+     "popularity": 2.6
+    },
+    {
+     "name": "Will Poulter",
+     "character": "Kenny Rossmore",
+     "popularity": 2.4
+    },
+    {
+     "name": "Ed Helms",
+     "character": "Brad Gurdlinger",
+     "popularity": 2.3
+    },
+    {
+     "name": "Nick Offerman",
+     "character": "Don Fitzgerald",
+     "popularity": 1.8
+    },
+    {
+     "name": "Kathryn Hahn",
+     "character": "Edie Fitzgerald",
+     "popularity": 4.1
+    },
+    {
+     "name": "Molly C. Quinn",
+     "character": "Melissa Fitzgerald",
+     "popularity": 2
+    },
+    {
+     "name": "Tomer Sisley",
+     "character": "Pablo Chacon",
+     "popularity": 0.9
+    },
+    {
+     "name": "Matthew Willig",
+     "character": "One-Eye",
+     "popularity": 0.8
+    },
+    {
+     "name": "Luis Guzmán",
+     "character": "Mexican Cop",
+     "popularity": 2.7
+    },
+    {
+     "name": "Thomas Lennon",
+     "character": "Rick Nathanson",
+     "popularity": 1.8
+    },
+    {
+     "name": "Mark L. Young",
+     "character": "Scottie P.",
+     "popularity": 0.7
+    },
+    {
+     "name": "Ken Marino",
+     "character": "Todd - Strip Club Owner",
+     "popularity": 1.2
+    },
+    {
+     "name": "Laura-Leigh",
+     "character": "Kymberly",
+     "popularity": 0.4
+    },
+    {
+     "name": "Crystal Nichol",
+     "character": "Brad's Receptionist",
+     "popularity": 0.2
+    },
+    {
+     "name": "D.A. Obahor",
+     "character": "Parking Cop",
+     "popularity": 0.2
+    },
+    {
+     "name": "Brett Gentile",
+     "character": "White Bread Dad",
+     "popularity": 0.3
+    },
+    {
+     "name": "Kelly Collins Lintz",
+     "character": "White Bread Mom",
+     "popularity": 0.4
+    },
+    {
+     "name": "Sam Richardson",
+     "character": "TSA Agent",
+     "popularity": 1.9
+    },
+    {
+     "name": "Lynn Talley",
+     "character": "Stylist",
+     "popularity": 0.1
+    },
+    {
+     "name": "Alan Gilmer",
+     "character": "Middle Aged Man",
+     "popularity": 0.1
+    },
+    {
+     "name": "Denielle Fisher Johnson",
+     "character": "Flight Attendant #1",
+     "popularity": 0.3
+    },
+    {
+     "name": "Deborah Chavez",
+     "character": "Flight Attendant #2",
+     "popularity": 0.5
+    },
+    {
+     "name": "Kevin Dorff",
+     "character": "Border Guard #1",
+     "popularity": 0.3
+    },
+    {
+     "name": "Rawson Marshall Thurber",
+     "character": "The Ultimate Border Guard",
+     "popularity": 0.6
+    },
+    {
+     "name": "Kurt Grossi",
+     "character": "Border Guard #3",
+     "popularity": 0.1
+    },
+    {
+     "name": "Dave McElhaney",
+     "character": "White Gringo",
+     "popularity": 0
+    },
+    {
+     "name": "Brendan Hunt",
+     "character": "Sketchy Dude",
+     "popularity": 1.4
+    },
+    {
+     "name": "Scott Adsit",
+     "character": "Doctor",
+     "popularity": 0.6
+    },
+    {
+     "name": "Vickie Eng",
+     "character": "Hospital Nurse",
+     "popularity": 0.5
+    },
+    {
+     "name": "Lunden De'Leon",
+     "character": "Hospital Receptionist",
+     "popularity": 0.3
+    },
+    {
+     "name": "Joey Nappo",
+     "character": "Gutter Punk #1",
+     "popularity": 0.1
+    },
+    {
+     "name": "Joshua Mikel",
+     "character": "Gutter Punk #2",
+     "popularity": 0.9
+    },
+    {
+     "name": "Matt Schweppe",
+     "character": "Gutter Punk #3",
+     "popularity": 0.1
+    },
+    {
+     "name": "Tonya Bludsworth",
+     "character": "Soccer Mom",
+     "popularity": 0.2
+    },
+    {
+     "name": "Matthew Cornwell",
+     "character": "Dan Johnson",
+     "popularity": 0.5
+    },
+    {
+     "name": "Marcus Viscidi",
+     "character": "Business Man",
+     "popularity": 0.6
+    },
+    {
+     "name": "Loren Anthony",
+     "character": "Mexican Border Crosser",
+     "popularity": 0.2
+    },
+    {
+     "name": "Joshua R. Aragon",
+     "character": "Drug Cartel Member",
+     "popularity": 0.1
+    },
+    {
+     "name": "Lionel Archuleta",
+     "character": "Mexican Pedestrian",
+     "popularity": 0.1
+    },
+    {
+     "name": "Jenique Bennett",
+     "character": "Stripper",
+     "popularity": 0.2
+    },
+    {
+     "name": "Ashley Blankenship",
+     "character": "Hot Tub Bikini Girlfriend",
+     "popularity": 0.4
+    },
+    {
+     "name": "Robert Crayton",
+     "character": "Kidnapper",
+     "popularity": 0.4
+    },
+    {
+     "name": "Lindsay Davis",
+     "character": "Hot Tub Girlfriend",
+     "popularity": 0.3
+    },
+    {
+     "name": "Tait Fletcher",
+     "character": "Creepy Trucker",
+     "popularity": 0.9
+    },
+    {
+     "name": "William Frasca",
+     "character": "Pedestrian",
+     "popularity": 0.1
+    },
+    {
+     "name": "Amanda Fresquez",
+     "character": "Airplane Passenger",
+     "popularity": 0.1
+    },
+    {
+     "name": "Lawrence Gilligan",
+     "character": "Border Guard",
+     "popularity": 0.2
+    },
+    {
+     "name": "Saeri Lee",
+     "character": "Pedestrian",
+     "popularity": 0.1
+    },
+    {
+     "name": "Natalia Marie",
+     "character": "Stripper",
+     "popularity": 0.1
+    },
+    {
+     "name": "Brian Patrick Moize",
+     "character": "Strip Club Bouncer",
+     "popularity": 0.1
+    },
+    {
+     "name": "Patrick V. Murphy",
+     "character": "Mexican Taxi Driver",
+     "popularity": 0.1
+    },
+    {
+     "name": "Ed Ricker",
+     "character": "Fair Goer",
+     "popularity": 0.1
+    },
+    {
+     "name": "John Henry Scott",
+     "character": "Stilt Walker",
+     "popularity": 0.2
+    },
+    {
+     "name": "Nathan Marcus Smith",
+     "character": "Coffee Shop Patron",
+     "popularity": 0.1
+    },
+    {
+     "name": "Michael E. Stogner",
+     "character": "Airline Passenger",
+     "popularity": 0.3
+    },
+    {
+     "name": "Shane Thompson",
+     "character": "Strip Club Patron",
+     "popularity": 0.1
+    }
+   ]
+  }
+ ]
+}
