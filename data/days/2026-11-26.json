@@ -1,0 +1,655 @@
+{
+ "date": "2026-11-26",
+ "movies": [
+  {
+   "tmdb_id": 378236,
+   "imdb_id": "tt4877122",
+   "title": "The Emoji Movie",
+   "year": 2017,
+   "imdb": 3.5,
+   "poster": "https://image.tmdb.org/t/p/w342/60bTx5z9zL1AqCjZ0gmWoRMJ6Bb.jpg",
+   "cast": [
+    {
+     "name": "T.J. Miller",
+     "character": "Gene",
+     "popularity": 1.4
+    },
+    {
+     "name": "James Corden",
+     "character": "Hi-5",
+     "popularity": 1.2
+    },
+    {
+     "name": "Anna Faris",
+     "character": "Jailbreak",
+     "popularity": 2.9
+    },
+    {
+     "name": "Maya Rudolph",
+     "character": "Smiler",
+     "popularity": 2.2
+    },
+    {
+     "name": "Steven Wright",
+     "character": "Mel Meh",
+     "popularity": 0.7
+    },
+    {
+     "name": "Jennifer Coolidge",
+     "character": "Mary Meh",
+     "popularity": 4.1
+    },
+    {
+     "name": "Jake T. Austin",
+     "character": "Alex",
+     "popularity": 0.8
+    },
+    {
+     "name": "Christina Aguilera",
+     "character": "Akiko Glitter",
+     "popularity": 1.3
+    },
+    {
+     "name": "Sofía Vergara",
+     "character": "Flamenco Dancer",
+     "popularity": 2.1
+    },
+    {
+     "name": "Patrick Stewart",
+     "character": "Poop",
+     "popularity": 4.6
+    },
+    {
+     "name": "Rob Riggle",
+     "character": "Ice Cream",
+     "popularity": 1.5
+    },
+    {
+     "name": "Sean Hayes",
+     "character": "'Devil' Steven",
+     "popularity": 1.6
+    },
+    {
+     "name": "Tati Gabrielle",
+     "character": "Addie",
+     "popularity": 1.7
+    },
+    {
+     "name": "Jude Koyaute",
+     "character": "Poop Jr, 'PJ'",
+     "popularity": 0.1
+    },
+    {
+     "name": "Rachael Ray",
+     "character": "Spam",
+     "popularity": 0.6
+    },
+    {
+     "name": "Jeff Ross",
+     "character": "Internet Troll",
+     "popularity": 0.9
+    },
+    {
+     "name": "Melissa Sturm",
+     "character": "Angel / Phone Store Employee",
+     "popularity": 0.4
+    },
+    {
+     "name": "Tony Leondis",
+     "character": "Laughter / Broom / Pizza",
+     "popularity": 0.5
+    },
+    {
+     "name": "Sean Giambrone",
+     "character": "Travis",
+     "popularity": 0.7
+    },
+    {
+     "name": "Timothy Durkin",
+     "character": "Mr. Schnoebelen",
+     "popularity": 0.1
+    },
+    {
+     "name": "Liam Aiken",
+     "character": "Ronnie Ram Tech",
+     "popularity": 1.2
+    },
+    {
+     "name": "Wendell Brooks",
+     "character": "Ram Tech Bouncer",
+     "popularity": 0
+    },
+    {
+     "name": "Tarek Bishara",
+     "character": "Fist Bump",
+     "popularity": 0.3
+    },
+    {
+     "name": "Kevin Chamberlin",
+     "character": "Gavel",
+     "popularity": 0.7
+    },
+    {
+     "name": "William Townsend",
+     "character": "Rocket",
+     "popularity": 0.1
+    },
+    {
+     "name": "Adam Brown",
+     "character": "Flashlight / Trojan Horse",
+     "popularity": 0.4
+    },
+    {
+     "name": "William J. Caparella",
+     "character": "Alien",
+     "popularity": 0.2
+    },
+    {
+     "name": "Joe Whyte",
+     "character": "Red Wagon",
+     "popularity": 0.3
+    },
+    {
+     "name": "Conrad Vernon",
+     "character": "Trojan Horse",
+     "popularity": 1.2
+    },
+    {
+     "name": "Kate Miller",
+     "character": "Heart Eyes",
+     "popularity": 0.2
+    },
+    {
+     "name": "Rich Dietl",
+     "character": "Nerd Emoji",
+     "popularity": 0.3
+    },
+    {
+     "name": "Derek Mio",
+     "character": "Elephant",
+     "popularity": 0.4
+    },
+    {
+     "name": "Paige Eileen Caparella",
+     "character": "Cat Heart Eyes",
+     "popularity": 0
+    },
+    {
+     "name": "Bob Bergen",
+     "character": "Additional Voices",
+     "popularity": 1.2
+    },
+    {
+     "name": "Debi Derryberry",
+     "character": "Additional Voices",
+     "popularity": 1.1
+    },
+    {
+     "name": "Jess Harnell",
+     "character": "Additional Voices",
+     "popularity": 0.9
+    },
+    {
+     "name": "Phil LaMarr",
+     "character": "Additional Voices",
+     "popularity": 1.4
+    },
+    {
+     "name": "Laraine Newman",
+     "character": "Additional Voices",
+     "popularity": 1
+    },
+    {
+     "name": "Tara Strong",
+     "character": "Additional Voices",
+     "popularity": 2.8
+    },
+    {
+     "name": "Fred Tatasciore",
+     "character": "Additional Voices",
+     "popularity": 2.3
+    },
+    {
+     "name": "E. G. Daily",
+     "character": "Additional Voices",
+     "popularity": 2.4
+    },
+    {
+     "name": "Carlos Alazraqui",
+     "character": "Additional Voices",
+     "popularity": 1.3
+    },
+    {
+     "name": "Keith Anthony",
+     "character": "Additional Voices",
+     "popularity": 0.2
+    },
+    {
+     "name": "Eric Bauza",
+     "character": "Additional Voices",
+     "popularity": 1.9
+    },
+    {
+     "name": "David Boat",
+     "character": "Additional Voices",
+     "popularity": 0.5
+    },
+    {
+     "name": "Terri Douglas",
+     "character": "Additional Voices",
+     "popularity": 0.5
+    },
+    {
+     "name": "Keith Ferguson",
+     "character": "Additional Voices",
+     "popularity": 0.7
+    },
+    {
+     "name": "Amy Hill",
+     "character": "Additional Voices",
+     "popularity": 2.1
+    },
+    {
+     "name": "John Kassir",
+     "character": "Additional Voices",
+     "popularity": 0.7
+    },
+    {
+     "name": "Josh Keaton",
+     "character": "Additional Voices",
+     "popularity": 1.3
+    },
+    {
+     "name": "Mona Marshall",
+     "character": "Additional Voices",
+     "popularity": 0.6
+    },
+    {
+     "name": "Scott Menville",
+     "character": "Additional Voices",
+     "popularity": 1.3
+    },
+    {
+     "name": "Max Mittelman",
+     "character": "Additional Voices",
+     "popularity": 1
+    },
+    {
+     "name": "Alicyn Packard",
+     "character": "Additional Voices",
+     "popularity": 0
+    },
+    {
+     "name": "Paul Pape",
+     "character": "Additional Voices",
+     "popularity": 0.6
+    },
+    {
+     "name": "Debra Wilson",
+     "character": "Additional Voices",
+     "popularity": 1.4
+    },
+    {
+     "name": "Matthew Wood",
+     "character": "Additional Voices",
+     "popularity": 0.8
+    },
+    {
+     "name": "John Cramer",
+     "character": "Additional Voices",
+     "popularity": 0.2
+    }
+   ]
+  },
+  {
+   "tmdb_id": 300668,
+   "imdb_id": "tt2798920",
+   "title": "Annihilation",
+   "year": 2018,
+   "imdb": 6.8,
+   "poster": "https://image.tmdb.org/t/p/w342/4YRplSk6BhH6PRuE9gfyw9byUJ6.jpg",
+   "cast": [
+    {
+     "name": "Natalie Portman",
+     "character": "Lena",
+     "popularity": 5.7
+    },
+    {
+     "name": "Jennifer Jason Leigh",
+     "character": "Dr Ventress",
+     "popularity": 3.9
+    },
+    {
+     "name": "Gina Rodriguez",
+     "character": "Anya Thorensen",
+     "popularity": 2.3
+    },
+    {
+     "name": "Tessa Thompson",
+     "character": "Josie Radek",
+     "popularity": 2.8
+    },
+    {
+     "name": "Tuva Novotny",
+     "character": "Cass Sheppard",
+     "popularity": 0.9
+    },
+    {
+     "name": "Oscar Isaac",
+     "character": "Kane",
+     "popularity": 4.9
+    },
+    {
+     "name": "Benedict Wong",
+     "character": "Lomax",
+     "popularity": 3.5
+    },
+    {
+     "name": "Sonoya Mizuno",
+     "character": "Humanoid / Katie",
+     "popularity": 2
+    },
+    {
+     "name": "David Gyasi",
+     "character": "Daniel",
+     "popularity": 2.9
+    },
+    {
+     "name": "John Schwab",
+     "character": "Paramedic",
+     "popularity": 0.4
+    },
+    {
+     "name": "Sammy Hayman",
+     "character": "Mayer",
+     "popularity": 0.2
+    },
+    {
+     "name": "Josh Danford",
+     "character": "Shelley",
+     "popularity": 0.1
+    },
+    {
+     "name": "Kristen McGarrity",
+     "character": "Lena Double",
+     "popularity": 0.1
+    },
+    {
+     "name": "Kumud Pant",
+     "character": "Scientist",
+     "popularity": 0.6
+    },
+    {
+     "name": "Honey Holmes",
+     "character": "Scientist",
+     "popularity": 0.2
+    },
+    {
+     "name": "Hiten Patel",
+     "character": "Scientist",
+     "popularity": 0.3
+    },
+    {
+     "name": "Kola Bokinni",
+     "character": "Peyton",
+     "popularity": 0.7
+    },
+    {
+     "name": "Cosmo Jarvis",
+     "character": "Special Ops Soldier",
+     "popularity": 1.1
+    },
+    {
+     "name": "Matthew Simpson",
+     "character": "Special Ops Soldier",
+     "popularity": 0.2
+    }
+   ]
+  },
+  {
+   "tmdb_id": 296099,
+   "imdb_id": "tt1524930",
+   "title": "Vacation",
+   "year": 2015,
+   "imdb": 6.2,
+   "poster": "https://image.tmdb.org/t/p/w342/z79MzBerDAW2EOQZCobFTO4dJ7P.jpg",
+   "cast": [
+    {
+     "name": "Ed Helms",
+     "character": "Rusty Griswold",
+     "popularity": 2.5
+    },
+    {
+     "name": "Christina Applegate",
+     "character": "Debbie Griswold",
+     "popularity": 1.9
+    },
+    {
+     "name": "Skyler Gisondo",
+     "character": "James Griswold",
+     "popularity": 3.6
+    },
+    {
+     "name": "Steele Stebbins",
+     "character": "Kevin Griswold",
+     "popularity": 0.4
+    },
+    {
+     "name": "Chris Hemsworth",
+     "character": "Stone Crandall",
+     "popularity": 5.6
+    },
+    {
+     "name": "Leslie Mann",
+     "character": "Audrey Griswold",
+     "popularity": 1.9
+    },
+    {
+     "name": "Chevy Chase",
+     "character": "Clark Griswold",
+     "popularity": 2.9
+    },
+    {
+     "name": "Beverly D'Angelo",
+     "character": "Ellen Griswold",
+     "popularity": 2.4
+    },
+    {
+     "name": "Charlie Day",
+     "character": "Chad",
+     "popularity": 2
+    },
+    {
+     "name": "Catherine Missal",
+     "character": "Adena",
+     "popularity": 0
+    },
+    {
+     "name": "Ron Livingston",
+     "character": "Ethan",
+     "popularity": 2.7
+    },
+    {
+     "name": "Norman Reedus",
+     "character": "Trucker",
+     "popularity": 3.6
+    },
+    {
+     "name": "Keegan-Michael Key",
+     "character": "Jack Peterson",
+     "popularity": 2.9
+    },
+    {
+     "name": "Regina Hall",
+     "character": "Nancy Peterson",
+     "popularity": 1.8
+    },
+    {
+     "name": "Emyri Crutchfield",
+     "character": "Sheila Peterson",
+     "popularity": 0.7
+    },
+    {
+     "name": "Alkoya Brunson",
+     "character": "Gary Peterson",
+     "popularity": 0.5
+    },
+    {
+     "name": "Nick Kroll",
+     "character": "Colorado Cop",
+     "popularity": 1.5
+    },
+    {
+     "name": "Tim Heidecker",
+     "character": "Utah Cop",
+     "popularity": 1.6
+    },
+    {
+     "name": "Kaitlin Olson",
+     "character": "Arizona Cop",
+     "popularity": 2.1
+    },
+    {
+     "name": "Michael Peña",
+     "character": "New Mexico Cop",
+     "popularity": 3.1
+    },
+    {
+     "name": "Hannah Jeter",
+     "character": "Ferrari Girl",
+     "popularity": 0.3
+    },
+    {
+     "name": "David Clennon",
+     "character": "Harry Co-Pilot",
+     "popularity": 0.9
+    },
+    {
+     "name": "Colin Hanks",
+     "character": "Jake",
+     "popularity": 2.9
+    },
+    {
+     "name": "Kirstin Ford",
+     "character": "Mom on Plane",
+     "popularity": 0.2
+    },
+    {
+     "name": "Ethan Maher",
+     "character": "Boy on Plane",
+     "popularity": 0.2
+    },
+    {
+     "name": "Elizabeth Gillies",
+     "character": "Heather",
+     "popularity": 1.6
+    },
+    {
+     "name": "Cristina Squyres",
+     "character": "Brooke",
+     "popularity": 0.1
+    },
+    {
+     "name": "Nadine Avola",
+     "character": "Chelsea",
+     "popularity": 0.2
+    },
+    {
+     "name": "Ryan Cartwright",
+     "character": "Terry",
+     "popularity": 1
+    },
+    {
+     "name": "Valerie Payton",
+     "character": "Shuttle Driver",
+     "popularity": 0.1
+    },
+    {
+     "name": "O'Clair Alexander",
+     "character": "Husky Lady at Monument",
+     "popularity": 0
+    },
+    {
+     "name": "Miles Doleac",
+     "character": "Man on the Monument",
+     "popularity": 0.4
+    },
+    {
+     "name": "Holly Gardner",
+     "character": "Women at Monument",
+     "popularity": 0.1
+    },
+    {
+     "name": "R.F. Daley",
+     "character": "Furious Husband",
+     "popularity": 0.3
+    },
+    {
+     "name": "Elizabeth Fendrick",
+     "character": "Furious Wife",
+     "popularity": 0.2
+    },
+    {
+     "name": "Michael H. Cole",
+     "character": "Male Guest",
+     "popularity": 0.4
+    },
+    {
+     "name": "Brooke Jaye Taylor",
+     "character": "Female Guest",
+     "popularity": 0.5
+    },
+    {
+     "name": "Matthew Cornwell",
+     "character": "Male Guest #2",
+     "popularity": 0.5
+    },
+    {
+     "name": "Mitchell Warren",
+     "character": "Wally World Kid #2",
+     "popularity": 0
+    },
+    {
+     "name": "John Francis Daley",
+     "character": "Ride Operator",
+     "popularity": 1.4
+    },
+    {
+     "name": "Brandon Michael Hale",
+     "character": "Gas Station Clerk",
+     "popularity": 0.1
+    },
+    {
+     "name": "Libby Blake",
+     "character": "Boobs",
+     "popularity": 0.6
+    },
+    {
+     "name": "Rick Ericson",
+     "character": "Hawaiian",
+     "popularity": 0.1
+    },
+    {
+     "name": "Omar Lagudali",
+     "character": "Reporter",
+     "popularity": 0.2
+    },
+    {
+     "name": "Cameron McIntyre",
+     "character": "Young James",
+     "popularity": 0.1
+    },
+    {
+     "name": "Jonathan Goldstein",
+     "character": "Hot Tub Guy",
+     "popularity": 0.8
+    },
+    {
+     "name": "Samm Levine",
+     "character": "Festival Dude",
+     "popularity": 0.8
+    }
+   ]
+  }
+ ]
+}
