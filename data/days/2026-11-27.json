@@ -1,0 +1,670 @@
+{
+ "date": "2026-11-27",
+ "movies": [
+  {
+   "tmdb_id": 433808,
+   "imdb_id": "tt5638642",
+   "title": "The Ritual",
+   "year": 2018,
+   "imdb": 6.4,
+   "poster": "https://image.tmdb.org/t/p/w342/kJoFXZPTDwCy5ekrNV1JygBXvnD.jpg",
+   "cast": [
+    {
+     "name": "Rafe Spall",
+     "character": "Luke",
+     "popularity": 1.9
+    },
+    {
+     "name": "Arsher Ali",
+     "character": "Phil",
+     "popularity": 0.6
+    },
+    {
+     "name": "Robert James-Collier",
+     "character": "Hutch",
+     "popularity": 1.5
+    },
+    {
+     "name": "Sam Troughton",
+     "character": "Dom",
+     "popularity": 1
+    },
+    {
+     "name": "Paul Reid",
+     "character": "Robert",
+     "popularity": 0.4
+    },
+    {
+     "name": "Matthew Needham",
+     "character": "Junkie",
+     "popularity": 0.9
+    },
+    {
+     "name": "Jacob James Beswick",
+     "character": "Fiend",
+     "popularity": 0.2
+    },
+    {
+     "name": "Maria Erwolter",
+     "character": "The Host",
+     "popularity": 0.5
+    },
+    {
+     "name": "Hilary Reeves",
+     "character": "The Curate",
+     "popularity": 0.1
+    },
+    {
+     "name": "Peter Liddell",
+     "character": "The Logger",
+     "popularity": 0.1
+    },
+    {
+     "name": "Francesca Mula",
+     "character": "The Witch",
+     "popularity": 0
+    },
+    {
+     "name": "Kerri McLean",
+     "character": "Gayle",
+     "popularity": 0.3
+    },
+    {
+     "name": "Gheorghe Mezei",
+     "character": "Parishioner",
+     "popularity": 0.1
+    },
+    {
+     "name": "Adriana Macsut",
+     "character": "Parishioner",
+     "popularity": 0
+    },
+    {
+     "name": "Constantin Codrea",
+     "character": "Parishioner",
+     "popularity": 0
+    },
+    {
+     "name": "Zane Jarcu",
+     "character": "Shop Keeper",
+     "popularity": 0.2
+    }
+   ]
+  },
+  {
+   "tmdb_id": 10315,
+   "imdb_id": "tt0432283",
+   "title": "Fantastic Mr. Fox",
+   "year": 2009,
+   "imdb": 7.9,
+   "poster": "https://image.tmdb.org/t/p/w342/bOVr292mwn3jxr1e0NmUPM1rcjo.jpg",
+   "cast": [
+    {
+     "name": "George Clooney",
+     "character": "Mr. Fox",
+     "popularity": 3.5
+    },
+    {
+     "name": "Meryl Streep",
+     "character": "Mrs. Fox",
+     "popularity": 3.9
+    },
+    {
+     "name": "Jason Schwartzman",
+     "character": "Ash Fox",
+     "popularity": 2.4
+    },
+    {
+     "name": "Eric Chase Anderson",
+     "character": "Kristofferson Silverfox",
+     "popularity": 0.3
+    },
+    {
+     "name": "Wallace Wolodarsky",
+     "character": "Kylie",
+     "popularity": 0.5
+    },
+    {
+     "name": "Willem Dafoe",
+     "character": "Rat",
+     "popularity": 5.6
+    },
+    {
+     "name": "Michael Gambon",
+     "character": "Franklin Bean",
+     "popularity": 2
+    },
+    {
+     "name": "Robin Hurlstone",
+     "character": "Walter Boggis",
+     "popularity": 0.3
+    },
+    {
+     "name": "Hugo Guinness",
+     "character": "Nathan Bunce",
+     "popularity": 0.3
+    },
+    {
+     "name": "Bill Murray",
+     "character": "Clive Badger",
+     "popularity": 2.4
+    },
+    {
+     "name": "Helen McCrory",
+     "character": "Mrs. Bean",
+     "popularity": 1.5
+    },
+    {
+     "name": "Wes Anderson",
+     "character": "Stan Weasel",
+     "popularity": 2.2
+    },
+    {
+     "name": "Jarvis Cocker",
+     "character": "Petey",
+     "popularity": 0.5
+    },
+    {
+     "name": "Owen Wilson",
+     "character": "Coach Skip",
+     "popularity": 4.8
+    },
+    {
+     "name": "Juman Malouf",
+     "character": "Agnes",
+     "popularity": 0.1
+    },
+    {
+     "name": "Karen Duffy",
+     "character": "Linda Otter",
+     "popularity": 0.6
+    },
+    {
+     "name": "Roman Coppola",
+     "character": "Squirrel Contractor",
+     "popularity": 1.2
+    },
+    {
+     "name": "Jeremy Dawson",
+     "character": "Beaver's Son",
+     "popularity": 0.3
+    },
+    {
+     "name": "Garth Jennings",
+     "character": "Bean's Son",
+     "popularity": 0.9
+    },
+    {
+     "name": "Brian Cox",
+     "character": "Action 12 Reporter",
+     "popularity": 4
+    },
+    {
+     "name": "Tristan Oliver",
+     "character": "Explosives Man",
+     "popularity": 0.1
+    },
+    {
+     "name": "James Hamilton",
+     "character": "Mole",
+     "popularity": 0.2
+    },
+    {
+     "name": "Steven M. Rales",
+     "character": "Beaver",
+     "popularity": 0.5
+    },
+    {
+     "name": "Rob Hersov",
+     "character": "Pilot",
+     "popularity": 0.1
+    },
+    {
+     "name": "Jennifer Furches",
+     "character": "Dr. Badger",
+     "popularity": 0.2
+    },
+    {
+     "name": "Mario Batali",
+     "character": "Rabbit",
+     "popularity": 0.4
+    },
+    {
+     "name": "Allison Abbate",
+     "character": "Rabbit's Ex-Girlfriend",
+     "popularity": 0.2
+    },
+    {
+     "name": "Molly Cooper",
+     "character": "Rabbit Girl",
+     "popularity": 0.2
+    },
+    {
+     "name": "Adrien Brody",
+     "character": "Field Mouse",
+     "popularity": 3.7
+    },
+    {
+     "name": "Martin Ballard",
+     "character": "Fire Chief",
+     "popularity": 0.1
+    }
+   ]
+  },
+  {
+   "tmdb_id": 10184,
+   "imdb_id": "tt1001508",
+   "title": "He's Just Not That Into You",
+   "year": 2009,
+   "imdb": 6.4,
+   "poster": "https://image.tmdb.org/t/p/w342/jip2ap24Y6JxEgzVRyNqyYssnyR.jpg",
+   "cast": [
+    {
+     "name": "Ben Affleck",
+     "character": "Neil",
+     "popularity": 4.8
+    },
+    {
+     "name": "Jennifer Aniston",
+     "character": "Beth",
+     "popularity": 4.5
+    },
+    {
+     "name": "Drew Barrymore",
+     "character": "Mary Harris",
+     "popularity": 3.4
+    },
+    {
+     "name": "Jennifer Connelly",
+     "character": "Janine",
+     "popularity": 6.1
+    },
+    {
+     "name": "Kevin Connolly",
+     "character": "Conor",
+     "popularity": 1.3
+    },
+    {
+     "name": "Bradley Cooper",
+     "character": "Ben",
+     "popularity": 4
+    },
+    {
+     "name": "Ginnifer Goodwin",
+     "character": "Gigi",
+     "popularity": 2.4
+    },
+    {
+     "name": "Scarlett Johansson",
+     "character": "Anna",
+     "popularity": 9.7
+    },
+    {
+     "name": "Kris Kristofferson",
+     "character": "Ken",
+     "popularity": 1.4
+    },
+    {
+     "name": "Justin Long",
+     "character": "Alex",
+     "popularity": 2.6
+    },
+    {
+     "name": "Wilson Cruz",
+     "character": "Nathan",
+     "popularity": 0.6
+    },
+    {
+     "name": "Hedy Burress",
+     "character": "Laura",
+     "popularity": 0.9
+    },
+    {
+     "name": "Sasha Alexander",
+     "character": "Catherine",
+     "popularity": 2.9
+    },
+    {
+     "name": "Leonardo Nam",
+     "character": "Joshua",
+     "popularity": 0.9
+    },
+    {
+     "name": "Busy Philipps",
+     "character": "Kelli Ann",
+     "popularity": 1.9
+    },
+    {
+     "name": "Morgan Lily",
+     "character": "Five-Year-Old Girl",
+     "popularity": 0.8
+    },
+    {
+     "name": "Trenton Rogers",
+     "character": "Six-Year-Old Boy",
+     "popularity": 0.3
+    },
+    {
+     "name": "Jasmine Woods",
+     "character": "Crying Twenty-Something",
+     "popularity": 0.1
+    },
+    {
+     "name": "Michelle Carmichael",
+     "character": "Mother",
+     "popularity": 0.1
+    },
+    {
+     "name": "Sabrina Revelle",
+     "character": "Consoling Friend",
+     "popularity": 0.2
+    },
+    {
+     "name": "Zoë Jarman",
+     "character": "Sorority Girl",
+     "popularity": 0.4
+    },
+    {
+     "name": "Alia Rhiana Eckerman",
+     "character": "Sorority Girl",
+     "popularity": 0.1
+    },
+    {
+     "name": "Julia Pennington",
+     "character": "Sous Chef",
+     "popularity": 0.2
+    },
+    {
+     "name": "Renee Dalo",
+     "character": "Sous Chef",
+     "popularity": 0
+    },
+    {
+     "name": "Chihiro Fujii",
+     "character": "Tokyo Girl",
+     "popularity": 0
+    },
+    {
+     "name": "Sachiko Ishida",
+     "character": "Tokyo Girl",
+     "popularity": 0.1
+    },
+    {
+     "name": "Claudia DiMartino",
+     "character": "Jogger",
+     "popularity": 0.1
+    },
+    {
+     "name": "Eve Curtis",
+     "character": "Jogger",
+     "popularity": 0.1
+    },
+    {
+     "name": "Carmen Gloria Pérez",
+     "character": "Army Recruit",
+     "popularity": 0.3
+    },
+    {
+     "name": "Traycee King",
+     "character": "Army Recruit",
+     "popularity": 0.2
+    },
+    {
+     "name": "Délé Ogundiran",
+     "character": "African Woman",
+     "popularity": 0.3
+    },
+    {
+     "name": "Eunice Nyarazdo",
+     "character": "African Woman",
+     "popularity": 0.1
+    },
+    {
+     "name": "Anita Yombo",
+     "character": "African Woman",
+     "popularity": 0.1
+    },
+    {
+     "name": "Niki J. Crawford",
+     "character": "Waitress #1",
+     "popularity": 0
+    },
+    {
+     "name": "Joan Blair",
+     "character": "Emotionless Cashier",
+     "popularity": 0.2
+    },
+    {
+     "name": "Natasha Leggero",
+     "character": "Amber",
+     "popularity": 1.2
+    },
+    {
+     "name": "Anna Bugarin",
+     "character": "Yoga Teacher",
+     "popularity": 0.1
+    },
+    {
+     "name": "Angela Shelton",
+     "character": "Angela",
+     "popularity": 0.3
+    },
+    {
+     "name": "Frances Callier",
+     "character": "Frances",
+     "popularity": 0.4
+    },
+    {
+     "name": "Brandon Keener",
+     "character": "Jarrad",
+     "popularity": 0.5
+    },
+    {
+     "name": "Chris Miller",
+     "character": "Baltimore Blade Staffer",
+     "popularity": 0
+    },
+    {
+     "name": "Rod Keller",
+     "character": "Bruce",
+     "popularity": 0.2
+    },
+    {
+     "name": "Brooke Bloom",
+     "character": "Paige",
+     "popularity": 0.7
+    },
+    {
+     "name": "Marc Silverstein",
+     "character": "Bartender",
+     "popularity": 0.5
+    },
+    {
+     "name": "Cory Hardrict",
+     "character": "Tyrone",
+     "popularity": 0.9
+    },
+    {
+     "name": "Rene Lopez",
+     "character": "Gregory",
+     "popularity": 0
+    },
+    {
+     "name": "Annie Ilonzeh",
+     "character": "Hot Girl",
+     "popularity": 1
+    },
+    {
+     "name": "Mike Beaver",
+     "character": "Cousin Jay",
+     "popularity": 0.3
+    },
+    {
+     "name": "Kai Lennox",
+     "character": "Devon",
+     "popularity": 0.8
+    },
+    {
+     "name": "Shane Edelman",
+     "character": "George",
+     "popularity": 0.4
+    },
+    {
+     "name": "Stephen Jared",
+     "character": "Steven",
+     "popularity": 0.4
+    },
+    {
+     "name": "Melanie Stephens",
+     "character": "Waitress #2",
+     "popularity": 0
+    },
+    {
+     "name": "Nicole Steinwedell",
+     "character": "'No Spark' Girl",
+     "popularity": 0.8
+    },
+    {
+     "name": "Erik David Barber",
+     "character": "Slick Guy in Bar",
+     "popularity": 0.2
+    },
+    {
+     "name": "Jarrett Grode",
+     "character": "'Droopy Dog'",
+     "popularity": 0.2
+    },
+    {
+     "name": "Ali Afshar",
+     "character": "Skip",
+     "popularity": 1.5
+    },
+    {
+     "name": "Bill Brochtrup",
+     "character": "Larry",
+     "popularity": 0.7
+    },
+    {
+     "name": "Jason Roth",
+     "character": "Trent",
+     "popularity": 0.1
+    },
+    {
+     "name": "Corey Pearson",
+     "character": "Jude",
+     "popularity": 0.2
+    },
+    {
+     "name": "Sally Nisbet",
+     "character": "Wedding Guest",
+     "popularity": 0
+    },
+    {
+     "name": "John Ross Bowie",
+     "character": "Dan the Wiccan",
+     "popularity": 1.4
+    },
+    {
+     "name": "Sydney Stutterheim",
+     "character": "Tall Girl",
+     "popularity": 0
+    },
+    {
+     "name": "Googy Gress",
+     "character": "Cousin Dominic",
+     "popularity": 0.5
+    },
+    {
+     "name": "Derek Waters",
+     "character": "Party Guest",
+     "popularity": 0.5
+    },
+    {
+     "name": "Nana Kagga-Hill",
+     "character": "Party Guest",
+     "popularity": 0.1
+    },
+    {
+     "name": "Peter O'Meara",
+     "character": "Bill",
+     "popularity": 0.5
+    },
+    {
+     "name": "Jocelin Donahue",
+     "character": "Cute Girl",
+     "popularity": 0.7
+    },
+    {
+     "name": "Luis Guzmán",
+     "character": "Javier",
+     "popularity": 3.1
+    },
+    {
+     "name": "Brittani Noel",
+     "character": "Consoling Friend #2",
+     "popularity": 0.2
+    },
+    {
+     "name": "Cristine Rose",
+     "character": "Wealthy Divorcee",
+     "popularity": 0.9
+    },
+    {
+     "name": "Greg Behrendt",
+     "character": "Priest",
+     "popularity": 0.4
+    },
+    {
+     "name": "Jana Savage",
+     "character": "Yoga Student",
+     "popularity": 0.2
+    },
+    {
+     "name": "Karmyn Tyler",
+     "character": "Yoga Student",
+     "popularity": 0.2
+    },
+    {
+     "name": "Alex Spencer",
+     "character": "Yoga Student",
+     "popularity": 0.2
+    },
+    {
+     "name": "Natalina Maggio",
+     "character": "Bar Girl",
+     "popularity": 0.3
+    },
+    {
+     "name": "Kim McVicar",
+     "character": "Bad Dancer",
+     "popularity": 0.1
+    },
+    {
+     "name": "Carly Steel",
+     "character": "Party Girl #2",
+     "popularity": 0.1
+    },
+    {
+     "name": "Melissa Goodwin Shepherd",
+     "character": "Party Goer",
+     "popularity": 0.3
+    },
+    {
+     "name": "Elizabeth Russo",
+     "character": "Waitress",
+     "popularity": 0
+    },
+    {
+     "name": "Gina Limbrick",
+     "character": "Restaurant Patron",
+     "popularity": 0.2
+    },
+    {
+     "name": "Sandra Valladares",
+     "character": "Restaurant Patron",
+     "popularity": 0.2
+    }
+   ]
+  }
+ ]
+}
