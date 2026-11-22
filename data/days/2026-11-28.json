@@ -1,0 +1,775 @@
+{
+ "date": "2026-11-28",
+ "movies": [
+  {
+   "tmdb_id": 399566,
+   "imdb_id": "tt5034838",
+   "title": "Godzilla vs. Kong",
+   "year": 2021,
+   "imdb": 6.3,
+   "poster": "https://image.tmdb.org/t/p/w342/pgqgaUx1cJb5oZQQ5v0tNARCeBp.jpg",
+   "cast": [
+    {
+     "name": "Alexander Skarsgård",
+     "character": "Nathan Lind",
+     "popularity": 3.7
+    },
+    {
+     "name": "Rebecca Hall",
+     "character": "Ilene Andrews",
+     "popularity": 3.3
+    },
+    {
+     "name": "Kaylee Hottle",
+     "character": "Jia",
+     "popularity": 1.2
+    },
+    {
+     "name": "Brian Tyree Henry",
+     "character": "Bernie Hayes",
+     "popularity": 2.1
+    },
+    {
+     "name": "Millie Bobby Brown",
+     "character": "Madison Russell",
+     "popularity": 6.9
+    },
+    {
+     "name": "Julian Dennison",
+     "character": "Josh Valentine",
+     "popularity": 1.9
+    },
+    {
+     "name": "Demián Bichir",
+     "character": "Walter Simmons",
+     "popularity": 1.5
+    },
+    {
+     "name": "Eiza González",
+     "character": "Maia Simmons",
+     "popularity": 6.3
+    },
+    {
+     "name": "Shun Oguri",
+     "character": "Ren Serizawa",
+     "popularity": 2.4
+    },
+    {
+     "name": "Kyle Chandler",
+     "character": "Mark Russell",
+     "popularity": 3.3
+    },
+    {
+     "name": "Lance Reddick",
+     "character": "Guillermin",
+     "popularity": 2.2
+    },
+    {
+     "name": "Hakeem Kae-Kazim",
+     "character": "Admiral Wilcox",
+     "popularity": 1
+    },
+    {
+     "name": "Ronny Chieng",
+     "character": "Jay Wayne",
+     "popularity": 2.6
+    },
+    {
+     "name": "John Pirruccello",
+     "character": "Horace",
+     "popularity": 0.7
+    },
+    {
+     "name": "Chris Chalk",
+     "character": "Ben",
+     "popularity": 1.2
+    },
+    {
+     "name": "Conlan Casal",
+     "character": "Apex Cybernetics Security Guard",
+     "popularity": 0.1
+    },
+    {
+     "name": "Brad McMurray",
+     "character": "Apex Cybernetics Security Guard",
+     "popularity": 0.7
+    },
+    {
+     "name": "Benjamin Rigby",
+     "character": "Sonar Operator",
+     "popularity": 0.2
+    },
+    {
+     "name": "Nick Turello",
+     "character": "Apex Cybernetics Armed Guard",
+     "popularity": 0.1
+    },
+    {
+     "name": "Daniel Nelson",
+     "character": "Hayworth",
+     "popularity": 0.4
+    },
+    {
+     "name": "Priscilla Doueihy",
+     "character": "Monarch Mission Tech",
+     "popularity": 0.4
+    },
+    {
+     "name": "Kei Kudo",
+     "character": "HEAV Pilot",
+     "popularity": 0.1
+    },
+    {
+     "name": "Brad Buckley",
+     "character": "HEAV Pilot",
+     "popularity": 0.3
+    },
+    {
+     "name": "John Walton",
+     "character": "HEAV Co-Pilot",
+     "popularity": 0.3
+    },
+    {
+     "name": "Daniel Tuiara",
+     "character": "HEAV Co-Pilot",
+     "popularity": 0.4
+    },
+    {
+     "name": "David Castillo",
+     "character": "Maia Apex Cybernetics Guard",
+     "popularity": 0.2
+    },
+    {
+     "name": "Kofi Yiadom",
+     "character": "Maia Apex Cybernetics Guard",
+     "popularity": 0.3
+    },
+    {
+     "name": "Jim Palmer",
+     "character": "Maia Apex Cybernetics Guard",
+     "popularity": 0.4
+    },
+    {
+     "name": "Drew Walton",
+     "character": "David Lind",
+     "popularity": 0.1
+    },
+    {
+     "name": "Tara Wraith",
+     "character": "Monarch Flight Crew",
+     "popularity": 0.4
+    },
+    {
+     "name": "Jason Virgil",
+     "character": "Bartender",
+     "popularity": 0.1
+    },
+    {
+     "name": "Grisel Toledo",
+     "character": "Apex Guard",
+     "popularity": 0.1
+    },
+    {
+     "name": "Jason Szabo",
+     "character": "Monarch Tactical Guard",
+     "popularity": 0.1
+    },
+    {
+     "name": "Jason Speer",
+     "character": "Monarch Board Member",
+     "popularity": 0.1
+    },
+    {
+     "name": "Sen Shao",
+     "character": "Thug",
+     "popularity": 0.1
+    },
+    {
+     "name": "Scott M. Schewe",
+     "character": "Fisherman",
+     "popularity": 0.1
+    },
+    {
+     "name": "Charles Sans",
+     "character": "Apex Guard",
+     "popularity": 0.1
+    },
+    {
+     "name": "Tasneem Roc",
+     "character": "Reporter",
+     "popularity": 0.3
+    },
+    {
+     "name": "Jon Quested",
+     "character": "Construction Worker",
+     "popularity": 0.1
+    },
+    {
+     "name": "Joel Pierce",
+     "character": "Monarch Tech #2",
+     "popularity": 0.4
+    },
+    {
+     "name": "Sofia Nolan",
+     "character": "Mean Girl",
+     "popularity": 0.4
+    },
+    {
+     "name": "Shawn McBride",
+     "character": "Fisherman",
+     "popularity": 0.2
+    },
+    {
+     "name": "Victoria Liu",
+     "character": "HEAV Pilot #3",
+     "popularity": 0.1
+    },
+    {
+     "name": "Sonny Le",
+     "character": "Thug",
+     "popularity": 0.1
+    },
+    {
+     "name": "Santi Lawson",
+     "character": "Apex Lab Tech",
+     "popularity": 0.1
+    },
+    {
+     "name": "Garreth Hadfield",
+     "character": "U.S. Navy Guard",
+     "popularity": 0.1
+    },
+    {
+     "name": "Ashley Change",
+     "character": "ASL Interpreter",
+     "popularity": 0.1
+    },
+    {
+     "name": "Curtis Bush",
+     "character": "Admiral",
+     "popularity": 0.2
+    }
+   ]
+  },
+  {
+   "tmdb_id": 869,
+   "imdb_id": "tt0133152",
+   "title": "Planet of the Apes",
+   "year": 2001,
+   "imdb": 5.7,
+   "poster": "https://image.tmdb.org/t/p/w342/3ZWsuP5rExMSji7erxnb1P5SK6F.jpg",
+   "cast": [
+    {
+     "name": "Mark Wahlberg",
+     "character": "Captain Leo Davidson",
+     "popularity": 5.3
+    },
+    {
+     "name": "Tim Roth",
+     "character": "Thade",
+     "popularity": 3.4
+    },
+    {
+     "name": "Helena Bonham Carter",
+     "character": "Ari",
+     "popularity": 4.3
+    },
+    {
+     "name": "Michael Clarke Duncan",
+     "character": "Attar",
+     "popularity": 1.9
+    },
+    {
+     "name": "Paul Giamatti",
+     "character": "Limbo",
+     "popularity": 3.7
+    },
+    {
+     "name": "Estella Warren",
+     "character": "Daena",
+     "popularity": 1.4
+    },
+    {
+     "name": "Cary-Hiroyuki Tagawa",
+     "character": "Krull",
+     "popularity": 1.4
+    },
+    {
+     "name": "David Warner",
+     "character": "Sandar",
+     "popularity": 2.7
+    },
+    {
+     "name": "Kris Kristofferson",
+     "character": "Karubi",
+     "popularity": 1.5
+    },
+    {
+     "name": "Erick Avari",
+     "character": "Tival",
+     "popularity": 2
+    },
+    {
+     "name": "Luke Eberl",
+     "character": "Birn",
+     "popularity": 0.3
+    },
+    {
+     "name": "Evan Parke",
+     "character": "Gunnar",
+     "popularity": 0.8
+    },
+    {
+     "name": "Glenn Shadix",
+     "character": "Senator Nado",
+     "popularity": 0.8
+    },
+    {
+     "name": "Freda Foh Shen",
+     "character": "Bon",
+     "popularity": 1
+    },
+    {
+     "name": "Chris Ellis",
+     "character": "Commander Karl Vasich",
+     "popularity": 1.2
+    },
+    {
+     "name": "Anne Ramsay",
+     "character": "Lt. Col. Grace Alexander",
+     "popularity": 1.1
+    },
+    {
+     "name": "Andrea Grano",
+     "character": "Major Maria Cooper",
+     "popularity": 0.4
+    },
+    {
+     "name": "Michael Jace",
+     "character": "Major Frank Santos",
+     "popularity": 0.9
+    },
+    {
+     "name": "Michael Wiseman",
+     "character": "Specialist Hansen",
+     "popularity": 0.6
+    },
+    {
+     "name": "Lisa Marie",
+     "character": "Nova",
+     "popularity": 0.8
+    },
+    {
+     "name": "Eileen Weisinger",
+     "character": "Leeta",
+     "popularity": 0.7
+    },
+    {
+     "name": "Deep Roy",
+     "character": "Gorilla Kid / Thade's Niece",
+     "popularity": 1.1
+    },
+    {
+     "name": "Chad Bannon",
+     "character": "Red Ape Soldier / Man Hunt Ape",
+     "popularity": 0
+    },
+    {
+     "name": "Kevin Grevioux",
+     "character": "Limbo's 1st Handler / Ape Commander / 2nd Ape Soldier",
+     "popularity": 0.9
+    },
+    {
+     "name": "Isaac C. Singleton, Jr.",
+     "character": "Limbo's 2nd Handler / 1st Ape Soldier",
+     "popularity": 0.8
+    },
+    {
+     "name": "Quincy Taylor",
+     "character": "Ape Soldier",
+     "popularity": 0.1
+    },
+    {
+     "name": "John Alexander",
+     "character": "Ape Dinner Guest / Old Man Servant / Old Ape #1",
+     "popularity": 0.4
+    },
+    {
+     "name": "Jay Caputo",
+     "character": "1st Ape Teenager / 2nd Ape Soldier",
+     "popularity": 0.4
+    },
+    {
+     "name": "Philip Tan",
+     "character": "2nd Ape Teenager / Gossiping Male Ape",
+     "popularity": 0.9
+    },
+    {
+     "name": "Callie Croughwell",
+     "character": "Little Human Girl",
+     "popularity": 0.3
+    },
+    {
+     "name": "Allie Habberstad",
+     "character": "Girl Pet",
+     "popularity": 0.1
+    },
+    {
+     "name": "Brett Smrz",
+     "character": "Human Kid #1",
+     "popularity": 0.3
+    },
+    {
+     "name": "Howard Berger",
+     "character": "Gorilla",
+     "popularity": 0.6
+    },
+    {
+     "name": "Rick Baker",
+     "character": "Old Ape #2",
+     "popularity": 0.8
+    },
+    {
+     "name": "Cameron Croughwell",
+     "character": "Ape Soccer Kid",
+     "popularity": 0.1
+    },
+    {
+     "name": "Joshua Croughwell",
+     "character": "Ape Soccer Kid",
+     "popularity": 0.1
+    },
+    {
+     "name": "Hannah Peitzman Myers",
+     "character": "Ape Soccer Kid",
+     "popularity": 0.2
+    },
+    {
+     "name": "Molly Peitzman",
+     "character": "Ape Soccer Kid",
+     "popularity": 0
+    },
+    {
+     "name": "Jesse Tipton",
+     "character": "Ape Soccer Kid",
+     "popularity": 0.1
+    },
+    {
+     "name": "Shane Habberstad",
+     "character": "Ape Soccer Kid",
+     "popularity": 0.2
+    },
+    {
+     "name": "Chet Zar",
+     "character": "Fruit Vendor",
+     "popularity": 0.2
+    },
+    {
+     "name": "Linda Harrison",
+     "character": "Woman in Cart",
+     "popularity": 1.1
+    },
+    {
+     "name": "Eddie Adams",
+     "character": "Friend at Leo's Party",
+     "popularity": 0.2
+    },
+    {
+     "name": "Todd Babcock",
+     "character": "Friend at Leo's Party",
+     "popularity": 0.6
+    },
+    {
+     "name": "Lorenzo Callender",
+     "character": "Friend at Leo's Party",
+     "popularity": 0.2
+    },
+    {
+     "name": "Shonda Farr",
+     "character": "Friend at Leo's Party",
+     "popularity": 0.6
+    },
+    {
+     "name": "Kam Heskin",
+     "character": "Friend at Leo's Party",
+     "popularity": 0.8
+    },
+    {
+     "name": "Jim Holmes",
+     "character": "Friend at Leo's Party",
+     "popularity": 0.5
+    },
+    {
+     "name": "Todd Kimsey",
+     "character": "Friend at Leo's Party",
+     "popularity": 0.3
+    },
+    {
+     "name": "Candace Kroslak",
+     "character": "Friend at Leo's Party",
+     "popularity": 0.7
+    },
+    {
+     "name": "Joanna Krupa",
+     "character": "Friend at Leo's Party",
+     "popularity": 0.6
+    },
+    {
+     "name": "Lisa Lackey",
+     "character": "Friend at Leo's Party",
+     "popularity": 0.5
+    },
+    {
+     "name": "Mark Christopher Lawrence",
+     "character": "Friend at Leo's Party",
+     "popularity": 1
+    },
+    {
+     "name": "Melody Perkins",
+     "character": "Friend at Leo's Party",
+     "popularity": 0.5
+    },
+    {
+     "name": "Tate Taylor",
+     "character": "Friend at Leo's Party",
+     "popularity": 0.9
+    },
+    {
+     "name": "Jonna Giovanna",
+     "character": "Friend at Leo's Party",
+     "popularity": 0.1
+    },
+    {
+     "name": "Charlton Heston",
+     "character": "Zaius",
+     "popularity": 2.1
+    },
+    {
+     "name": "James Hunter",
+     "character": "Orangutan",
+     "popularity": 0.3
+    }
+   ]
+  },
+  {
+   "tmdb_id": 44826,
+   "imdb_id": "tt0970179",
+   "title": "Hugo",
+   "year": 2011,
+   "imdb": 7.5,
+   "poster": "https://image.tmdb.org/t/p/w342/1dxRq3o3l3bVWNRvvSb7rRf68qp.jpg",
+   "cast": [
+    {
+     "name": "Asa Butterfield",
+     "character": "Hugo Cabret",
+     "popularity": 3.4
+    },
+    {
+     "name": "Ben Kingsley",
+     "character": "Georges Méliès",
+     "popularity": 3.7
+    },
+    {
+     "name": "Chloë Grace Moretz",
+     "character": "Isabelle",
+     "popularity": 5
+    },
+    {
+     "name": "Sacha Baron Cohen",
+     "character": "Station Inspector",
+     "popularity": 3
+    },
+    {
+     "name": "Ray Winstone",
+     "character": "Uncle Claude",
+     "popularity": 3
+    },
+    {
+     "name": "Emily Mortimer",
+     "character": "Lisette",
+     "popularity": 2.7
+    },
+    {
+     "name": "Christopher Lee",
+     "character": "Monsieur Labisse",
+     "popularity": 3.2
+    },
+    {
+     "name": "Helen McCrory",
+     "character": "Mama Jeanne",
+     "popularity": 1.7
+    },
+    {
+     "name": "Michael Stuhlbarg",
+     "character": "René Tabard",
+     "popularity": 2.3
+    },
+    {
+     "name": "Frances de la Tour",
+     "character": "Madame Emilie",
+     "popularity": 1.4
+    },
+    {
+     "name": "Richard Griffiths",
+     "character": "Monsieur Frick",
+     "popularity": 1.1
+    },
+    {
+     "name": "Jude Law",
+     "character": "Hugo's Father",
+     "popularity": 5.3
+    },
+    {
+     "name": "Kevin Eldon",
+     "character": "Policeman",
+     "popularity": 1.8
+    },
+    {
+     "name": "Gulliver McGrath",
+     "character": "Young Tabard",
+     "popularity": 0.5
+    },
+    {
+     "name": "Shaun Aylward",
+     "character": "Street Kid",
+     "popularity": 0.3
+    },
+    {
+     "name": "Emil Lager",
+     "character": "Django Reinhardt",
+     "popularity": 0
+    },
+    {
+     "name": "Angus Barnett",
+     "character": "Theatre Manager",
+     "popularity": 0.4
+    },
+    {
+     "name": "Edmund Kingsley",
+     "character": "Camera Technician",
+     "popularity": 0.6
+    },
+    {
+     "name": "Max Wrottesley",
+     "character": "Train Engineer",
+     "popularity": 0.4
+    },
+    {
+     "name": "Marco Aponte",
+     "character": "Train Engineer Assistant",
+     "popularity": 0.1
+    },
+    {
+     "name": "Ilona Cheshire",
+     "character": "Café Waitress",
+     "popularity": 0.1
+    },
+    {
+     "name": "Francesca Scorsese",
+     "character": "Child at Café",
+     "popularity": 0.7
+    },
+    {
+     "name": "Emily Surgent",
+     "character": "Child at Café",
+     "popularity": 0
+    },
+    {
+     "name": "Lily Carlson",
+     "character": "Child at Café",
+     "popularity": 0
+    },
+    {
+     "name": "Frederick Warder",
+     "character": "Arabian Knight",
+     "popularity": 0.4
+    },
+    {
+     "name": "Christos Lawton",
+     "character": "Arabian Knight",
+     "popularity": 0.5
+    },
+    {
+     "name": "Tomos James",
+     "character": "Arabian Knight",
+     "popularity": 0
+    },
+    {
+     "name": "Ed Sanders",
+     "character": "Young Tabard's Brother",
+     "popularity": 0.4
+    },
+    {
+     "name": "Terence Frisch",
+     "character": "Circus Barker",
+     "popularity": 0.1
+    },
+    {
+     "name": "Max Cane",
+     "character": "Circus Barker",
+     "popularity": 0.2
+    },
+    {
+     "name": "Frank Bourke",
+     "character": "Gendarme",
+     "popularity": 0.4
+    },
+    {
+     "name": "Stephen Box",
+     "character": "Gendarme",
+     "popularity": 0
+    },
+    {
+     "name": "Ben Addis",
+     "character": "Salvador Dali",
+     "popularity": 0.3
+    },
+    {
+     "name": "Robert Gill",
+     "character": "James Joyce",
+     "popularity": 0.1
+    },
+    {
+     "name": "Graham Curry",
+     "character": "Railway Porteur 71",
+     "popularity": 0.2
+    },
+    {
+     "name": "Eric Haldezos",
+     "character": "Policeman",
+     "popularity": 0
+    },
+    {
+     "name": "Hugo Malpeyre",
+     "character": "Theater Guest",
+     "popularity": 0.1
+    },
+    {
+     "name": "Gino Picciano",
+     "character": "Worker",
+     "popularity": 0.4
+    },
+    {
+     "name": "Michael Pitt",
+     "character": "Projectionist",
+     "popularity": 1.7
+    },
+    {
+     "name": "Martin Scorsese",
+     "character": "Photographer",
+     "popularity": 4.3
+    },
+    {
+     "name": "Brian Selznick",
+     "character": "Party Guest",
+     "popularity": 0.2
+    },
+    {
+     "name": "Catherine Balavage",
+     "character": "Girl in Cafe",
+     "popularity": 0.1
+    }
+   ]
+  }
+ ]
+}
