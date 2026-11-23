@@ -1,0 +1,700 @@
+{
+ "date": "2026-11-29",
+ "movies": [
+  {
+   "tmdb_id": 44943,
+   "imdb_id": "tt1217613",
+   "title": "Battle: Los Angeles",
+   "year": 2011,
+   "imdb": 5.7,
+   "poster": "https://image.tmdb.org/t/p/w342/jloyGeVYZSxM9zsLFvVOWuj2ey4.jpg",
+   "cast": [
+    {
+     "name": "Aaron Eckhart",
+     "character": "Michael Nantz",
+     "popularity": 4
+    },
+    {
+     "name": "Ramón Rodríguez",
+     "character": "William Martinez",
+     "popularity": 4
+    },
+    {
+     "name": "Will Rothhaar",
+     "character": "Cpl. Lee Imlay",
+     "popularity": 1
+    },
+    {
+     "name": "Michael Peña",
+     "character": "Joe Rincon",
+     "popularity": 4
+    },
+    {
+     "name": "Bridget Moynahan",
+     "character": "Michelle",
+     "popularity": 2.5
+    },
+    {
+     "name": "Noel Fisher",
+     "character": "Pfc. Shaun Lenihan",
+     "popularity": 2.1
+    },
+    {
+     "name": "Joey King",
+     "character": "Kirsten",
+     "popularity": 5.2
+    },
+    {
+     "name": "Beth Keener",
+     "character": "Kathy Martinez",
+     "popularity": 0.3
+    },
+    {
+     "name": "Jessica Heap",
+     "character": "Jessy",
+     "popularity": 0.5
+    },
+    {
+     "name": "Cory Hardrict",
+     "character": "Cpl. Jason Lockett",
+     "popularity": 1
+    },
+    {
+     "name": "Jim Parrack",
+     "character": "Peter Kerns",
+     "popularity": 1.2
+    },
+    {
+     "name": "Gino Anthony Pesi",
+     "character": "Cpl. Nick Stavrou",
+     "popularity": 0.8
+    },
+    {
+     "name": "Ne-Yo",
+     "character": "Kevin Harris",
+     "popularity": 1
+    },
+    {
+     "name": "James Hiroyuki Liao",
+     "character": "Steven Mottola",
+     "popularity": 1.1
+    },
+    {
+     "name": "Adetokumboh M'Cormack",
+     "character": "Corpsman Jibril Adukwu",
+     "popularity": 0.6
+    },
+    {
+     "name": "Bryce Cass",
+     "character": "Hector Rincon",
+     "popularity": 0.7
+    },
+    {
+     "name": "Michelle Rodriguez",
+     "character": "Elena Santos",
+     "popularity": 3.4
+    },
+    {
+     "name": "Neil Brown Jr.",
+     "character": "LCpl. Richard Guerrero",
+     "popularity": 1.8
+    },
+    {
+     "name": "Taylor Handley",
+     "character": "LCpl. Corey Simmons",
+     "popularity": 1
+    },
+    {
+     "name": "Lucas Till",
+     "character": "Cpl. Scott Grayston",
+     "popularity": 2.2
+    },
+    {
+     "name": "Kenneth Brown Jr.",
+     "character": "Cpl. Richard Oswald",
+     "popularity": 0.2
+    },
+    {
+     "name": "Jadin Gould",
+     "character": "Amy",
+     "popularity": 0.7
+    },
+    {
+     "name": "Joe Chrest",
+     "character": "1st Sgt. John Roy",
+     "popularity": 1.3
+    },
+    {
+     "name": "E. Roger Mitchell",
+     "character": "Company Captain",
+     "popularity": 1.2
+    },
+    {
+     "name": "Rus Blackwell",
+     "character": "Lt. Col. K.N. Ritchie",
+     "popularity": 0.6
+    },
+    {
+     "name": "Susie Abromeit",
+     "character": "Amanda",
+     "popularity": 1.5
+    },
+    {
+     "name": "Brandi Coleman",
+     "character": "Cherise",
+     "popularity": 0.4
+    },
+    {
+     "name": "David Jensen",
+     "character": "Psychiatrist",
+     "popularity": 0.5
+    },
+    {
+     "name": "Stacey Turner",
+     "character": "Reporter on TV",
+     "popularity": 0.2
+    },
+    {
+     "name": "Tom Hillmann",
+     "character": "Reporter on TV",
+     "popularity": 0.4
+    },
+    {
+     "name": "Lena Clark",
+     "character": "Chris",
+     "popularity": 0.2
+    },
+    {
+     "name": "Jamie Norwood",
+     "character": "Flower Shop Employee",
+     "popularity": 0
+    },
+    {
+     "name": "Todd Cochran",
+     "character": "Command Hangar Marine",
+     "popularity": 0.1
+    },
+    {
+     "name": "Nzinga Blake",
+     "character": "Adukwu's Sister",
+     "popularity": 0.1
+    },
+    {
+     "name": "Taryn Southern",
+     "character": "Reporter on Beach",
+     "popularity": 0.7
+    },
+    {
+     "name": "James D. Dever",
+     "character": "Sgt. Major",
+     "popularity": 0.5
+    },
+    {
+     "name": "Alex Aristidis",
+     "character": "Beach Goer",
+     "popularity": 0.2
+    },
+    {
+     "name": "Charlotte Biggs",
+     "character": "Emergency Medical Tech.",
+     "popularity": 0.2
+    },
+    {
+     "name": "Ava Bogle",
+     "character": "Beach Girl 1",
+     "popularity": 0.1
+    },
+    {
+     "name": "Grant Case",
+     "character": "Marine",
+     "popularity": 0
+    },
+    {
+     "name": "Kurt Deville",
+     "character": "Marine",
+     "popularity": 0.1
+    },
+    {
+     "name": "Nick Jones Jr.",
+     "character": "Marine",
+     "popularity": 0.2
+    },
+    {
+     "name": "Phillip Lawrence",
+     "character": "U.S. Marine",
+     "popularity": 0.1
+    },
+    {
+     "name": "Keith Middlebrook",
+     "character": "Steve Johinson",
+     "popularity": 0.2
+    },
+    {
+     "name": "Courtney Munch",
+     "character": "Marine Crew Chief",
+     "popularity": 0.4
+    },
+    {
+     "name": "Jim Palmer",
+     "character": "Crew Chief",
+     "popularity": 0.5
+    },
+    {
+     "name": "Michelle Pierce",
+     "character": "Shelly",
+     "popularity": 1.1
+    },
+    {
+     "name": "Michael Wozniak",
+     "character": "Beach Dude",
+     "popularity": 0.1
+    },
+    {
+     "name": "Marlon Young",
+     "character": "Sergeant Major",
+     "popularity": 0.5
+    }
+   ]
+  },
+  {
+   "tmdb_id": 1091,
+   "imdb_id": "tt0084787",
+   "title": "The Thing",
+   "year": 1982,
+   "imdb": 8.2,
+   "poster": "https://image.tmdb.org/t/p/w342/tzGY49kseSE9QAKk47uuDGwnSCu.jpg",
+   "cast": [
+    {
+     "name": "Kurt Russell",
+     "character": "MacReady",
+     "popularity": 4.5
+    },
+    {
+     "name": "Wilford Brimley",
+     "character": "Blair",
+     "popularity": 1.4
+    },
+    {
+     "name": "T.K. Carter",
+     "character": "Nauls",
+     "popularity": 0.6
+    },
+    {
+     "name": "David Clennon",
+     "character": "Palmer",
+     "popularity": 1.1
+    },
+    {
+     "name": "Keith David",
+     "character": "Childs",
+     "popularity": 3.8
+    },
+    {
+     "name": "Richard Dysart",
+     "character": "Dr. Copper",
+     "popularity": 1.1
+    },
+    {
+     "name": "Charles Hallahan",
+     "character": "Norris",
+     "popularity": 1.1
+    },
+    {
+     "name": "Peter Maloney",
+     "character": "Bennings",
+     "popularity": 0.7
+    },
+    {
+     "name": "Richard Masur",
+     "character": "Clark",
+     "popularity": 1.9
+    },
+    {
+     "name": "Donald Moffat",
+     "character": "Garry",
+     "popularity": 1.3
+    },
+    {
+     "name": "Joel Polis",
+     "character": "Fuchs",
+     "popularity": 0.5
+    },
+    {
+     "name": "Thomas G. Waites",
+     "character": "Windows",
+     "popularity": 0.6
+    },
+    {
+     "name": "Norbert Weisser",
+     "character": "Norwegian",
+     "popularity": 0.8
+    },
+    {
+     "name": "Larry Franco",
+     "character": "Norwegian Passenger with Rifle",
+     "popularity": 0.6
+    },
+    {
+     "name": "Nate Irwin",
+     "character": "Helicopter Pilot",
+     "popularity": 0
+    },
+    {
+     "name": "William Zeman",
+     "character": "Pilot",
+     "popularity": 0
+    },
+    {
+     "name": "John Carpenter",
+     "character": "Norwegian",
+     "popularity": 2.3
+    },
+    {
+     "name": "Adrienne Barbeau",
+     "character": "Computer",
+     "popularity": 2.1
+    },
+    {
+     "name": "Jed",
+     "character": "Dog Thing",
+     "popularity": 0.1
+    },
+    {
+     "name": "Bill Lancaster",
+     "character": "Norwegian",
+     "popularity": 0.8
+    },
+    {
+     "name": "Dick Warlock",
+     "character": "Norwegian",
+     "popularity": 0.9
+    }
+   ]
+  },
+  {
+   "tmdb_id": 9428,
+   "imdb_id": "tt0265666",
+   "title": "The Royal Tenenbaums",
+   "year": 2002,
+   "imdb": 7.6,
+   "poster": "https://image.tmdb.org/t/p/w342/nG7hZJn7wQTSDCQT39Gy3s3tbrp.jpg",
+   "cast": [
+    {
+     "name": "Gene Hackman",
+     "character": "Royal Tenenbaum",
+     "popularity": 2.2
+    },
+    {
+     "name": "Anjelica Huston",
+     "character": "Etheline Tenenbaum",
+     "popularity": 2.6
+    },
+    {
+     "name": "Ben Stiller",
+     "character": "Chas Tenenbaum",
+     "popularity": 5
+    },
+    {
+     "name": "Gwyneth Paltrow",
+     "character": "Margot Tenenbaum",
+     "popularity": 3.4
+    },
+    {
+     "name": "Luke Wilson",
+     "character": "Richie Tenenbaum",
+     "popularity": 2.4
+    },
+    {
+     "name": "Owen Wilson",
+     "character": "Eli Cash",
+     "popularity": 6
+    },
+    {
+     "name": "Bill Murray",
+     "character": "Raleigh St. Clair",
+     "popularity": 3.1
+    },
+    {
+     "name": "Danny Glover",
+     "character": "Henry Sherman",
+     "popularity": 2.6
+    },
+    {
+     "name": "Seymour Cassel",
+     "character": "Dusty",
+     "popularity": 1.3
+    },
+    {
+     "name": "Kumar Pallana",
+     "character": "Pagoda",
+     "popularity": 0.8
+    },
+    {
+     "name": "Alec Baldwin",
+     "character": "Narrator",
+     "popularity": 3.7
+    },
+    {
+     "name": "Grant Rosenmeyer",
+     "character": "Ari Tenenbaum",
+     "popularity": 0.5
+    },
+    {
+     "name": "Jonah Meyerson",
+     "character": "Uzi Tenenbaum",
+     "popularity": 0.1
+    },
+    {
+     "name": "Aram Aslanian-Persico",
+     "character": "Young Chas Tenenbaum",
+     "popularity": 0
+    },
+    {
+     "name": "Irina Gorovaia",
+     "character": "Young Margot Tenenbaum",
+     "popularity": 0.4
+    },
+    {
+     "name": "Arianna Turturro",
+     "character": "Young Richie Tenenbaum",
+     "popularity": 0.1
+    },
+    {
+     "name": "Stephen Lea Sheppard",
+     "character": "Dudley Heinsbergen",
+     "popularity": 0.1
+    },
+    {
+     "name": "James Fitzgerald",
+     "character": "Young Eli Cash",
+     "popularity": 0
+    },
+    {
+     "name": "Larry Pine",
+     "character": "Peter Bradley",
+     "popularity": 0.8
+    },
+    {
+     "name": "Don McKinnon",
+     "character": "Detective",
+     "popularity": 0
+    },
+    {
+     "name": "Frank Wood",
+     "character": "Hotel Manager",
+     "popularity": 0.6
+    },
+    {
+     "name": "Al Thompson",
+     "character": "Walter Sherman",
+     "popularity": 0.5
+    },
+    {
+     "name": "Jennifer Wachtell",
+     "character": "Rachael Tenenbaum",
+     "popularity": 0.2
+    },
+    {
+     "name": "Donal Lardner Ward",
+     "character": "Hotel Clerk",
+     "popularity": 0.2
+    },
+    {
+     "name": "Andrew Wilson",
+     "character": "Farmer Father / Tex Hayward",
+     "popularity": 1.3
+    },
+    {
+     "name": "Dipak Pallana",
+     "character": "Doctor",
+     "popularity": 0.1
+    },
+    {
+     "name": "Sanjay Mathew",
+     "character": "Sanjay Gandhi",
+     "popularity": 0.1
+    },
+    {
+     "name": "Mary Wigmore",
+     "character": "Chas' Secretary",
+     "popularity": 0
+    },
+    {
+     "name": "Sonam Wangmo",
+     "character": "Sing-Sang",
+     "popularity": 0.4
+    },
+    {
+     "name": "Gita Gabriel",
+     "character": "Facialist",
+     "popularity": 0
+    },
+    {
+     "name": "Pawel Wdowczak",
+     "character": "Neville Smythe-Dorleac",
+     "popularity": 0.4
+    },
+    {
+     "name": "Peter Leung",
+     "character": "Yasuo Oshima",
+     "popularity": 0.1
+    },
+    {
+     "name": "William Sturgis",
+     "character": "Franklin Benedict",
+     "popularity": 0
+    },
+    {
+     "name": "Liam Craig",
+     "character": "Reporter in Blue Cardigan",
+     "popularity": 0.2
+    },
+    {
+     "name": "Sheelagh Tellerday",
+     "character": "Eli's Aunt",
+     "popularity": 0.1
+    },
+    {
+     "name": "Max Faugno",
+     "character": "Cote d'Ivoire Attendant",
+     "popularity": 0.1
+    },
+    {
+     "name": "Guido Venitucci",
+     "character": "Cote d'Ivoire Radio Operator",
+     "popularity": 0.2
+    },
+    {
+     "name": "Ebon Moss-Bachrach",
+     "character": "Frederick - Bellboy",
+     "popularity": 3.3
+    },
+    {
+     "name": "Brian Smiar",
+     "character": "Elderly 'Baumer' Fan #1",
+     "popularity": 0.5
+    },
+    {
+     "name": "Jan Austell",
+     "character": "Elderly 'Baumer' Fan #2",
+     "popularity": 0.1
+    },
+    {
+     "name": "Rony Clanton",
+     "character": "Cemetery Maintenance Man",
+     "popularity": 0.8
+    },
+    {
+     "name": "Salim Malik",
+     "character": "Anwar",
+     "popularity": 0
+    },
+    {
+     "name": "Tom Lacy",
+     "character": "Judge",
+     "popularity": 0.3
+    },
+    {
+     "name": "Keith Charles",
+     "character": "Royal's Lawyer",
+     "popularity": 0.2
+    },
+    {
+     "name": "Greg Goossen",
+     "character": "Gypsy Cab Driver",
+     "popularity": 0.2
+    },
+    {
+     "name": "Saidah Arrika Ekulona",
+     "character": "Nurse",
+     "popularity": 0.7
+    },
+    {
+     "name": "Vic Mata",
+     "character": "Sanchez",
+     "popularity": 0
+    },
+    {
+     "name": "Michael Conti",
+     "character": "Irish Longshoreman",
+     "popularity": 0
+    },
+    {
+     "name": "Tatiana Abbey",
+     "character": "Parisian Girl",
+     "popularity": 0.1
+    },
+    {
+     "name": "Kalani Queypo",
+     "character": "New Guinea Tribesman",
+     "popularity": 0.3
+    },
+    {
+     "name": "Mel Cannon",
+     "character": "Punk Rocker",
+     "popularity": 0.1
+    },
+    {
+     "name": "Leo Manuelian",
+     "character": "Eli's Egyptian Friend",
+     "popularity": 0
+    },
+    {
+     "name": "Amir Raissi",
+     "character": "Eli's Egyptian Friend",
+     "popularity": 0
+    },
+    {
+     "name": "Roger Shamas",
+     "character": "Eli's Egyptian Friend",
+     "popularity": 0
+    },
+    {
+     "name": "Philip Denning",
+     "character": "Father Petersen",
+     "popularity": 0
+    },
+    {
+     "name": "Rex Robbins",
+     "character": "Mr. Levinson",
+     "popularity": 0.3
+    },
+    {
+     "name": "Nova Landaeus-Skinnar",
+     "character": "Elaine Levinson",
+     "popularity": 0
+    },
+    {
+     "name": "Sam Hoffman",
+     "character": "Paramedic",
+     "popularity": 0.3
+    },
+    {
+     "name": "Brian Tenenbaum",
+     "character": "Paramedic",
+     "popularity": 0.2
+    },
+    {
+     "name": "Stephen Dignan",
+     "character": "Paramedic",
+     "popularity": 0.1
+    },
+    {
+     "name": "Eric Chase Anderson",
+     "character": "Medical Student",
+     "popularity": 0.4
+    },
+    {
+     "name": "Wes Anderson",
+     "character": "Tennis Match Commentator #1",
+     "popularity": 2.3
+    },
+    {
+     "name": "Gary Evans",
+     "character": "Police Officer",
+     "popularity": 0.2
+    }
+   ]
+  }
+ ]
+}
