@@ -1,0 +1,710 @@
+{
+ "date": "2026-12-01",
+ "movies": [
+  {
+   "tmdb_id": 400106,
+   "imdb_id": "tt5519340",
+   "title": "Bright",
+   "year": 2017,
+   "imdb": 6.3,
+   "poster": "https://image.tmdb.org/t/p/w342/whkT53Sv2vKAUiknQ13pqcWaPXB.jpg",
+   "cast": [
+    {
+     "name": "Will Smith",
+     "character": "Daryl Ward",
+     "popularity": 6.4
+    },
+    {
+     "name": "Joel Edgerton",
+     "character": "Nick Jakoby",
+     "popularity": 2.6
+    },
+    {
+     "name": "Lucy Fry",
+     "character": "Tikka",
+     "popularity": 1.6
+    },
+    {
+     "name": "Noomi Rapace",
+     "character": "Leilah",
+     "popularity": 3.4
+    },
+    {
+     "name": "Edgar Ramírez",
+     "character": "Kandomere",
+     "popularity": 1.5
+    },
+    {
+     "name": "Ike Barinholtz",
+     "character": "Pollard",
+     "popularity": 2.5
+    },
+    {
+     "name": "Veronica Ngô",
+     "character": "Tien",
+     "popularity": 1
+    },
+    {
+     "name": "Alex Meraz",
+     "character": "Serafin",
+     "popularity": 1.3
+    },
+    {
+     "name": "Happy Anderson",
+     "character": "Montehugh",
+     "popularity": 0.7
+    },
+    {
+     "name": "Dawn Olivieri",
+     "character": "Sherri Ward",
+     "popularity": 5.6
+    },
+    {
+     "name": "Matt Gerald",
+     "character": "Hicks",
+     "popularity": 1.8
+    },
+    {
+     "name": "Margaret Cho",
+     "character": "Sergeant Ching",
+     "popularity": 1.6
+    },
+    {
+     "name": "Joseph Piccuirro",
+     "character": "Brown",
+     "popularity": 0.3
+    },
+    {
+     "name": "Brad William Henke",
+     "character": "Dorghu",
+     "popularity": 1.7
+    },
+    {
+     "name": "Jay Hernandez",
+     "character": "Rodriguez",
+     "popularity": 2.4
+    },
+    {
+     "name": "Enrique Murciano",
+     "character": "Poison",
+     "popularity": 1.2
+    },
+    {
+     "name": "Scarlet Spencer",
+     "character": "Sophia Ward",
+     "popularity": 0.5
+    },
+    {
+     "name": "Andrea Navedo",
+     "character": "Captain Perez",
+     "popularity": 0.6
+    },
+    {
+     "name": "Kenneth Choi",
+     "character": "Yamahara",
+     "popularity": 1.6
+    },
+    {
+     "name": "Bobby Naderi",
+     "character": "Arkashian",
+     "popularity": 0.6
+    },
+    {
+     "name": "Carlos Linares",
+     "character": "Old Man",
+     "popularity": 0.6
+    },
+    {
+     "name": "Bunnie Rivera",
+     "character": "Old Woman",
+     "popularity": 0.4
+    },
+    {
+     "name": "Bailey Edwards",
+     "character": "MTF Elf Agent",
+     "popularity": 0.2
+    },
+    {
+     "name": "Rosemary Stevens",
+     "character": "Sherri's Mom / Orc Woman #4",
+     "popularity": 0.2
+    },
+    {
+     "name": "Greg Joung Paik",
+     "character": "Gas Station Clerk",
+     "popularity": 0.2
+    },
+    {
+     "name": "Cle Sloan",
+     "character": "OG Mike",
+     "popularity": 0.5
+    },
+    {
+     "name": "Roberts Jekabsons",
+     "character": "Morton",
+     "popularity": 0.3
+    },
+    {
+     "name": "Nadia Gray",
+     "character": "Larika",
+     "popularity": 0.3
+    },
+    {
+     "name": "Chris Browning",
+     "character": "Serling",
+     "popularity": 1.2
+    },
+    {
+     "name": "Laura Vallejo",
+     "character": "Ortiz",
+     "popularity": 0.3
+    },
+    {
+     "name": "Brandon Larracuente",
+     "character": "Mike",
+     "popularity": 2
+    },
+    {
+     "name": "Derek Graf",
+     "character": "Smiley",
+     "popularity": 0.7
+    },
+    {
+     "name": "Jamal Duff",
+     "character": "Junior",
+     "popularity": 0.8
+    },
+    {
+     "name": "Craig Henningsen",
+     "character": "Sharps",
+     "popularity": 0.3
+    },
+    {
+     "name": "Aaron V. Williamson",
+     "character": "Orc \"GQ\"",
+     "popularity": 0.5
+    },
+    {
+     "name": "Joe Rogan",
+     "character": "Self",
+     "popularity": 1
+    },
+    {
+     "name": "Tim Sitarz",
+     "character": "Non-Stop",
+     "popularity": 0.8
+    },
+    {
+     "name": "Luis Moncada",
+     "character": "Casper",
+     "popularity": 0.9
+    },
+    {
+     "name": "Jos Viramontes",
+     "character": "Mayor Mike Contreras",
+     "popularity": 0.3
+    },
+    {
+     "name": "Aileen Burdock",
+     "character": "Orc Housewife",
+     "popularity": 0.5
+    },
+    {
+     "name": "Briana Henry",
+     "character": "Orc Hottie at Party",
+     "popularity": 0.2
+    },
+    {
+     "name": "Lesley Shires",
+     "character": "Orc Woman #3",
+     "popularity": 0.4
+    },
+    {
+     "name": "René Mena",
+     "character": "Latino Father",
+     "popularity": 0.3
+    },
+    {
+     "name": "Chelsea Rendon",
+     "character": "Angie",
+     "popularity": 0.7
+    },
+    {
+     "name": "Daryn D. Dupree",
+     "character": "NAT Serco Guard #1",
+     "popularity": 0
+    },
+    {
+     "name": "Blue Mesquita",
+     "character": "NAT Serco Guard #2",
+     "popularity": 0.1
+    },
+    {
+     "name": "Natalie Camunas",
+     "character": "Vice Hall Vendor",
+     "popularity": 0.2
+    },
+    {
+     "name": "Regan Talley",
+     "character": "Old Woman Orc",
+     "popularity": 0
+    },
+    {
+     "name": "Gabriel Ortega",
+     "character": "Vice Hall Pimp",
+     "popularity": 0
+    },
+    {
+     "name": "Roberto Garcia",
+     "character": "Criminal",
+     "popularity": 0
+    },
+    {
+     "name": "Kevin Vance",
+     "character": "MTF Agent Gordon",
+     "popularity": 0.3
+    },
+    {
+     "name": "Ignacio Rodriguera",
+     "character": "Orc Band",
+     "popularity": 0.1
+    },
+    {
+     "name": "Eugene Villanueva",
+     "character": "Orc Band",
+     "popularity": 0
+    },
+    {
+     "name": "Adan Mendoza Jr.",
+     "character": "Orc Band",
+     "popularity": 0.1
+    },
+    {
+     "name": "Hector Chavez",
+     "character": "Orc Band",
+     "popularity": 0
+    },
+    {
+     "name": "Raul Cuellar",
+     "character": "Orc Band",
+     "popularity": 0.1
+    },
+    {
+     "name": "Gabriel Lopez",
+     "character": "Baseball Bat Gangster",
+     "popularity": 0.1
+    },
+    {
+     "name": "Keenen Bray",
+     "character": "Hispanic Gangster",
+     "popularity": 0.2
+    },
+    {
+     "name": "Diane Boose",
+     "character": "Dispatcher",
+     "popularity": 0
+    },
+    {
+     "name": "Pleasant Wayne",
+     "character": "Orc",
+     "popularity": 0.2
+    },
+    {
+     "name": "Shawnda Thomas",
+     "character": "Voice Actor",
+     "popularity": 0.3
+    },
+    {
+     "name": "John Duff",
+     "character": "Special D",
+     "popularity": 0.4
+    },
+    {
+     "name": "Alan Bagh",
+     "character": "Elf",
+     "popularity": 0.4
+    }
+   ]
+  },
+  {
+   "tmdb_id": 10192,
+   "imdb_id": "tt0892791",
+   "title": "Shrek Forever After",
+   "year": 2010,
+   "imdb": 6.4,
+   "poster": "https://image.tmdb.org/t/p/w342/6HrfPZtKcGmX2tUWW3cnciZTaSD.jpg",
+   "cast": [
+    {
+     "name": "Mike Myers",
+     "character": "Shrek",
+     "popularity": 3.6
+    },
+    {
+     "name": "Eddie Murphy",
+     "character": "Donkey",
+     "popularity": 4.5
+    },
+    {
+     "name": "Cameron Diaz",
+     "character": "Princess Fiona",
+     "popularity": 4
+    },
+    {
+     "name": "Antonio Banderas",
+     "character": "Puss in Boots",
+     "popularity": 4.8
+    },
+    {
+     "name": "Walt Dohrn",
+     "character": "Rumpelstiltskin / Priest / Krekraw Ogre",
+     "popularity": 1.3
+    },
+    {
+     "name": "Julie Andrews",
+     "character": "Queen Lillian",
+     "popularity": 2.7
+    },
+    {
+     "name": "John Cleese",
+     "character": "King Harold",
+     "popularity": 2.8
+    },
+    {
+     "name": "Jon Hamm",
+     "character": "Brogan",
+     "popularity": 5.9
+    },
+    {
+     "name": "Jane Lynch",
+     "character": "Gretched",
+     "popularity": 2.7
+    },
+    {
+     "name": "Craig Robinson",
+     "character": "Cookie",
+     "popularity": 2.4
+    },
+    {
+     "name": "Lake Bell",
+     "character": "Patrol Witch / Wagon Witch #2",
+     "popularity": 2.5
+    },
+    {
+     "name": "Larry King",
+     "character": "Doris",
+     "popularity": 0.8
+    },
+    {
+     "name": "Kathy Griffin",
+     "character": "Dancing Witch / Wagon Witch #1",
+     "popularity": 1.3
+    },
+    {
+     "name": "Mary Kay Place",
+     "character": "Guard Witch",
+     "popularity": 1.4
+    },
+    {
+     "name": "Kristen Schaal",
+     "character": "Pumpkin Witch / Palace Witch",
+     "popularity": 2.6
+    },
+    {
+     "name": "Meredith Vieira",
+     "character": "Broomsy Witch",
+     "popularity": 0.8
+    },
+    {
+     "name": "Ryan Seacrest",
+     "character": "Father of Butter Pants",
+     "popularity": 1
+    },
+    {
+     "name": "Cody Cameron",
+     "character": "Pinocchio / Three Pigs",
+     "popularity": 1
+    },
+    {
+     "name": "Regis Philbin",
+     "character": "Mabel",
+     "popularity": 0.7
+    },
+    {
+     "name": "Christopher Knights",
+     "character": "Blind Mice",
+     "popularity": 0.7
+    },
+    {
+     "name": "Conrad Vernon",
+     "character": "Gingerbread Man",
+     "popularity": 1.3
+    },
+    {
+     "name": "Aron Warner",
+     "character": "Wolf",
+     "popularity": 0.8
+    },
+    {
+     "name": "Jasper Johannes Andrews",
+     "character": "Ogre Baby",
+     "popularity": 0.2
+    },
+    {
+     "name": "Ollie Mitchell",
+     "character": "Ogre Baby",
+     "popularity": 0.2
+    },
+    {
+     "name": "Miles Bakshi",
+     "character": "Ogre Baby / Villager Kid",
+     "popularity": 0.5
+    },
+    {
+     "name": "Nina Zoe Bakshi",
+     "character": "Ogre Baby / Tourist Girl / Villager Girl",
+     "popularity": 0.3
+    },
+    {
+     "name": "Billie Hayes",
+     "character": "Cackling Witch",
+     "popularity": 0.2
+    },
+    {
+     "name": "Jeremy Hollingworth",
+     "character": "Villager Fan #1",
+     "popularity": 0.1
+    },
+    {
+     "name": "Brian Hopkins",
+     "character": "Villager Fan #3 / Ogre Gnimrach",
+     "popularity": 0.2
+    },
+    {
+     "name": "Chris Miller",
+     "character": "Royal Messenger / Magic Mirror / Geppetto",
+     "popularity": 0.9
+    },
+    {
+     "name": "Mike Mitchell",
+     "character": "Tour Guide / Camp Ogre / Ogre Naysayer / Baba Witch / Melty Witch / Witch Guard #2 / Butter Pants",
+     "popularity": 0.8
+    },
+    {
+     "name": "James Ryan",
+     "character": "Villager Fan #2",
+     "popularity": 1.1
+    },
+    {
+     "name": "Ashley Boettcher",
+     "character": "Witch / Pedestrian",
+     "popularity": 0.5
+    },
+    {
+     "name": "Danielle Soibelman",
+     "character": "Witch / Pedestrian",
+     "popularity": 0.2
+    },
+    {
+     "name": "Frank Welker",
+     "character": "Dragon",
+     "popularity": 3.3
+    }
+   ]
+  },
+  {
+   "tmdb_id": 51540,
+   "imdb_id": "tt1499658",
+   "title": "Horrible Bosses",
+   "year": 2011,
+   "imdb": 6.9,
+   "poster": "https://image.tmdb.org/t/p/w342/uQkUwgyFHAm0jGQERPG6Z9o9Zbj.jpg",
+   "cast": [
+    {
+     "name": "Jason Bateman",
+     "character": "Nick Hendricks",
+     "popularity": 4.6
+    },
+    {
+     "name": "Charlie Day",
+     "character": "Dale Arbus",
+     "popularity": 2.1
+    },
+    {
+     "name": "Jason Sudeikis",
+     "character": "Kurt Buckman",
+     "popularity": 3.8
+    },
+    {
+     "name": "Kevin Spacey",
+     "character": "Dave Harken",
+     "popularity": 3.9
+    },
+    {
+     "name": "Jennifer Aniston",
+     "character": "Julia Harris",
+     "popularity": 5.1
+    },
+    {
+     "name": "Colin Farrell",
+     "character": "Bobby Pellitt",
+     "popularity": 5.4
+    },
+    {
+     "name": "Jamie Foxx",
+     "character": "Motherfucker Jones",
+     "popularity": 4.2
+    },
+    {
+     "name": "Donald Sutherland",
+     "character": "Jack Pellit",
+     "popularity": 3
+    },
+    {
+     "name": "P.J. Byrne",
+     "character": "Kenny Sommerfeld",
+     "popularity": 2.8
+    },
+    {
+     "name": "Julie Bowen",
+     "character": "Rhonda Harken",
+     "popularity": 2.4
+    },
+    {
+     "name": "Lindsay Sloane",
+     "character": "Stacey",
+     "popularity": 1.2
+    },
+    {
+     "name": "Wendell Pierce",
+     "character": "Detective Hagan",
+     "popularity": 2.6
+    },
+    {
+     "name": "Ron White",
+     "character": "Detective Samson",
+     "popularity": 0.8
+    },
+    {
+     "name": "John Francis Daley",
+     "character": "Carter",
+     "popularity": 1.4
+    },
+    {
+     "name": "Meghan, Duchess of Sussex",
+     "character": "Jamie",
+     "popularity": 2.3
+    },
+    {
+     "name": "Steve Wiebe",
+     "character": "Thomas",
+     "popularity": 0.3
+    },
+    {
+     "name": "Michael Albala",
+     "character": "Mr. Anderton",
+     "popularity": 0.5
+    },
+    {
+     "name": "Jennifer Hasty",
+     "character": "Kurt's Co-Worker",
+     "popularity": 0.6
+    },
+    {
+     "name": "Reginald Ballard",
+     "character": "Kurt's Co-Worker",
+     "popularity": 0.8
+    },
+    {
+     "name": "George Back",
+     "character": "Kurt's Co-Worker",
+     "popularity": 0.3
+    },
+    {
+     "name": "Barry Livingston",
+     "character": "Kurt's Co-Worker",
+     "popularity": 0.9
+    },
+    {
+     "name": "Celia Finkelstein",
+     "character": "Margie Emerman",
+     "popularity": 0.3
+    },
+    {
+     "name": "Diana Toshiko",
+     "character": "Bobby's Girl",
+     "popularity": 0.4
+    },
+    {
+     "name": "Carla Maria Cadotte",
+     "character": "Bobby's Girl",
+     "popularity": 0.2
+    },
+    {
+     "name": "Scott Rosendall",
+     "character": "Hank Preston",
+     "popularity": 0.1
+    },
+    {
+     "name": "Dave Sheridan",
+     "character": "Bartender",
+     "popularity": 1.5
+    },
+    {
+     "name": "Chad L. Coleman",
+     "character": "Bartender",
+     "popularity": 1.4
+    },
+    {
+     "name": "Ioan Gruffudd",
+     "character": "Wetwork Man",
+     "popularity": 2.8
+    },
+    {
+     "name": "Brian George",
+     "character": "Atmanand",
+     "popularity": 1.4
+    },
+    {
+     "name": "Peter Breitmayer",
+     "character": "Pharmacist",
+     "popularity": 0.6
+    },
+    {
+     "name": "Isaiah Mustafa",
+     "character": "Officer Wilkens",
+     "popularity": 1.3
+    },
+    {
+     "name": "Bob Newhart",
+     "character": "Lou Sherman",
+     "popularity": 1.4
+    },
+    {
+     "name": "Seth Gordon",
+     "character": "Ralph Peterberg",
+     "popularity": 1.4
+    },
+    {
+     "name": "Jimm Giannini",
+     "character": "Harken Party Guest",
+     "popularity": 0.4
+    },
+    {
+     "name": "Dawn Frances",
+     "character": "Harken Party Guest",
+     "popularity": 0.2
+    },
+    {
+     "name": "Andrew Lukich",
+     "character": "Cop #1",
+     "popularity": 0.2
+    },
+    {
+     "name": "Christina Blevins",
+     "character": "Cute Girl at Bar",
+     "popularity": 0.2
+    }
+   ]
+  }
+ ]
+}
