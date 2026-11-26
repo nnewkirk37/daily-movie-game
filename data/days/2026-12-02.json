@@ -1,0 +1,830 @@
+{
+ "date": "2026-12-02",
+ "movies": [
+  {
+   "tmdb_id": 249397,
+   "imdb_id": "tt2382009",
+   "title": "Nymphomaniac: Vol. II",
+   "year": 2014,
+   "imdb": 6.6,
+   "poster": "https://image.tmdb.org/t/p/w342/iLUNqgNKuWn667kXCKztSxYbT3k.jpg",
+   "cast": [
+    {
+     "name": "Charlotte Gainsbourg",
+     "character": "Joe",
+     "popularity": 3.1
+    },
+    {
+     "name": "Stellan Skarsgård",
+     "character": "Seligman",
+     "popularity": 4
+    },
+    {
+     "name": "Stacy Martin",
+     "character": "Young Joe",
+     "popularity": 2
+    },
+    {
+     "name": "Shia LaBeouf",
+     "character": "Jerôme",
+     "popularity": 3.2
+    },
+    {
+     "name": "Willem Dafoe",
+     "character": "L",
+     "popularity": 6.5
+    },
+    {
+     "name": "Udo Kier",
+     "character": "The Waiter",
+     "popularity": 1.7
+    },
+    {
+     "name": "Jean-Marc Barr",
+     "character": "Debtor Gentleman",
+     "popularity": 1.1
+    },
+    {
+     "name": "Jamie Bell",
+     "character": "K",
+     "popularity": 2.5
+    },
+    {
+     "name": "Mia Goth",
+     "character": "P",
+     "popularity": 4.6
+    },
+    {
+     "name": "Michaël Pas",
+     "character": "Old Jerôme",
+     "popularity": 0.6
+    },
+    {
+     "name": "Shanti Roney",
+     "character": "Interpreter",
+     "popularity": 0.3
+    },
+    {
+     "name": "Kate Ashfield",
+     "character": "Therapist",
+     "popularity": 1.4
+    },
+    {
+     "name": "Sophie Kennedy Clark",
+     "character": "B",
+     "popularity": 0.8
+    },
+    {
+     "name": "Lien Van De Kelder",
+     "character": "Clerk in Horse Shop",
+     "popularity": 0.4
+    },
+    {
+     "name": "Laura Christensen",
+     "character": "Babysitter",
+     "popularity": 0.7
+    },
+    {
+     "name": "Caroline Goodall",
+     "character": "Psychologist",
+     "popularity": 1.6
+    },
+    {
+     "name": "Christian Slater",
+     "character": "Joe's Father",
+     "popularity": 4.1
+    },
+    {
+     "name": "Uma Thurman",
+     "character": "Mrs. H",
+     "popularity": 5.1
+    },
+    {
+     "name": "Tania Carlin",
+     "character": "Renee",
+     "popularity": 0.4
+    },
+    {
+     "name": "Maja Arsovic",
+     "character": "Joe - 7 Years",
+     "popularity": 0.3
+    },
+    {
+     "name": "Ananya Berg",
+     "character": "Joe - 10 Years",
+     "popularity": 0.4
+    },
+    {
+     "name": "Morgan Hartley",
+     "character": "B - 12 Years",
+     "popularity": 0.1
+    },
+    {
+     "name": "Andrea Thomsen",
+     "character": "Joe's Girlfriend - 12 Years",
+     "popularity": 0
+    },
+    {
+     "name": "Tine Burn",
+     "character": "Joe's Girlfriend - 12 Years",
+     "popularity": 0
+    },
+    {
+     "name": "Tabea Tarbiat",
+     "character": "Valeria Messalina",
+     "popularity": 0.3
+    },
+    {
+     "name": "Janine Romanowski",
+     "character": "The Whore of Babylon",
+     "popularity": 0
+    },
+    {
+     "name": "Lawrence Sheldon",
+     "character": "Man 1 in Car",
+     "popularity": 0.3
+    },
+    {
+     "name": "Ivan Pecnik",
+     "character": "Man 2 in Car",
+     "popularity": 0.3
+    },
+    {
+     "name": "Jonathan Sawdon",
+     "character": "Man 3 in Car",
+     "popularity": 0.3
+    },
+    {
+     "name": "Christopher Craig",
+     "character": "Man 4 in Car",
+     "popularity": 0.3
+    },
+    {
+     "name": "Jacob Levin-Christensen",
+     "character": "Marcel - 3 Years",
+     "popularity": 0
+    },
+    {
+     "name": "Kookie Ryan",
+     "character": "N - Black Man",
+     "popularity": 0
+    },
+    {
+     "name": "Papou",
+     "character": "Black Man 2",
+     "popularity": 0
+    },
+    {
+     "name": "Nicole Sandweg",
+     "character": "Madame",
+     "popularity": 0.2
+    },
+    {
+     "name": "Sarah Soetaert",
+     "character": "Boss",
+     "popularity": 0.1
+    },
+    {
+     "name": "Sami Loris",
+     "character": "Doctor 2",
+     "popularity": 0.4
+    },
+    {
+     "name": "Christine Urspruch",
+     "character": "Litte My",
+     "popularity": 0.7
+    },
+    {
+     "name": "Daniela Lebang",
+     "character": "Brunhelda",
+     "popularity": 0.2
+    },
+    {
+     "name": "Omar Shargawi",
+     "character": "Thug 1",
+     "popularity": 0.3
+    },
+    {
+     "name": "Marcus Jakovljevic",
+     "character": "Thug 2",
+     "popularity": 0.3
+    },
+    {
+     "name": "Conny Dachs",
+     "character": "Debtor Gets Whipped",
+     "popularity": 0
+    },
+    {
+     "name": "Severin von Hoensbroech",
+     "character": "Debtor in Greenhouse",
+     "popularity": 0.1
+    }
+   ]
+  },
+  {
+   "tmdb_id": 1891,
+   "imdb_id": "tt0080684",
+   "title": "The Empire Strikes Back",
+   "year": 1980,
+   "imdb": 8.7,
+   "poster": "https://image.tmdb.org/t/p/w342/nNAeTmF4CtdSgMDplXTDPOpYzsX.jpg",
+   "cast": [
+    {
+     "name": "Mark Hamill",
+     "character": "Luke Skywalker",
+     "popularity": 4
+    },
+    {
+     "name": "Harrison Ford",
+     "character": "Han Solo",
+     "popularity": 4.9
+    },
+    {
+     "name": "Carrie Fisher",
+     "character": "Princess Leia",
+     "popularity": 2.1
+    },
+    {
+     "name": "Billy Dee Williams",
+     "character": "Lando Calrissian",
+     "popularity": 1.8
+    },
+    {
+     "name": "Anthony Daniels",
+     "character": "C-3PO",
+     "popularity": 1.3
+    },
+    {
+     "name": "David Prowse",
+     "character": "Darth Vader",
+     "popularity": 1
+    },
+    {
+     "name": "Peter Mayhew",
+     "character": "Chewbacca",
+     "popularity": 0.8
+    },
+    {
+     "name": "Kenny Baker",
+     "character": "R2-D2",
+     "popularity": 0.7
+    },
+    {
+     "name": "Frank Oz",
+     "character": "Yoda",
+     "popularity": 2.1
+    },
+    {
+     "name": "Alec Guinness",
+     "character": "Obi-Wan Kenobi",
+     "popularity": 2.2
+    },
+    {
+     "name": "Jeremy Bulloch",
+     "character": "Boba Fett",
+     "popularity": 0.9
+    },
+    {
+     "name": "Jason Wingreen",
+     "character": "Boba Fett",
+     "popularity": 0.7
+    },
+    {
+     "name": "John Hollis",
+     "character": "Lando's Aide",
+     "popularity": 0.6
+    },
+    {
+     "name": "Jack Purvis",
+     "character": "Chief Ugnaught",
+     "popularity": 1
+    },
+    {
+     "name": "Des Webb",
+     "character": "Snow Creature",
+     "popularity": 0.2
+    },
+    {
+     "name": "Kathryn Mullen",
+     "character": "Performing Assistant for Yoda",
+     "popularity": 0.7
+    },
+    {
+     "name": "Marjorie Eaton",
+     "character": "Emperor",
+     "popularity": 0.4
+    },
+    {
+     "name": "Clive Revill",
+     "character": "Emperor",
+     "popularity": 1
+    },
+    {
+     "name": "Kenneth Colley",
+     "character": "Admiral Piett",
+     "popularity": 0.9
+    },
+    {
+     "name": "Julian Glover",
+     "character": "General Veers",
+     "popularity": 1.4
+    },
+    {
+     "name": "Michael Sheard",
+     "character": "Admiral Ozzel",
+     "popularity": 0.6
+    },
+    {
+     "name": "Michael Culver",
+     "character": "Captain Needa",
+     "popularity": 0.8
+    },
+    {
+     "name": "John Dicks",
+     "character": "Captain Lennox",
+     "popularity": 0.2
+    },
+    {
+     "name": "Milton Johns",
+     "character": "Bewil",
+     "popularity": 0.6
+    },
+    {
+     "name": "Mark Jones",
+     "character": "Commander Nemet",
+     "popularity": 0.4
+    },
+    {
+     "name": "Oliver Maguire",
+     "character": "Cabbel",
+     "popularity": 0.4
+    },
+    {
+     "name": "Robin Scobey",
+     "character": "Lieutenant Venka",
+     "popularity": 0.2
+    },
+    {
+     "name": "Bruce Boa",
+     "character": "General Carlist Rieekan",
+     "popularity": 0.5
+    },
+    {
+     "name": "Christopher Malcolm",
+     "character": "Zev Senesca",
+     "popularity": 0.8
+    },
+    {
+     "name": "Denis Lawson",
+     "character": "Wedge Antilles",
+     "popularity": 1.5
+    },
+    {
+     "name": "Richard Oldfield",
+     "character": "Derek \"Hobbie\" Klivian",
+     "popularity": 0.3
+    },
+    {
+     "name": "John Morton",
+     "character": "Dak Ralter",
+     "popularity": 0.3
+    },
+    {
+     "name": "Ian Liston",
+     "character": "Wes Janson",
+     "popularity": 0.3
+    },
+    {
+     "name": "John Ratzenberger",
+     "character": "Major Derlin",
+     "popularity": 2.2
+    },
+    {
+     "name": "Jack McKenzie",
+     "character": "Cal Alder",
+     "popularity": 0.4
+    },
+    {
+     "name": "Jerry Harte",
+     "character": "Rebel Force Head Controller",
+     "popularity": 0.4
+    },
+    {
+     "name": "Norman Chancer",
+     "character": "Tamizander Rey",
+     "popularity": 0.3
+    },
+    {
+     "name": "Norwich Duff",
+     "character": "Jeroen Webb",
+     "popularity": 0.2
+    },
+    {
+     "name": "Ray Hassett",
+     "character": "Tigran Jamiro",
+     "popularity": 0.4
+    },
+    {
+     "name": "Brigitte Kahn",
+     "character": "Toryn Farr",
+     "popularity": 0.5
+    },
+    {
+     "name": "Burnell Tucker",
+     "character": "Wyron Serper",
+     "popularity": 0.5
+    },
+    {
+     "name": "Bob Anderson",
+     "character": "Imperial Officer",
+     "popularity": 0.3
+    },
+    {
+     "name": "Lightning Bear",
+     "character": "Stormtrooper",
+     "popularity": 0.1
+    },
+    {
+     "name": "Richard Bonehill",
+     "character": "Stormtrooper / Snowtrooper / Rebel Soldier / ...",
+     "popularity": 0.2
+    },
+    {
+     "name": "John Cannon",
+     "character": "Holographic Imperial Officer",
+     "popularity": 0.4
+    },
+    {
+     "name": "Mark Capri",
+     "character": "Officer M'kae",
+     "popularity": 0.5
+    },
+    {
+     "name": "Martin Dew",
+     "character": "Cloud City Guard",
+     "popularity": 0.3
+    },
+    {
+     "name": "Peter Diamond",
+     "character": "Snowtrooper Gunner",
+     "popularity": 0.5
+    },
+    {
+     "name": "Stuart Fell",
+     "character": "Snowtrooper",
+     "popularity": 0.4
+    },
+    {
+     "name": "Doug Robinson",
+     "character": "Snowtrooper",
+     "popularity": 0.1
+    },
+    {
+     "name": "Tony Smart",
+     "character": "Snowtrooper",
+     "popularity": 0.3
+    },
+    {
+     "name": "Alan Harris",
+     "character": "Bossk / Bespin Security Guard",
+     "popularity": 0.4
+    },
+    {
+     "name": "James Earl Jones",
+     "character": "Darth Vader",
+     "popularity": 2.5
+    },
+    {
+     "name": "Mac McDonald",
+     "character": "Rebel Pilot",
+     "popularity": 0.8
+    },
+    {
+     "name": "Ralph McQuarrie",
+     "character": "General McQuarrie",
+     "popularity": 0.2
+    },
+    {
+     "name": "Ralph G. Morse",
+     "character": "Stormtrooper / Imperial Comms Officer / Rebel Soldier",
+     "popularity": 0.3
+    },
+    {
+     "name": "Terry Richards",
+     "character": "Wampa",
+     "popularity": 0.3
+    },
+    {
+     "name": "Treat Williams",
+     "character": "Echo Base Trooper",
+     "popularity": 2
+    },
+    {
+     "name": "Shaun Curry",
+     "character": "Hoth Rebel Commander",
+     "popularity": 0.3
+    },
+    {
+     "name": "Alan Austen",
+     "character": "Stormtrooper/Snowtrooper",
+     "popularity": 0.1
+    },
+    {
+     "name": "Jim Dowdall",
+     "character": "Stormtrooper/Snowtrooper",
+     "popularity": 0.5
+    },
+    {
+     "name": "Tom Egeland",
+     "character": "Hoth Trooper",
+     "popularity": 0.1
+    },
+    {
+     "name": "Alan Flyng",
+     "character": "Stormtrooper",
+     "popularity": 0.1
+    },
+    {
+     "name": "Trevor Butterfield",
+     "character": "Blount / Stormtrooper",
+     "popularity": 0
+    },
+    {
+     "name": "Mercedes Burleigh",
+     "character": "Female Hoth Control Room Tech",
+     "popularity": 0.1
+    },
+    {
+     "name": "Jane Busby",
+     "character": "Ugnaught",
+     "popularity": 0.1
+    },
+    {
+     "name": "Maurice Bush",
+     "character": "Dengar",
+     "popularity": 0.4
+    },
+    {
+     "name": "Tony Clarkin",
+     "character": "Stormtrooper",
+     "popularity": 0.2
+    },
+    {
+     "name": "Mike Edmonds",
+     "character": "Ugnaught",
+     "popularity": 0.5
+    },
+    {
+     "name": "Walter Henry",
+     "character": "Rebel Technician on Hoth",
+     "popularity": 0.3
+    },
+    {
+     "name": "Paul Jerricho",
+     "character": "AT-AT Driver",
+     "popularity": 0.4
+    },
+    {
+     "name": "Joe Johnston",
+     "character": "Hoth Rebel",
+     "popularity": 1.1
+    },
+    {
+     "name": "Steven Meek",
+     "character": "Stormtrooper / Chewbacca / Treva Horme / Solomahal",
+     "popularity": 0.3
+    },
+    {
+     "name": "Peter Roy",
+     "character": "Snowtrooper",
+     "popularity": 0.1
+    },
+    {
+     "name": "Stephanie English",
+     "character": "Hoth Rebel Technician",
+     "popularity": 0.2
+    },
+    {
+     "name": "Michael Leader",
+     "character": "Imperial Crewman",
+     "popularity": 0.4
+    },
+    {
+     "name": "Egbert Sen",
+     "character": "Willrow Hood",
+     "popularity": 0.2
+    },
+    {
+     "name": "Elaine Alexander",
+     "character": "Emperor",
+     "popularity": 0.1
+    },
+    {
+     "name": "Colin Hunt",
+     "character": "Snowtrooper",
+     "popularity": 0.1
+    }
+   ]
+  },
+  {
+   "tmdb_id": 530385,
+   "imdb_id": "tt8772262",
+   "title": "Midsommar",
+   "year": 2019,
+   "imdb": 7.1,
+   "poster": "https://image.tmdb.org/t/p/w342/7LEI8ulZzO5gy9Ww2NVCrKmHeDZ.jpg",
+   "cast": [
+    {
+     "name": "Florence Pugh",
+     "character": "Dani",
+     "popularity": 12.9
+    },
+    {
+     "name": "Jack Reynor",
+     "character": "Christian",
+     "popularity": 2.1
+    },
+    {
+     "name": "William Jackson Harper",
+     "character": "Josh",
+     "popularity": 1.4
+    },
+    {
+     "name": "Will Poulter",
+     "character": "Mark",
+     "popularity": 3.4
+    },
+    {
+     "name": "Vilhelm Blomgren",
+     "character": "Pelle",
+     "popularity": 0.7
+    },
+    {
+     "name": "Isabelle Grill",
+     "character": "Maja",
+     "popularity": 0.5
+    },
+    {
+     "name": "Gunnel Fred",
+     "character": "Siv",
+     "popularity": 0.7
+    },
+    {
+     "name": "Ellora Torchia",
+     "character": "Connie",
+     "popularity": 1.1
+    },
+    {
+     "name": "Archie Madekwe",
+     "character": "Simon",
+     "popularity": 1.5
+    },
+    {
+     "name": "Henrik Norlén",
+     "character": "Ulf",
+     "popularity": 0.5
+    },
+    {
+     "name": "Agnes Westerlund Rase",
+     "character": "Dagny",
+     "popularity": 0.5
+    },
+    {
+     "name": "Julia Ragnarsson",
+     "character": "Inga",
+     "popularity": 0.8
+    },
+    {
+     "name": "Mats Blomgren",
+     "character": "Odd",
+     "popularity": 0.3
+    },
+    {
+     "name": "Lars Väringer",
+     "character": "Stev",
+     "popularity": 0.4
+    },
+    {
+     "name": "Anna Åström",
+     "character": "Karin",
+     "popularity": 0.4
+    },
+    {
+     "name": "Hampus Hallberg",
+     "character": "Ingemar",
+     "popularity": 0.3
+    },
+    {
+     "name": "Liv Mjönes",
+     "character": "Ulla",
+     "popularity": 0.9
+    },
+    {
+     "name": "Louise Peterhoff",
+     "character": "Hanna",
+     "popularity": 0.5
+    },
+    {
+     "name": "Katarina Weidhagen",
+     "character": "Ylva",
+     "popularity": 0.1
+    },
+    {
+     "name": "Björn Andrésen",
+     "character": "Dan",
+     "popularity": 1.2
+    },
+    {
+     "name": "Tomas Engström",
+     "character": "Jarl",
+     "popularity": 0.2
+    },
+    {
+     "name": "Dag Andersson",
+     "character": "Sven",
+     "popularity": 0.1
+    },
+    {
+     "name": "Lennart R. Svensson",
+     "character": "Mats",
+     "popularity": 0.2
+    },
+    {
+     "name": "Anders Beckman",
+     "character": "Arne",
+     "popularity": 0.2
+    },
+    {
+     "name": "Rebecka Johnston",
+     "character": "Ulrika",
+     "popularity": 0.6
+    },
+    {
+     "name": "Tove Skeidsvoll",
+     "character": "Majvor",
+     "popularity": 0.2
+    },
+    {
+     "name": "Anders Back",
+     "character": "Valentin",
+     "popularity": 0.1
+    },
+    {
+     "name": "Anki Larsson",
+     "character": "Irma",
+     "popularity": 0.3
+    },
+    {
+     "name": "Levente Puczkó-Smith",
+     "character": "Ruben",
+     "popularity": 0
+    },
+    {
+     "name": "Frans Cavallin Rosengarten",
+     "character": "Bror",
+     "popularity": 0.1
+    },
+    {
+     "name": "Vilmos Kolba",
+     "character": "Elder",
+     "popularity": 0.2
+    },
+    {
+     "name": "Mihály Kaszás",
+     "character": "Torbjörn",
+     "popularity": 0.1
+    },
+    {
+     "name": "Gabi Fón",
+     "character": "Dani's Mother",
+     "popularity": 0.1
+    },
+    {
+     "name": "Zsolt Bojári",
+     "character": "Dani's Father",
+     "popularity": 0
+    },
+    {
+     "name": "Klaudia Csányi",
+     "character": "Terri",
+     "popularity": 0.1
+    },
+    {
+     "name": "Anna Berentzen",
+     "character": "Pizza Waitress",
+     "popularity": 0.1
+    },
+    {
+     "name": "Austin R. Grant",
+     "character": "Hipster Guy",
+     "popularity": 0.5
+    },
+    {
+     "name": "Ari Aster",
+     "character": "Podcast on Mark's Phone",
+     "popularity": 1.6
+    }
+   ]
+  }
+ ]
+}
